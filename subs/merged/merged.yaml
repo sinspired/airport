@@ -78,10 +78,6 @@ proxy_group_common_config: &proxy_group_common_config
 
 # 订阅地址
 proxy-providers: 
-  _pool:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml'
-    path: ./providers/_pool.yaml
   aiboboxx:
     type: http
     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/aiboboxx.yaml'
