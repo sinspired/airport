@@ -1,0 +1,313 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+tcp-concurrent: true
+dns:
+  enable: true
+  ipv6: true
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+  use-hosts: true
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - https://208.67.222.222/dns-query
+    - https://208.67.220.220/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+geox-url:
+  geoip: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
+  geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
+
+# 代理
+proxies: 
+- {'name': 'CN 中国 1', 'server': '183.240.220.84', 'port': 11814, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 2', 'server': '120.232.234.246', 'port': 11428, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 3', 'server': '183.240.220.84', 'port': 11845, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 4', 'server': '183.240.220.84', 'port': 11810, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 5', 'server': '120.232.234.246', 'port': 11421, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 6', 'server': '120.232.234.246', 'port': 11420, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 7', 'server': '183.240.220.84', 'port': 11802, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 8', 'server': '183.240.220.84', 'port': 11842, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 9', 'server': '120.232.234.246', 'port': 11424, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 10', 'server': '183.240.220.84', 'port': 11812, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 11', 'server': '183.240.220.84', 'port': 11851, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 12', 'server': '120.232.234.246', 'port': 11429, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 13', 'server': '120.232.234.246', 'port': 11422, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 14', 'server': '183.240.220.84', 'port': 11846, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 15', 'server': '183.240.220.84', 'port': 11807, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 16', 'server': '183.240.220.84', 'port': 11806, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 17', 'server': '183.240.220.84', 'port': 35247, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 18', 'server': '120.232.234.246', 'port': 11423, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 19', 'server': '120.232.234.246', 'port': 11427, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 20', 'server': '183.240.220.84', 'port': 11804, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 21', 'server': '183.240.220.84', 'port': 11805, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 22', 'server': '120.232.234.246', 'port': 11445, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 23', 'server': '120.232.234.246', 'port': 11501, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 24', 'server': '183.240.220.84', 'port': 11005, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 25', 'server': '183.240.220.84', 'port': 11803, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+- {'name': 'CN 中国 26', 'server': '183.240.220.84', 'port': 22848, 'type': 'ssr', 'cipher': 'chacha20-ietf', 'password': 'Fhbe0z', 'protocol': 'auth_aes128_sha1', 'obfs': 'tls1.2_ticket_auth', 'protocol-param': '24:ZxbF8f', 'obfs-param': 'e0e3524.microsoft.com'}
+
+
+# 代理组
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - DIRECT
+    include-all: true
+
+  - name: ♻️ 自动选择
+    type: url-test
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: 🚑 故障转移
+    type: fallback
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    strategy: round-robin
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    strategy: consistent-hashing
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: 🌍 国外媒体
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📲 电报信息
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies: ['🎯 全球直连', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📢 谷歌FCM
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 🎯 全球直连
+    type: select
+    proxies: ['DIRECT', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🛑 全球拦截
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🍃 应用净化
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+# 规则集
+rule-providers:
+  custom_direct:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
+    path: ./rulesets/custom/direct.txt
+    interval: 86400
+  custom_proxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
+    path: ./rulesets/custom/proxy.txt
+    interval: 86400
+  custom_reject:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
+    path: ./rulesets/custom/reject.txt
+    interval: 86400
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rulesets/acl4ssr/LocalAreaNetwork.list
+    interval: 86400
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rulesets/acl4ssr/UnBan.list
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./rulesets/acl4ssr/BanAD.list
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./rulesets/acl4ssr/BanProgramAD.list
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./rulesets/acl4ssr/GoogleFCM.list
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rulesets/acl4ssr/GoogleCN.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rulesets/acl4ssr/SteamCN.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./rulesets/acl4ssr/Microsoft.list
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rulesets/acl4ssr/Apple.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rulesets/acl4ssr/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rulesets/acl4ssr/ProxyMedia.list
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rulesets/acl4ssr/ProxyGFWlist.list
+    interval: 86400
+  ChinaIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./rulesets/acl4ssr/ChinaIp.list
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rulesets/acl4ssr/ChinaDomain.list
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rulesets/acl4ssr/ChinaCompanyIp.list
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rulesets/acl4ssr/Download.list
+    interval: 86400
+
+# 规则
+rules:
+  # acl4ssr
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  # 其他
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼

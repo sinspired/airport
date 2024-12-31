@@ -1,0 +1,279 @@
+github-mirror: https://mirror.ghproxy.com/
+data:
+  - id: _pool
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml
+    output: subs/_pool.yaml
+  - id: ClodQiu
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml
+    output: subs/ClodQiu.yaml
+  - id: Pawdroid
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+    output: subs/Pawdroid.yaml
+  - id: a2470982985
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml
+    output: subs/a2470982985.yaml
+  - id: abshare
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Fabshare%2Fabshare.github.io%2Fmain%2FREADME.md&pos=3
+    output: subs/abshare.yaml
+  - id: aiboboxx
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+    output: subs/aiboboxx.yaml
+  - id: chengaopan
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml
+    output: subs/chengaopan.yaml
+  - id: edgetunnel
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://edgetunnel.2424014450.workers.dev/113dd109-540e-4497-9d47-eed30315260f
+    headers: { 'User-Agent': 'clash' }
+    output: subs/edgetunnel.yaml
+  - id: ermaozi
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+    output: subs/ermaozi.yaml
+  - id: freefq
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/freefq/free/master/v2
+    output: subs/freefq.yaml
+  - id: mfuu
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
+    output: subs/mfuu.yaml
+  - id: ChromeGo
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/config.yaml
+      - https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yaml
+      - https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/2/config.yaml
+      - https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/3/config.yaml
+      - https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml
+      - https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/15/config.yaml
+    output: subs/ChromeGo.yaml
+  - id: mksshare
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md&pos=3
+    output: subs/mksshare.yaml
+  - id: peasoft
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://utils.2424014450.workers.dev?target=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Flist_raw.txt
+    output: subs/peasoft.yaml
+  - id: shunfeng
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/shunfeng.yaml
+    output: subs/shunfeng.yaml
+  - id: tolinkshare
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md&pos=3
+    output: subs/tolinkshare.yaml
+  - id: xrayvip
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://www.xrayvip.com/free.yaml
+    output: subs/xrayvip.yaml
+  - id: zhangkaiitugithub
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml
+    output: subs/zhangkaiitugithub.yaml
+  - id: ripaojiedian
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+    output: subs/ripaojiedian.yaml
+  - id: yaney01
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/yaney01/Yaney01/main/yaney_01
+      - https://raw.githubusercontent.com/yaney01/Yaney01/main/temporary
+    output: subs/yaney01.yaml
+  - id: hkaa0
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray.txt
+    output: subs/hkaa0.yaml
+  - id: soroushmirzaei
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/grpc
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/http
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/tcp
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/ws
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/grpc
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/http
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/tcp
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/ws
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/grpc
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/http
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/tcp
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/ws
+    output: subs/soroushmirzaei.yaml
+  - id: mahdibland
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
+      - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.yml
+    output: subs/mahdibland.yaml
+  - id: yudou
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/yudou.yaml
+    output: subs/yudou.yaml
+  - id: fromzero
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/fromzero.yaml
+    output: subs/fromzero.yaml
+  - id: maskedman
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/maskedman.yaml
+    output: subs/maskedman.yaml
+  - id: yaney
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://gitlab.com/api/v4/projects/39360507/repository/files/data%2Fclash%2Fyaney.yaml/raw?ref=main&private_token=glpat-_xG7s-sYJPRDPgKxAk-c
+    output: subs/yaney.yaml
+  - id: getafreenode
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/getafreenode.yaml
+    output: subs/getafreenode.yaml
+  - id: anaer
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+    output: subs/anaer.yaml
+  - id: tssf
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/ts-sf/fly/main/clash
+    output: subs/tssf.yaml
+  - id: ttvg
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://tt.vg/freeclash
+    output: subs/ttvg.yaml
+  - id: zonghewang
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/zonghewang/get_subscribe/main/subscribe/clash.yml
+    output: subs/zonghewang.yaml
+  - id: chxxyz2004
+    type: github
+    source: clash
+    target: clash
+    urls:
+      - https://github.com/chxxyz2004/zy2309
+    output: subs/chxxyz2004.yaml
+    options:
+      span: 1209600000
+      exts: .yaml
+  - id: changfengoss
+    type: github
+    source: clash
+    target: clash
+    urls:
+      - https://github.com/changfengoss/pub
+    output: subs/changfengoss.yaml
+    options:
+      span: 1209600000
+      exts: .yaml
+  - id: go4sharing
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
+    output: subs/go4sharing.yaml
+  - id: m3hdio1
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/m3hdio1/v2ray_sub/main/v2ray_sub.txt
+    output: subs/m3hdio1.yaml

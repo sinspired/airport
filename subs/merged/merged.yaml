@@ -1,0 +1,434 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+tcp-concurrent: true
+global-ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+dns:
+  enable: true
+  ipv6: true
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+  use-hosts: true
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - https://208.67.222.222/dns-query
+    - https://208.67.220.220/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+geox-url:
+  geoip: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
+  geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
+
+# 通用配置
+proxy_provider_common_config: &proxy_provider_common_config
+  interval: 21600
+  health-check:
+    enable: true
+    interval: 300
+    timeout: 5000
+    url: https://www.google.com/gen_204
+proxy_group_common_config: &proxy_group_common_config
+  lazy: false
+  interval: 300
+  timeout: 5000
+  tolerance: 100
+  url: https://www.google.com/gen_204
+
+# 订阅地址
+proxy-providers: 
+  _pool:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml'
+    path: ./providers/_pool.yaml
+  ClodQiu:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ClodQiu.yaml'
+    path: ./providers/ClodQiu.yaml
+  Pawdroid:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/Pawdroid.yaml'
+    path: ./providers/Pawdroid.yaml
+  a2470982985:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/a2470982985.yaml'
+    path: ./providers/a2470982985.yaml
+  abshare:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/abshare.yaml'
+    path: ./providers/abshare.yaml
+  aiboboxx:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/aiboboxx.yaml'
+    path: ./providers/aiboboxx.yaml
+  chengaopan:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/chengaopan.yaml'
+    path: ./providers/chengaopan.yaml
+  edgetunnel:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/edgetunnel.yaml'
+    path: ./providers/edgetunnel.yaml
+  ermaozi:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ermaozi.yaml'
+    path: ./providers/ermaozi.yaml
+  freefq:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/freefq.yaml'
+    path: ./providers/freefq.yaml
+  mfuu:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mfuu.yaml'
+    path: ./providers/mfuu.yaml
+  ChromeGo:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ChromeGo.yaml'
+    path: ./providers/ChromeGo.yaml
+  mksshare:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mksshare.yaml'
+    path: ./providers/mksshare.yaml
+  peasoft:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/peasoft.yaml'
+    path: ./providers/peasoft.yaml
+  shunfeng:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/shunfeng.yaml'
+    path: ./providers/shunfeng.yaml
+  tolinkshare:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/tolinkshare.yaml'
+    path: ./providers/tolinkshare.yaml
+  xrayvip:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/xrayvip.yaml'
+    path: ./providers/xrayvip.yaml
+  zhangkaiitugithub:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/zhangkaiitugithub.yaml'
+    path: ./providers/zhangkaiitugithub.yaml
+  ripaojiedian:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ripaojiedian.yaml'
+    path: ./providers/ripaojiedian.yaml
+  yaney01:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yaney01.yaml'
+    path: ./providers/yaney01.yaml
+  hkaa0:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/hkaa0.yaml'
+    path: ./providers/hkaa0.yaml
+  soroushmirzaei:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/soroushmirzaei.yaml'
+    path: ./providers/soroushmirzaei.yaml
+  mahdibland:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mahdibland.yaml'
+    path: ./providers/mahdibland.yaml
+  yudou:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yudou.yaml'
+    path: ./providers/yudou.yaml
+  fromzero:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/fromzero.yaml'
+    path: ./providers/fromzero.yaml
+  maskedman:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/maskedman.yaml'
+    path: ./providers/maskedman.yaml
+  yaney:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yaney.yaml'
+    path: ./providers/yaney.yaml
+  getafreenode:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/getafreenode.yaml'
+    path: ./providers/getafreenode.yaml
+  anaer:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/anaer.yaml'
+    path: ./providers/anaer.yaml
+  tssf:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/tssf.yaml'
+    path: ./providers/tssf.yaml
+  ttvg:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ttvg.yaml'
+    path: ./providers/ttvg.yaml
+  zonghewang:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/zonghewang.yaml'
+    path: ./providers/zonghewang.yaml
+  chxxyz2004:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/chxxyz2004.yaml'
+    path: ./providers/chxxyz2004.yaml
+  changfengoss:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/changfengoss.yaml'
+    path: ./providers/changfengoss.yaml
+  go4sharing:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/go4sharing.yaml'
+    path: ./providers/go4sharing.yaml
+  m3hdio1:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/m3hdio1.yaml'
+    path: ./providers/m3hdio1.yaml
+
+# 代理组
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - DIRECT
+    include-all: true
+
+  - name: ♻️ 自动选择
+    type: url-test
+    <<: *proxy_group_common_config
+    include-all: true
+
+  - name: 🚑 故障转移
+    type: fallback
+    <<: *proxy_group_common_config
+    include-all: true
+
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    strategy: round-robin
+    <<: *proxy_group_common_config
+    include-all: true
+
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    strategy: consistent-hashing
+    <<: *proxy_group_common_config
+    include-all: true
+
+  - name: 🌍 国外媒体
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📲 电报信息
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies: ['🎯 全球直连', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📢 谷歌FCM
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 🎯 全球直连
+    type: select
+    proxies: ['DIRECT', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🛑 全球拦截
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🍃 应用净化
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+# 规则集
+rule-providers:
+  custom_direct:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
+    path: ./rulesets/custom/direct.txt
+    interval: 86400
+  custom_proxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
+    path: ./rulesets/custom/proxy.txt
+    interval: 86400
+  custom_reject:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
+    path: ./rulesets/custom/reject.txt
+    interval: 86400
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rulesets/acl4ssr/LocalAreaNetwork.list
+    interval: 86400
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rulesets/acl4ssr/UnBan.list
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./rulesets/acl4ssr/BanAD.list
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./rulesets/acl4ssr/BanProgramAD.list
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./rulesets/acl4ssr/GoogleFCM.list
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rulesets/acl4ssr/GoogleCN.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rulesets/acl4ssr/SteamCN.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./rulesets/acl4ssr/Microsoft.list
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rulesets/acl4ssr/Apple.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rulesets/acl4ssr/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rulesets/acl4ssr/ProxyMedia.list
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rulesets/acl4ssr/ProxyGFWlist.list
+    interval: 86400
+  ChinaIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./rulesets/acl4ssr/ChinaIp.list
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rulesets/acl4ssr/ChinaDomain.list
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rulesets/acl4ssr/ChinaCompanyIp.list
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rulesets/acl4ssr/Download.list
+    interval: 86400
+
+# 规则
+rules:
+  # 自定义规则
+  - RULE-SET,custom_direct,🎯 全球直连
+  - RULE-SET,custom_reject,🛑 全球拦截
+  - RULE-SET,custom_proxy,🚀 节点选择
+  # acl4ssr
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  # 其他
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼

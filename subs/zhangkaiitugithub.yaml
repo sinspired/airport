@@ -1,0 +1,317 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+tcp-concurrent: true
+dns:
+  enable: true
+  ipv6: true
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+  use-hosts: true
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - https://208.67.222.222/dns-query
+    - https://208.67.220.220/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+geox-url:
+  geoip: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
+  geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
+
+# 代理
+proxies: 
+- {'name': 'CN_speednode_0001', 'server': '183.236.51.23', 'port': 41020, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'CN_speednode_0002', 'server': 'cu.awslcn.info', 'port': 25284, 'type': 'vmess', 'uuid': '243eab52-9ac1-405c-887c-eb112c0985b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'cu.awslcn.info'}}}
+- {'name': 'DE_speednode_0003', 'server': '132.145.237.172', 'port': 443, 'type': 'vless', 'uuid': '95eb72fe-e967-4540-ac10-069c8a95c6d7', 'flow': 'xtls-rprx-vision', 'tls': true, 'skip-cert-verify': false, 'client-fingerprint': 'ios', 'servername': 'jsdownloadde1.xn--4gq62f52gopi49k.com'}
+- {'name': 'DE_speednode_0004', 'server': '193.108.119.230', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': 'DE_speednode_0005', 'server': 'tuea.vact.ir', 'port': 2083, 'type': 'vless', 'uuid': 'b427ed05-cc5f-4f88-ab96-f04a6e30300b', 'tls': false, 'skip-cert-verify': false, 'network': 'ws'}
+- {'name': 'FR_speednode_0006', 'server': '51.158.243.62', 'port': 443, 'type': 'vless', 'uuid': 'fd17fd03-844b-4c4b-9551-27f2b055d4f8', 'flow': 'xtls-rprx-vision', 'tls': true, 'skip-cert-verify': false, 'client-fingerprint': 'random', 'servername': 'cloudflare.com', 'reality-opts': {'public-key': '1gKloUYtea1EJfBcatiTkmJVdCbb6SfVrnL6Lz-RYj0', 'short-id': '42'}}
+- {'name': 'GB_speednode_0007', 'server': '169.150.210.233', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': 'GB_speednode_0008', 'server': '169.150.210.233', 'port': 8080, 'type': 'ssr', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6', 'protocol': 'origin', 'obfs': 'plain', 'protocol-param': '', 'obfs-param': ''}
+- {'name': 'GI_speednode_0009', 'server': '95.164.3.165', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'HK_speednode_0010', 'server': 'hk9.ftq.ink', 'port': 4000, 'type': 'http', 'tls': true}
+- {'name': 'IN_speednode_0011', 'server': '144.24.97.225', 'port': 443, 'type': 'vless', 'uuid': '95eb72fe-e967-4540-ac10-069c8a95c6d7', 'flow': 'xtls-rprx-vision', 'tls': true, 'skip-cert-verify': false, 'client-fingerprint': 'chrome', 'servername': 'jsdownloadin1.xn--4gq62f52gopi49k.com'}
+- {'name': 'IR_speednode_0012', 'server': '89.42.196.36', 'port': 56185, 'type': 'vless', 'uuid': 'd0d09937-05a7-a662-dd40-d09b667e1c28', 'tls': false, 'skip-cert-verify': false, 'servername': 'telewebion.com', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['telewebion.com']}}}
+- {'name': 'JP_speednode_0013', 'server': '54.178.84.59', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': 'KR_speednode_0014', 'server': '52.79.73.137', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': 'KR_speednode_0015', 'server': 'fluent-bat.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': '3723507166611775488', 'sni': 'fluent-bat.treefrog761.one', 'skip-cert-verify': false}
+- {'name': 'KR_speednode_0016', 'server': '13.124.1.64', 'port': 443, 'type': 'trojan', 'password': '3723507166611775488', 'sni': 'fluent-bat.treefrog761.one', 'skip-cert-verify': true}
+- {'name': 'KR_speednode_0017', 'server': '193.122.110.86', 'port': 443, 'type': 'vless', 'uuid': '95eb72fe-e967-4540-ac10-069c8a95c6d7', 'flow': 'xtls-rprx-vision', 'tls': true, 'skip-cert-verify': false, 'client-fingerprint': 'chrome', 'servername': 'jsdownloadkr.xn--4gq62f52gopi49k.com'}
+- {'name': 'KR_speednode_0018', 'server': '43.203.127.152', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': 'NL_speednode_0019', 'server': '149.34.244.82', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': 'NL_speednode_0020', 'server': '149.34.244.68', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': 'NL_speednode_0021', 'server': '146.190.16.108', 'port': 23701, 'type': 'vless', 'uuid': '677a41e5-dbe6-429b-8f91-cc014b1ae1bd', 'tls': false, 'skip-cert-verify': false, 'servername': 'Speedtest.net', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['Speedtest.net']}}}
+- {'name': 'NL_speednode_0022', 'server': '103.106.2.243', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'NL_speednode_0023', 'server': '188.119.112.3', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'NL_speednode_0024', 'server': '80.92.206.33', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'NL_speednode_0025', 'server': '95.164.87.21', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'NL_speednode_0026', 'server': 'srv1-d.gamekade.tech', 'port': 443, 'type': 'vless', 'uuid': 'f97c0600-b5c9-465d-9c14-34cfb8a6e9dc', 'tls': false, 'skip-cert-verify': false, 'servername': 'neshan.org', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['neshan.org']}}}
+- {'name': 'NL_speednode_0027', 'server': '185.236.233.55', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'NL_speednode_0028', 'server': '94.131.106.53', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'RU_speednode_0029', 'server': '77.73.70.200', 'port': 3832, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'TLzTbRU2xuSDMOU9o8e0QQ'}
+- {'name': 'US_speednode_0030', 'server': 'phx-plus-1ddns.faforex.eu.org', 'port': 18443, 'type': 'vless', 'uuid': '311faab5-5e89-4f41-b2a4-ca4452508cc6', 'tls': true, 'skip-cert-verify': false, 'client-fingerprint': 'safari', 'servername': 'www.tesla.com', 'reality-opts': {'public-key': '8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s', 'short-id': 'e6658462'}, 'udp': true}
+
+
+# 代理组
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - DIRECT
+    include-all: true
+
+  - name: ♻️ 自动选择
+    type: url-test
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: 🚑 故障转移
+    type: fallback
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    strategy: round-robin
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    strategy: consistent-hashing
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: 🌍 国外媒体
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📲 电报信息
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies: ['🎯 全球直连', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📢 谷歌FCM
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 🎯 全球直连
+    type: select
+    proxies: ['DIRECT', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🛑 全球拦截
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🍃 应用净化
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+# 规则集
+rule-providers:
+  custom_direct:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
+    path: ./rulesets/custom/direct.txt
+    interval: 86400
+  custom_proxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
+    path: ./rulesets/custom/proxy.txt
+    interval: 86400
+  custom_reject:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
+    path: ./rulesets/custom/reject.txt
+    interval: 86400
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rulesets/acl4ssr/LocalAreaNetwork.list
+    interval: 86400
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rulesets/acl4ssr/UnBan.list
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./rulesets/acl4ssr/BanAD.list
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./rulesets/acl4ssr/BanProgramAD.list
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./rulesets/acl4ssr/GoogleFCM.list
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rulesets/acl4ssr/GoogleCN.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rulesets/acl4ssr/SteamCN.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./rulesets/acl4ssr/Microsoft.list
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rulesets/acl4ssr/Apple.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rulesets/acl4ssr/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rulesets/acl4ssr/ProxyMedia.list
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rulesets/acl4ssr/ProxyGFWlist.list
+    interval: 86400
+  ChinaIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./rulesets/acl4ssr/ChinaIp.list
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rulesets/acl4ssr/ChinaDomain.list
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rulesets/acl4ssr/ChinaCompanyIp.list
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rulesets/acl4ssr/Download.list
+    interval: 86400
+
+# 规则
+rules:
+  # acl4ssr
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  # 其他
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼

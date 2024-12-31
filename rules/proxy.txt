@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN,v2rayse.com
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com

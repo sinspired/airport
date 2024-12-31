@@ -1,0 +1,16 @@
+payload:
+  - DOMAIN,caniuse.com
+  - DOMAIN,clash.razord.top
+  - DOMAIN,fastly.jsdelivr.net
+  - DOMAIN,ghproxy.net
+  - DOMAIN,github.moeyy.xyz
+  - DOMAIN,jsdelivr.b-cdn.net
+  - DOMAIN,mirror.ghproxy.com
+  - DOMAIN,raw.gitmirror.com
+  - DOMAIN,raw.kkgithub.com
+  - DOMAIN,regex101.com
+  - DOMAIN,text-compare.com
+  - DOMAIN,wiki.metacubex.one
+  - DOMAIN,yacd.haishan.me
+  - DOMAIN-SUFFIX,mihoyo.com
+  - DOMAIN-SUFFIX,miyoushe.com

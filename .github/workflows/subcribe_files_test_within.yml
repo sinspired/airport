@@ -1,0 +1,52 @@
+name: 节点测速
+
+on:
+  # fetch执行后触发
+  workflow_run:
+    workflows: ['拉取订阅文件']
+    types:
+      - completed
+  # 手动触发
+  workflow_dispatch:
+
+jobs:
+  test-proxies-within:
+    runs-on: [self-hosted, linux, x64]
+
+    steps:
+      - name: Git配置
+        run: |
+          git config --global user.email "metaST@github.com"
+          git config --global user.name "metaST"
+          git config --global http.proxy  http://127.0.0.1:7890
+          git config --global https.proxy http://127.0.0.1:7890
+
+      - name: 拉取代码
+        uses: actions/checkout@v4
+
+      - name: 下载解压metaST
+        run: |
+          curl -s -x 127.0.0.1:7890 -o metaST.zip --retry 10 -L https://github.com/dongchengjie/metaST/releases/latest/download/metaST-linux-amd64.zip
+          7za -o./ x metaST.zip && mv ./metaST-linux-amd64 ./metaST && chmod +x ./metaST
+
+      - name: 测试节点
+        run: |
+          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --du https://www.youtube.com/generate_204 --dt 800 --dr 5 --df 800 --top 400 --dn 32 --ff 0.5
+
+      - name: 统计文件
+        run: |
+          cp -f ./subs/merged/tested_within.csv ./subs/statistics/tested_within.csv
+          cp -f ./subs/merged/tested_within.md ./subs/statistics/tested_within.md
+
+      - name: 上传测试结果
+        run: |
+          git pull
+          git add subs/merged/tested_within.yaml
+          git add subs/statistics/tested_within.csv
+          git add subs/statistics/tested_within.md
+          git commit -m "Tested by metaST" && git push --force
+
+      - name: 更新本地代理
+        run: |
+          cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
+          curl -X POST http://127.0.0.1:9090/restart

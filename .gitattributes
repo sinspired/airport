@@ -1,0 +1,5 @@
+# 自动识别并转换LF和CRLF
+* text=auto
+
+# bat文件强制CRLF
+*.bat text eol=crlf

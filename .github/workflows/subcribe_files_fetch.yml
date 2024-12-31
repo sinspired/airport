@@ -1,0 +1,21 @@
+name: 拉取订阅文件
+
+on:
+  push:
+    paths:
+      - '.github/workflows/subcribe_files_fetch.yml'
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-subcribe-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Fetch subscribe files
+        uses: dongchengjie/subs-puller@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_config.yaml
+          merged: subs/merged/merged.yaml
