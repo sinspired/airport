@@ -3,9 +3,9 @@ name: 拉取订阅文件
 on:
   push:
     paths:
-      - '.github/workflows/subcribe_files_fetch.yml'
+      - ".github/workflows/subcribe_files_fetch.yml"
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 jobs:
