@@ -61,87 +61,49 @@ geox-url:
   geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
   mmdb: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
 
-# 通用配置
-proxy_provider_common_config: &proxy_provider_common_config
-  interval: 21600
-  health-check:
-    enable: true
-    interval: 300
-    timeout: 5000
-    url: https://www.google.com/gen_204
-proxy_group_common_config: &proxy_group_common_config
-  lazy: false
-  interval: 300
-  timeout: 5000
-  tolerance: 100
-  url: https://www.google.com/gen_204
+# 代理
+proxies: 
+- {'name': '节点日期：12-31', 'server': '3.121.157.191', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '未知【付费推荐：https://a0a.xyz】2', 'server': 'h-k01.loveroise.com', 'port': 54000, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '09833a6f-4d46-426e-87fe-7793a5489f84'}
+- {'name': '乌克兰【付费推荐：https://a0a.xyz】3', 'server': '188.191.147.127', 'port': 31348, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6'}
+- {'name': '荷兰【付费推荐：https://a0a.xyz】4', 'server': '145.223.100.85', 'port': 52221, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'idJTwZjM2vUUqCyRdvBsII'}
+- {'name': '英国【付费推荐：https://a0a.xyz】5', 'server': '51.13.35.115', 'port': 20760, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'SK8DG4IJFnDwuhy35hOWUj'}
+- {'name': '俄罗斯【付费推荐：https://a0a.xyz】6', 'server': '77.73.70.200', 'port': 3832, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'TLzTbRU2xuSDMOU9o8e0QQ'}
+- {'name': '美国【付费推荐：https://a0a.xyz】7', 'server': '198.105.123.190', 'port': 46902, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8'}
+- {'name': '美国【付费推荐：https://a0a.xyz】8', 'server': '13.37.159.235', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '法国【付费推荐：https://a0a.xyz】9', 'server': '15.236.222.142', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国【付费推荐：https://a0a.xyz】10', 'server': '16.16.231.31', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '中国【付费推荐：https://a0a.xyz】11', 'server': '154.83.88.106', 'port': 8888, 'type': 'vmess', 'uuid': '63ab66f1-4d71-424e-8f2d-f4fb90fc92a2', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '美国【付费推荐：https://a0a.xyz】12', 'server': '152.70.155.147', 'port': 2053, 'type': 'vmess', 'uuid': 'aa704947-e163-4133-b485-f8032f8f1286', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '未知【付费推荐：https://a0a.xyz】13', 'server': 's-g04.loveroise.com', 'port': 54030, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '09833a6f-4d46-426e-87fe-7793a5489f84'}
+- {'name': '美国【付费推荐：https://a0a.xyz】14', 'server': 'series-a2.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg'}
+- {'name': '英国【付费推荐：https://a0a.xyz】15', 'server': '18.133.34.26', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国【付费推荐：https://a0a.xyz】16', 'server': '45.8.98.163', 'port': 52839, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '3N2JoZhDodMX5wPfr0xbT5'}
+- {'name': '乌克兰【付费推荐：https://a0a.xyz】17', 'server': '193.106.248.196', 'port': 443, 'type': 'trojan', 'password': 'Julius', 'sni': 'miami.juliusnet.com'}
+- {'name': '保加利亚【付费推荐：https://a0a.xyz】18', 'server': '149.34.244.82', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '俄罗斯【付费推荐：https://a0a.xyz】19', 'server': '185.22.155.228', 'port': 23456, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'dongtaiwang.com'}
+- {'name': '美国【付费推荐：https://a0a.xyz】20', 'server': 'www.aetv.com', 'port': 80, 'type': 'vmess', 'uuid': 'beb7d098-48ba-4be8-a47a-758bf3c470b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'Host': 'amd.al'}}}
+- {'name': '伊朗【付费推荐：https://a0a.xyz】21', 'server': '92.242.220.22', 'port': 37885, 'type': 'vmess', 'uuid': '8dee19ab-50ce-4d06-be42-5e53c8989ccc', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '美国【付费推荐：https://a0a.xyz】22', 'server': 'primer.ibilibi.li', 'port': 443, 'type': 'vmess', 'uuid': 'e5852393-ca52-4c90-a237-d63cbbb57f21', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/farcry?ed=2560', 'headers': {'Host': 'loki.oracle'}}}
+- {'name': '美国【付费推荐：https://a0a.xyz】23', 'server': '151.101.2.216', 'port': 80, 'type': 'vmess', 'uuid': '545485da-9ff4-48c5-ae94-45e6e4ee7d26', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/racevpn', 'headers': {'Host': '6606.com'}}}
+- {'name': '日本【付费推荐：https://a0a.xyz】24', 'server': '160.19.78.75', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Nk9asglDzHzjktVzTkvhaA'}
+- {'name': '巴林【付费推荐：https://a0a.xyz】25', 'server': 'series-a2-me.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Bog0ELmMM9DSxDdQ'}
+- {'name': '法国【付费推荐：https://a0a.xyz】26', 'server': 'yournextcareerstep.online', 'port': 443, 'type': 'trojan', 'password': '984e400bf5d541b7b0815913fe0c432a'}
+- {'name': '丹麦【付费推荐：https://a0a.xyz】27', 'server': 'www.csgo.com', 'port': 443, 'type': 'vmess', 'uuid': '33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/rongseven?ed=2048', 'headers': {'Host': 'kr.cfyyds.filegear-sg.me'}}}
+- {'name': '法国【付费推荐：https://a0a.xyz】28', 'server': '108.61.177.251', 'port': 443, 'type': 'trojan', 'password': 'e8105dfd24414268b6c7652c63731097', 'sni': 'yournextcareerstep.online'}
+- {'name': '保加利亚【付费推荐：https://a0a.xyz】29', 'server': '149.34.244.68', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '美国【付费推荐：https://a0a.xyz】30', 'server': '172.67.164.232', 'port': 443, 'type': 'vmess', 'uuid': '33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/rongseven?ed=2048', 'headers': {'Host': '33.bycf.us.kg'}}}
+- {'name': '日本【付费推荐：https://a0a.xyz】31', 'server': 'arxfw2b78fi2q9hzylhn.freesocks.work', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Nk9asglDzHzjktVzTkvhaA'}
+- {'name': '美国【付费推荐：https://a0a.xyz】32', 'server': '151.101.194.133', 'port': 443, 'type': 'vmess', 'uuid': '545485da-9ff4-48c5-ae94-45e6e4ee7d26', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/racevpn', 'headers': {'Host': '6606.com'}}}
+- {'name': '中国【付费推荐：https://a0a.xyz】33', 'server': '103.149.183.178', 'port': 54675, 'type': 'vmess', 'uuid': '3a907956-f668-4e6b-ea03-0949f0c9c0a5', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '德国【付费推荐：https://a0a.xyz】34', 'server': 'frankfurt03.zgjok.com', 'port': 443, 'type': 'vmess', 'uuid': '4f7c2243-a38a-4672-983b-f1378aee0a7f', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'frankfurt03.zgjok.com'}}}
+- {'name': '未知【付费推荐：https://a0a.xyz】35', 'server': 'h-k02.loveroise.com', 'port': 54002, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '09833a6f-4d46-426e-87fe-7793a5489f84'}
+- {'name': '美国【付费推荐：https://a0a.xyz】36', 'server': 'series-a2-mec.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
+- {'name': '阿尔巴尼亚【付费推荐：https://a0a.xyz】37', 'server': '109.104.154.4', 'port': 5555, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2kZMZNoI2sgKPb6C-9IQ8w'}
+- {'name': '美国【付费推荐：https://a0a.xyz】38', 'server': '208.67.105.87', 'port': 42501, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf'}
+- {'name': '美国【付费推荐：https://a0a.xyz】39', 'server': '151.101.2.168', 'port': 80, 'type': 'vmess', 'uuid': 'beb7d098-48ba-4be8-a47a-758bf3c470b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'Host': 'amd.al'}}}
+- {'name': '美国【付费推荐：https://a0a.xyz】40', 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
 
-# 订阅地址
-proxy-providers: 
-  _pool:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml'
-    path: ./providers/_pool.yaml
-  aiboboxx:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/aiboboxx.yaml'
-    path: ./providers/aiboboxx.yaml
-  anaer:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/anaer.yaml'
-    path: ./providers/anaer.yaml
-  changfengoss:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/changfengoss.yaml'
-    path: ./providers/changfengoss.yaml
-  chengaopan:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/chengaopan.yaml'
-    path: ./providers/chengaopan.yaml
-  fromzero:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/fromzero.yaml'
-    path: ./providers/fromzero.yaml
-  hkaa0:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/hkaa0.yaml'
-    path: ./providers/hkaa0.yaml
-  mahdibland:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mahdibland.yaml'
-    path: ./providers/mahdibland.yaml
-  peasoft:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/peasoft.yaml'
-    path: ./providers/peasoft.yaml
-  ripaojiedian:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ripaojiedian.yaml'
-    path: ./providers/ripaojiedian.yaml
-  soroushmirzaei:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/soroushmirzaei.yaml'
-    path: ./providers/soroushmirzaei.yaml
-  tssf:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/tssf.yaml'
-    path: ./providers/tssf.yaml
-  ttvg:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ttvg.yaml'
-    path: ./providers/ttvg.yaml
-  xrayvip:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/xrayvip.yaml'
-    path: ./providers/xrayvip.yaml
-  yudou:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yudou.yaml'
-    path: ./providers/yudou.yaml
-  zhangkaiitugithub:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/zhangkaiitugithub.yaml'
-    path: ./providers/zhangkaiitugithub.yaml
 
 # 代理组
 proxy-groups:
@@ -157,24 +119,40 @@ proxy-groups:
 
   - name: ♻️ 自动选择
     type: url-test
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: 🚑 故障转移
     type: fallback
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     strategy: round-robin
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     strategy: consistent-hashing
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: 🌍 国外媒体

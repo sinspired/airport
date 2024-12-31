@@ -61,87 +61,35 @@ geox-url:
   geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
   mmdb: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
 
-# 通用配置
-proxy_provider_common_config: &proxy_provider_common_config
-  interval: 21600
-  health-check:
-    enable: true
-    interval: 300
-    timeout: 5000
-    url: https://www.google.com/gen_204
-proxy_group_common_config: &proxy_group_common_config
-  lazy: false
-  interval: 300
-  timeout: 5000
-  tolerance: 100
-  url: https://www.google.com/gen_204
+# 代理
+proxies: 
+- {'name': '日本(yudou66.com 玉豆免费节点)', 'server': 'arxfw2b78fi2q9hzylhn.freesocks.work', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Nk9asglDzHzjktVzTkvhaA', 'udp': true}
+- {'name': '俄罗斯(yudou66.com 玉豆免费节点)', 'server': '185.22.155.228', 'port': 23456, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'dongtaiwang.com', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点)', 'server': 'www.aetv.com', 'port': 80, 'type': 'vmess', 'uuid': 'beb7d098-48ba-4be8-a47a-758bf3c470b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/?ed=2048', 'ws-headers': {'Host': 'amd.al'}, 'udp': true}
+- {'name': '法国(yudou66.com 玉豆免费节点)', 'server': 'h-k01.loveroise.com', 'port': 54000, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '09833a6f-4d46-426e-87fe-7793a5489f84', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 2', 'server': '103.149.183.178', 'port': 27512, 'type': 'vmess', 'uuid': '96d38683-0817-4d91-bffa-6f03df18d9dc', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 3', 'server': '149.34.244.68', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 4', 'server': '151.101.194.133', 'port': 80, 'type': 'vmess', 'uuid': '3ecf9ef9-d4e7-4eb4-a16d-c6e7b2a39af4', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/RACEVPN', 'ws-headers': {'Host': '7707.dev'}, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 5', 'server': '8.222.161.29', 'port': 443, 'type': 'vmess', 'uuid': '9b456c2a-f2c1-45e1-87a9-b7628b04bb24', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/linkws', 'ws-headers': {'Host': 'beyonddsz.cfd'}, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 7', 'server': '120.198.71.214', 'port': 34493, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 8', 'server': '183.236.51.23', 'port': 53002, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 9', 'server': '8.222.159.245', 'port': 443, 'type': 'vmess', 'uuid': '9b456c2a-f2c1-45e1-87a9-b7628b04bb24', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/linkws', 'ws-headers': {'Host': 'beyonddsz.cfd'}, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 10', 'server': '103.149.183.178', 'port': 54675, 'type': 'vmess', 'uuid': '3a907956-f668-4e6b-ea03-0949f0c9c0a5', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 11', 'server': '183.236.51.23', 'port': 51704, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 12', 'server': '208.67.105.87', 'port': 42501, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 13', 'server': 's-g04.loveroise.com', 'port': 54030, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '09833a6f-4d46-426e-87fe-7793a5489f84', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 14', 'server': '183.236.51.23', 'port': 56601, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 15', 'server': '120.234.102.229', 'port': 52908, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 16', 'server': '198.105.123.190', 'port': 46902, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 17', 'server': '183.236.51.23', 'port': 40434, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 18', 'server': '120.232.153.63', 'port': 40972, 'type': 'vmess', 'uuid': '770ee730-2450-4e3c-a6c6-3932bd32afbd', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 19', 'server': 'h.522226.xyz', 'port': 45800, 'type': 'trojan', 'password': 'xjN4xcuPGg55', 'sni': 'h.522226.xyz', 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 20', 'server': '183.236.48.158', 'port': 50052, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '法国(yudou66.com 玉豆免费节点) 2', 'server': '108.61.177.251', 'port': 443, 'type': 'trojan', 'password': '984e400bf5d541b7b0815913fe0c432a', 'skip-cert-verify': true, 'udp': true}
+- {'name': '德国(yudou66.com 玉豆免费节点)', 'server': 'beesyar.org', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '4a2rfixophdjffa8KVA4Aa', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 22', 'server': 'h-k02.loveroise.com', 'port': 54002, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '09833a6f-4d46-426e-87fe-7793a5489f84', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 23', 'server': '183.236.51.23', 'port': 46602, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
 
-# 订阅地址
-proxy-providers: 
-  _pool:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml'
-    path: ./providers/_pool.yaml
-  aiboboxx:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/aiboboxx.yaml'
-    path: ./providers/aiboboxx.yaml
-  anaer:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/anaer.yaml'
-    path: ./providers/anaer.yaml
-  changfengoss:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/changfengoss.yaml'
-    path: ./providers/changfengoss.yaml
-  chengaopan:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/chengaopan.yaml'
-    path: ./providers/chengaopan.yaml
-  fromzero:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/fromzero.yaml'
-    path: ./providers/fromzero.yaml
-  hkaa0:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/hkaa0.yaml'
-    path: ./providers/hkaa0.yaml
-  mahdibland:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mahdibland.yaml'
-    path: ./providers/mahdibland.yaml
-  peasoft:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/peasoft.yaml'
-    path: ./providers/peasoft.yaml
-  ripaojiedian:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ripaojiedian.yaml'
-    path: ./providers/ripaojiedian.yaml
-  soroushmirzaei:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/soroushmirzaei.yaml'
-    path: ./providers/soroushmirzaei.yaml
-  tssf:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/tssf.yaml'
-    path: ./providers/tssf.yaml
-  ttvg:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ttvg.yaml'
-    path: ./providers/ttvg.yaml
-  xrayvip:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/xrayvip.yaml'
-    path: ./providers/xrayvip.yaml
-  yudou:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yudou.yaml'
-    path: ./providers/yudou.yaml
-  zhangkaiitugithub:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/zhangkaiitugithub.yaml'
-    path: ./providers/zhangkaiitugithub.yaml
 
 # 代理组
 proxy-groups:
@@ -157,24 +105,40 @@ proxy-groups:
 
   - name: ♻️ 自动选择
     type: url-test
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: 🚑 故障转移
     type: fallback
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     strategy: round-robin
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     strategy: consistent-hashing
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: 🌍 国外媒体

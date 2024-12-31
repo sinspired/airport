@@ -6,31 +6,56 @@ external-controller: 0.0.0.0:9090
 tcp-concurrent: true
 dns:
   enable: true
+  listen: 0.0.0.0:1053
   ipv6: true
-  default-nameserver:
-    - 1.1.1.1
-    - 8.8.8.8
+  use-system-hosts: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - '+.msftconnecttest.com'
-    - '+.msftncsi.com'
-  use-hosts: true
+    - "+.lan"
+    - "+.local"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    - "localhost.work.weixin.qq.com"
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+    - 8.8.8.8
   nameserver:
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-  fallback:
+    - https://doh.pub/dns-query
+    - https://doh.360.cn/dns-query
     - https://1.1.1.1/dns-query
     - https://1.0.0.1/dns-query
     - https://208.67.222.222/dns-query
     - https://208.67.220.220/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    geosite:
-      - gfw
-    ipcidr:
-      - 240.0.0.0/4
+    - https://194.242.2.2/dns-query
+    - https://194.242.2.3/dns-query
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://doh.360.cn/dns-query
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - https://208.67.222.222/dns-query
+    - https://208.67.220.220/dns-query
+    - https://194.242.2.2/dns-query
+    - https://194.242.2.3/dns-query
+  nameserver-policy:
+    "geosite:private,cn,geolocation-cn":
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+      - https://doh.360.cn/dns-query
+    "geosite:google,youtube,telegram,gfw,geolocation-!cn":
+      - https://1.1.1.1/dns-query
+      - https://1.0.0.1/dns-query
+      - https://208.67.222.222/dns-query
+      - https://208.67.220.220/dns-query
+      - https://194.242.2.2/dns-query
+      - https://194.242.2.3/dns-query
 geox-url:
   geoip: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
   geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
@@ -1351,63 +1376,98 @@ proxy-groups:
 
   - name: 🌍 国外媒体
     type: select
-    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+    proxies:
+      [
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+        "🎯 全球直连",
+      ]
 
   - name: 📲 电报信息
     type: select
-    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+    proxies:
+      [
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+        "🎯 全球直连",
+      ]
 
   - name: Ⓜ️ 微软服务
     type: select
-    proxies: ['🎯 全球直连', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+    proxies:
+      [
+        "🎯 全球直连",
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+      ]
 
   - name: 🍎 苹果服务
     type: select
-    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+    proxies:
+      [
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+        "🎯 全球直连",
+      ]
 
   - name: 📢 谷歌FCM
     type: select
-    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+    proxies:
+      [
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+        "🎯 全球直连",
+      ]
 
   - name: 🎯 全球直连
     type: select
-    proxies: ['DIRECT', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+    proxies:
+      [
+        "DIRECT",
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+      ]
 
   - name: 🛑 全球拦截
     type: select
-    proxies: ['REJECT', 'DIRECT']
+    proxies: ["REJECT", "DIRECT"]
 
   - name: 🍃 应用净化
     type: select
-    proxies: ['REJECT', 'DIRECT']
+    proxies: ["REJECT", "DIRECT"]
 
   - name: 🐟 漏网之鱼
     type: select
-    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+    proxies:
+      [
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+        "🎯 全球直连",
+      ]
 
 # 规则集
 rule-providers:
-  custom_direct:
-    type: http
-    behavior: classical
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
-    path: ./rulesets/custom/direct.txt
-    interval: 86400
-  custom_proxy:
-    type: http
-    behavior: classical
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
-    path: ./rulesets/custom/proxy.txt
-    interval: 86400
-  custom_reject:
-    type: http
-    behavior: classical
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
-    path: ./rulesets/custom/reject.txt
-    interval: 86400
   LocalAreaNetwork:
     type: http
     behavior: classical

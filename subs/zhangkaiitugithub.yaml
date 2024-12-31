@@ -61,87 +61,39 @@ geox-url:
   geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
   mmdb: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
 
-# 通用配置
-proxy_provider_common_config: &proxy_provider_common_config
-  interval: 21600
-  health-check:
-    enable: true
-    interval: 300
-    timeout: 5000
-    url: https://www.google.com/gen_204
-proxy_group_common_config: &proxy_group_common_config
-  lazy: false
-  interval: 300
-  timeout: 5000
-  tolerance: 100
-  url: https://www.google.com/gen_204
+# 代理
+proxies: 
+- {'name': 'CN_speednode_0001', 'server': '183.236.51.23', 'port': 41020, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'CN_speednode_0002', 'server': 'cu.awslcn.info', 'port': 25284, 'type': 'vmess', 'uuid': '243eab52-9ac1-405c-887c-eb112c0985b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'cu.awslcn.info'}}}
+- {'name': 'DE_speednode_0003', 'server': '132.145.237.172', 'port': 443, 'type': 'vless', 'uuid': '95eb72fe-e967-4540-ac10-069c8a95c6d7', 'flow': 'xtls-rprx-vision', 'tls': true, 'skip-cert-verify': false, 'client-fingerprint': 'ios', 'servername': 'jsdownloadde1.xn--4gq62f52gopi49k.com'}
+- {'name': 'DE_speednode_0004', 'server': '193.108.119.230', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': 'DE_speednode_0005', 'server': 'tuea.vact.ir', 'port': 2083, 'type': 'vless', 'uuid': 'b427ed05-cc5f-4f88-ab96-f04a6e30300b', 'tls': false, 'skip-cert-verify': false, 'network': 'ws'}
+- {'name': 'FR_speednode_0006', 'server': '51.158.243.62', 'port': 443, 'type': 'vless', 'uuid': 'fd17fd03-844b-4c4b-9551-27f2b055d4f8', 'flow': 'xtls-rprx-vision', 'tls': true, 'skip-cert-verify': false, 'client-fingerprint': 'random', 'servername': 'cloudflare.com', 'reality-opts': {'public-key': '1gKloUYtea1EJfBcatiTkmJVdCbb6SfVrnL6Lz-RYj0', 'short-id': '42'}}
+- {'name': 'GB_speednode_0007', 'server': '169.150.210.233', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': 'GB_speednode_0008', 'server': '169.150.210.233', 'port': 8080, 'type': 'ssr', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6', 'protocol': 'origin', 'obfs': 'plain', 'protocol-param': '', 'obfs-param': ''}
+- {'name': 'GI_speednode_0009', 'server': '95.164.3.165', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'HK_speednode_0010', 'server': 'hk9.ftq.ink', 'port': 4000, 'type': 'http', 'tls': true}
+- {'name': 'IN_speednode_0011', 'server': '144.24.97.225', 'port': 443, 'type': 'vless', 'uuid': '95eb72fe-e967-4540-ac10-069c8a95c6d7', 'flow': 'xtls-rprx-vision', 'tls': true, 'skip-cert-verify': false, 'client-fingerprint': 'chrome', 'servername': 'jsdownloadin1.xn--4gq62f52gopi49k.com'}
+- {'name': 'IR_speednode_0012', 'server': '89.42.196.36', 'port': 56185, 'type': 'vless', 'uuid': 'd0d09937-05a7-a662-dd40-d09b667e1c28', 'tls': false, 'skip-cert-verify': false, 'servername': 'telewebion.com', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['telewebion.com']}}}
+- {'name': 'JP_speednode_0013', 'server': '54.178.84.59', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': 'KR_speednode_0014', 'server': '52.79.73.137', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': 'KR_speednode_0015', 'server': 'fluent-bat.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': '3723507166611775488', 'sni': 'fluent-bat.treefrog761.one', 'skip-cert-verify': false}
+- {'name': 'KR_speednode_0016', 'server': '13.124.1.64', 'port': 443, 'type': 'trojan', 'password': '3723507166611775488', 'sni': 'fluent-bat.treefrog761.one', 'skip-cert-verify': true}
+- {'name': 'KR_speednode_0017', 'server': '193.122.110.86', 'port': 443, 'type': 'vless', 'uuid': '95eb72fe-e967-4540-ac10-069c8a95c6d7', 'flow': 'xtls-rprx-vision', 'tls': true, 'skip-cert-verify': false, 'client-fingerprint': 'chrome', 'servername': 'jsdownloadkr.xn--4gq62f52gopi49k.com'}
+- {'name': 'KR_speednode_0018', 'server': '43.203.127.152', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': 'NL_speednode_0019', 'server': '149.34.244.82', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': 'NL_speednode_0020', 'server': '149.34.244.68', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': 'NL_speednode_0021', 'server': '146.190.16.108', 'port': 23701, 'type': 'vless', 'uuid': '677a41e5-dbe6-429b-8f91-cc014b1ae1bd', 'tls': false, 'skip-cert-verify': false, 'servername': 'Speedtest.net', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['Speedtest.net']}}}
+- {'name': 'NL_speednode_0022', 'server': '103.106.2.243', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'NL_speednode_0023', 'server': '188.119.112.3', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'NL_speednode_0024', 'server': '80.92.206.33', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'NL_speednode_0025', 'server': '95.164.87.21', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'NL_speednode_0026', 'server': 'srv1-d.gamekade.tech', 'port': 443, 'type': 'vless', 'uuid': 'f97c0600-b5c9-465d-9c14-34cfb8a6e9dc', 'tls': false, 'skip-cert-verify': false, 'servername': 'neshan.org', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['neshan.org']}}}
+- {'name': 'NL_speednode_0027', 'server': '185.236.233.55', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'NL_speednode_0028', 'server': '94.131.106.53', 'port': 2198, 'type': 'vless', 'uuid': '838f5273-5d2d-4630-a0f5-9cc8e4aef4d6', 'tls': false, 'skip-cert-verify': false}
+- {'name': 'RU_speednode_0029', 'server': '77.73.70.200', 'port': 3832, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'TLzTbRU2xuSDMOU9o8e0QQ'}
+- {'name': 'US_speednode_0030', 'server': 'phx-plus-1ddns.faforex.eu.org', 'port': 18443, 'type': 'vless', 'uuid': '311faab5-5e89-4f41-b2a4-ca4452508cc6', 'tls': true, 'skip-cert-verify': false, 'client-fingerprint': 'safari', 'servername': 'www.tesla.com', 'reality-opts': {'public-key': '8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s', 'short-id': 'e6658462'}, 'udp': true}
 
-# 订阅地址
-proxy-providers: 
-  _pool:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml'
-    path: ./providers/_pool.yaml
-  aiboboxx:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/aiboboxx.yaml'
-    path: ./providers/aiboboxx.yaml
-  anaer:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/anaer.yaml'
-    path: ./providers/anaer.yaml
-  changfengoss:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/changfengoss.yaml'
-    path: ./providers/changfengoss.yaml
-  chengaopan:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/chengaopan.yaml'
-    path: ./providers/chengaopan.yaml
-  fromzero:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/fromzero.yaml'
-    path: ./providers/fromzero.yaml
-  hkaa0:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/hkaa0.yaml'
-    path: ./providers/hkaa0.yaml
-  mahdibland:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mahdibland.yaml'
-    path: ./providers/mahdibland.yaml
-  peasoft:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/peasoft.yaml'
-    path: ./providers/peasoft.yaml
-  ripaojiedian:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ripaojiedian.yaml'
-    path: ./providers/ripaojiedian.yaml
-  soroushmirzaei:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/soroushmirzaei.yaml'
-    path: ./providers/soroushmirzaei.yaml
-  tssf:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/tssf.yaml'
-    path: ./providers/tssf.yaml
-  ttvg:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ttvg.yaml'
-    path: ./providers/ttvg.yaml
-  xrayvip:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/xrayvip.yaml'
-    path: ./providers/xrayvip.yaml
-  yudou:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yudou.yaml'
-    path: ./providers/yudou.yaml
-  zhangkaiitugithub:
-    type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/zhangkaiitugithub.yaml'
-    path: ./providers/zhangkaiitugithub.yaml
 
 # 代理组
 proxy-groups:
@@ -157,24 +109,40 @@ proxy-groups:
 
   - name: ♻️ 自动选择
     type: url-test
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: 🚑 故障转移
     type: fallback
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     strategy: round-robin
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     strategy: consistent-hashing
-    <<: *proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
     include-all: true
 
   - name: 🌍 国外媒体
