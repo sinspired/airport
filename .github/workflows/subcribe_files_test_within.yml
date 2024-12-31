@@ -12,12 +12,10 @@ on:
 jobs:
   test-proxies-within:
     runs-on: [self-hosted, linux, x64]
-
     steps:
-      - name: Git配置
+      # 配置Git代理，防止国内服务器拉取代码失败
+      - name: Git代理
         run: |
-          git config --global user.email "metaST@github.com"
-          git config --global user.name "metaST"
           git config --global http.proxy  http://127.0.0.1:7890
           git config --global https.proxy http://127.0.0.1:7890
 
@@ -33,20 +31,23 @@ jobs:
         run: |
           ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --du https://www.youtube.com/generate_204 --dt 800 --dr 5 --df 800 --top 400 --dn 32 --ff 0.5
 
-      - name: 统计文件
+      - name: 结果统计
         run: |
           cp -f ./subs/merged/tested_within.csv ./subs/statistics/tested_within.csv
           cp -f ./subs/merged/tested_within.md ./subs/statistics/tested_within.md
 
       - name: 上传测试结果
-        run: |
-          git pull
-          git add subs/merged/tested_within.yaml
-          git add subs/statistics/tested_within.csv
-          git add subs/statistics/tested_within.md
-          git commit -m "Tested by metaST" && git push --force
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: |
+            - subs/merged/tested_within.yaml
+            - subs/statistics/tested_within.csv
+            - subs/statistics/tested_within.md
+          author_name: metaST
+          author_email: "metaST@github.com"
+          message: Tested by metaST
 
-      - name: 更新本地代理
+      - name: 更新self-host主机代理
         run: |
           cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
           curl -X POST http://127.0.0.1:9090/restart

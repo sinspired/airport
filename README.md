@@ -15,10 +15,10 @@
 
 ## 📎 订阅链接
 
-### 🚀 镜像加速
+### 🚀 镜像加速链接
 
 ```
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
+https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/subs/merged/tested_within.yaml
 ```
 
 ### 🔗Github 直链
