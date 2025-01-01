@@ -1,476 +1,456 @@
-# 混合端口
 mixed-port: 7890
-# 局域网访问控制(白名单/黑名单)
 allow-lan: true
-lan-allowed-ips: ["0.0.0.0/0", "::/0"]
-lan-disallowed-ips: []
-# 运行模式
 mode: rule
-# 日志级别
 log-level: info
-# 接受IPv6流量
-ipv6: true
-# 外部控制监听地址、访问密钥
 external-controller: 0.0.0.0:9090
-secret: ""
-# 延迟计算去除握手等额外延迟
-unified-delay: false
-# TCP并发
 tcp-concurrent: true
-# 全局客户端指纹(支持VLESS,VMess,Trojan)
-global-client-fingerprint: chrome
-# 下载外部资源(proxy-provider、rule-provider、GEO等)使用的UA
-global-ua: clash.meta
-
-# DNS配置
-domestic_nameservers: &domestic_nameservers
-  - https://dns.alidns.com/dns-query # 阿里云公共DNS
-  - https://doh.pub/dns-query # 腾讯DNSPod
-  - https://doh.360.cn/dns-query # 360安全DNS
-foreign_nameservers: &foreign_nameservers
-  - https://1.1.1.1/dns-query # Cloudflare(主)
-  - https://1.0.0.1/dns-query # Cloudflare(备)
-  - https://208.67.222.222/dns-query # OpenDNS(主)
-  - https://208.67.220.220/dns-query # OpenDNS(备)
-  - https://194.242.2.2/dns-query # Mullvad(主)
-  - https://194.242.2.3/dns-query # Mullvad(备)
 dns:
   enable: true
+  listen: 0.0.0.0:1053
   ipv6: true
   use-system-hosts: false
-  cache-algorithm: arc
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    [
-      "+.lan",
-      "+.local",
-      "+.msftconnecttest.com",
-      "+.msftncsi.com",
-      "localhost.ptlogin2.qq.com",
-      "localhost.sec.qq.com",
-      "localhost.work.weixin.qq.com",
-    ]
-  default-nameserver: ["223.5.5.5", "119.29.29.29", "1.1.1.1", "8.8.8.8"]
-  nameserver: *domestic_nameservers
-  proxy-server-nameserver: *domestic_nameservers
+    - "+.lan"
+    - "+.local"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    - "localhost.work.weixin.qq.com"
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://doh.360.cn/dns-query
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - https://208.67.222.222/dns-query
+    - https://208.67.220.220/dns-query
+    - https://194.242.2.2/dns-query
+    - https://194.242.2.3/dns-query
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://doh.360.cn/dns-query
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - https://208.67.222.222/dns-query
+    - https://208.67.220.220/dns-query
+    - https://194.242.2.2/dns-query
+    - https://194.242.2.3/dns-query
   nameserver-policy:
-    "+.mirror.ghproxy.com": *foreign_nameservers
-    "geosite:private,cn,geolocation-cn": *domestic_nameservers
-    "geosite:google,youtube,telegram,gfw,geolocation-!cn": *foreign_nameservers
-
-# GEO自动更新、更新间隔(单位: 小时)、更新下载地址
-geo-auto-update: true
-geo-update-interval: 48
+    "geosite:private,cn,geolocation-cn":
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+      - https://doh.360.cn/dns-query
+    "geosite:google,youtube,telegram,gfw,geolocation-!cn":
+      - https://1.1.1.1/dns-query
+      - https://1.0.0.1/dns-query
+      - https://208.67.222.222/dns-query
+      - https://208.67.220.220/dns-query
+      - https://194.242.2.2/dns-query
+      - https://194.242.2.3/dns-query
 geox-url:
-  geoip: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
-  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
-  mmdb: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
+  geoip: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
+  geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
 
-# 代理列表
+# 代理
 proxies: 
-  - {"name":"🇺🇸 美国_1","type":"vmess","server":"120.232.153.63","port":"40565","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"🇺🇸 美国_2","server":"8.210.65.243","port":"8443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=ProxyIP.Oracle.fxxk.dedyn.io","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"🇲🇽 墨西哥","server":"8.217.168.149","port":"2096","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=ProxyIP.Oracle.fxxk.dedyn.io","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"🇺🇸 美国_3","server":"172.64.154.45","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"🇭🇰 香港_1","server":"43.135.44.101","port":"30002","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=43.135.44.101:30002","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"name":"🇸🇬 新加坡_1","type":"ss","server":"13.215.51.127","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"❓ 未知_1","type":"hysteria2","server":"tw4.akebi.cc","port":"33751","password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"tw04.akebi.cc","skip-cert-verify":false}
-  - {"name":"🇺🇸 美国_4","type":"vmess","server":"120.232.153.63","port":"40972","cipher":"auto","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡_2","server":"13.250.115.217","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"vless","name":"❓ 未知_2","server":"156.230.12.71","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"name":"❓ 未知_3","type":"trojan","server":"sg007.421421.xyz","port":"20230","udp":true,"password":"b44da489-fc70-4fd0-8997-a83b51f59267","sni":"421421.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡_3","server":"52.221.190.255","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"❓ 未知_4","type":"vmess","server":"zl1sb-g05.jp02-9a99-vm0.entry.fr0307a.art","port":"11777","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡_4","server":"54.179.186.199","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇯🇵 日本_1","server":"54.178.191.236","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇯🇵 日本_2","server":"43.207.232.228","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇯🇵 日本_3","server":"54.238.219.226","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"vless","name":"❓ 未知_5","server":"43.128.26.74","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"name":"🇯🇵 日本_4","type":"ss","server":"3.113.31.223","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本_5","server":"18.179.197.216","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇯🇵 日本_6","type":"vmess","server":"qpqg1-g06.jp05-6786-vm0.entry.fr0307a.art","port":"46487","cipher":"auto","uuid":"e9537990-d286-3eaf-8596-d74249d3f347","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡_5","type":"ss","server":"s-g03.loveroise.com","port":"54028","password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵 日本_7","type":"vmess","server":"6akbv-g06.jp05-6786-vm0.entry.fr0307a.art","port":"46487","cipher":"auto","uuid":"e9537990-d286-3eaf-8596-d74249d3f347","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰 香港_2","port":"4000","server":"ftq.ink","tls":true,"type":"http"}
-  - {"name":"❓ 未知_6","type":"trojan","server":"160.30.21.105","port":"443","udp":true,"password":"94d219c9-1afc-4d42-b090-8b3794764380","sni":"std1.loadingip.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_7","type":"vmess","server":"ho8od-g05.jp02-9a99-vm0.entry.fr0307a.art","port":"11777","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_8","type":"vmess","server":"ouuo6-g05.jp02-9a99-vm0.entry.fr0307a.art","port":"11777","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡_6","server":"183.236.51.23","port":"41020","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","tls":false,"skip-cert-verify":false}
-  - {"name":"🇯🇵 日本_8","type":"vmess","server":"sdsxh-g01.jp05-6786-vm0.entry.fr0307a.art","port":"46482","cipher":"auto","uuid":"46d2d389-2469-30ad-9e7a-21f1daa63935","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"🇸🇬 新加坡_7","server":"8.222.165.104","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=8.222.165.104:443","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"name":"🇰🇷 韩国_1","server":"52.79.248.193","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇯🇵 日本_9","server":"13.114.31.63","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"❓ 未知_9","type":"vmess","server":"d4aj6-g05.jp02-9a99-vm0.entry.fr0307a.art","port":"11777","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 德国","type":"vless","server":"167.82.85.155","port":"80","uuid":"253ef561-9e57-4336-befd-878ddd30df01","tls":false,"servername":"teleirani.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"teleirani.ir"}},"alpn":["h2","http/1.1"]}
-  - {"name":"🇯🇵 日本_10","type":"vmess","server":"0i4ui-g03.jp03-7d22-vm0.entry.fr0307a.art","port":"21583","cipher":"auto","uuid":"b37b7415-1608-3fcd-aa25-d9cc4aae5ded","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_10","type":"vmess","server":"8m08l-g05.jp04-3771-vm0.entry.fr0307a.art","port":"448","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_11","type":"vmess","server":"7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art","port":"444","cipher":"auto","uuid":"7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_12","type":"vmess","server":"h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art","port":"449","cipher":"auto","uuid":"2278146c-8fb0-3683-8300-342238f8a9d0","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_11","type":"vmess","server":"t45a7-g03.jp02-9a99-vm0.entry.fr0307a.art","port":"11775","cipher":"auto","uuid":"b37b7415-1608-3fcd-aa25-d9cc4aae5ded","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_12","server":"54.248.142.136","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇭🇰 香港_3","server":"hk9.ftq.ink","port":"4000","type":"http","tls":true}
-  - {"name":"🇯🇵 日本_13","type":"vmess","server":"qj2f7-g05.jp05-6786-vm0.entry.fr0307a.art","port":"46486","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_14","type":"vmess","server":"ybk5g-g06.jp05-6786-vm0.entry.fr0307a.art","port":"46487","cipher":"auto","uuid":"e9537990-d286-3eaf-8596-d74249d3f347","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"🇹🇼 台湾","server":"210.61.97.241","port":"81","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"🇯🇵 日本_15","server":"168.138.46.67","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=168.138.46.67:443","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"name":"❓ 未知_13","type":"vmess","server":"or2ws-g05.jp02-9a99-vm0.entry.fr0307a.art","port":"11777","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_14","type":"vmess","server":"q8d2y-g05.jp04-3771-vm0.entry.fr0307a.art","port":"448","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_16","type":"vmess","server":"wwkzh-g05.jp01-0986-vm0.entry.fr0307a.art","port":"21585","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_17","type":"vmess","server":"u0rdb-g01.jp05-6786-vm0.entry.fr0307a.art","port":"46482","cipher":"auto","uuid":"46d2d389-2469-30ad-9e7a-21f1daa63935","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_15","type":"vmess","server":"1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art","port":"28788","cipher":"auto","uuid":"2278146c-8fb0-3683-8300-342238f8a9d0","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_16","type":"vmess","server":"ig5oa-g06.jp06-7c5a-vm0.entry.fr0307a.art","port":"28788","cipher":"auto","uuid":"e9537990-d286-3eaf-8596-d74249d3f347","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_18","type":"vmess","server":"5yetu-g05.jp01-0986-vm0.entry.fr0307a.art","port":"21585","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_17","type":"trojan","server":"std1.loadingip.com","port":"443","udp":true,"password":"94d219c9-1afc-4d42-b090-8b3794764380","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_19","type":"vmess","server":"tpi1d-g06.jp06-7c5a-vm0.entry.fr0307a.art","port":"28788","cipher":"auto","uuid":"e9537990-d286-3eaf-8596-d74249d3f347","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_20","type":"vmess","server":"bitol-g05.jp03-7d22-vm0.entry.fr0307a.art","port":"21585","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_21","type":"vmess","server":"01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art","port":"21581","cipher":"auto","uuid":"7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_22","server":"57.181.42.233","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇯🇵 日本_23","type":"vmess","server":"9n1fh-g05.jp01-0986-vm0.entry.fr0307a.art","port":"21585","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_24","type":"vmess","server":"7y1vw-g01.jp05-6786-vm0.entry.fr0307a.art","port":"46482","cipher":"auto","uuid":"46d2d389-2469-30ad-9e7a-21f1daa63935","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_18","type":"vmess","server":"99kfe-g01.jp06-7c5a-vm0.entry.fr0307a.art","port":"28783","cipher":"auto","uuid":"46d2d389-2469-30ad-9e7a-21f1daa63935","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_25","type":"vmess","server":"6bn7a-g05.jp01-0986-vm0.entry.fr0307a.art","port":"21585","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_19","type":"vmess","server":"1npko-g06.jp06-7c5a-vm0.entry.fr0307a.art","port":"28788","cipher":"auto","uuid":"e9537990-d286-3eaf-8596-d74249d3f347","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"🇯🇵 日本_26","server":"141.147.147.180","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=141.147.147.180:443","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"name":"🇯🇵 日本_27","type":"vmess","server":"bqokc-g06.jp01-0986-vm0.entry.fr0307a.art","port":"21586","cipher":"auto","uuid":"e9537990-d286-3eaf-8596-d74249d3f347","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷 韩国_2","server":"3.35.206.24","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"❓ 未知_20","type":"vmess","server":"b1op2-g05.jp06-7c5a-vm0.entry.fr0307a.art","port":"28787","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_28","type":"vmess","server":"npm8a-g06.jp01-0986-vm0.entry.fr0307a.art","port":"21586","cipher":"auto","uuid":"e9537990-d286-3eaf-8596-d74249d3f347","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷 韩国_3","type":"hysteria2","server":"tw2.akebi.cc","port":"3010","password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"kr02.akebi.cc","skip-cert-verify":false}
-  - {"name":"🇭🇰 香港_4","type":"vmess","server":"183.236.48.163","port":"54882","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵 日本_29","type":"vmess","server":"yb12i-g06.jp03-7d22-vm0.entry.fr0307a.art","port":"21586","cipher":"auto","uuid":"e9537990-d286-3eaf-8596-d74249d3f347","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_21","type":"vmess","server":"2k0n1-g01.jp06-7c5a-vm0.entry.fr0307a.art","port":"28783","cipher":"auto","uuid":"02bf7660-c38f-30b4-b740-2f9b4d717704","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 美国_5","type":"ss","server":"137.175.113.192","port":"8388","password":"asd123456","cipher":"chacha20-ietf"}
-  - {"name":"❓ 未知_22","type":"vmess","server":"d6tbr-g05.jp03-7d22-vm0.entry.fr0307a.art","port":"21585","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 美国_6","server":"35.92.45.179","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇰🇷 韩国_4","server":"43.203.127.152","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇯🇵 日本_30","type":"vmess","server":"bxnie-g01.jp03-7d22-vm0.entry.fr0307a.art","port":"21581","cipher":"auto","uuid":"46d2d389-2469-30ad-9e7a-21f1daa63935","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 美国_7","type":"ss","server":"54.245.207.144","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸 美国_8","type":"vmess","server":"142.0.134.243","port":"45017","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 美国_9","server":"35.161.59.194","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"vless","name":"🇰🇷 韩国_5","server":"132.145.94.80","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"❓ 未知_23","server":"129.154.207.203","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"name":"🇺🇸 美国_10","type":"ss","server":"34.219.80.203","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸 美国_11","type":"ss","server":"34.213.200.250","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸 美国_12","server":"183.236.51.23","port":"40434","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_13","type":"ss","server":"34.222.132.123","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬 新加坡_8","server":"s-g04.loveroise.com","port":"54030","type":"ss","cipher":"chacha20-ietf-poly1305","password":"09833a6f-4d46-426e-87fe-7793a5489f84"}
-  - {"name":"🇸🇬 新加坡_9","server":"120.198.71.214","port":"34493","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","tls":false}
-  - {"name":"🇸🇬 新加坡_10","server":"183.236.51.23","port":"51704","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","tls":false}
-  - {"name":"🇺🇸 美国_14","server":"34.211.229.86","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇰🇷 韩国_6","server":"52.79.73.137","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇺🇸 美国_15","server":"194.5.215.59","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
-  - {"type":"ss","name":"❓ 未知_24","server":"52.32.68.164","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"vless","name":"❓ 未知_25","server":"198.62.62.54","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=198.62.62.54:443","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"❓ 未知_26","server":"198.62.62.198","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"❓ 未知_27","server":"198.62.62.34","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"❓ 未知_28","server":"198.62.62.0","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=198.62.62.0:443","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"❓ 未知_29","server":"198.62.62.14","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"❓ 未知_30","server":"69.84.182.104","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"🇺🇸 美国_16","server":"69.84.182.101","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"name":"🇺🇸 美国_17","type":"ss","server":"34.213.242.165","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"type":"vless","name":"🇺🇸 美国_18","server":"154.17.21.134","port":"18446","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=154.17.21.134:18446","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"🇰🇷 韩国_7","server":"116.47.10.236","port":"10912","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"❓ 未知_31","server":"69.84.182.106","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=69.84.182.106:443","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"🇺🇸 美国_19","server":"104.24.51.212","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"🇺🇸 美国_20","server":"103.21.244.98","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"❓ 未知_32","server":"91.149.239.145","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"❓ 未知_33","server":"103.21.244.152","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"🇺🇸 美国_21","server":"195.123.240.40","port":"81","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
-  - {"type":"vless","name":"🇺🇸 美国_22","server":"104.16.21.216","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsa.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsa.bgm2024.us.kg"}}}
+- {'name': '🇺🇸 美国_1', 'type': 'vmess', 'server': '120.232.153.63', 'port': '40565', 'cipher': 'auto', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'type': 'vless', 'name': '🇺🇸 美国_2', 'server': '8.210.65.243', 'port': '8443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560&proxyip=ProxyIP.Oracle.fxxk.dedyn.io', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '🇲🇽 墨西哥', 'server': '8.217.168.149', 'port': '2096', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560&proxyip=ProxyIP.Oracle.fxxk.dedyn.io', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '🇺🇸 美国_3', 'server': '172.64.154.45', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '🇭🇰 香港_1', 'server': '43.135.44.101', 'port': '30002', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560&proxyip=43.135.44.101:30002', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'name': '🇸🇬 新加坡_1', 'type': 'ss', 'server': '13.215.51.127', 'port': '443', 'password': 'amazonskr05', 'cipher': 'aes-256-cfb'}
+- {'name': '❓ 未知_1', 'type': 'hysteria2', 'server': 'tw4.akebi.cc', 'port': '33751', 'password': '338b9800-fb4d-4934-8425-388f6d4342f5', 'sni': 'tw04.akebi.cc', 'skip-cert-verify': false}
+- {'name': '🇺🇸 美国_4', 'type': 'vmess', 'server': '120.232.153.63', 'port': '40972', 'cipher': 'auto', 'uuid': '770ee730-2450-4e3c-a6c6-3932bd32afbd', 'alterId': '64', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇸🇬 新加坡_2', 'server': '13.250.115.217', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'vless', 'name': '❓ 未知_2', 'server': '156.230.12.71', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'name': '❓ 未知_3', 'type': 'trojan', 'server': 'sg007.421421.xyz', 'port': '20230', 'udp': true, 'password': 'b44da489-fc70-4fd0-8997-a83b51f59267', 'sni': '421421.xyz', 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇸🇬 新加坡_3', 'server': '52.221.190.255', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '❓ 未知_4', 'type': 'vmess', 'server': 'zl1sb-g05.jp02-9a99-vm0.entry.fr0307a.art', 'port': '11777', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇸🇬 新加坡_4', 'server': '54.179.186.199', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇯🇵 日本_1', 'server': '54.178.191.236', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇯🇵 日本_2', 'server': '43.207.232.228', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇯🇵 日本_3', 'server': '54.238.219.226', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'vless', 'name': '❓ 未知_5', 'server': '43.128.26.74', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'name': '🇯🇵 日本_4', 'type': 'ss', 'server': '3.113.31.223', 'port': '443', 'password': 'amazonskr05', 'cipher': 'aes-256-cfb'}
+- {'name': '🇯🇵 日本_5', 'server': '18.179.197.216', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇯🇵 日本_6', 'type': 'vmess', 'server': 'qpqg1-g06.jp05-6786-vm0.entry.fr0307a.art', 'port': '46487', 'cipher': 'auto', 'uuid': 'e9537990-d286-3eaf-8596-d74249d3f347', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇸🇬 新加坡_5', 'type': 'ss', 'server': 's-g03.loveroise.com', 'port': '54028', 'password': '09833a6f-4d46-426e-87fe-7793a5489f84', 'cipher': 'chacha20-ietf-poly1305'}
+- {'name': '🇯🇵 日本_7', 'type': 'vmess', 'server': '6akbv-g06.jp05-6786-vm0.entry.fr0307a.art', 'port': '46487', 'cipher': 'auto', 'uuid': 'e9537990-d286-3eaf-8596-d74249d3f347', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇭🇰 香港_2', 'port': '4000', 'server': 'ftq.ink', 'tls': true, 'type': 'http'}
+- {'name': '❓ 未知_6', 'type': 'trojan', 'server': '160.30.21.105', 'port': '443', 'udp': true, 'password': '94d219c9-1afc-4d42-b090-8b3794764380', 'sni': 'std1.loadingip.com', 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_7', 'type': 'vmess', 'server': 'ho8od-g05.jp02-9a99-vm0.entry.fr0307a.art', 'port': '11777', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_8', 'type': 'vmess', 'server': 'ouuo6-g05.jp02-9a99-vm0.entry.fr0307a.art', 'port': '11777', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇸🇬 新加坡_6', 'server': '183.236.51.23', 'port': '41020', 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'cipher': 'auto', 'tls': false, 'skip-cert-verify': false}
+- {'name': '🇯🇵 日本_8', 'type': 'vmess', 'server': 'sdsxh-g01.jp05-6786-vm0.entry.fr0307a.art', 'port': '46482', 'cipher': 'auto', 'uuid': '46d2d389-2469-30ad-9e7a-21f1daa63935', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'type': 'vless', 'name': '🇸🇬 新加坡_7', 'server': '8.222.165.104', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560&proxyip=8.222.165.104:443', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'name': '🇰🇷 韩国_1', 'server': '52.79.248.193', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇯🇵 日本_9', 'server': '13.114.31.63', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '❓ 未知_9', 'type': 'vmess', 'server': 'd4aj6-g05.jp02-9a99-vm0.entry.fr0307a.art', 'port': '11777', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇩🇪 德国', 'type': 'vless', 'server': '167.82.85.155', 'port': '80', 'uuid': '253ef561-9e57-4336-befd-878ddd30df01', 'tls': false, 'servername': 'teleirani.ir', 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'host': 'teleirani.ir'}}, 'alpn': ['h2', 'http/1.1']}
+- {'name': '🇯🇵 日本_10', 'type': 'vmess', 'server': '0i4ui-g03.jp03-7d22-vm0.entry.fr0307a.art', 'port': '21583', 'cipher': 'auto', 'uuid': 'b37b7415-1608-3fcd-aa25-d9cc4aae5ded', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_10', 'type': 'vmess', 'server': '8m08l-g05.jp04-3771-vm0.entry.fr0307a.art', 'port': '448', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_11', 'type': 'vmess', 'server': '7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art', 'port': '444', 'cipher': 'auto', 'uuid': '7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_12', 'type': 'vmess', 'server': 'h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art', 'port': '449', 'cipher': 'auto', 'uuid': '2278146c-8fb0-3683-8300-342238f8a9d0', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_11', 'type': 'vmess', 'server': 't45a7-g03.jp02-9a99-vm0.entry.fr0307a.art', 'port': '11775', 'cipher': 'auto', 'uuid': 'b37b7415-1608-3fcd-aa25-d9cc4aae5ded', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_12', 'server': '54.248.142.136', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇭🇰 香港_3', 'server': 'hk9.ftq.ink', 'port': '4000', 'type': 'http', 'tls': true}
+- {'name': '🇯🇵 日本_13', 'type': 'vmess', 'server': 'qj2f7-g05.jp05-6786-vm0.entry.fr0307a.art', 'port': '46486', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_14', 'type': 'vmess', 'server': 'ybk5g-g06.jp05-6786-vm0.entry.fr0307a.art', 'port': '46487', 'cipher': 'auto', 'uuid': 'e9537990-d286-3eaf-8596-d74249d3f347', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'type': 'vless', 'name': '🇹🇼 台湾', 'server': '210.61.97.241', 'port': '81', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '🇯🇵 日本_15', 'server': '168.138.46.67', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560&proxyip=168.138.46.67:443', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'name': '❓ 未知_13', 'type': 'vmess', 'server': 'or2ws-g05.jp02-9a99-vm0.entry.fr0307a.art', 'port': '11777', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_14', 'type': 'vmess', 'server': 'q8d2y-g05.jp04-3771-vm0.entry.fr0307a.art', 'port': '448', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_16', 'type': 'vmess', 'server': 'wwkzh-g05.jp01-0986-vm0.entry.fr0307a.art', 'port': '21585', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_17', 'type': 'vmess', 'server': 'u0rdb-g01.jp05-6786-vm0.entry.fr0307a.art', 'port': '46482', 'cipher': 'auto', 'uuid': '46d2d389-2469-30ad-9e7a-21f1daa63935', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_15', 'type': 'vmess', 'server': '1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art', 'port': '28788', 'cipher': 'auto', 'uuid': '2278146c-8fb0-3683-8300-342238f8a9d0', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_16', 'type': 'vmess', 'server': 'ig5oa-g06.jp06-7c5a-vm0.entry.fr0307a.art', 'port': '28788', 'cipher': 'auto', 'uuid': 'e9537990-d286-3eaf-8596-d74249d3f347', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_18', 'type': 'vmess', 'server': '5yetu-g05.jp01-0986-vm0.entry.fr0307a.art', 'port': '21585', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_17', 'type': 'trojan', 'server': 'std1.loadingip.com', 'port': '443', 'udp': true, 'password': '94d219c9-1afc-4d42-b090-8b3794764380', 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_19', 'type': 'vmess', 'server': 'tpi1d-g06.jp06-7c5a-vm0.entry.fr0307a.art', 'port': '28788', 'cipher': 'auto', 'uuid': 'e9537990-d286-3eaf-8596-d74249d3f347', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_20', 'type': 'vmess', 'server': 'bitol-g05.jp03-7d22-vm0.entry.fr0307a.art', 'port': '21585', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_21', 'type': 'vmess', 'server': '01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art', 'port': '21581', 'cipher': 'auto', 'uuid': '7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_22', 'server': '57.181.42.233', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇯🇵 日本_23', 'type': 'vmess', 'server': '9n1fh-g05.jp01-0986-vm0.entry.fr0307a.art', 'port': '21585', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_24', 'type': 'vmess', 'server': '7y1vw-g01.jp05-6786-vm0.entry.fr0307a.art', 'port': '46482', 'cipher': 'auto', 'uuid': '46d2d389-2469-30ad-9e7a-21f1daa63935', 'alterId': '1', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_18', 'type': 'vmess', 'server': '99kfe-g01.jp06-7c5a-vm0.entry.fr0307a.art', 'port': '28783', 'cipher': 'auto', 'uuid': '46d2d389-2469-30ad-9e7a-21f1daa63935', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_25', 'type': 'vmess', 'server': '6bn7a-g05.jp01-0986-vm0.entry.fr0307a.art', 'port': '21585', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_19', 'type': 'vmess', 'server': '1npko-g06.jp06-7c5a-vm0.entry.fr0307a.art', 'port': '28788', 'cipher': 'auto', 'uuid': 'e9537990-d286-3eaf-8596-d74249d3f347', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'type': 'vless', 'name': '🇯🇵 日本_26', 'server': '141.147.147.180', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560&proxyip=141.147.147.180:443', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'name': '🇯🇵 日本_27', 'type': 'vmess', 'server': 'bqokc-g06.jp01-0986-vm0.entry.fr0307a.art', 'port': '21586', 'cipher': 'auto', 'uuid': 'e9537990-d286-3eaf-8596-d74249d3f347', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇰🇷 韩国_2', 'server': '3.35.206.24', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '❓ 未知_20', 'type': 'vmess', 'server': 'b1op2-g05.jp06-7c5a-vm0.entry.fr0307a.art', 'port': '28787', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_28', 'type': 'vmess', 'server': 'npm8a-g06.jp01-0986-vm0.entry.fr0307a.art', 'port': '21586', 'cipher': 'auto', 'uuid': 'e9537990-d286-3eaf-8596-d74249d3f347', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇰🇷 韩国_3', 'type': 'hysteria2', 'server': 'tw2.akebi.cc', 'port': '3010', 'password': '338b9800-fb4d-4934-8425-388f6d4342f5', 'sni': 'kr02.akebi.cc', 'skip-cert-verify': false}
+- {'name': '🇭🇰 香港_4', 'type': 'vmess', 'server': '183.236.48.163', 'port': '54882', 'cipher': 'auto', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇯🇵 日本_29', 'type': 'vmess', 'server': 'yb12i-g06.jp03-7d22-vm0.entry.fr0307a.art', 'port': '21586', 'cipher': 'auto', 'uuid': 'e9537990-d286-3eaf-8596-d74249d3f347', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '❓ 未知_21', 'type': 'vmess', 'server': '2k0n1-g01.jp06-7c5a-vm0.entry.fr0307a.art', 'port': '28783', 'cipher': 'auto', 'uuid': '02bf7660-c38f-30b4-b740-2f9b4d717704', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇺🇸 美国_5', 'type': 'ss', 'server': '137.175.113.192', 'port': '8388', 'password': 'asd123456', 'cipher': 'chacha20-ietf'}
+- {'name': '❓ 未知_22', 'type': 'vmess', 'server': 'd6tbr-g05.jp03-7d22-vm0.entry.fr0307a.art', 'port': '21585', 'cipher': 'auto', 'uuid': 'ac7ff9e6-8770-3f96-a818-9fc37daa6c4a', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇺🇸 美国_6', 'server': '35.92.45.179', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇰🇷 韩国_4', 'server': '43.203.127.152', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇯🇵 日本_30', 'type': 'vmess', 'server': 'bxnie-g01.jp03-7d22-vm0.entry.fr0307a.art', 'port': '21581', 'cipher': 'auto', 'uuid': '46d2d389-2469-30ad-9e7a-21f1daa63935', 'alterId': '1', 'tls': true, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇺🇸 美国_7', 'type': 'ss', 'server': '54.245.207.144', 'port': '443', 'password': 'amazonskr05', 'cipher': 'aes-256-cfb'}
+- {'name': '🇺🇸 美国_8', 'type': 'vmess', 'server': '142.0.134.243', 'port': '45017', 'cipher': 'auto', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇺🇸 美国_9', 'server': '35.161.59.194', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'vless', 'name': '🇰🇷 韩国_5', 'server': '132.145.94.80', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '❓ 未知_23', 'server': '129.154.207.203', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'name': '🇺🇸 美国_10', 'type': 'ss', 'server': '34.219.80.203', 'port': '443', 'password': 'amazonskr05', 'cipher': 'aes-256-cfb'}
+- {'name': '🇺🇸 美国_11', 'type': 'ss', 'server': '34.213.200.250', 'port': '443', 'password': 'amazonskr05', 'cipher': 'aes-256-cfb'}
+- {'name': '🇺🇸 美国_12', 'server': '183.236.51.23', 'port': '40434', 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '🇺🇸 美国_13', 'type': 'ss', 'server': '34.222.132.123', 'port': '443', 'password': 'amazonskr05', 'cipher': 'aes-256-cfb'}
+- {'name': '🇸🇬 新加坡_8', 'server': 's-g04.loveroise.com', 'port': '54030', 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '09833a6f-4d46-426e-87fe-7793a5489f84'}
+- {'name': '🇸🇬 新加坡_9', 'server': '120.198.71.214', 'port': '34493', 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'cipher': 'auto', 'tls': false}
+- {'name': '🇸🇬 新加坡_10', 'server': '183.236.51.23', 'port': '51704', 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': '64', 'cipher': 'auto', 'tls': false}
+- {'name': '🇺🇸 美国_14', 'server': '34.211.229.86', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇰🇷 韩国_6', 'server': '52.79.73.137', 'port': '443', 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇺🇸 美国_15', 'server': '194.5.215.59', 'port': '8080', 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'type': 'ss', 'name': '❓ 未知_24', 'server': '52.32.68.164', 'port': '443', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'vless', 'name': '❓ 未知_25', 'server': '198.62.62.54', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560&proxyip=198.62.62.54:443', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '❓ 未知_26', 'server': '198.62.62.198', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '❓ 未知_27', 'server': '198.62.62.34', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '❓ 未知_28', 'server': '198.62.62.0', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560&proxyip=198.62.62.0:443', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '❓ 未知_29', 'server': '198.62.62.14', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '❓ 未知_30', 'server': '69.84.182.104', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '🇺🇸 美国_16', 'server': '69.84.182.101', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'name': '🇺🇸 美国_17', 'type': 'ss', 'server': '34.213.242.165', 'port': '443', 'password': 'amazonskr05', 'cipher': 'aes-256-cfb'}
+- {'type': 'vless', 'name': '🇺🇸 美国_18', 'server': '154.17.21.134', 'port': '18446', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560&proxyip=154.17.21.134:18446', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '🇰🇷 韩国_7', 'server': '116.47.10.236', 'port': '10912', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '❓ 未知_31', 'server': '69.84.182.106', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560&proxyip=69.84.182.106:443', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '🇺🇸 美国_19', 'server': '104.24.51.212', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '🇺🇸 美国_20', 'server': '103.21.244.98', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '❓ 未知_32', 'server': '91.149.239.145', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '❓ 未知_33', 'server': '103.21.244.152', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '🇺🇸 美国_21', 'server': '195.123.240.40', 'port': '81', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+- {'type': 'vless', 'name': '🇺🇸 美国_22', 'server': '104.16.21.216', 'port': '443', 'uuid': '06e4425e-a8cb-4b63-929f-2105604ab0a9', 'skip-cert-verify': true, 'udp': true, 'tls': true, 'network': 'ws', 'servername': 'dsa.bgm2024.us.kg', 'ws-opts': {'path': '/?ed=2560', 'headers': {'host': 'dsa.bgm2024.us.kg'}}}
+
 
 # 代理组
 proxy-groups:
-  - name: 节点选择
+  - name: 🚀 节点选择
     type: select
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/adjust.svg
-    proxies: ["自动选择", "DIRECT", '墨西哥节点', '香港节点', '德国节点', '新加坡节点', '台湾节点', '日本节点', '未知节点', '美国节点', '韩国节点']
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - DIRECT
+    include-all: true
 
-  - name: 自动选择
+  - name: ♻️ 自动选择
     type: url-test
+    lazy: false
+    interval: 300
+    timeout: 5000
     tolerance: 100
-    lazy: true
-    interval: 60
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/speed.svg
-    proxies: ['墨西哥节点', '香港节点', '德国节点', '新加坡节点', '台湾节点', '日本节点', '未知节点', '美国节点', '韩国节点']
+    url: https://www.google.com/gen_204
+    include-all: true
 
-  - name: 谷歌服务
-    type: select
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/google.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '墨西哥节点', '香港节点', '德国节点', '新加坡节点', '台湾节点', '日本节点', '未知节点', '美国节点', '韩国节点']
+  - name: 🚑 故障转移
+    type: fallback
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
 
-  - name: 国外媒体
-    type: select
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/youtube.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '墨西哥节点', '香港节点', '德国节点', '新加坡节点', '台湾节点', '日本节点', '未知节点', '美国节点', '韩国节点']
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    strategy: round-robin
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
 
-  - name: 电报消息
-    type: select
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/telegram.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '墨西哥节点', '香港节点', '德国节点', '新加坡节点', '台湾节点', '日本节点', '未知节点', '美国节点', '韩国节点']
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    strategy: consistent-hashing
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
 
-  - name: 微软服务
+  - name: 🌍 国外媒体
     type: select
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/microsoft.svg
-    proxies: ["全局直连", "节点选择", "自动选择", '墨西哥节点', '香港节点', '德国节点', '新加坡节点', '台湾节点', '日本节点', '未知节点', '美国节点', '韩国节点']
+    proxies:
+      [
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+        "🎯 全球直连",
+      ]
 
-  - name: 苹果服务
+  - name: 📲 电报信息
     type: select
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/apple.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '墨西哥节点', '香港节点', '德国节点', '新加坡节点', '台湾节点', '日本节点', '未知节点', '美国节点', '韩国节点']
+    proxies:
+      [
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+        "🎯 全球直连",
+      ]
 
-  - name: 广告过滤
+  - name: Ⓜ️ 微软服务
     type: select
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/bug.svg
+    proxies:
+      [
+        "🎯 全球直连",
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+      ]
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      [
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+        "🎯 全球直连",
+      ]
+
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      [
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+        "🎯 全球直连",
+      ]
+
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      [
+        "DIRECT",
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+      ]
+
+  - name: 🛑 全球拦截
+    type: select
     proxies: ["REJECT", "DIRECT"]
 
-  - name: 全局直连
+  - name: 🍃 应用净化
     type: select
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/link.svg
-    proxies: ["DIRECT", "节点选择", "自动选择", '墨西哥节点', '香港节点', '德国节点', '新加坡节点', '台湾节点', '日本节点', '未知节点', '美国节点', '韩国节点']
-
-  - name: 全局拦截
-    type: select
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/block.svg
     proxies: ["REJECT", "DIRECT"]
 
-  - name: 漏网之鱼
+  - name: 🐟 漏网之鱼
     type: select
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/fish.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '墨西哥节点', '香港节点', '德国节点', '新加坡节点', '台湾节点', '日本节点', '未知节点', '美国节点', '韩国节点']
+    proxies:
+      [
+        "🚀 节点选择",
+        "♻️ 自动选择",
+        "🚑 故障转移",
+        "⚖️ 负载均衡-轮询",
+        "⚖️ 负载均衡-散列",
+        "🎯 全球直连",
+      ]
 
-  - name: 墨西哥节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/mx.svg
-    hidden: false
-    proxies: ['🇲🇽 墨西哥']
-
-  - name: 香港节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/hk.svg
-    hidden: false
-    proxies: ['🇭🇰 香港_1', '🇭🇰 香港_2', '🇭🇰 香港_3', '🇭🇰 香港_4']
-
-  - name: 德国节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/de.svg
-    hidden: false
-    proxies: ['🇩🇪 德国']
-
-  - name: 新加坡节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/sg.svg
-    hidden: false
-    proxies: ['🇸🇬 新加坡_1', '🇸🇬 新加坡_2', '🇸🇬 新加坡_3', '🇸🇬 新加坡_4', '🇸🇬 新加坡_5', '🇸🇬 新加坡_6', '🇸🇬 新加坡_7', '🇸🇬 新加坡_8', '🇸🇬 新加坡_9', '🇸🇬 新加坡_10']
-
-  - name: 台湾节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/tw.svg
-    hidden: false
-    proxies: ['🇹🇼 台湾']
-
-  - name: 日本节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/jp.svg
-    hidden: false
-    proxies: ['🇯🇵 日本_1', '🇯🇵 日本_2', '🇯🇵 日本_3', '🇯🇵 日本_4', '🇯🇵 日本_5', '🇯🇵 日本_6', '🇯🇵 日本_7', '🇯🇵 日本_8', '🇯🇵 日本_9', '🇯🇵 日本_10', '🇯🇵 日本_11', '🇯🇵 日本_12', '🇯🇵 日本_13', '🇯🇵 日本_14', '🇯🇵 日本_15', '🇯🇵 日本_16', '🇯🇵 日本_17', '🇯🇵 日本_18', '🇯🇵 日本_19', '🇯🇵 日本_20', '🇯🇵 日本_21', '🇯🇵 日本_22', '🇯🇵 日本_23', '🇯🇵 日本_24', '🇯🇵 日本_25', '🇯🇵 日本_26', '🇯🇵 日本_27', '🇯🇵 日本_28', '🇯🇵 日本_29', '🇯🇵 日本_30']
-
-  - name: 未知节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/unknown.svg
-    hidden: false
-    proxies: ['❓ 未知_1', '❓ 未知_2', '❓ 未知_3', '❓ 未知_4', '❓ 未知_5', '❓ 未知_6', '❓ 未知_7', '❓ 未知_8', '❓ 未知_9', '❓ 未知_10', '❓ 未知_11', '❓ 未知_12', '❓ 未知_13', '❓ 未知_14', '❓ 未知_15', '❓ 未知_16', '❓ 未知_17', '❓ 未知_18', '❓ 未知_19', '❓ 未知_20', '❓ 未知_21', '❓ 未知_22', '❓ 未知_23', '❓ 未知_24', '❓ 未知_25', '❓ 未知_26', '❓ 未知_27', '❓ 未知_28', '❓ 未知_29', '❓ 未知_30', '❓ 未知_31', '❓ 未知_32', '❓ 未知_33']
-
-  - name: 美国节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/us.svg
-    hidden: false
-    proxies: ['🇺🇸 美国_1', '🇺🇸 美国_2', '🇺🇸 美国_3', '🇺🇸 美国_4', '🇺🇸 美国_5', '🇺🇸 美国_6', '🇺🇸 美国_7', '🇺🇸 美国_8', '🇺🇸 美国_9', '🇺🇸 美国_10', '🇺🇸 美国_11', '🇺🇸 美国_12', '🇺🇸 美国_13', '🇺🇸 美国_14', '🇺🇸 美国_15', '🇺🇸 美国_16', '🇺🇸 美国_17', '🇺🇸 美国_18', '🇺🇸 美国_19', '🇺🇸 美国_20', '🇺🇸 美国_21', '🇺🇸 美国_22']
-
-  - name: 韩国节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/kr.svg
-    hidden: false
-    proxies: ['🇰🇷 韩国_1', '🇰🇷 韩国_2', '🇰🇷 韩国_3', '🇰🇷 韩国_4', '🇰🇷 韩国_5', '🇰🇷 韩国_6', '🇰🇷 韩国_7']
-
-
-# 规则
+# 规则集
 rule-providers:
-  reject:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
-    path: ./ruleset/loyalsoldier/reject.yaml
-    interval: 86400
-  icloud:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
-    path: ./ruleset/loyalsoldier/icloud.yaml
-    interval: 86400
-  apple:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt
-    path: ./ruleset/loyalsoldier/apple.yaml
-    interval: 86400
-  google:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt
-    path: ./ruleset/loyalsoldier/google.yaml
-    interval: 86400
-  proxy:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
-    path: ./ruleset/loyalsoldier/proxy.yaml
-    interval: 86400
-  direct:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt
-    path: ./ruleset/loyalsoldier/direct.yaml
-    interval: 86400
-  private:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt
-    path: ./ruleset/loyalsoldier/private.yaml
-    interval: 86400
-  gfw:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
-    path: ./ruleset/loyalsoldier/gfw.yaml
-    interval: 86400
-  tld-not-cn:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt
-    path: ./ruleset/loyalsoldier/tld-not-cn.yaml
-    interval: 86400
-  telegramcidr:
-    type: http
-    behavior: ipcidr
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
-    path: ./ruleset/loyalsoldier/telegramcidr.yaml
-    interval: 86400
-  cncidr:
-    type: http
-    behavior: ipcidr
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt
-    path: ./ruleset/loyalsoldier/cncidr.yaml
-    interval: 86400
-  lancidr:
-    type: http
-    behavior: ipcidr
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt
-    path: ./ruleset/loyalsoldier/lancidr.yaml
-    interval: 86400
-  applications:
+  LocalAreaNetwork:
     type: http
     behavior: classical
-    format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt
-    path: ./ruleset/loyalsoldier/applications.yaml
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rulesets/acl4ssr/LocalAreaNetwork.list
+    interval: 86400
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rulesets/acl4ssr/UnBan.list
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./rulesets/acl4ssr/BanAD.list
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./rulesets/acl4ssr/BanProgramAD.list
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./rulesets/acl4ssr/GoogleFCM.list
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rulesets/acl4ssr/GoogleCN.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rulesets/acl4ssr/SteamCN.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./rulesets/acl4ssr/Microsoft.list
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rulesets/acl4ssr/Apple.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rulesets/acl4ssr/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rulesets/acl4ssr/ProxyMedia.list
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rulesets/acl4ssr/ProxyGFWlist.list
+    interval: 86400
+  ChinaIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./rulesets/acl4ssr/ChinaIp.list
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rulesets/acl4ssr/ChinaDomain.list
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rulesets/acl4ssr/ChinaCompanyIp.list
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rulesets/acl4ssr/Download.list
     interval: 86400
 
+# 规则
 rules:
-  # Google
-  - DOMAIN-SUFFIX,googleapis.cn,节点选择
-  - DOMAIN-SUFFIX,gstatic.com,节点选择
-  # Google Play
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
-  # Github Pages
-  - DOMAIN-SUFFIX,github.io,节点选择
-  # V2raySE
-  - DOMAIN,v2rayse.com,节点选择
-  # loyalsoldier 规则集
-  - RULE-SET,reject,广告过滤
-  - RULE-SET,icloud,微软服务
-  - RULE-SET,apple,苹果服务
-  - RULE-SET,google,谷歌服务
-  - RULE-SET,proxy,节点选择
-  - RULE-SET,gfw,节点选择
-  - RULE-SET,tld-not-cn,节点选择
-  - RULE-SET,applications,全局直连
-  - RULE-SET,private,全局直连
-  - RULE-SET,direct,全局直连
-  - RULE-SET,lancidr,全局直连,no-resolve
-  - RULE-SET,cncidr,全局直连,no-resolve
-  - RULE-SET,telegramcidr,电报消息,no-resolve
+  # acl4ssr
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
   # 其他
-  - GEOIP,LAN,全局直连,no-resolve
-  - GEOIP,CN,全局直连,no-resolve
-  - MATCH,漏网之鱼
-
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
