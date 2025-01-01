@@ -166,6 +166,10 @@ proxy-providers:
     type: http
     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/clashfree.yaml'
     path: ./providers/clashfree.yaml
+  trial:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/trial.yaml'
+    path: ./providers/trial.yaml
 
 # 代理组
 proxy-groups:
