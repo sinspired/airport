@@ -127,3 +127,59 @@ data:
     urls:
       - https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml
     output: subs/zhangkaiitugithub.yaml
+  - id: Pawdroid
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub
+    output: subs/Pawdroid.yaml
+  - id: ermaozi
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+      - https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml
+    output: subs/ermaozi.yaml
+  - id: coldwater-10
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub1.txt
+      - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub2.txt
+      - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub3.txt
+      - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub4.txt
+      - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub5.txt
+      - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub6.txt
+      - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub7.txt
+      - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub8.txt
+      - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub9.txt
+      - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub10.txt
+    output: subs/coldwater-10.yaml
+  - id: snakem982
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml
+      - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
+    output: subs/snakem982.yaml
+  - id: ripaojiedian
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/ripaojiedian/freenode/refs/heads/main/clash
+    output: subs/ripaojiedian.yaml
+  - id: clashfree
+    type: github
+    source: clash
+    target: clash
+    urls:
+      - https://github.com/clashfree/clashfree.github.io
+    output: subs/clashfree.yaml
+    options:
+      span: 1209600000
+      exts: .yaml
