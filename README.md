@@ -32,7 +32,7 @@ https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_w
 | 条件        | 条件值                                                                                                |
 | ----------- | ----------------------------------------------------------------------------------------------------- |
 | 🧪 测试条件 | ⏳ 平均延迟 <= `800ms`（测试 `5` 轮，取前`400`个）                                                    |
-| 🔗 测试链接 | 🌐`https://www.youtube.com/gen_204`                                                                   |
+| 🔗 测试链接 | 🌐`http://www.gstatic.com/generate_204`                                                               |
 | 📶 网络环境 | 💻`self-hosted`华北服务器（中国联通）                                                                 |
 | ⏱️ 测试间隔 | ⏱️`4`小时                                                                                             |
 | 📋 测试结果 | 📊[点击预览饼图](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)  |

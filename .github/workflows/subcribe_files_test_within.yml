@@ -29,7 +29,7 @@ jobs:
 
       - name: 测试节点
         run: |
-          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --du https://www.youtube.com/generate_204 --dt 800 --dr 5 --df 800 --top 400 --dn 32 --ff 0.5
+          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --du http://www.gstatic.com/generate_204 --dt 800 --dr 5 --df 800 --top 400 --dn 32 --ff 0.5
 
       - name: 结果统计
         run: |
