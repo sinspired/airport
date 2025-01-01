@@ -13,7 +13,7 @@ jobs:
   test-proxies-within:
     runs-on: [self-hosted, linux, x64]
     steps:
-      # 配置Git代理，防止国内服务器拉取代码失败
+      # 配置Git代理，防止国内服务器拉取Github代码失败
       - name: Git代理
         run: |
           git config --global http.proxy  http://127.0.0.1:7890
@@ -29,7 +29,7 @@ jobs:
 
       - name: 测试节点
         run: |
-          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --du http://www.gstatic.com/generate_204 --dt 800 --dr 5 --df 800 --top 400 --dn 32 --ff 0.5
+          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --du http://www.gstatic.com/generate_204 --dt 800 --dr 5 --df 800 --top 500 --dn 32 --ff 0.5
 
       - name: 结果统计
         run: |
@@ -47,6 +47,7 @@ jobs:
           author_email: "metaST@github.com"
           message: Tested by metaST
 
+      # 部署测试过的节点到本地，细水长流
       - name: 更新self-host主机代理
         run: |
           cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
