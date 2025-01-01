@@ -142,6 +142,30 @@ proxy-providers:
     type: http
     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/zhangkaiitugithub.yaml'
     path: ./providers/zhangkaiitugithub.yaml
+  Pawdroid:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/Pawdroid.yaml'
+    path: ./providers/Pawdroid.yaml
+  ermaozi:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ermaozi.yaml'
+    path: ./providers/ermaozi.yaml
+  coldwater-10:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/coldwater-10.yaml'
+    path: ./providers/coldwater-10.yaml
+  snakem982:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/snakem982.yaml'
+    path: ./providers/snakem982.yaml
+  ripaojiedian:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ripaojiedian.yaml'
+    path: ./providers/ripaojiedian.yaml
+  clashfree:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/clashfree.yaml'
+    path: ./providers/clashfree.yaml
 
 # 代理组
 proxy-groups:
