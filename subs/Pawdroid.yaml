@@ -63,33 +63,36 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '爱尔兰 都柏林Amazon数据中心', 'server': '34.242.67.151', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '美国 CloudFlare节点', 'server': '104.21.82.183', 'port': 8880, 'type': 'vmess', 'uuid': '5a7021e0-26b4-45d6-b175-fe551601ca97', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server26.beheshtbaneh.com'}}}
-- {'name': '波兰 V2CROSS.COM', 'server': '193.243.147.128', 'port': 40368, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '7BcLdsO1WweoGD0X'}
-- {'name': '亚太地区 V2CROSS.COM', 'server': '103.149.183.178', 'port': 27512, 'type': 'vmess', 'uuid': '96d38683-0817-4d91-bffa-6f03df18d9dc', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '美国 内华达州克拉克县亨德森市Enzu股份有限公司', 'server': 'apple.slumbo.com', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'LuxyNetBot'}
-- {'name': '美国 Amazon EC2服务器', 'server': '3.13.196.41', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
-- {'name': '伊朗 V2CROSS.COM', 'server': '92.242.220.22', 'port': 37885, 'type': 'vmess', 'uuid': '8dee19ab-50ce-4d06-be42-5e53c8989ccc', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '广东省广州市 移动', 'server': '183.236.51.23', 'port': 52112, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '俄罗斯 V2CROSS.COM', 'server': '195.133.93.221', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'fitting-ox.boa152.lol'}
-- {'name': '德国 黑森州法兰克福Amazon数据中心', 'server': '18.184.55.249', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
-- {'name': '美国 CloudFlare节点 2', 'server': 'server31.beheshtbaneh.com', 'port': 8880, 'type': 'vmess', 'uuid': '4154143c-bbba-47a4-9f79-c2ed087cbcc9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server31.beheshtbaneh.com'}}}
-- {'name': '美国 纽约州布法罗ColoCrossing数据中心', 'server': '107.175.70.80', 'port': 8848, 'type': 'trojan', 'password': '023f7aa2-d079-40d8-a730-c681947f10bb', 'skip-cert-verify': false}
+- {'name': '美国 加利福尼亚州圣何塞PEG TECH数据中心', 'server': '192.74.247.135', 'port': 37002, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1736043833184', 'headers': {'Host': 'www.13480033.xyz'}}}
+- {'name': '法国 法国计算机科学大学', 'server': '163.5.159.231', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '日本 东京都Amazon数据中心', 'server': 'my01.trojanyyds.xyz', 'port': 443, 'type': 'trojan', 'password': '243eab52-9ac1-405c-887c-eb112c0985b8', 'sni': 'my01.trojanyyds.xyz'}
+- {'name': '美国 V2CROSS.COM', 'server': '199.188.105.57', 'port': 31004, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1736075590186', 'headers': {'Host': 'www.46554484.xyz'}}}
+- {'name': '德国 黑森州法兰克福Amazon数据中心', 'server': '52.29.224.33', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '中国 阿里云', 'server': '8.219.254.97', 'port': 443, 'type': 'vmess', 'uuid': '9b456c2a-f2c1-45e1-87a9-b7628b04bb24', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'beyonddsz.cfd'}}}
+- {'name': '美国 Amazon EC2服务器', 'server': '3.97.189.56', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '广东省江门市 移动', 'server': '120.234.102.229', 'port': 52908, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '法国 巴黎Amazon数据中心', 'server': '35.181.193.45', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 加利福尼亚州圣何塞PEG TECH数据中心 2', 'server': '192.74.242.231', 'port': 38004, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1736075590186', 'headers': {'Host': 'www.70778598.xyz'}}}
 - {'name': '广东省湛江市 移动', 'server': '120.198.71.214', 'port': 34493, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '法国 巴黎Amazon数据中心', 'server': '35.180.223.51', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '英国 社会保险安全部', 'server': '51.20.99.157', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
-- {'name': '匈牙利 V2CROSS.COM', 'server': 'profound-elk.boa152.lol', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'profound-elk.boa152.lol'}
-- {'name': '美国 内华达州克拉克县亨德森市Enzu股份有限公司 2', 'server': '23.88.37.31', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'LuxyNetBot'}
-- {'name': '德国 黑森州法兰克福Amazon数据中心 2', 'server': '52.59.79.198', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 加利福尼亚州圣何塞PEG TECH数据中心 3', 'server': '192.74.240.108', 'port': 31003, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1736040833184', 'headers': {'Host': 'www.73276259.xyz'}}}
+- {'name': '日本 东京都Amazon数据中心 2', 'server': 'sg01.trojanyyds.xyz', 'port': 443, 'type': 'trojan', 'password': '243eab52-9ac1-405c-887c-eb112c0985b8', 'sni': 'sg01.trojanyyds.xyz'}
+- {'name': '澳大利亚 V2CROSS.COM', 'server': '129.154.46.115', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
 - {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '716eded6-2201-4dbd-9d63-1638c9e8e677', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'pendar.onthewifi.com'}}}
-- {'name': '波兰 V2CROSS.COM 2', 'server': '91.206.179.179', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'holy-seahorse.boa152.lol', 'skip-cert-verify': false}
-- {'name': '广东省广州市 移动 2', 'server': '183.236.51.23', 'port': 51704, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '美国 华盛顿Cogent通信公司', 'server': '38.174.190.80', 'port': 38007, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/102206282005'}}
-- {'name': '美国 Amazon EC2服务器 2', 'server': '3.67.25.193', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
-- {'name': '乌克兰 V2CROSS.COM', 'server': '188.191.147.127', 'port': 31348, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6'}
-- {'name': '俄罗斯 V2CROSS.COM 2', 'server': '195.133.93.10', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'social-bream.boa152.lol'}
-- {'name': '爱尔兰 都柏林Amazon数据中心 2', 'server': '54.216.42.168', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '美国 Fastly全球Anycast节点', 'server': 'gov.uk', 'port': 443, 'type': 'vmess', 'uuid': '77848824-93b7-4b89-ffd0-e91afff406ce', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/77848824', 'headers': {'Host': 'zheshiscp.com'}}}
+- {'name': '美国 俄勒冈州波特兰Amazon数据中心', 'server': '18.236.13.188', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '爱尔兰 都柏林Amazon数据中心', 'server': '54.216.28.94', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 加利福尼亚州森尼韦尔市PEG TECH公司', 'server': '142.0.136.8', 'port': 31005, 'type': 'vmess', 'uuid': '051b844f-efe3-4847-92aa-66b5de0b6d4e', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1735984102656', 'headers': {'Host': 'www.99222591.xyz'}}}
+- {'name': '美国 CloudFlare节点', 'server': '172.67.164.232', 'port': 443, 'type': 'vmess', 'uuid': '33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/rongseven?ed=2048', 'headers': {'Host': '33.bycf.us.kg'}}}
+- {'name': '俄罗斯 V2CROSS.COM', 'server': 'social-bream.boa152.lol', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'social-bream.boa152.lol'}
+- {'name': '美国 弗吉尼亚州阿什本Amazon数据中心', 'server': '34.225.195.136', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '英国 V2CROSS.COM', 'server': '5.39.252.204', 'port': 28320, 'type': 'vmess', 'uuid': '9134f093-78ab-4c65-8b05-d9a1b9ba39c9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/'}}
+- {'name': '匈牙利 V2CROSS.COM', 'server': 'boss-hound.boa152.lol', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'boss-hound.boa152.lol', 'skip-cert-verify': false}
+- {'name': '美国 Amazon数据中心', 'server': '18.159.105.97', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '匈牙利 V2CROSS.COM 2', 'server': 'profound-elk.boa152.lol', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'profound-elk.boa152.lol', 'skip-cert-verify': false}
+- {'name': '俄罗斯 新西伯利亚justhost', 'server': '45.8.158.32', 'port': 14556, 'type': 'vmess', 'uuid': '398ce84e-4849-4e5f-9b1a-a56fbe233b81', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/'}}
+- {'name': '美国 V2CROSS.COM 2', 'server': '199.180.103.23', 'port': 37007, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1736075590186', 'headers': {'Host': 'www.35743578.xyz'}}}
+- {'name': '美国 麻省理工学院', 'server': '18.134.223.252', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
+- {'name': '德国 黑森州法兰克福Amazon数据中心 2', 'server': '18.184.55.249', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '法国 巴黎Amazon数据中心 2', 'server': '35.181.77.67', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
 
 
 # 代理组
