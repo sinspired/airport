@@ -63,13 +63,33 @@ geox-url:
 
 # 代理
 proxies: 
+- {'name': '爱尔兰 都柏林Amazon数据中心', 'server': '34.242.67.151', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
 - {'name': '美国 CloudFlare节点', 'server': '104.21.82.183', 'port': 8880, 'type': 'vmess', 'uuid': '5a7021e0-26b4-45d6-b175-fe551601ca97', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server26.beheshtbaneh.com'}}}
 - {'name': '波兰 V2CROSS.COM', 'server': '193.243.147.128', 'port': 40368, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '7BcLdsO1WweoGD0X'}
-- {'name': '俄罗斯 V2CROSS.COM', 'server': '185.242.86.156', 'port': 54170, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '36ZCHeabUSfKjfQEvJ4HDV'}
-- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '2ff97c6d-8557-42a4-b43f-19c77c5959ea', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'irsoft.sytes.net'}}}
-- {'name': '美国 CloudFlare节点 2', 'server': 'www.darkroom.lol', 'port': 8080, 'type': 'vmess', 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'www.darkroom.lol'}}}
+- {'name': '亚太地区 V2CROSS.COM', 'server': '103.149.183.178', 'port': 27512, 'type': 'vmess', 'uuid': '96d38683-0817-4d91-bffa-6f03df18d9dc', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '美国 内华达州克拉克县亨德森市Enzu股份有限公司', 'server': 'apple.slumbo.com', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'LuxyNetBot'}
+- {'name': '美国 Amazon EC2服务器', 'server': '3.13.196.41', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '伊朗 V2CROSS.COM', 'server': '92.242.220.22', 'port': 37885, 'type': 'vmess', 'uuid': '8dee19ab-50ce-4d06-be42-5e53c8989ccc', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '广东省广州市 移动', 'server': '183.236.51.23', 'port': 52112, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '俄罗斯 V2CROSS.COM', 'server': '195.133.93.221', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'fitting-ox.boa152.lol'}
+- {'name': '德国 黑森州法兰克福Amazon数据中心', 'server': '18.184.55.249', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '美国 CloudFlare节点 2', 'server': 'server31.beheshtbaneh.com', 'port': 8880, 'type': 'vmess', 'uuid': '4154143c-bbba-47a4-9f79-c2ed087cbcc9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server31.beheshtbaneh.com'}}}
+- {'name': '美国 纽约州布法罗ColoCrossing数据中心', 'server': '107.175.70.80', 'port': 8848, 'type': 'trojan', 'password': '023f7aa2-d079-40d8-a730-c681947f10bb', 'skip-cert-verify': false}
+- {'name': '广东省湛江市 移动', 'server': '120.198.71.214', 'port': 34493, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '法国 巴黎Amazon数据中心', 'server': '35.180.223.51', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '英国 社会保险安全部', 'server': '51.20.99.157', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '匈牙利 V2CROSS.COM', 'server': 'profound-elk.boa152.lol', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'profound-elk.boa152.lol'}
+- {'name': '美国 内华达州克拉克县亨德森市Enzu股份有限公司 2', 'server': '23.88.37.31', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'LuxyNetBot'}
+- {'name': '德国 黑森州法兰克福Amazon数据中心 2', 'server': '52.59.79.198', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '716eded6-2201-4dbd-9d63-1638c9e8e677', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'pendar.onthewifi.com'}}}
+- {'name': '波兰 V2CROSS.COM 2', 'server': '91.206.179.179', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'holy-seahorse.boa152.lol', 'skip-cert-verify': false}
+- {'name': '广东省广州市 移动 2', 'server': '183.236.51.23', 'port': 51704, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '美国 华盛顿Cogent通信公司', 'server': '38.174.190.80', 'port': 38007, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/102206282005'}}
+- {'name': '美国 Amazon EC2服务器 2', 'server': '3.67.25.193', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '乌克兰 V2CROSS.COM', 'server': '188.191.147.127', 'port': 31348, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6'}
+- {'name': '俄罗斯 V2CROSS.COM 2', 'server': '195.133.93.10', 'port': 443, 'type': 'trojan', 'password': 3723507166611775500, 'sni': 'social-bream.boa152.lol'}
+- {'name': '爱尔兰 都柏林Amazon数据中心 2', 'server': '54.216.42.168', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
 - {'name': '美国 Fastly全球Anycast节点', 'server': 'gov.uk', 'port': 443, 'type': 'vmess', 'uuid': '77848824-93b7-4b89-ffd0-e91afff406ce', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/77848824', 'headers': {'Host': 'zheshiscp.com'}}}
-- {'name': '美国 CloudFlare节点 3', 'server': 'server31.beheshtbaneh.com', 'port': 8880, 'type': 'vmess', 'uuid': '4154143c-bbba-47a4-9f79-c2ed087cbcc9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server31.beheshtbaneh.com'}}}
 
 
 # 代理组
