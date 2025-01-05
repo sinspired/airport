@@ -70,312 +70,439 @@ geox-url:
 
 # 代理列表
 proxies: 
-  - {"name":"🇭🇰 香港_1","server":"bgp.abyssvpn.com","port":"31112","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"❓ 未知_1","server":"112.213.102.228","port":"4231","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false}
-  - {"name":"❓ 未知_2","type":"ss","server":"52.68.44.53","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵 日本_1","server":"3.112.236.3","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇭🇰 香港_2","type":"hysteria2","server":"tw2.akebi.cc","port":"2002","password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"hk03.akebi.cc","skip-cert-verify":false}
-  - {"name":"❓ 未知_3","server":"125.141.26.14","port":"40244","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"type":"ss","name":"🇸🇬 新加坡_1","server":"13.212.194.118","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"❓ 未知_4","server":"p229.panda004.net","port":"40244","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false}
-  - {"name":"🇰🇷 韩国_1","server":"p230.panda004.net","port":"41748","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"🇰🇷 韩国_2","server":"221.150.109.90","port":"41748","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"🇩🇪 德国_1","server":"5.39.252.204","port":"3942","type":"hysteria2","password":"2ba077f8-9732-4eb3-9f16-df4d31b85d0f","auth":"2ba077f8-9732-4eb3-9f16-df4d31b85d0f","up":"100","down":"100","skip-cert-verify":true,"obfs":"salamander","obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ==","udp":true}
-  - {"name":"🇨🇦 加拿大_1","server":"bgp.abyssvpn.com","port":"31161","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"type":"vless","name":"🇹🇼 台湾_1","server":"210.61.97.241","port":"81","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_2","server":"43.156.181.203","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇺🇸 美国_1","server":"cmcc.abyssvpn.com","port":"31159","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇰🇷 韩国_3","server":"218.234.149.9","port":"2105","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false}
-  - {"name":"🇺🇸 美国_2","server":"cmcc.abyssvpn.com","port":"31123","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港_3","server":"hkzl2.stardad.lol","port":"24976","type":"hysteria2","password":"34ed7f56-6e06-4128-a5eb-1e85083572e1","auth":"34ed7f56-6e06-4128-a5eb-1e85083572e1","sni":"https://bing.com","up":"1024","down":"1024","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_3","server":"cucc.abyssvpn.com","port":"31152","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港_4","server":"hk9.ftq.ink","port":"4000","type":"http","tls":true}
-  - {"name":"🇬🇧 英国_1","server":"146.70.61.18","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
-  - {"name":"🇸🇬 新加坡_2","server":"183.236.51.23","port":"54104","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","tls":false,"skip-cert-verify":false}
-  - {"name":"🇺🇸 美国_4","server":"cucc.abyssvpn.com","port":"31125","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇯🇵 日本_2","server":"cmcc.abyssvpn.com","port":"31158","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港_5","type":"vmess","server":"hk0067.alibabaokz.com","port":"60066","cipher":"auto","uuid":"38571ca6-6692-4559-b901-0bc5826b7661","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 新加坡_1","type":"ss","server":"103.36.90.195","port":"8388","password":"asd123456","cipher":"chacha20-ietf"}
+  - {"name":"🇯🇵 日本_1","server":"43.206.231.196","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇯🇵 日本_2","server":"43.207.232.228","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇯🇵 日本_3","server":"107.148.6.121","port":"8388","type":"ss","cipher":"chacha20-ietf","password":"asd123456"}
+  - {"name":"🇭🇰 香港_1","server":"gy.666666222.shop","port":"34338","type":"ss","cipher":"chacha20-ietf-poly1305","password":"49956375-c564-49d2-9175-66672397f44b","udp":true}
+  - {"name":"🇺🇸 美国_1","type":"vmess","server":"120.232.153.63","port":"40565","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 香港_2","server":"112.213.102.228","port":"4231","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false}
+  - {"name":"🇯🇵 日本_4","server":"18.181.162.137","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇭🇰 香港_3","type":"hysteria2","server":"tw2.akebi.cc","port":"2002","password":"338b9800-fb4d-4934-8425-388f6d4342f5","sni":"hk03.akebi.cc","skip-cert-verify":false}
+  - {"type":"vless","name":"🇭🇰 香港_4","server":"43.135.44.101","port":"30002","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇺🇸 美国_2","type":"vmess","server":"120.232.153.63","port":"40972","cipher":"auto","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇷🇺 俄罗斯_1","server":"194.87.68.115","port":"13180","type":"hysteria2","password":"4942d889-a5be-47e6-8936-12c4c490c67b","auth":"4942d889-a5be-47e6-8936-12c4c490c67b","up":"15","down":"15","skip-cert-verify":true,"obfs":"salamander","obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ==","udp":true}
+  - {"name":"❓ 未知_1","server":"54.178.84.59","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇯🇵 日本_5","server":"54.248.142.136","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇭🇰 香港_5","server":"bgp.abyssvpn.com","port":"31113","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇰🇷 韩国_1","server":"221.150.109.90","port":"41748","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"🇷🇺 俄罗斯_2","server":"195.58.49.86","port":"28153","type":"hysteria2","password":"0a0da0fb-8969-4f16-b882-7d80ace1e23e","auth":"0a0da0fb-8969-4f16-b882-7d80ace1e23e","up":"15","down":"15","skip-cert-verify":true,"obfs":"salamander","obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ==","udp":true}
+  - {"type":"vless","name":"🇭🇰 香港_6","server":"43.128.26.74","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇰🇷 韩国_2","server":"p229.panda004.net","port":"40244","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false}
+  - {"type":"ss","name":"🇸🇬 新加坡_2","server":"122.248.193.242","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇫🇷 法国_1","server":"nlzl.stardad.lol","port":"25888","type":"hysteria2","password":"43bf42f4-c33e-41dd-96dc-59e6321761a9","auth":"43bf42f4-c33e-41dd-96dc-59e6321761a9","sni":"https://bing.com","up":"1024","down":"1024","skip-cert-verify":true,"udp":true}
+  - {"name":"🇩🇪 德国_1","type":"vless","server":"167.82.85.155","port":"80","uuid":"253ef561-9e57-4336-befd-878ddd30df01","tls":false,"servername":"teleirani.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"teleirani.ir"}},"alpn":["h2","http/1.1"]}
+  - {"name":"❓ 未知_2","server":"p230.panda004.net","port":"41748","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false}
+  - {"name":"🇭🇰 香港_7","server":"hkzl2.stardad.lol","port":"24976","type":"hysteria2","password":"f93ec4d6-b50a-42ee-92c0-e6de8b83770b","auth":"f93ec4d6-b50a-42ee-92c0-e6de8b83770b","sni":"https://bing.com","up":"1024","down":"1024","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_3","type":"ss","server":"cnexhk.nesx.xyz","port":"563","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸 美国_3","server":"bgp.abyssvpn.com","port":"31122","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_4","server":"cmcc.abyssvpn.com","port":"31121","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_5","server":"cmcc.abyssvpn.com","port":"31107","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_6","server":"bgp.abyssvpn.com","port":"31107","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_7","server":"cmcc.abyssvpn.com","port":"31116","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇺 俄罗斯_3","type":"ss","server":"185.22.155.228","port":"23456","password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"type":"vless","name":"🇹🇼 台湾_1","server":"210.61.97.241","port":"81","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=210.61.97.241:81","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇺🇸 美国_8","server":"cmcc.abyssvpn.com","port":"31129","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_9","server":"uszl1.stardad.lol","port":"25999","type":"hysteria2","password":"5ccfb8ee-8533-42c9-a641-9add4cd6d701","auth":"5ccfb8ee-8533-42c9-a641-9add4cd6d701","sni":"https://bing.com","up":"1024","down":"1024","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_10","server":"cmcc.abyssvpn.com","port":"31159","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇨🇦 加拿大_1","server":"cmcc.abyssvpn.com","port":"31161","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港_8","type":"vmess","server":"183.236.48.163","port":"54882","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼 台湾_2","type":"vless","network":"ws","server":"43.156.181.203","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇺🇸 美国_11","server":"cucc.abyssvpn.com","port":"31116","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_12","server":"cmcc.abyssvpn.com","port":"31126","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_13","server":"bgp.abyssvpn.com","port":"31105","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_14","server":"bgp.abyssvpn.com","port":"31117","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_4","server":"210.217.18.70","port":"3231","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"🇰🇷 韩国_3","server":"125.141.26.14","port":"40244","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"❓ 未知_5","server":"p239.panda004.net","port":"3231","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false}
+  - {"name":"❓ 未知_6","server":"5.39.252.204","port":"3942","type":"hysteria2","password":"2ba077f8-9732-4eb3-9f16-df4d31b85d0f","auth":"2ba077f8-9732-4eb3-9f16-df4d31b85d0f","up":"100","down":"100","skip-cert-verify":true,"obfs":"salamander","obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ==","udp":true}
+  - {"name":"🇺🇸 美国_15","server":"cucc.abyssvpn.com","port":"31151","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇯🇵 日本_6","server":"cmcc.abyssvpn.com","port":"31157","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_16","server":"cmcc.abyssvpn.com","port":"31123","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"ss","name":"🇺🇸 美国_17","server":"107.155.57.11","port":"8080","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
+  - {"name":"🇰🇷 韩国_4","server":"43.203.122.162","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇰🇷 韩国_5","server":"3.35.206.24","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸 美国_18","server":"bgp.abyssvpn.com","port":"31116","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
   - {"name":"🇸🇬 新加坡_3","server":"183.236.51.23","port":"41020","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","tls":false,"skip-cert-verify":false}
-  - {"name":"🇺🇸 美国_5","server":"cmcc.abyssvpn.com","port":"31152","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港_6","server":"gy.666666222.shop","port":"34338","type":"ss","cipher":"chacha20-ietf-poly1305","password":"571fcb13-34f4-46d7-9155-27424052c325","udp":true}
-  - {"name":"🇺🇸 美国_6","server":"cmcc.abyssvpn.com","port":"31124","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_7","server":"cmcc.abyssvpn.com","port":"31117","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_8","server":"cucc.abyssvpn.com","port":"31124","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_9","server":"cmcc.abyssvpn.com","port":"31107","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇰🇷 韩国_4","server":"p239.panda004.net","port":"3231","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"🇺🇸 美国_10","server":"uszl1.stardad.lol","port":"25999","type":"hysteria2","password":"d65cc190-6140-46eb-a62e-59826f81a2f4","auth":"d65cc190-6140-46eb-a62e-59826f81a2f4","sni":"https://bing.com","up":"1024","down":"1024","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港_7","port":"4000","server":"ftq.ink","tls":true,"type":"http"}
-  - {"name":"🇺🇸 美国_11","server":"cucc.abyssvpn.com","port":"31116","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"❓ 未知_5","server":"p234.panda004.net","port":"43249","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"🇭🇰 香港_8","server":"cmcc.abyssvpn.com","port":"31112","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇰🇷 韩国_5","server":"43.203.127.152","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇺🇸 美国_12","server":"cucc.abyssvpn.com","port":"31117","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","sni":"apple.com","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇭🇰 香港_9","server":"cmcc.abyssvpn.com","port":"31111","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇬🇧 英国_2","server":"169.150.210.233","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
-  - {"type":"vless","name":"🇹🇼 台湾_3","server":"132.145.94.80","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇺🇸 美国_13","server":"bgp.abyssvpn.com","port":"31124","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_14","server":"cucc.abyssvpn.com","port":"31106","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_15","server":"cmcc.abyssvpn.com","port":"31126","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"❓ 未知_6","type":"ss","server":"aisalayer-a.upperlay.xyz","port":"566","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
-  - {"name":"🇺🇸 美国_16","server":"cucc.abyssvpn.com","port":"31126","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_17","server":"107.155.57.11","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
-  - {"name":"🇺🇸 美国_18","server":"bgp.abyssvpn.com","port":"31129","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_19","server":"bgp.abyssvpn.com","port":"31123","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇯🇵 日本_3","type":"vless","network":"ws","server":"172.64.146.118","port":"8880","uuid":"25af9eb2-3310-4f2b-bc82-ebea62ba7906","servername":"config-proxy-vl.telegram-config-proxy.workers.dev","skip-cert-verify":false,"tls":false,"tfo":false,"client-fingerprint":"chrome","ws-opts":{"headers":{"Host":"config-proxy-vl.telegram-config-proxy.workers.dev"},"path":"/?ed=2560"}}
-  - {"name":"🇺🇸 美国_20","server":"cmcc.abyssvpn.com","port":"31119","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇦🇹 奥地利","type":"ss","server":"51.15.15.82","port":"989","password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇹🇼 台湾_4","server":"bgp.abyssvpn.com","port":"31101","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_21","server":"34.219.132.251","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"❓ 未知_7","type":"ss","server":"54.245.207.144","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇮🇳 印度_1","server":"bgp.abyssvpn.com","port":"31153","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_22","server":"cmcc.abyssvpn.com","port":"31104","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_23","server":"35.93.31.33","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇰🇷 韩国_6","server":"cmcc.abyssvpn.com","port":"31155","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_24","server":"104.16.76.55","port":"80","client-fingerprint":"chrome","type":"vless","uuid":"5d8bc42a-d345-4bd3-a844-4b90afc44670","tls":false,"tfo":false,"skip-cert-verify":false,"servername":"patient-shadow-baf1-ppal03.hohel98085.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"patient-shadow-baf1-ppal03.hohel98085.workers.dev"}}}
-  - {"name":"🇺🇸 美国_25","server":"cmcc.abyssvpn.com","port":"31120","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇯🇵 日本_4","server":"43.207.232.228","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇺🇸 美国_26","server":"104.16.178.96","port":"80","client-fingerprint":"chrome","type":"vless","uuid":"b8a0fe1a-fbea-4572-a878-20b7f7c98636","tls":false,"tfo":false,"skip-cert-verify":false,"servername":"sweet-glade-2430-ppal03.xasev15708.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"sweet-glade-2430-ppal03.xasev15708.workers.dev"}}}
-  - {"name":"🇰🇷 韩国_7","server":"222.112.15.140","port":"43249","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"🇳🇱 荷兰_1","type":"ss","server":"45.87.175.181","port":"8080","password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇷 韩国_8","server":"168.126.234.233","port":"40915","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"🇺🇸 美国_27","server":"cucc.abyssvpn.com","port":"31119","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"❓ 未知_8","type":"vless","server":"104.18.28.181","port":"8080","uuid":"99678074-122c-46db-97fc-80b604c20158","tls":false,"servername":"shuige2.ywfmu-qx.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"shuige2.ywfmu-qx.workers.dev"}}}
-  - {"name":"🇺🇸 美国_28","server":"bgp.abyssvpn.com","port":"31152","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"type":"ss","name":"🇺🇸 美国_29","server":"35.91.128.246","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇺🇸 美国_30","server":"35.85.36.208","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"❓ 未知_9","server":"34.213.242.165","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"ss","name":"🇺🇸 美国_31","server":"54.202.77.81","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇮🇹 意大利_1","server":"cmcc.abyssvpn.com","port":"31128","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"type":"ss","name":"🇸🇬 新加坡_4","server":"122.248.193.242","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"❓ 未知_10","server":"23.251.121.242","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
-  - {"name":"❓ 未知_11","server":"194.5.215.59","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
-  - {"name":"🇮🇹 意大利_2","server":"cucc.abyssvpn.com","port":"31127","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸 美国_32","server":"45.85.1.180","port":"8854","type":"ss","cipher":"aes-256-gcm","password":"4281147c9qhXaGdSUJ1at"}
-  - {"name":"🇺🇸 美国_33","server":"147.182.215.158","port":"2082","type":"vmess","uuid":"9211eba6-22f8-4a44-8aba-b3e15d7edfbe","alterId":"0","cipher":"auto","tls":false,"network":"http","http-opts":{"method":"GET","path":["/"]}}
-  - {"name":"🇸🇬 新加坡_5","server":"68.183.227.45","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
-  - {"name":"🇩🇪 德国_2","server":"52.59.79.198","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪 德国_3","server":"18.193.180.96","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇰🇷 韩国_9","server":"cucc.abyssvpn.com","port":"31155","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱 荷兰_2","server":"146.190.16.108","port":"23701","type":"vless","uuid":"677a41e5-dbe6-429b-8f91-cc014b1ae1bd","tls":false,"skip-cert-verify":false,"servername":"Speedtest.net","network":"http","http-opts":{"method":"GET","path":["/"],"headers":{"Host":["Speedtest.net"]}}}
-  - {"name":"🇰🇷 韩国_10","server":"52.79.73.137","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇩🇪 德国_4","server":"18.192.248.24","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇷🇺 俄罗斯","type":"ss","server":"185.22.155.228","port":"23456","password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸 美国_34","server":"184.170.241.194","port":"443","type":"ss","cipher":"aes-128-cfb","password":"shadowsocks"}
-  - {"name":"🇺🇸 美国_35","server":"54.186.92.34","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"vless","name":"🇹🇼 台湾_5","server":"103.116.7.100","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_6","server":"154.211.8.109","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇺🇸 美国_36","server":"184.170.241.194","port":"443","type":"ssr","cipher":"aes-128-cfb","password":"shadowsocks","protocol":"origin","obfs":"plain","protocol-param":"","obfs-param":""}
-  - {"name":"🇺🇸 美国_37","type":"vmess","server":"120.232.153.63","port":"40972","cipher":"auto","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷 法国","server":"51.44.100.147","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"type":"vless","name":"🇹🇼 台湾_7","server":"206.238.236.187","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_8","server":"154.211.8.18","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_9","server":"129.154.207.203","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_10","server":"206.238.237.146","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_11","server":"108.165.152.98","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇺🇸 美国_38","server":"35.85.33.177","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"vless","name":"🇹🇼 台湾_12","server":"216.24.57.1","port":"2053","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇰🇷 韩国_11","server":"168.126.234.232","port":"25415","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"🇮🇳 印度_2","server":"cmcc.abyssvpn.com","port":"31154","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"type":"vless","name":"🇹🇼 台湾_13","server":"103.116.7.248","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_14","server":"135.84.64.77","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_15","server":"103.116.7.220","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_16","server":"108.165.152.252","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_17","server":"206.238.237.212","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_18","server":"108.165.152.207","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇳🇱 荷兰_3","type":"ss","server":"208.67.105.87","port":"42501","password":"nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❓ 未知_12","server":"104.21.40.164","port":"8080","client-fingerprint":"chrome","type":"vless","uuid":"636b1684-b26c-4a9c-bc6e-8e1197a36d74","tls":false,"tfo":false,"skip-cert-verify":false,"servername":"workerr.hashdiler.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"workerr.hashdiler.workers.dev"}}}
-  - {"name":"🇺🇸 美国_39","type":"ss","server":"64.74.163.130","port":"990","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
-  - {"type":"vless","name":"🇹🇼 台湾_19","server":"103.116.7.67","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_20","server":"154.211.8.47","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"❓ 未知_13","server":"18.132.163.143","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"name":"❓ 未知_14","server":"3.10.106.168","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"type":"vless","name":"🇹🇼 台湾_21","server":"108.165.152.91","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"❓ 未知_15","server":"35.92.45.179","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇭🇰 香港_10","server":"bgp.abyssvpn.com","port":"31111","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"type":"vless","name":"🇹🇼 台湾_22","server":"154.211.8.220","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇬🇧 英国_3","server":"18.169.36.63","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"type":"ss","name":"❓ 未知_16","server":"52.89.164.115","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"❓ 未知_17","type":"vless","network":"ws","server":"188.114.97.1","port":"80","uuid":"90b3cbba-e6ac-485a-9481-976a0415eab9","servername":"biTter-DArkNEsS-3199.wAKoCi1200.WorkERS.dEv","skip-cert-verify":false,"tls":false,"tfo":false,"client-fingerprint":"chrome","ws-opts":{"headers":{"Host":"biTter-DArkNEsS-3199.wAKoCi1200.WorkERS.dEv"},"path":"/09EpH4tzdpaF2F6Q?ed=2560"}}
-  - {"name":"🇺🇸 美国_40","server":"bgp.abyssvpn.com","port":"31116","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"type":"vless","name":"🇹🇼 台湾_23","server":"154.211.8.227","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_24","server":"103.116.7.133","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇺🇸 美国_41","type":"ss","server":"54.69.180.74","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"type":"vless","name":"🇹🇼 台湾_25","server":"104.129.166.131","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇸🇪 瑞典_1","server":"16.171.105.47","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪 瑞典_2","server":"51.21.36.226","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"type":"vless","name":"🇹🇼 台湾_26","server":"103.116.7.103","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_27","server":"103.116.7.152","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇮🇪 爱尔兰_1","server":"34.242.67.151","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"name":"❓ 未知_18","type":"vless","network":"ws","server":"172.67.163.189","port":"8080","uuid":"dc580147-c87c-4527-bf90-192eb1cf62d1","servername":"stArt.siTEG52770.WorKeRS.deV","skip-cert-verify":false,"tls":false,"tfo":false,"client-fingerprint":"chrome","ws-opts":{"headers":{"Host":"stArt.siTEG52770.WorKeRS.deV"},"path":"/V7zmCPZUuL2T1r5r/MC4wLjAuMA==?ed=2560"}}
-  - {"name":"🇰🇷 韩国_12","server":"3.35.206.24","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇮🇪 爱尔兰_2","server":"34.254.137.107","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪 瑞典_3","server":"13.49.147.7","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪 爱尔兰_3","server":"52.16.234.23","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪 瑞典_4","server":"16.16.242.27","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"name":"❓ 未知_19","type":"vless","server":"151.101.120.121","port":"80","uuid":"0cd2e1d0-bccb-45b1-afe3-6bf19e28a4eb","tls":false,"servername":"JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt","network":"ws","ws-opts":{"path":"@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480","headers":{"host":"JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_28","server":"135.84.74.254","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_29","server":"108.165.152.82","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_30","server":"103.116.7.189","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇰🇷 韩国_13","server":"bgp.abyssvpn.com","port":"31155","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"❓ 未知_20","type":"ss","server":"217.30.10.18","port":"9033","password":"UTJA57ypk2XKQpnm","cipher":"aes-256-cfb"}
-  - {"type":"vless","name":"🇹🇼 台湾_31","server":"92.243.74.2","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇮🇪 爱尔兰_4","server":"54.216.42.168","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧 英国_4","server":"62.100.205.48","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"type":"vless","name":"🇹🇼 台湾_32","server":"92.243.74.239","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇮🇪 爱尔兰_5","server":"54.216.28.94","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"type":"vless","name":"🇹🇼 台湾_33","server":"206.238.236.251","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇵🇱 波兰_1","type":"ss","server":"217.30.10.18","port":"9018","password":"fG2artUmHfNT2cX7","cipher":"aes-256-cfb"}
-  - {"type":"vless","name":"🇹🇼 台湾_34","server":"206.238.236.8","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_35","server":"154.211.8.98","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_36","server":"154.211.8.240","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_37","server":"154.218.15.250","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_38","server":"103.116.7.230","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇵🇱 波兰_2","type":"ss","server":"217.30.10.18","port":"9088","password":"f8npKgNzdkss2ytn","cipher":"aes-256-cfb"}
-  - {"type":"vless","name":"🇹🇼 台湾_39","server":"103.116.7.235","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_40","server":"161.145.150.26","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_41","server":"206.238.237.92","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇳🇴 挪威","server":"51.13.182.236","port":"6870","type":"ss","cipher":"chacha20-ietf-poly1305","password":"M7x1mGNOwhPiRB9jSxZJNy"}
-  - {"type":"vless","name":"🇹🇼 台湾_42","server":"154.211.8.152","port":"2053","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇺🇸 美国_42","type":"vless","network":"ws","server":"104.17.147.22","port":"2052","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","servername":"freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev","tls":false,"ws-opts":{"headers":{"Host":"freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev"},"path":"/WG9SqpThFFMyTenz?ed=2560"}}
-  - {"type":"vless","name":"🇹🇼 台湾_43","server":"108.165.152.59","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"❓ 未知_21","type":"vless","network":"ws","server":"216.24.57.130","port":"8880","uuid":"1b6ae0f5-01dc-4b96-bca9-31c672dcf0aa","servername":"mohsenfitshr.wibibin259.workers.dev","skip-cert-verify":false,"tls":false,"tfo":false,"client-fingerprint":"chrome","ws-opts":{"headers":{"Host":"mohsenfitshr.wibibin259.workers.dev"},"path":"/"}}
-  - {"name":"🇵🇱 波兰_3","type":"ss","server":"217.30.10.18","port":"9064","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
-  - {"name":"🇵🇱 波兰_4","type":"ss","server":"217.30.10.18","port":"9094","password":"rpgbNnU9rDDU4aWZ","cipher":"aes-256-cfb"}
-  - {"name":"❓ 未知_22","server":"35.176.141.111","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"type":"vless","name":"🇹🇼 台湾_44","server":"154.211.8.12","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇵🇱 波兰_5","server":"217.30.10.18","port":"9025","type":"ss","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
-  - {"name":"🇺🇸 美国_43","server":"cucc.abyssvpn.com","port":"31151","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"❓ 未知_23","server":"13.43.18.60","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇯🇵 日本_5","type":"vless","network":"ws","server":"104.18.14.19","port":"2082","uuid":"131387aa-4b2a-43aa-bf7c-d94306ba55fb","servername":"13tg.jpl8xmqb.workers.dev","skip-cert-verify":false,"tls":false,"tfo":false,"client-fingerprint":"chrome","ws-opts":{"headers":{"Host":"13tg.jpl8xmqb.workers.dev"},"path":"/?ed=2560"}}
-  - {"name":"🇵🇱 波兰_6","type":"ss","server":"217.30.10.18","port":"9020","password":"BNmAXXxAHYpTRdzu","cipher":"aes-256-cfb"}
-  - {"type":"vless","name":"🇹🇼 台湾_45","server":"92.243.75.49","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_46","server":"158.180.65.145","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_47","server":"108.165.152.219","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_48","server":"206.238.236.90","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"❓ 未知_24","server":"217.142.243.226","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_49","server":"108.165.152.78","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇩🇪 德国_5","type":"vless","server":"167.82.85.155","port":"80","uuid":"253ef561-9e57-4336-befd-878ddd30df01","tls":false,"servername":"teleirani.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"teleirani.ir"}},"alpn":["h2","http/1.1"]}
-  - {"name":"❓ 未知_25","type":"ss","server":"neweur.upperlay.xyz","port":"630","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
-  - {"type":"vless","name":"🇹🇼 台湾_50","server":"aliyun.2096.us.kg","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇵🇱 波兰_7","server":"217.30.10.18","port":"9010","type":"ss","cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
-  - {"name":"🇺🇸 美国_44","server":"cucc.abyssvpn.com","port":"31129","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"type":"ss","name":"❓ 未知_26","server":"217.30.10.18","port":"9059","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
-  - {"type":"vless","name":"🇹🇼 台湾_51","server":"154.211.8.155","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇩🇪 德国_6","server":"23.88.39.22","port":"22301","type":"ss","cipher":"2022-blake3-aes-256-gcm","password":"TczN1j63KbLamEeXYjNQj7d7I/UPhOZWpJ5qBoI/f10=:NMZX2WajjShpecWvxU5TIsPQGJEaC1rF9zCBsA3thJg="}
-  - {"name":"🇵🇱 波兰_8","server":"217.30.10.18","port":"9079","type":"ss","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"name":"🇺🇸 美国_45","server":"bgp.abyssvpn.com","port":"31122","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"🇵🇱 波兰_9","server":"217.30.10.18","port":"9026","type":"ss","cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
-  - {"name":"🇬🇧 英国_5","server":"zx3.1010520.xyz","port":"18769","type":"ss","cipher":"chacha20-ietf-poly1305","password":"f5136746-de79-46d0-b3be-d15d9992fa07","udp":true}
-  - {"type":"vless","name":"🇹🇼 台湾_52","server":"27.50.48.204","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇵🇱 波兰_10","server":"217.30.10.18","port":"9027","type":"ss","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
-  - {"name":"🇺🇸 美国_46","server":"bgp.abyssvpn.com","port":"31151","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"name":"❓ 未知_27","type":"ss","server":"usastart-a.upperlay.xyz","port":"575","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
-  - {"type":"vless","name":"🇹🇼 台湾_53","server":"91.239.148.133","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_54","server":"27.50.49.154","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_55","server":"27.50.49.208","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"❓ 未知_28","server":"34.249.240.107","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"name":"❓ 未知_29","type":"ss","server":"usastart-a.upperlay.xyz","port":"573","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
-  - {"type":"vless","name":"🇹🇼 台湾_56","server":"27.50.48.189","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"ss","name":"🇳🇱 荷兰_4","server":"beesyar.org","port":"8080","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa"}
-  - {"name":"🇵🇱 波兰_11","type":"trojan","server":"holy-seahorse.boa152.lol","port":"443","sni":"holy-seahorse.boa152.lol","password":"3723507166611775488","skip-cert-verify":true}
-  - {"type":"vless","name":"🇹🇼 台湾_57","server":"27.50.49.242","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"❓ 未知_30","server":"34.211.229.86","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"vless","name":"🇹🇼 台湾_58","server":"27.50.48.115","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"❓ 未知_31","type":"ss","server":"usastart-a.upperlay.xyz","port":"572","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
-  - {"type":"vless","name":"🇹🇼 台湾_59","server":"27.50.48.18","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇩🇪 德国_7","server":"23.88.37.31","port":"443","type":"ss","cipher":"chacha20-ietf-poly1305","password":"LuxyNetBot"}
-  - {"type":"vless","name":"🇹🇼 台湾_60","server":"27.50.48.61","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇺🇸 美国_47","server":"bgp.abyssvpn.com","port":"31121","type":"hysteria2","password":"772a076a-f5b6-4c37-908e-69be284ee198","auth":"772a076a-f5b6-4c37-908e-69be284ee198","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
-  - {"type":"vless","name":"🇹🇼 台湾_61","server":"27.50.49.188","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇱🇻 拉脱维亚","type":"ss","server":"46.183.217.232","port":"990","password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"type":"vless","name":"🇹🇼 台湾_62","server":"167.68.4.131","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇳🇱 荷兰_5","type":"trojan","server":"concrete-buzzard.boa152.lol","port":"443","udp":true,"password":"3723507166611775488","sni":"concrete-buzzard.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_32","type":"ss","server":"usastart-a.upperlay.xyz","port":"574","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"❓ 未知_7","server":"23.157.40.113","port":"4444","type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"❓ 未知_8","type":"ss","server":"23.157.40.113","port":"8080","password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇰🇷 韩国_6","server":"43.203.127.152","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"❓ 未知_9","type":"ss","server":"23.157.40.113","port":"8882","password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇰🇷 韩国_7","server":"168.126.234.233","port":"40915","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"❓ 未知_10","server":"137.175.113.215","port":"8388","type":"ss","cipher":"chacha20-ietf","password":"asd123456"}
+  - {"name":"🇯🇵 日本_7","server":"jpzl2.stardad.lol","port":"48512","type":"hysteria2","password":"d367cfe7-d3dc-4927-b8e8-3f027d520a46","auth":"d367cfe7-d3dc-4927-b8e8-3f027d520a46","sni":"https://bing.com","up":"1024","down":"1024","skip-cert-verify":true,"udp":true}
+  - {"type":"vless","name":"🇰🇷 韩国_8","server":"121.145.59.207","port":"10201","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"❓ 未知_11","type":"ss","server":"23.157.40.113","port":"9090","password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"❓ 未知_12","type":"ss","server":"23.157.40.113","port":"443","password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"❓ 未知_13","type":"ss","server":"aisalayer-a.upperlay.xyz","port":"569","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸 美国_19","server":"cmcc.abyssvpn.com","port":"31104","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_20","server":"bgp.abyssvpn.com","port":"31126","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_21","server":"cucc.abyssvpn.com","port":"31159","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_14","type":"ss","server":"cmlayer2.exitlag.xyz","port":"565","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇯🇵 日本_8","server":"cmcc.abyssvpn.com","port":"31158","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_15","server":"23.157.40.113","port":"5499","type":"ss","cipher":"aes-256-gcm","password":"lGqs95QkFHo2NV"}
+  - {"name":"🇸🇬 新加坡_4","server":"183.236.51.23","port":"54104","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","tls":false,"skip-cert-verify":false}
+  - {"name":"🇺🇸 美国_22","server":"cmcc.abyssvpn.com","port":"31152","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_16","server":"23.157.40.113","port":"2376","type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷 韩国_9","server":"52.79.73.137","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸 美国_23","type":"ss","server":"137.175.113.192","port":"8388","password":"asd123456","cipher":"chacha20-ietf"}
+  - {"name":"🇺🇸 美国_24","server":"cucc.abyssvpn.com","port":"31105","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_17","server":"23.157.40.113","port":"6379","type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"❓ 未知_18","type":"ss","server":"23.157.40.113","port":"5004","password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇭🇰 香港_9","server":"212.192.12.70","port":"32902","type":"hysteria2","password":"015322ea-6674-4900-94f3-e71a2d47fcff","auth":"015322ea-6674-4900-94f3-e71a2d47fcff","up":"100","down":"100","skip-cert-verify":true,"obfs":"salamander","obfs-password":"YzcwOTNlODc4NDIzMWMyMg==","udp":true}
+  - {"name":"🇺🇸 美国_25","server":"bgp.abyssvpn.com","port":"31106","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_26","server":"cucc.abyssvpn.com","port":"31106","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_27","server":"cucc.abyssvpn.com","port":"31122","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_28","server":"cmcc.abyssvpn.com","port":"31124","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"vless","name":"🇰🇷 韩国_10","server":"116.47.10.236","port":"10912","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=116.47.10.236:10912","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇺🇸 美国_29","type":"ss","server":"38.75.136.21","port":"6379","password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_30","type":"ss","server":"38.75.136.21","port":"8888","password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"❓ 未知_19","type":"ss","server":"38.75.136.21","port":"6679","password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_31","type":"ss","server":"38.75.136.21","port":"5004","password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_32","type":"ss","server":"38.75.136.21","port":"3389","password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_33","type":"ss","server":"38.75.136.21","port":"7307","password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_34","type":"ss","server":"38.75.136.21","port":"3306","password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_35","type":"ss","server":"38.75.136.21","port":"5600","password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"❓ 未知_20","type":"ss","server":"38.75.136.21","port":"7001","password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_36","type":"ss","server":"38.75.136.21","port":"5000","password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_37","type":"ss","server":"38.75.136.21","port":"7002","password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_38","type":"ss","server":"38.75.136.21","port":"8009","password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_39","server":"cucc.abyssvpn.com","port":"31107","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_40","server":"cmcc.abyssvpn.com","port":"31122","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_41","type":"ss","server":"38.75.136.21","port":"8882","password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇯🇵 日本_9","server":"bgp.abyssvpn.com","port":"31158","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇯🇵 日本_10","server":"bgp.abyssvpn.com","port":"31157","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_21","type":"ss","server":"23.157.40.113","port":"8008","password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇹🇼 台湾_3","server":"cmcc.abyssvpn.com","port":"31101","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇰🇷 韩国_11","server":"218.234.149.9","port":"2105","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false}
+  - {"name":"🇭🇰 香港_10","server":"hk9.ftq.ink","port":"4000","type":"http","tls":true}
+  - {"name":"🇭🇰 香港_11","server":"cucc.abyssvpn.com","port":"31111","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇸🇬 新加坡_5","server":"120.198.71.214","port":"34493","type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","tls":false}
+  - {"name":"🇭🇰 香港_12","server":"cmcc.abyssvpn.com","port":"31114","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港_13","port":"4000","server":"ftq.ink","tls":true,"type":"http"}
+  - {"name":"🇨🇦 加拿大_2","server":"bgp.abyssvpn.com","port":"31161","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_42","server":"cmcc.abyssvpn.com","port":"31117","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_43","server":"cucc.abyssvpn.com","port":"31121","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_44","server":"cucc.abyssvpn.com","port":"31125","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"vless","name":"🇹🇼 台湾_4","server":"129.154.207.203","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇨🇦 加拿大_3","server":"cucc.abyssvpn.com","port":"31161","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇺 俄罗斯_4","server":"195.58.49.42","port":"28153","type":"hysteria2","password":"b159ac71-2038-423f-b79a-8c6ab5a9b684","auth":"b159ac71-2038-423f-b79a-8c6ab5a9b684","up":"15","down":"15","skip-cert-verify":true,"obfs":"salamander","obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ==","udp":true}
+  - {"name":"🇭🇰 香港_14","server":"cmcc.abyssvpn.com","port":"31112","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港_15","server":"cmcc.abyssvpn.com","port":"31111","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_22","server":"23.157.40.113","port":"7001","type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇷🇺 俄罗斯_5","server":"195.58.49.50","port":"28153","type":"hysteria2","password":"349faaa2-f810-40d2-bf25-0ddacbce6e82","auth":"349faaa2-f810-40d2-bf25-0ddacbce6e82","up":"15","down":"15","skip-cert-verify":true,"obfs":"salamander","obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ==","udp":true}
+  - {"name":"🇺🇸 美国_45","server":"cucc.abyssvpn.com","port":"31126","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港_16","server":"cmcc.abyssvpn.com","port":"31113","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_46","server":"cucc.abyssvpn.com","port":"31117","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","sni":"apple.com","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_47","server":"bgp.abyssvpn.com","port":"31104","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_23","type":"ss","server":"aisalayer-b.upperlay.xyz","port":"570","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸 美国_48","server":"cmcc.abyssvpn.com","port":"31125","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇰🇷 韩国_12","server":"kr.stardad.lol","port":"23656","type":"hysteria2","password":"43bf42f4-c33e-41dd-96dc-59e6321761a9","auth":"43bf42f4-c33e-41dd-96dc-59e6321761a9","sni":"https://bing.com","up":"1024","down":"1024","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_49","server":"cmcc.abyssvpn.com","port":"31151","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_50","server":"cmcc.abyssvpn.com","port":"31106","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_24","type":"ss","server":"23.157.40.113","port":"8009","password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_51","server":"cmcc.abyssvpn.com","port":"31119","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_52","server":"bgp.abyssvpn.com","port":"31152","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇸🇬 新加坡_6","server":"gdgs.tarioblink.me","port":"30003","type":"ss","cipher":"chacha20-ietf-poly1305","password":"ba9d2c35-523c-459e-b288-b7103d106d29"}
+  - {"name":"❓ 未知_25","type":"ss","server":"23.157.40.113","port":"8118","password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇮🇳 印度_1","server":"bgp.abyssvpn.com","port":"31154","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇹🇼 台湾_5","type":"vless","network":"ws","server":"132.145.94.80","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇺🇸 美国_53","server":"cucc.abyssvpn.com","port":"31104","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_54","server":"cucc.abyssvpn.com","port":"31124","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_55","server":"54.201.172.79","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"❓ 未知_26","type":"ss","server":"23.157.40.113","port":"5000","password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"type":"ss","name":"🇸🇬 新加坡_7","server":"13.212.194.118","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇰🇷 韩国_13","server":"3.38.212.48","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸 美国_56","type":"ss","server":"34.222.132.123","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 美国_57","server":"cucc.abyssvpn.com","port":"31129","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_58","server":"cmcc.abyssvpn.com","port":"31105","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_59","server":"cmcc.abyssvpn.com","port":"31120","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇰🇷 韩国_14","server":"cmcc.abyssvpn.com","port":"31155","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_27","type":"ss","server":"series-a2.samanehha.co","port":"443","password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国_60","server":"35.85.33.177","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"❓ 未知_28","type":"ss","server":"cnrefhk2.exitlag.xyz","port":"564","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇮🇹 意大利_1","server":"bgp.abyssvpn.com","port":"31110","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_61","server":"194.5.215.59","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
+  - {"name":"🇮🇹 意大利_2","server":"cmcc.abyssvpn.com","port":"31127","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇮🇹 意大利_3","server":"cmcc.abyssvpn.com","port":"31110","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇮🇹 意大利_4","server":"cmcc.abyssvpn.com","port":"31128","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_62","type":"ss","server":"54.244.200.142","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"❓ 未知_29","server":"23.157.40.113","port":"8888","type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸 美国_63","server":"34.216.172.180","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇯🇵 日本_11","server":"cucc.abyssvpn.com","port":"31158","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_30","server":"63.176.111.42","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸 美国_64","server":"184.170.241.194","port":"443","type":"ssr","cipher":"aes-128-cfb","password":"shadowsocks","protocol":"origin","obfs":"plain","protocol-param":"","obfs-param":""}
+  - {"name":"🇮🇳 印度_2","server":"cmcc.abyssvpn.com","port":"31153","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_65","server":"cucc.abyssvpn.com","port":"31120","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇰🇷 韩国_15","server":"bgp.abyssvpn.com","port":"31155","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_66","type":"ss","server":"184.170.241.194","port":"443","password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {"name":"🇸🇬 新加坡_8","type":"ss","server":"103.36.91.32","port":"8388","password":"asd123456","cipher":"chacha20-ietf"}
+  - {"name":"🇮🇹 意大利_5","server":"cucc.abyssvpn.com","port":"31110","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港_17","server":"154.3.8.151","port":"30067","type":"ss","cipher":"aes-256-gcm","password":"iUB0923RBA"}
+  - {"type":"ss","name":"❓ 未知_31","server":"35.91.128.246","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇮🇳 印度_3","server":"cmcc.abyssvpn.com","port":"31154","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_32","type":"ss","server":"23.157.40.113","port":"8091","password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇬🇧 英国_1","server":"146.70.61.18","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
+  - {"name":"🇮🇹 意大利_6","server":"cucc.abyssvpn.com","port":"31127","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_67","server":"38.110.1.46","port":"8091","type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"❓ 未知_33","server":"3.74.58.173","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸 美国_68","server":"38.110.1.46","port":"5500","type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"❓ 未知_34","type":"ss","server":"23.157.40.113","port":"7307","password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱 荷兰_1","server":"146.190.16.108","port":"23701","type":"vless","uuid":"677a41e5-dbe6-429b-8f91-cc014b1ae1bd","tls":false,"skip-cert-verify":false,"servername":"Speedtest.net","network":"http","http-opts":{"method":"GET","path":["/"],"headers":{"Host":["Speedtest.net"]}}}
+  - {"name":"❓ 未知_35","type":"ss","server":"23.157.40.113","port":"8119","password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_69","type":"ss","server":"54.69.180.74","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 美国_70","server":"38.110.1.46","port":"6379","type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸 美国_71","server":"54.186.92.34","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸 美国_72","type":"ss","server":"38.110.1.46","port":"8080","password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇸🇬 新加坡_9","server":"68.183.227.45","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
+  - {"type":"vless","name":"🇺🇸 美国_73","server":"23.94.25.245","port":"15182","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=23.94.25.245:15182","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇺🇸 美国_74","server":"54.200.223.152","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇸🇬 新加坡_10","server":"54.179.186.199","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇹🇼 台湾_6","type":"vless","network":"ws","server":"92.243.75.49","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇺🇸 美国_75","server":"34.211.229.86","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"vless","name":"❓ 未知_36","server":"192.9.157.76","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=192.9.157.76:443","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"type":"ss","name":"🇺🇸 美国_76","server":"38.110.1.46","port":"2376","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸 美国_77","server":"38.110.1.46","port":"443","type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇹🇼 台湾_7","type":"vless","network":"ws","server":"154.211.8.12","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"❓ 未知_37","server":"150.230.42.80","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=150.230.42.80:443","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇫🇷 法国_2","server":"35.180.223.51","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧 英国_2","server":"62.100.205.48","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"❓ 未知_38","server":"15.237.4.86","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇻🇳 越南_1","server":"cucc.abyssvpn.com","port":"31103","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇯🇵 日本_12","server":"52.194.212.235","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸 美国_78","server":"64.74.163.130","port":"990","type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇷🇺 俄罗斯_6","server":"194.87.69.52","port":"28153","type":"hysteria2","password":"df1f258b-bdc6-49ef-bd07-df6651d77a11","auth":"df1f258b-bdc6-49ef-bd07-df6651d77a11","up":"100","down":"100","skip-cert-verify":true,"obfs":"salamander","obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ==","udp":true}
+  - {"name":"🇳🇱 荷兰_2","type":"ss","server":"51.15.15.82","port":"989","password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 美国_79","server":"35.93.31.33","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"❓ 未知_39","server":"13.39.41.147","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"type":"ss","name":"🇺🇸 美国_80","server":"35.85.36.208","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇸🇬 新加坡_11","type":"ss","server":"aisalayer-b.upperlay.xyz","port":"569","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"❓ 未知_40","server":"3.10.136.248","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇭🇰 香港_18","server":"bgp.abyssvpn.com","port":"31112","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_41","server":"18.171.7.151","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"type":"vless","name":"🇺🇸 美国_81","server":"172.82.16.99","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇭🇰 香港_19","server":"cucc.abyssvpn.com","port":"31113","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港_20","server":"cucc.abyssvpn.com","port":"31112","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_82","server":"166.88.159.225","port":"28153","type":"hysteria2","password":"02c09035-56d8-4baa-9c0a-63cf58ec5bb6","auth":"02c09035-56d8-4baa-9c0a-63cf58ec5bb6","up":"15","down":"15","skip-cert-verify":true,"obfs":"salamander","obfs-password":"MzU2MTQ1ZGUyYmNjNWEyOA==","udp":true}
+  - {"name":"🇺🇸 美国_83","server":"bgp.abyssvpn.com","port":"31159","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇧🇬 保加利亚","server":"185.190.250.103","port":"57328","type":"ss","cipher":"chacha20-ietf-poly1305","password":"xzlOqy2v6vJ0XvFTN8zIBH"}
+  - {"type":"vless","name":"🇺🇸 美国_84","server":"154.17.21.134","port":"18446","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"❓ 未知_42","server":"23.157.40.113","port":"5600","type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇮🇹 意大利_7","server":"bgp.abyssvpn.com","port":"31128","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_43","server":"77.105.147.212","port":"55098","type":"ss","cipher":"chacha20-ietf-poly1305","password":"NChVdloynewtqS0847jui6PQejHLO3gUuw1tnUmYVPI="}
+  - {"name":"🇮🇪 爱尔兰_1","server":"63.32.120.6","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇳 印度_4","server":"cucc.abyssvpn.com","port":"31154","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇻🇳 越南_2","server":"cmcc.abyssvpn.com","port":"31103","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"ss","name":"🇺🇸 美国_85","server":"54.202.77.81","port":"443","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇮🇳 印度_5","server":"bgp.abyssvpn.com","port":"31153","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_86","server":"bgp.abyssvpn.com","port":"31129","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇭🇰 香港_21","server":"bgp.abyssvpn.com","port":"31111","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇵🇱 波兰_1","server":"217.30.10.18","port":"9079","type":"ss","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"name":"🇹🇼 台湾_8","type":"vless","network":"ws","server":"217.142.243.226","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇷🇺 俄罗斯_7","server":"195.58.49.50","port":"45751","type":"vmess","uuid":"6c296df6-2e05-4a1f-9e91-073f4d7e9c3b","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"},"udp":true}
+  - {"name":"❓ 未知_44","server":"3.29.96.221","port":"443","type":"ss","cipher":"chacha20-ietf-poly1305","password":"u17T3BvpYaaiuW2c"}
+  - {"name":"🇵🇱 波兰_2","type":"ss","server":"217.30.10.18","port":"9003","password":"JdmRK9gMEqFgs8nP","cipher":"aes-256-cfb"}
+  - {"name":"🇵🇱 波兰_3","type":"ss","server":"217.30.10.18","port":"9056","password":"rNBfNuuANFCAk7KB","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 美国_87","server":"phx-plus-1ddns.faforex.eu.org","port":"18443","type":"vless","uuid":"311faab5-5e89-4f41-b2a4-ca4452508cc6","tls":true,"skip-cert-verify":false,"client-fingerprint":"safari","servername":"www.tesla.com","reality-opts":{"public-key":"8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s","short-id":"e6658462"},"udp":true}
+  - {"name":"❓ 未知_45","type":"ss","server":"aisalayer-b.upperlay.xyz","port":"571","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸 美国_88","type":"ss","server":"54.245.207.144","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 美国_89","server":"34.213.242.165","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇮🇳 印度_6","server":"cucc.abyssvpn.com","port":"31153","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇵🇱 波兰_4","type":"ss","server":"217.30.10.18","port":"9041","password":"U6qnYRhfyDmn8sgn","cipher":"aes-256-cfb"}
+  - {"name":"🇵🇱 波兰_5","type":"ss","server":"217.30.10.18","port":"9037","password":"TN2YqghxeFDKZfLU","cipher":"aes-256-cfb"}
+  - {"type":"vless","name":"🇺🇸 美国_90","server":"195.123.240.40","port":"81","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=195.123.240.40:81","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"❓ 未知_46","type":"vless","network":"ws","server":"103.116.7.235","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇬🇧 英国_3","server":"169.150.210.233","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
+  - {"type":"ss","name":"🇵🇱 波兰_6","server":"217.30.10.18","port":"9059","cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
+  - {"type":"vless","name":"❓ 未知_47","server":"104.19.57.183","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇺🇸 美国_91","server":"bgp.abyssvpn.com","port":"31121","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇹🇼 台湾_9","server":"cucc.abyssvpn.com","port":"31101","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"vless","name":"❓ 未知_48","server":"172.64.154.45","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇸🇪 瑞典_1","server":"13.61.137.105","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"type":"ss","name":"❓ 未知_49","server":"series-a1.samanehha.co","port":"443","cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA"}
+  - {"type":"vless","name":"❓ 未知_50","server":"129.146.171.186","port":"8443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇵🇱 波兰_7","type":"ss","server":"217.30.10.18","port":"9006","password":"FAdUvMJUq5vDgKEq","cipher":"aes-256-cfb"}
+  - {"name":"🇯🇵 日本_13","server":"cucc.abyssvpn.com","port":"31157","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_92","server":"bgp.abyssvpn.com","port":"31119","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_51","type":"ss","server":"series-a2.varzesh360.co","port":"443","password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾_10","type":"vless","network":"ws","server":"158.180.65.145","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇵🇱 波兰_8","type":"ss","server":"217.30.10.18","port":"9042","password":"S7KwUu7yBy58S3Ga","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 美国_93","server":"38.110.1.46","port":"5000","type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇹🇼 台湾_11","type":"vless","network":"ws","server":"168.138.46.67","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_52","type":"vless","network":"ws","server":"167.68.4.131","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇺🇸 美国_94","server":"bgp.abyssvpn.com","port":"31125","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"vless","name":"🇺🇸 美国_95","server":"129.146.46.164","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=129.146.46.164:443","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇳🇱 荷兰_3","server":"89.185.85.227","port":"19262","type":"ss","cipher":"chacha20-ietf-poly1305","password":"0goatjlGmKeKt9En6vfsJF"}
+  - {"name":"🇩🇪 德国_2","server":"5.39.252.204","port":"28320","type":"vmess","uuid":"9134f093-78ab-4c65-8b05-d9a1b9ba39c9","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰 香港_22","server":"bgp.abyssvpn.com","port":"31114","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"vless","name":"🇹🇼 台湾_12","server":"37.123.193.101","port":"17475","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇺🇸 美国_96","server":"cucc.abyssvpn.com","port":"31152","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_97","type":"ss","server":"usastart-a.upperlay.xyz","port":"574","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸 美国_98","server":"bgp.abyssvpn.com","port":"31124","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇰🇷 韩国_16","server":"cucc.abyssvpn.com","port":"31155","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇹🇼 台湾_13","type":"vless","network":"ws","server":"206.238.236.251","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_14","type":"vless","network":"ws","server":"206.238.236.90","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇺🇸 美国_99","server":"bgp.abyssvpn.com","port":"31151","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"vless","name":"🇹🇼 台湾_15","server":"27.50.49.209","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"type":"vless","name":"🇹🇼 台湾_16","server":"27.50.49.179","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"type":"vless","name":"🇹🇼 台湾_17","server":"27.50.48.204","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"❓ 未知_53","type":"ss","server":"series-a2-me.varzesh360.co","port":"443","password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"❓ 未知_54","type":"ss","server":"neweur.upperlay.xyz","port":"633","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸 美国_100","server":"cucc.abyssvpn.com","port":"31123","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"vless","name":"🇹🇼 台湾_18","server":"27.50.49.224","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇷🇺 俄罗斯_8","server":"195.58.49.86","port":"45751","type":"vmess","uuid":"acc7a0c7-f5a4-48a2-bba9-c0e3acef88b3","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"vless","name":"❓ 未知_55","server":"198.62.62.0","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=198.62.62.0:443","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"type":"vless","name":"❓ 未知_56","server":"104.129.166.131","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇯🇵 日本_14","type":"vmess","server":"oci.cbu.net","port":"443","cipher":"auto","uuid":"87ae2ebc-3e45-33d9-8ed3-61a337d88888","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇹🇼 台湾_19","type":"vless","network":"ws","server":"154.211.8.98","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇳🇱 荷兰_4","type":"ss","server":"208.67.105.87","port":"42501","password":"nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"❓ 未知_57","type":"ss","server":"cntwlayer1.labexit.xyz","port":"571","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇹🇼 台湾_20","type":"vless","network":"ws","server":"206.238.236.187","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_21","type":"vless","network":"ws","server":"108.165.152.252","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"🇹🇼 台湾_22","server":"104.19.57.203","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇮🇹 意大利_8","server":"cucc.abyssvpn.com","port":"31128","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸 美国_101","server":"bgp.abyssvpn.com","port":"31123","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"vless","name":"🇹🇼 台湾_23","server":"27.50.48.61","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"❓ 未知_58","type":"vless","network":"ws","server":"206.238.237.86","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"🇺🇸 美国_102","server":"69.84.182.101","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇹🇼 台湾_24","type":"vless","network":"ws","server":"103.116.7.220","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"🇹🇼 台湾_25","server":"27.50.49.47","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇻🇳 越南_3","server":"bgp.abyssvpn.com","port":"31103","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"type":"vless","name":"🇺🇸 美国_103","server":"104.16.21.216","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇹🇼 台湾_26","type":"vless","network":"ws","server":"103.116.7.248","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇷🇺 俄罗斯_9","server":"194.87.69.52","port":"45751","type":"vmess","uuid":"80d7606b-9755-42c2-9485-4722733fbde8","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇹🇼 台湾_27","type":"vless","network":"ws","server":"161.145.150.26","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"🇹🇼 台湾_28","server":"27.50.49.208","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"type":"vless","name":"❓ 未知_59","server":"130.250.137.107","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=130.250.137.107:443","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇹🇼 台湾_29","type":"vless","network":"ws","server":"103.116.7.67","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_30","type":"vless","network":"ws","server":"206.238.237.212","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_60","server":"40.172.72.91","port":"443","type":"ss","cipher":"chacha20-ietf-poly1305","password":"u17T3BvpYaaiuW2c"}
+  - {"type":"vless","name":"🇺🇸 美国_104","server":"104.16.238.121","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇹🇼 台湾_31","type":"vless","network":"ws","server":"103.116.7.152","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"🇺🇸 美国_105","server":"198.62.62.14","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"type":"vless","name":"❓ 未知_61","server":"45.67.215.0","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"type":"vless","name":"❓ 未知_62","server":"198.62.62.228","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=198.62.62.228:443","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"type":"vless","name":"❓ 未知_63","server":"130.250.137.5","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=130.250.137.5:443","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇹🇼 台湾_32","type":"vless","network":"ws","server":"154.211.8.152","port":"2053","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_33","type":"vless","network":"ws","server":"108.165.152.82","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"🇹🇼 台湾_34","server":"27.50.48.115","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"type":"vless","name":"🇺🇸 美国_106","server":"135.84.76.44","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"type":"vless","name":"🇹🇼 台湾_35","server":"27.50.49.154","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇹🇼 台湾_36","type":"vless","network":"ws","server":"154.211.8.18","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇷🇺 俄罗斯_10","server":"195.58.49.42","port":"45751","type":"vmess","uuid":"37ae5f87-0678-4cbf-bad6-cf1870b9d96d","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"},"udp":true}
+  - {"type":"vless","name":"🇹🇼 台湾_37","server":"27.50.48.18","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇺🇸 美国_107","server":"cucc.abyssvpn.com","port":"31119","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇰🇷 韩国_17","server":"168.126.234.232","port":"25415","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"type":"vless","name":"🇺🇸 美国_108","server":"198.62.62.198","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇹🇼 台湾_38","type":"vless","network":"ws","server":"135.84.74.254","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"❓ 未知_64","server":"69.84.182.106","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=69.84.182.106:443","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"type":"vless","name":"❓ 未知_65","server":"27.50.49.188","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇺🇸 美国_109","server":"bgp.abyssvpn.com","port":"31120","type":"hysteria2","password":"169cdd5d-b0aa-427e-8032-95ba770827c7","auth":"169cdd5d-b0aa-427e-8032-95ba770827c7","up":"10000","down":"10000","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇺 俄罗斯_11","type":"ss","server":"neweur.upperlay.xyz","port":"631","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸 美国_110","type":"ss","server":"usastart-a.upperlay.xyz","port":"575","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇹🇼 台湾_39","type":"vless","network":"ws","server":"91.239.148.133","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_66","type":"vless","network":"ws","server":"154.211.8.47","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_67","type":"vless","network":"ws","server":"92.243.74.239","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇵🇱 波兰_9","type":"trojan","server":"holy-seahorse.boa152.lol","port":"443","alterId":"0","tls":true,"password":"3723507166611775488","sni":"holy-seahorse.boa152.lol","skip-cert-verify":true,"udp":true}
+  - {"name":"❓ 未知_68","type":"vless","network":"ws","server":"45.85.210.217","port":"10913","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_40","type":"vless","network":"ws","server":"103.116.7.189","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_69","server":"3.146.93.242","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇹🇼 台湾_41","type":"vless","network":"ws","server":"154.211.8.155","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_42","type":"vless","network":"ws","server":"135.84.64.77","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_43","type":"vless","network":"ws","server":"103.116.7.103","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_44","type":"vless","network":"ws","server":"154.211.8.150","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_45","type":"vless","network":"ws","server":"206.238.237.146","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_70","type":"vless","network":"ws","server":"103.116.7.133","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇷🇺 俄罗斯_12","server":"194.87.68.115","port":"54909","type":"vmess","uuid":"7be376b8-4022-4404-97b6-a21975c75cf6","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"},"udp":true}
+  - {"type":"vless","name":"🇹🇼 台湾_46","server":"27.50.48.189","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"🇵🇱 波兰_10","type":"ss","server":"217.30.10.18","port":"9064","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"type":"vless","name":"❓ 未知_71","server":"69.84.182.104","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"❓ 未知_72","server":"hms02opi.fxiaomi.sbs","port":"443","type":"vmess","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/link","headers":{"Host":"hms02.fxiaomi.sbs"}}}
+  - {"name":"🇹🇼 台湾_47","type":"vless","network":"ws","server":"92.243.74.2","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
   - {"name":"🇪🇪 爱沙尼亚","server":"185.193.49.88","port":"989","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"❓ 未知_33","server":"45.154.206.192","port":"990","type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"❓ 未知_34","server":"3.139.17.81","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"type":"vless","name":"🇹🇼 台湾_63","server":"45.85.210.234","port":"25463","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇩🇪 德国_8","server":"2na9noed62ec.dopraxrocks.com","port":"80","type":"vless","uuid":"5c4f6ca8-b824-48de-8f33-ec3c9eda1c5e","tls":false,"skip-cert-verify":false,"servername":"speedtest.net","network":"http","http-opts":{"method":"GET","path":["/"],"headers":{"Host":["speedtest.net"]}}}
-  - {"type":"vless","name":"🇹🇼 台湾_64","server":"154.211.8.150","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇸🇬 新加坡_6","type":"vmess","server":"183.236.51.23","port":"56601","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"🇹🇼 台湾_65","server":"206.238.236.253","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇺🇸 美国_48","server":"3.131.48.154","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸 美国_49","type":"vmess","network":"ws","server":"hms02opi.fxiaomi.sbs","port":"443","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","skip-cert-verify":true,"tls":true,"alterId":"0","cipher":"auto","ws-opts":{"headers":{"Host":"hms02.fxiaomi.sbs"},"path":"/link"}}
-  - {"name":"🇳🇱 荷兰_6","type":"vless","server":"174.138.13.224","port":"15891","uuid":"ae2228d1-9b8f-4914-9e0a-68a115f8dbe1","servername":"ftp.debian.org","skip-cert-verify":false,"tls":true,"client-fingerprint":"random","reality-opts":{"public-key":"4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0","short-id":"10f1"}}
-  - {"name":"🇨🇦 加拿大_2","server":"99.79.138.143","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦 加拿大_3","server":"35.182.49.98","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"type":"vless","name":"🇹🇼 台湾_66","server":"45.85.210.217","port":"10913","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"❓ 未知_35","server":"95.164.51.24","port":"2501","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"skip-cert-verify":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"a.mifeng.us.kg"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_67","server":"185.144.245.62","port":"18556","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_68","server":"45.85.210.193","port":"34130","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_69","server":"154.211.8.84","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇩🇪 德国_9","server":"188.245.81.145","port":"39477","type":"ss","cipher":"2022-blake3-aes-256-gcm","password":"LHA8mRPN3ZoV8QnLmjfpueT1fJKGYIzt+oGmTfqouRw=:cWb/TYEyxC9G/hoWZ25CfQhPK5jFfO2a9JJvXvdIX6c="}
-  - {"name":"🇺🇸 美国_50","type":"vmess","server":"120.232.153.63","port":"40565","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"🇹🇼 台湾_70","server":"45.85.210.210","port":"13019","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"❓ 未知_36","server":"8.208.94.35","port":"587","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"skip-cert-verify":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"a.mifeng.us.kg"}}}
-  - {"name":"❓ 未知_37","server":"us1.awslcn.info","port":"25256","type":"vmess","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"us1.awslcn.info"}}}
-  - {"name":"❓ 未知_38","type":"ss","server":"usastart-a.upperlay.xyz","port":"571","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
-  - {"name":"❓ 未知_39","type":"trojan","network":"tcp","server":"107.175.70.80","port":"8848","password":"023f7aa2-d079-40d8-a730-c681947f10bb","skip-cert-verify":true,"udp":true,"sni":"107.175.70.80"}
-  - {"type":"vless","name":"🇹🇼 台湾_71","server":"27.50.49.209","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇪🇸 西班牙","type":"ss","server":"zx3.1010520.xyz","port":"45719","cipher":"chacha20-ietf-poly1305","password":"e1c77eb5-eacd-4afd-8da3-9fd2c1d3b499"}
-  - {"type":"vless","name":"🇹🇼 台湾_72","server":"185.188.147.79","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"❓ 未知_40","server":"cm.awslcn.info","port":"25216","type":"vmess","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"cm.awslcn.info"}}}
-  - {"name":"❓ 未知_41","server":"94.250.246.200","port":"8080","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"skip-cert-verify":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"a.mifeng.us.kg"}}}
-  - {"name":"❓ 未知_42","server":"54.156.50.138","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪 德国_10","server":"185.18.250.12","port":"80","client-fingerprint":"chrome","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":false,"tfo":false,"skip-cert-verify":false,"servername":"ana-SErVICe.xAbjCDZ.wORkErs.deV","network":"ws","ws-opts":{"path":"/1Y6MN5DFV8zB82Ai?ed=2560","headers":{"Host":"ana-SErVICe.xAbjCDZ.wORkErs.deV"}}}
-  - {"name":"🇭🇰 香港_11","server":"212.192.12.70","port":"32902","type":"hysteria2","password":"015322ea-6674-4900-94f3-e71a2d47fcff","auth":"015322ea-6674-4900-94f3-e71a2d47fcff","up":"100","down":"100","skip-cert-verify":true,"obfs":"salamander","obfs-password":"YzcwOTNlODc4NDIzMWMyMg==","udp":true}
-  - {"name":"❓ 未知_43","server":"172.67.195.126","port":"8880","client-fingerprint":"chrome","type":"vless","uuid":"44ab0683-1a75-4859-88ce-ef9ffea53c91","tls":false,"tfo":false,"skip-cert-verify":false,"servername":"falcunargo-telegram.384f2ed785.workers.Dev","network":"ws","ws-opts":{"path":"/","headers":{"Host":"falcunargo-telegram.384f2ed785.workers.Dev"}}}
-  - {"name":"❓ 未知_44","server":"cm1.awslcn.info","port":"25216","type":"vmess","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_73","server":"185.238.74.193","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_74","server":"27.50.49.179","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"🇨🇿 捷克","type":"trojan","server":"social-bream.boa152.lol","port":"443","udp":true,"password":"3723507166611775488","sni":"social-bream.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"🇹🇼 台湾_75","server":"27.50.49.47","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_76","server":"27.50.49.224","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"type":"vless","name":"🇹🇼 台湾_77","server":"45.144.48.122","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
-  - {"name":"❓ 未知_45","type":"ss","server":"neweur.upperlay.xyz","port":"633","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"type":"vless","name":"❓ 未知_73","server":"135.84.76.131","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇱🇻 拉脱维亚","type":"ss","server":"46.183.217.232","port":"990","password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"❓ 未知_74","server":"54.247.76.96","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇹🇼 台湾_48","type":"vless","network":"ws","server":"185.144.245.62","port":"18556","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇺🇸 美国_111","server":"3.13.102.44","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"name":"❓ 未知_75","server":"176.34.211.0","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"❓ 未知_76","type":"vless","network":"ws","server":"154.211.8.109","port":"2087","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇬🇧 英国_4","server":"5.39.254.196","port":"23169","type":"vmess","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":"0","cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"type":"vless","name":"❓ 未知_77","server":"198.62.62.34","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"❓ 未知_78","server":"176.32.39.181","port":"54909","type":"vmess","uuid":"960fe676-7d5d-40a8-af96-b482bab22f14","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"},"udp":true}
+  - {"name":"🇹🇼 台湾_49","type":"vless","network":"ws","server":"108.165.152.207","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_50","type":"vless","network":"ws","server":"206.238.236.8","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇸🇬 新加坡_12","type":"vmess","server":"183.236.51.23","port":"56601","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"vless","name":"🇺🇸 美国_112","server":"104.24.51.212","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇨🇦 加拿大_4","server":"15.157.222.29","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇹🇼 台湾_51","type":"vless","network":"ws","server":"108.165.152.204","port":"2096","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"🇺🇸 美国_113","server":"104.24.187.131","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"type":"vless","name":"🇺🇸 美国_114","server":"143.47.243.144","port":"2053","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇹🇼 台湾_52","type":"vless","network":"ws","server":"45.85.210.193","port":"34130","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇹🇼 台湾_53","type":"vless","network":"ws","server":"45.85.210.210","port":"13019","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"🇹🇼 台湾_54","server":"154.211.8.240","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"type":"vless","name":"🇹🇼 台湾_55","server":"154.211.8.209","port":"8443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"❓ 未知_79","type":"ss","server":"usastart-a.upperlay.xyz","port":"571","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇮🇪 爱尔兰_2","server":"34.253.88.184","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"type":"vless","name":"🇺🇸 美国_115","server":"47.253.223.200","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"type":"vless","name":"🇹🇼 台湾_56","server":"154.218.15.250","port":"2083","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cvl.esslh.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"host":"cvl.esslh.filegear-sg.me"}}}
+  - {"name":"❓ 未知_80","server":"3.97.189.56","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇵🇱 波兰_11","type":"ss","server":"217.30.10.18","port":"9027","password":"EXN3S3eQpjE7EJu8","cipher":"aes-256-cfb"}
+  - {"name":"🇹🇼 台湾_57","type":"vless","network":"ws","server":"185.188.147.79","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇵🇱 波兰_12","type":"ss","server":"217.30.10.18","port":"9084","password":"c3NtHJ5ujV2tGDfj","cipher":"aes-256-cfb"}
+  - {"type":"vless","name":"🇨🇭 瑞士","server":"140.238.218.65","port":"8443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"type":"vless","name":"🇸🇪 瑞典_2","server":"129.151.198.3","port":"8443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇹🇼 台湾_58","type":"vless","network":"ws","server":"45.85.210.234","port":"25463","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"type":"vless","name":"❓ 未知_81","server":"129.151.225.228","port":"8443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇹🇼 台湾_59","type":"vless","network":"ws","server":"185.238.74.193","port":"443","uuid":"c797aa8a-c03d-48da-9ad4-c9774b14bed2","servername":"cvl.esslh.filegear-sg.me","skip-cert-verify":true,"tls":true,"udp":true,"ws-opts":{"headers":{"Host":"cvl.esslh.filegear-sg.me"},"path":"/?ed=2560"}}
+  - {"name":"🇳🇱 荷兰_5","type":"vless","server":"174.138.13.224","port":"15891","uuid":"ae2228d1-9b8f-4914-9e0a-68a115f8dbe1","servername":"ftp.debian.org","skip-cert-verify":false,"tls":true,"client-fingerprint":"random","reality-opts":{"public-key":"4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0","short-id":"10f1"}}
+  - {"type":"vless","name":"🇫🇷 法国_3","server":"144.24.200.164","port":"443","uuid":"06e4425e-a8cb-4b63-929f-2105604ab0a9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dsd.bgm2024.us.kg","ws-opts":{"path":"/?ed=2560&proxyip=144.24.200.164:443","headers":{"host":"dsd.bgm2024.us.kg"}}}
+  - {"name":"🇫🇷 法国_4","server":"15.188.226.71","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"❓ 未知_82","type":"ss","server":"neweur.upperlay.xyz","port":"570","password":"88430607-f080-4816-b2e5-1a47e193a057","cipher":"aes-128-gcm"}
+  - {"name":"🇵🇱 波兰_13","type":"ss","server":"217.30.10.18","port":"9094","password":"rpgbNnU9rDDU4aWZ","cipher":"aes-256-cfb"}
 
 # 代理组
 proxy-groups:
   - name: 节点选择
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/adjust.svg
-    proxies: ["自动选择", "DIRECT", '香港节点', '日本节点', '奥地利节点', '韩国节点', '新加坡节点', '印度节点', '美国节点', '意大利节点', '俄罗斯节点', '英国节点', '法国节点', '瑞典节点', '爱尔兰节点', '德国节点', '未知节点', '加拿大节点', '荷兰节点', '挪威节点', '台湾节点', '波兰节点', '拉脱维亚节点', '爱沙尼亚节点', 'Cloudflare节点', '西班牙节点', '捷克节点']
+    proxies: ["自动选择", "DIRECT", '日本节点', '香港节点', '韩国节点', '新加坡节点', '德国节点', '加拿大节点', '美国节点', '俄罗斯节点', '意大利节点', '印度节点', '未知节点', '保加利亚节点', '越南节点', '英国节点', '法国节点', '荷兰节点', '台湾节点', '波兰节点', '爱尔兰节点', '瑞典节点', '爱沙尼亚节点', '拉脱维亚节点', '瑞士节点']
 
   - name: 自动选择
     type: url-test
-    tolerance: 100
-    lazy: true
+    tolerance: 200
+    lazy: false
     interval: 60
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/speed.svg
-    proxies: ['香港节点', '日本节点', '奥地利节点', '韩国节点', '新加坡节点', '印度节点', '美国节点', '意大利节点', '俄罗斯节点', '英国节点', '法国节点', '瑞典节点', '爱尔兰节点', '德国节点', '未知节点', '加拿大节点', '荷兰节点', '挪威节点', '台湾节点', '波兰节点', '拉脱维亚节点', '爱沙尼亚节点', 'Cloudflare节点', '西班牙节点', '捷克节点']
+    proxies: ['日本节点', '香港节点', '韩国节点', '新加坡节点', '德国节点', '加拿大节点', '美国节点', '俄罗斯节点', '意大利节点', '印度节点', '未知节点', '保加利亚节点', '越南节点', '英国节点', '法国节点', '荷兰节点', '台湾节点', '波兰节点', '爱尔兰节点', '瑞典节点', '爱沙尼亚节点', '拉脱维亚节点', '瑞士节点']
 
   - name: 谷歌服务
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/google.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '香港节点', '日本节点', '奥地利节点', '韩国节点', '新加坡节点', '印度节点', '美国节点', '意大利节点', '俄罗斯节点', '英国节点', '法国节点', '瑞典节点', '爱尔兰节点', '德国节点', '未知节点', '加拿大节点', '荷兰节点', '挪威节点', '台湾节点', '波兰节点', '拉脱维亚节点', '爱沙尼亚节点', 'Cloudflare节点', '西班牙节点', '捷克节点']
+    proxies: ["节点选择", "自动选择", "全局直连", '日本节点', '香港节点', '韩国节点', '新加坡节点', '德国节点', '加拿大节点', '美国节点', '俄罗斯节点', '意大利节点', '印度节点', '未知节点', '保加利亚节点', '越南节点', '英国节点', '法国节点', '荷兰节点', '台湾节点', '波兰节点', '爱尔兰节点', '瑞典节点', '爱沙尼亚节点', '拉脱维亚节点', '瑞士节点']
 
   - name: 国外媒体
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/youtube.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '香港节点', '日本节点', '奥地利节点', '韩国节点', '新加坡节点', '印度节点', '美国节点', '意大利节点', '俄罗斯节点', '英国节点', '法国节点', '瑞典节点', '爱尔兰节点', '德国节点', '未知节点', '加拿大节点', '荷兰节点', '挪威节点', '台湾节点', '波兰节点', '拉脱维亚节点', '爱沙尼亚节点', 'Cloudflare节点', '西班牙节点', '捷克节点']
+    proxies: ["节点选择", "自动选择", "全局直连", '日本节点', '香港节点', '韩国节点', '新加坡节点', '德国节点', '加拿大节点', '美国节点', '俄罗斯节点', '意大利节点', '印度节点', '未知节点', '保加利亚节点', '越南节点', '英国节点', '法国节点', '荷兰节点', '台湾节点', '波兰节点', '爱尔兰节点', '瑞典节点', '爱沙尼亚节点', '拉脱维亚节点', '瑞士节点']
 
   - name: 电报消息
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/telegram.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '香港节点', '日本节点', '奥地利节点', '韩国节点', '新加坡节点', '印度节点', '美国节点', '意大利节点', '俄罗斯节点', '英国节点', '法国节点', '瑞典节点', '爱尔兰节点', '德国节点', '未知节点', '加拿大节点', '荷兰节点', '挪威节点', '台湾节点', '波兰节点', '拉脱维亚节点', '爱沙尼亚节点', 'Cloudflare节点', '西班牙节点', '捷克节点']
+    proxies: ["节点选择", "自动选择", "全局直连", '日本节点', '香港节点', '韩国节点', '新加坡节点', '德国节点', '加拿大节点', '美国节点', '俄罗斯节点', '意大利节点', '印度节点', '未知节点', '保加利亚节点', '越南节点', '英国节点', '法国节点', '荷兰节点', '台湾节点', '波兰节点', '爱尔兰节点', '瑞典节点', '爱沙尼亚节点', '拉脱维亚节点', '瑞士节点']
 
   - name: 微软服务
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/microsoft.svg
-    proxies: ["全局直连", "节点选择", "自动选择", '香港节点', '日本节点', '奥地利节点', '韩国节点', '新加坡节点', '印度节点', '美国节点', '意大利节点', '俄罗斯节点', '英国节点', '法国节点', '瑞典节点', '爱尔兰节点', '德国节点', '未知节点', '加拿大节点', '荷兰节点', '挪威节点', '台湾节点', '波兰节点', '拉脱维亚节点', '爱沙尼亚节点', 'Cloudflare节点', '西班牙节点', '捷克节点']
+    proxies: ["全局直连", "节点选择", "自动选择", '日本节点', '香港节点', '韩国节点', '新加坡节点', '德国节点', '加拿大节点', '美国节点', '俄罗斯节点', '意大利节点', '印度节点', '未知节点', '保加利亚节点', '越南节点', '英国节点', '法国节点', '荷兰节点', '台湾节点', '波兰节点', '爱尔兰节点', '瑞典节点', '爱沙尼亚节点', '拉脱维亚节点', '瑞士节点']
 
   - name: 苹果服务
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/apple.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '香港节点', '日本节点', '奥地利节点', '韩国节点', '新加坡节点', '印度节点', '美国节点', '意大利节点', '俄罗斯节点', '英国节点', '法国节点', '瑞典节点', '爱尔兰节点', '德国节点', '未知节点', '加拿大节点', '荷兰节点', '挪威节点', '台湾节点', '波兰节点', '拉脱维亚节点', '爱沙尼亚节点', 'Cloudflare节点', '西班牙节点', '捷克节点']
+    proxies: ["节点选择", "自动选择", "全局直连", '日本节点', '香港节点', '韩国节点', '新加坡节点', '德国节点', '加拿大节点', '美国节点', '俄罗斯节点', '意大利节点', '印度节点', '未知节点', '保加利亚节点', '越南节点', '英国节点', '法国节点', '荷兰节点', '台湾节点', '波兰节点', '爱尔兰节点', '瑞典节点', '爱沙尼亚节点', '拉脱维亚节点', '瑞士节点']
 
   - name: 广告过滤
     type: select
@@ -385,7 +512,7 @@ proxy-groups:
   - name: 全局直连
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/link.svg
-    proxies: ["DIRECT", "节点选择", "自动选择", '香港节点', '日本节点', '奥地利节点', '韩国节点', '新加坡节点', '印度节点', '美国节点', '意大利节点', '俄罗斯节点', '英国节点', '法国节点', '瑞典节点', '爱尔兰节点', '德国节点', '未知节点', '加拿大节点', '荷兰节点', '挪威节点', '台湾节点', '波兰节点', '拉脱维亚节点', '爱沙尼亚节点', 'Cloudflare节点', '西班牙节点', '捷克节点']
+    proxies: ["DIRECT", "节点选择", "自动选择", '日本节点', '香港节点', '韩国节点', '新加坡节点', '德国节点', '加拿大节点', '美国节点', '俄罗斯节点', '意大利节点', '印度节点', '未知节点', '保加利亚节点', '越南节点', '英国节点', '法国节点', '荷兰节点', '台湾节点', '波兰节点', '爱尔兰节点', '瑞典节点', '爱沙尼亚节点', '拉脱维亚节点', '瑞士节点']
 
   - name: 全局拦截
     type: select
@@ -395,265 +522,253 @@ proxy-groups:
   - name: 漏网之鱼
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/fish.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '香港节点', '日本节点', '奥地利节点', '韩国节点', '新加坡节点', '印度节点', '美国节点', '意大利节点', '俄罗斯节点', '英国节点', '法国节点', '瑞典节点', '爱尔兰节点', '德国节点', '未知节点', '加拿大节点', '荷兰节点', '挪威节点', '台湾节点', '波兰节点', '拉脱维亚节点', '爱沙尼亚节点', 'Cloudflare节点', '西班牙节点', '捷克节点']
-
-  - name: 香港节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/hk.svg
-    hidden: false
-    proxies: ['🇭🇰 香港_1', '🇭🇰 香港_2', '🇭🇰 香港_3', '🇭🇰 香港_4', '🇭🇰 香港_5', '🇭🇰 香港_6', '🇭🇰 香港_7', '🇭🇰 香港_8', '🇭🇰 香港_9', '🇭🇰 香港_10', '🇭🇰 香港_11']
+    proxies: ["节点选择", "自动选择", "全局直连", '日本节点', '香港节点', '韩国节点', '新加坡节点', '德国节点', '加拿大节点', '美国节点', '俄罗斯节点', '意大利节点', '印度节点', '未知节点', '保加利亚节点', '越南节点', '英国节点', '法国节点', '荷兰节点', '台湾节点', '波兰节点', '爱尔兰节点', '瑞典节点', '爱沙尼亚节点', '拉脱维亚节点', '瑞士节点']
 
   - name: 日本节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/jp.svg
     hidden: false
-    proxies: ['🇯🇵 日本_1', '🇯🇵 日本_2', '🇯🇵 日本_3', '🇯🇵 日本_4', '🇯🇵 日本_5']
+    proxies: ['🇯🇵 日本_1', '🇯🇵 日本_2', '🇯🇵 日本_3', '🇯🇵 日本_4', '🇯🇵 日本_5', '🇯🇵 日本_6', '🇯🇵 日本_7', '🇯🇵 日本_8', '🇯🇵 日本_9', '🇯🇵 日本_10', '🇯🇵 日本_11', '🇯🇵 日本_12', '🇯🇵 日本_13', '🇯🇵 日本_14']
 
-  - name: 奥地利节点
+  - name: 香港节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/at.svg
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/hk.svg
     hidden: false
-    proxies: ['🇦🇹 奥地利']
+    proxies: ['🇭🇰 香港_1', '🇭🇰 香港_2', '🇭🇰 香港_3', '🇭🇰 香港_4', '🇭🇰 香港_5', '🇭🇰 香港_6', '🇭🇰 香港_7', '🇭🇰 香港_8', '🇭🇰 香港_9', '🇭🇰 香港_10', '🇭🇰 香港_11', '🇭🇰 香港_12', '🇭🇰 香港_13', '🇭🇰 香港_14', '🇭🇰 香港_15', '🇭🇰 香港_16', '🇭🇰 香港_17', '🇭🇰 香港_18', '🇭🇰 香港_19', '🇭🇰 香港_20', '🇭🇰 香港_21', '🇭🇰 香港_22']
 
   - name: 韩国节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/kr.svg
     hidden: false
-    proxies: ['🇰🇷 韩国_1', '🇰🇷 韩国_2', '🇰🇷 韩国_3', '🇰🇷 韩国_4', '🇰🇷 韩国_5', '🇰🇷 韩国_6', '🇰🇷 韩国_7', '🇰🇷 韩国_8', '🇰🇷 韩国_9', '🇰🇷 韩国_10', '🇰🇷 韩国_11', '🇰🇷 韩国_12', '🇰🇷 韩国_13']
+    proxies: ['🇰🇷 韩国_1', '🇰🇷 韩国_2', '🇰🇷 韩国_3', '🇰🇷 韩国_4', '🇰🇷 韩国_5', '🇰🇷 韩国_6', '🇰🇷 韩国_7', '🇰🇷 韩国_8', '🇰🇷 韩国_9', '🇰🇷 韩国_10', '🇰🇷 韩国_11', '🇰🇷 韩国_12', '🇰🇷 韩国_13', '🇰🇷 韩国_14', '🇰🇷 韩国_15', '🇰🇷 韩国_16', '🇰🇷 韩国_17']
 
   - name: 新加坡节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/sg.svg
     hidden: false
-    proxies: ['🇸🇬 新加坡_1', '🇸🇬 新加坡_2', '🇸🇬 新加坡_3', '🇸🇬 新加坡_4', '🇸🇬 新加坡_5', '🇸🇬 新加坡_6']
-
-  - name: 印度节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/in.svg
-    hidden: false
-    proxies: ['🇮🇳 印度_1', '🇮🇳 印度_2']
-
-  - name: 美国节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/us.svg
-    hidden: false
-    proxies: ['🇺🇸 美国_1', '🇺🇸 美国_2', '🇺🇸 美国_3', '🇺🇸 美国_4', '🇺🇸 美国_5', '🇺🇸 美国_6', '🇺🇸 美国_7', '🇺🇸 美国_8', '🇺🇸 美国_9', '🇺🇸 美国_10', '🇺🇸 美国_11', '🇺🇸 美国_12', '🇺🇸 美国_13', '🇺🇸 美国_14', '🇺🇸 美国_15', '🇺🇸 美国_16', '🇺🇸 美国_17', '🇺🇸 美国_18', '🇺🇸 美国_19', '🇺🇸 美国_20', '🇺🇸 美国_21', '🇺🇸 美国_22', '🇺🇸 美国_23', '🇺🇸 美国_24', '🇺🇸 美国_25', '🇺🇸 美国_26', '🇺🇸 美国_27', '🇺🇸 美国_28', '🇺🇸 美国_29', '🇺🇸 美国_30', '🇺🇸 美国_31', '🇺🇸 美国_32', '🇺🇸 美国_33', '🇺🇸 美国_34', '🇺🇸 美国_35', '🇺🇸 美国_36', '🇺🇸 美国_37', '🇺🇸 美国_38', '🇺🇸 美国_39', '🇺🇸 美国_40', '🇺🇸 美国_41', '🇺🇸 美国_42', '🇺🇸 美国_43', '🇺🇸 美国_44', '🇺🇸 美国_45', '🇺🇸 美国_46', '🇺🇸 美国_47', '🇺🇸 美国_48', '🇺🇸 美国_49', '🇺🇸 美国_50']
-
-  - name: 意大利节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/it.svg
-    hidden: false
-    proxies: ['🇮🇹 意大利_1', '🇮🇹 意大利_2']
-
-  - name: 俄罗斯节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/ru.svg
-    hidden: false
-    proxies: ['🇷🇺 俄罗斯']
-
-  - name: 英国节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/gb.svg
-    hidden: false
-    proxies: ['🇬🇧 英国_1', '🇬🇧 英国_2', '🇬🇧 英国_3', '🇬🇧 英国_4', '🇬🇧 英国_5']
-
-  - name: 法国节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/fr.svg
-    hidden: false
-    proxies: ['🇫🇷 法国']
-
-  - name: 瑞典节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/se.svg
-    hidden: false
-    proxies: ['🇸🇪 瑞典_1', '🇸🇪 瑞典_2', '🇸🇪 瑞典_3', '🇸🇪 瑞典_4']
-
-  - name: 爱尔兰节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/ie.svg
-    hidden: false
-    proxies: ['🇮🇪 爱尔兰_1', '🇮🇪 爱尔兰_2', '🇮🇪 爱尔兰_3', '🇮🇪 爱尔兰_4', '🇮🇪 爱尔兰_5']
+    proxies: ['🇸🇬 新加坡_1', '🇸🇬 新加坡_2', '🇸🇬 新加坡_3', '🇸🇬 新加坡_4', '🇸🇬 新加坡_5', '🇸🇬 新加坡_6', '🇸🇬 新加坡_7', '🇸🇬 新加坡_8', '🇸🇬 新加坡_9', '🇸🇬 新加坡_10', '🇸🇬 新加坡_11', '🇸🇬 新加坡_12']
 
   - name: 德国节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/de.svg
     hidden: false
-    proxies: ['🇩🇪 德国_1', '🇩🇪 德国_2', '🇩🇪 德国_3', '🇩🇪 德国_4', '🇩🇪 德国_5', '🇩🇪 德国_6', '🇩🇪 德国_7', '🇩🇪 德国_9', '🇩🇪 德国_10']
-
-  - name: 未知节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/unknown.svg
-    hidden: false
-    proxies: ['❓ 未知_1', '❓ 未知_2', '❓ 未知_3', '❓ 未知_4', '❓ 未知_5', '❓ 未知_6', '❓ 未知_7', '❓ 未知_8', '❓ 未知_9', '❓ 未知_10', '❓ 未知_11', '❓ 未知_12', '❓ 未知_13', '❓ 未知_14', '❓ 未知_15', '❓ 未知_16', '❓ 未知_17', '❓ 未知_18', '❓ 未知_19', '❓ 未知_20', '❓ 未知_21', '❓ 未知_22', '❓ 未知_23', '❓ 未知_24', '❓ 未知_25', '❓ 未知_26', '❓ 未知_27', '❓ 未知_28', '❓ 未知_29', '❓ 未知_30', '❓ 未知_31', '❓ 未知_32', '❓ 未知_33', '❓ 未知_34', '❓ 未知_35', '❓ 未知_36', '❓ 未知_37', '❓ 未知_38', '❓ 未知_39', '❓ 未知_40', '❓ 未知_41', '❓ 未知_42', '❓ 未知_43', '❓ 未知_44', '❓ 未知_45']
+    proxies: ['🇩🇪 德国_1', '🇩🇪 德国_2']
 
   - name: 加拿大节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/ca.svg
     hidden: false
-    proxies: ['🇨🇦 加拿大_1', '🇨🇦 加拿大_2', '🇨🇦 加拿大_3']
+    proxies: ['🇨🇦 加拿大_1', '🇨🇦 加拿大_2', '🇨🇦 加拿大_3', '🇨🇦 加拿大_4']
+
+  - name: 美国节点
+    type: url-test
+    tolerance: 100
+    lazy: false
+    interval: 180
+    timeout: 2000
+    url: http://www.gstatic.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/us.svg
+    hidden: false
+    proxies: ['🇺🇸 美国_1', '🇺🇸 美国_2', '🇺🇸 美国_3', '🇺🇸 美国_4', '🇺🇸 美国_5', '🇺🇸 美国_6', '🇺🇸 美国_7', '🇺🇸 美国_8', '🇺🇸 美国_9', '🇺🇸 美国_10', '🇺🇸 美国_11', '🇺🇸 美国_12', '🇺🇸 美国_13', '🇺🇸 美国_14', '🇺🇸 美国_15', '🇺🇸 美国_16', '🇺🇸 美国_17', '🇺🇸 美国_18', '🇺🇸 美国_19', '🇺🇸 美国_20', '🇺🇸 美国_21', '🇺🇸 美国_22', '🇺🇸 美国_23', '🇺🇸 美国_24', '🇺🇸 美国_25', '🇺🇸 美国_26', '🇺🇸 美国_27', '🇺🇸 美国_28', '🇺🇸 美国_29', '🇺🇸 美国_30', '🇺🇸 美国_31', '🇺🇸 美国_32', '🇺🇸 美国_33', '🇺🇸 美国_34', '🇺🇸 美国_35', '🇺🇸 美国_36', '🇺🇸 美国_37', '🇺🇸 美国_38', '🇺🇸 美国_39', '🇺🇸 美国_40', '🇺🇸 美国_41', '🇺🇸 美国_42', '🇺🇸 美国_43', '🇺🇸 美国_44', '🇺🇸 美国_45', '🇺🇸 美国_46', '🇺🇸 美国_47', '🇺🇸 美国_48', '🇺🇸 美国_49', '🇺🇸 美国_50', '🇺🇸 美国_51', '🇺🇸 美国_52', '🇺🇸 美国_53', '🇺🇸 美国_54', '🇺🇸 美国_55', '🇺🇸 美国_56', '🇺🇸 美国_57', '🇺🇸 美国_58', '🇺🇸 美国_59', '🇺🇸 美国_60', '🇺🇸 美国_61', '🇺🇸 美国_62', '🇺🇸 美国_63', '🇺🇸 美国_64', '🇺🇸 美国_65', '🇺🇸 美国_66', '🇺🇸 美国_67', '🇺🇸 美国_68', '🇺🇸 美国_69', '🇺🇸 美国_70', '🇺🇸 美国_71', '🇺🇸 美国_72', '🇺🇸 美国_73', '🇺🇸 美国_74', '🇺🇸 美国_75', '🇺🇸 美国_76', '🇺🇸 美国_77', '🇺🇸 美国_78', '🇺🇸 美国_79', '🇺🇸 美国_80', '🇺🇸 美国_81', '🇺🇸 美国_82', '🇺🇸 美国_83', '🇺🇸 美国_84', '🇺🇸 美国_85', '🇺🇸 美国_86', '🇺🇸 美国_87', '🇺🇸 美国_88', '🇺🇸 美国_89', '🇺🇸 美国_90', '🇺🇸 美国_91', '🇺🇸 美国_92', '🇺🇸 美国_93', '🇺🇸 美国_94', '🇺🇸 美国_95', '🇺🇸 美国_96', '🇺🇸 美国_97', '🇺🇸 美国_98', '🇺🇸 美国_99', '🇺🇸 美国_100', '🇺🇸 美国_101', '🇺🇸 美国_102', '🇺🇸 美国_103', '🇺🇸 美国_104', '🇺🇸 美国_105', '🇺🇸 美国_106', '🇺🇸 美国_107', '🇺🇸 美国_108', '🇺🇸 美国_109', '🇺🇸 美国_110', '🇺🇸 美国_111', '🇺🇸 美国_112', '🇺🇸 美国_113', '🇺🇸 美国_114', '🇺🇸 美国_115']
+
+  - name: 俄罗斯节点
+    type: url-test
+    tolerance: 100
+    lazy: false
+    interval: 180
+    timeout: 2000
+    url: http://www.gstatic.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/ru.svg
+    hidden: false
+    proxies: ['🇷🇺 俄罗斯_1', '🇷🇺 俄罗斯_2', '🇷🇺 俄罗斯_3', '🇷🇺 俄罗斯_4', '🇷🇺 俄罗斯_5', '🇷🇺 俄罗斯_6', '🇷🇺 俄罗斯_7', '🇷🇺 俄罗斯_8', '🇷🇺 俄罗斯_9', '🇷🇺 俄罗斯_10', '🇷🇺 俄罗斯_11', '🇷🇺 俄罗斯_12']
+
+  - name: 意大利节点
+    type: url-test
+    tolerance: 100
+    lazy: false
+    interval: 180
+    timeout: 2000
+    url: http://www.gstatic.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/it.svg
+    hidden: false
+    proxies: ['🇮🇹 意大利_1', '🇮🇹 意大利_2', '🇮🇹 意大利_3', '🇮🇹 意大利_4', '🇮🇹 意大利_5', '🇮🇹 意大利_6', '🇮🇹 意大利_7', '🇮🇹 意大利_8']
+
+  - name: 印度节点
+    type: url-test
+    tolerance: 100
+    lazy: false
+    interval: 180
+    timeout: 2000
+    url: http://www.gstatic.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/in.svg
+    hidden: false
+    proxies: ['🇮🇳 印度_1', '🇮🇳 印度_2', '🇮🇳 印度_3', '🇮🇳 印度_4', '🇮🇳 印度_5', '🇮🇳 印度_6']
+
+  - name: 未知节点
+    type: url-test
+    tolerance: 100
+    lazy: false
+    interval: 180
+    timeout: 2000
+    url: http://www.gstatic.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/unknown.svg
+    hidden: false
+    proxies: ['❓ 未知_1', '❓ 未知_2', '❓ 未知_3', '❓ 未知_4', '❓ 未知_5', '❓ 未知_6', '❓ 未知_7', '❓ 未知_8', '❓ 未知_9', '❓ 未知_10', '❓ 未知_11', '❓ 未知_12', '❓ 未知_13', '❓ 未知_14', '❓ 未知_15', '❓ 未知_16', '❓ 未知_17', '❓ 未知_18', '❓ 未知_19', '❓ 未知_20', '❓ 未知_21', '❓ 未知_22', '❓ 未知_23', '❓ 未知_24', '❓ 未知_25', '❓ 未知_26', '❓ 未知_27', '❓ 未知_28', '❓ 未知_29', '❓ 未知_30', '❓ 未知_31', '❓ 未知_32', '❓ 未知_33', '❓ 未知_34', '❓ 未知_35', '❓ 未知_36', '❓ 未知_37', '❓ 未知_38', '❓ 未知_39', '❓ 未知_40', '❓ 未知_41', '❓ 未知_42', '❓ 未知_43', '❓ 未知_44', '❓ 未知_45', '❓ 未知_46', '❓ 未知_47', '❓ 未知_48', '❓ 未知_49', '❓ 未知_50', '❓ 未知_51', '❓ 未知_52', '❓ 未知_53', '❓ 未知_54', '❓ 未知_55', '❓ 未知_56', '❓ 未知_57', '❓ 未知_58', '❓ 未知_59', '❓ 未知_60', '❓ 未知_61', '❓ 未知_62', '❓ 未知_63', '❓ 未知_64', '❓ 未知_65', '❓ 未知_66', '❓ 未知_67', '❓ 未知_68', '❓ 未知_69', '❓ 未知_70', '❓ 未知_71', '❓ 未知_72', '❓ 未知_73', '❓ 未知_74', '❓ 未知_75', '❓ 未知_76', '❓ 未知_77', '❓ 未知_78', '❓ 未知_79', '❓ 未知_80', '❓ 未知_81', '❓ 未知_82']
+
+  - name: 保加利亚节点
+    type: url-test
+    tolerance: 100
+    lazy: false
+    interval: 180
+    timeout: 2000
+    url: http://www.gstatic.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/bg.svg
+    hidden: false
+    proxies: ['🇧🇬 保加利亚']
+
+  - name: 越南节点
+    type: url-test
+    tolerance: 100
+    lazy: false
+    interval: 180
+    timeout: 2000
+    url: http://www.gstatic.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/vn.svg
+    hidden: false
+    proxies: ['🇻🇳 越南_1', '🇻🇳 越南_2', '🇻🇳 越南_3']
+
+  - name: 英国节点
+    type: url-test
+    tolerance: 100
+    lazy: false
+    interval: 180
+    timeout: 2000
+    url: http://www.gstatic.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/gb.svg
+    hidden: false
+    proxies: ['🇬🇧 英国_1', '🇬🇧 英国_2', '🇬🇧 英国_3', '🇬🇧 英国_4']
+
+  - name: 法国节点
+    type: url-test
+    tolerance: 100
+    lazy: false
+    interval: 180
+    timeout: 2000
+    url: http://www.gstatic.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/fr.svg
+    hidden: false
+    proxies: ['🇫🇷 法国_1', '🇫🇷 法国_2', '🇫🇷 法国_3', '🇫🇷 法国_4']
 
   - name: 荷兰节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/nl.svg
     hidden: false
-    proxies: ['🇳🇱 荷兰_1', '🇳🇱 荷兰_2', '🇳🇱 荷兰_3', '🇳🇱 荷兰_4', '🇳🇱 荷兰_5', '🇳🇱 荷兰_6']
-
-  - name: 挪威节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/no.svg
-    hidden: false
-    proxies: ['🇳🇴 挪威']
+    proxies: ['🇳🇱 荷兰_1', '🇳🇱 荷兰_2', '🇳🇱 荷兰_3', '🇳🇱 荷兰_4', '🇳🇱 荷兰_5']
 
   - name: 台湾节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/tw.svg
     hidden: false
-    proxies: ['🇹🇼 台湾_1', '🇹🇼 台湾_2', '🇹🇼 台湾_3', '🇹🇼 台湾_4', '🇹🇼 台湾_5', '🇹🇼 台湾_6', '🇹🇼 台湾_7', '🇹🇼 台湾_8', '🇹🇼 台湾_9', '🇹🇼 台湾_10', '🇹🇼 台湾_11', '🇹🇼 台湾_12', '🇹🇼 台湾_13', '🇹🇼 台湾_14', '🇹🇼 台湾_15', '🇹🇼 台湾_16', '🇹🇼 台湾_17', '🇹🇼 台湾_18', '🇹🇼 台湾_19', '🇹🇼 台湾_20', '🇹🇼 台湾_21', '🇹🇼 台湾_22', '🇹🇼 台湾_23', '🇹🇼 台湾_24', '🇹🇼 台湾_25', '🇹🇼 台湾_26', '🇹🇼 台湾_27', '🇹🇼 台湾_28', '🇹🇼 台湾_29', '🇹🇼 台湾_30', '🇹🇼 台湾_31', '🇹🇼 台湾_32', '🇹🇼 台湾_33', '🇹🇼 台湾_34', '🇹🇼 台湾_35', '🇹🇼 台湾_36', '🇹🇼 台湾_37', '🇹🇼 台湾_38', '🇹🇼 台湾_39', '🇹🇼 台湾_40', '🇹🇼 台湾_41', '🇹🇼 台湾_42', '🇹🇼 台湾_43', '🇹🇼 台湾_44', '🇹🇼 台湾_45', '🇹🇼 台湾_46', '🇹🇼 台湾_47', '🇹🇼 台湾_48', '🇹🇼 台湾_49', '🇹🇼 台湾_50', '🇹🇼 台湾_51', '🇹🇼 台湾_52', '🇹🇼 台湾_53', '🇹🇼 台湾_54', '🇹🇼 台湾_55', '🇹🇼 台湾_56', '🇹🇼 台湾_57', '🇹🇼 台湾_58', '🇹🇼 台湾_59', '🇹🇼 台湾_60', '🇹🇼 台湾_61', '🇹🇼 台湾_62', '🇹🇼 台湾_63', '🇹🇼 台湾_64', '🇹🇼 台湾_65', '🇹🇼 台湾_66', '🇹🇼 台湾_67', '🇹🇼 台湾_68', '🇹🇼 台湾_69', '🇹🇼 台湾_70', '🇹🇼 台湾_71', '🇹🇼 台湾_72', '🇹🇼 台湾_73', '🇹🇼 台湾_74', '🇹🇼 台湾_75', '🇹🇼 台湾_76', '🇹🇼 台湾_77']
+    proxies: ['🇹🇼 台湾_1', '🇹🇼 台湾_2', '🇹🇼 台湾_3', '🇹🇼 台湾_4', '🇹🇼 台湾_5', '🇹🇼 台湾_6', '🇹🇼 台湾_7', '🇹🇼 台湾_8', '🇹🇼 台湾_9', '🇹🇼 台湾_10', '🇹🇼 台湾_11', '🇹🇼 台湾_12', '🇹🇼 台湾_13', '🇹🇼 台湾_14', '🇹🇼 台湾_15', '🇹🇼 台湾_16', '🇹🇼 台湾_17', '🇹🇼 台湾_18', '🇹🇼 台湾_19', '🇹🇼 台湾_20', '🇹🇼 台湾_21', '🇹🇼 台湾_22', '🇹🇼 台湾_23', '🇹🇼 台湾_24', '🇹🇼 台湾_25', '🇹🇼 台湾_26', '🇹🇼 台湾_27', '🇹🇼 台湾_28', '🇹🇼 台湾_29', '🇹🇼 台湾_30', '🇹🇼 台湾_31', '🇹🇼 台湾_32', '🇹🇼 台湾_33', '🇹🇼 台湾_34', '🇹🇼 台湾_35', '🇹🇼 台湾_36', '🇹🇼 台湾_37', '🇹🇼 台湾_38', '🇹🇼 台湾_39', '🇹🇼 台湾_40', '🇹🇼 台湾_41', '🇹🇼 台湾_42', '🇹🇼 台湾_43', '🇹🇼 台湾_44', '🇹🇼 台湾_45', '🇹🇼 台湾_46', '🇹🇼 台湾_47', '🇹🇼 台湾_48', '🇹🇼 台湾_49', '🇹🇼 台湾_50', '🇹🇼 台湾_51', '🇹🇼 台湾_52', '🇹🇼 台湾_53', '🇹🇼 台湾_54', '🇹🇼 台湾_55', '🇹🇼 台湾_56', '🇹🇼 台湾_57', '🇹🇼 台湾_58', '🇹🇼 台湾_59']
 
   - name: 波兰节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/pl.svg
     hidden: false
-    proxies: ['🇵🇱 波兰_1', '🇵🇱 波兰_2', '🇵🇱 波兰_3', '🇵🇱 波兰_4', '🇵🇱 波兰_5', '🇵🇱 波兰_6', '🇵🇱 波兰_7', '🇵🇱 波兰_8', '🇵🇱 波兰_9', '🇵🇱 波兰_10', '🇵🇱 波兰_11']
+    proxies: ['🇵🇱 波兰_1', '🇵🇱 波兰_2', '🇵🇱 波兰_3', '🇵🇱 波兰_4', '🇵🇱 波兰_5', '🇵🇱 波兰_6', '🇵🇱 波兰_7', '🇵🇱 波兰_8', '🇵🇱 波兰_9', '🇵🇱 波兰_10', '🇵🇱 波兰_11', '🇵🇱 波兰_12', '🇵🇱 波兰_13']
 
-  - name: 拉脱维亚节点
+  - name: 爱尔兰节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/lv.svg
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/ie.svg
     hidden: false
-    proxies: ['🇱🇻 拉脱维亚']
+    proxies: ['🇮🇪 爱尔兰_1', '🇮🇪 爱尔兰_2']
+
+  - name: 瑞典节点
+    type: url-test
+    tolerance: 100
+    lazy: false
+    interval: 180
+    timeout: 2000
+    url: http://www.gstatic.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/se.svg
+    hidden: false
+    proxies: ['🇸🇪 瑞典_1', '🇸🇪 瑞典_2']
 
   - name: 爱沙尼亚节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
@@ -661,41 +776,29 @@ proxy-groups:
     hidden: false
     proxies: ['🇪🇪 爱沙尼亚']
 
-  - name: Cloudflare节点
+  - name: 拉脱维亚节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/cloudflare.svg
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/lv.svg
     hidden: false
-    proxies: ['🇩🇪 德国_8']
+    proxies: ['🇱🇻 拉脱维亚']
 
-  - name: 西班牙节点
+  - name: 瑞士节点
     type: url-test
-    tolerance: 50
+    tolerance: 100
     lazy: false
-    interval: 300
+    interval: 180
     timeout: 2000
     url: http://www.gstatic.com/generate_204
     max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/es.svg
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/ch.svg
     hidden: false
-    proxies: ['🇪🇸 西班牙']
-
-  - name: 捷克节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: http://www.gstatic.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/cz.svg
-    hidden: false
-    proxies: ['🇨🇿 捷克']
+    proxies: ['🇨🇭 瑞士']
 
 
 # 规则
