@@ -1,4 +1,3 @@
-github-mirror: https://mirror.ghproxy.com/
 data:
   - id: _pool
     type: http
