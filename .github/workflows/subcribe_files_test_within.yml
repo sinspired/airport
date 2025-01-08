@@ -9,6 +9,12 @@ on:
   # 手动触发
   workflow_dispatch:
 
+permissions: write-all
+
+concurrency:
+  group: "${{ github.workflow }} - ${{ github.head_ref || github.ref }}"
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
 jobs:
   test-proxies-within:
     runs-on: [self-hosted, linux, x64]
