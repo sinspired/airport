@@ -63,25 +63,34 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '节点日期：01-02', 'server': 'arxfw2b78fi2q9hzylhn.freesocks.work', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Nk9asglDzHzjktVzTkvhaA'}
-- {'name': '日本【付费推荐：https://a0a.xyz】87', 'server': '160.19.78.75', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Nk9asglDzHzjktVzTkvhaA'}
-- {'name': '美国【付费推荐：https://a0a.xyz】2', 'server': 'series-a2-mec.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
-- {'name': '中国【付费推荐：https://a0a.xyz】34', 'server': 'us1.awslcn.info', 'port': 25256, 'type': 'vmess', 'uuid': '243eab52-9ac1-405c-887c-eb112c0985b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'us1.awslcn.info'}}}
-- {'name': '俄罗斯【付费推荐：https://a0a.xyz】70', 'server': '185.22.155.228', 'port': 23456, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'dongtaiwang.com'}
-- {'name': '美国【付费推荐：https://a0a.xyz】85', 'server': '151.101.2.168', 'port': 80, 'type': 'vmess', 'uuid': 'beb7d098-48ba-4be8-a47a-758bf3c470b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'Host': 'amd.al'}}}
-- {'name': '伊朗【付费推荐：https://a0a.xyz】110', 'server': '92.242.220.22', 'port': 37885, 'type': 'vmess', 'uuid': '8dee19ab-50ce-4d06-be42-5e53c8989ccc', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '法国【付费推荐：https://a0a.xyz】14', 'server': '163.5.159.231', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
-- {'name': '中国【付费推荐：https://a0a.xyz】66', 'server': 'cm1.awslcn.info', 'port': 25216, 'type': 'vmess', 'uuid': '243eab52-9ac1-405c-887c-eb112c0985b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'cm1.awslcn.info'}}}
-- {'name': '中国【付费推荐：https://a0a.xyz】81', 'server': 'cu.awslcn.info', 'port': 25284, 'type': 'vmess', 'uuid': '243eab52-9ac1-405c-887c-eb112c0985b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'cu.awslcn.info'}}}
-- {'name': '美国【付费推荐：https://a0a.xyz】40', 'server': '45.8.98.163', 'port': 52839, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '3N2JoZhDodMX5wPfr0xbT5'}
-- {'name': '中国【付费推荐：https://a0a.xyz】6', 'server': 'zx1.1010520.xyz', 'port': 18759, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f5136746-de79-46d0-b3be-d15d9992fa07'}
-- {'name': '英国【付费推荐：https://a0a.xyz】27', 'server': '51.13.35.115', 'port': 20760, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'SK8DG4IJFnDwuhy35hOWUj'}
-- {'name': '中国【付费推荐：https://a0a.xyz】75', 'server': '103.149.183.178', 'port': 54675, 'type': 'vmess', 'uuid': '3a907956-f668-4e6b-ea03-0949f0c9c0a5', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '丹麦【付费推荐：https://a0a.xyz】69', 'server': 'www.csgo.com', 'port': 443, 'type': 'vmess', 'uuid': '33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/rongseven?ed=2048', 'headers': {'Host': 'kr.cfyyds.filegear-sg.me'}}}
-- {'name': '美国【付费推荐：https://a0a.xyz】100', 'server': 'series-a2-me.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Bog0ELmMM9DSxDdQ'}
-- {'name': '中国【付费推荐：https://a0a.xyz】18', 'server': 'zx1.1010520.xyz', 'port': 28865, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f5136746-de79-46d0-b3be-d15d9992fa07'}
-- {'name': '中国【付费推荐：https://a0a.xyz】113', 'server': 'cm.awslcn.info', 'port': 25216, 'type': 'vmess', 'uuid': '243eab52-9ac1-405c-887c-eb112c0985b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'cm.awslcn.info'}}}
-- {'name': '美国【付费推荐：https://a0a.xyz】112', 'server': '172.67.164.232', 'port': 443, 'type': 'vmess', 'uuid': '33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/rongseven?ed=2048', 'headers': {'Host': '33.bycf.us.kg'}}}
+- {'name': '节点日期：01-09', 'server': '45.8.158.32', 'port': 14585, 'type': 'vmess', 'uuid': '398ce84e-4849-4e5f-9b1a-a56fbe233b81', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/'}}
+- {'name': '德国【付费推荐：https://a0a.xyz】2', 'server': '3.126.218.145', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '英国【付费推荐：https://a0a.xyz】3', 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
+- {'name': '伊朗【付费推荐：https://a0a.xyz】4', 'server': '92.242.220.22', 'port': 37885, 'type': 'vmess', 'uuid': '8dee19ab-50ce-4d06-be42-5e53c8989ccc', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '法国【付费推荐：https://a0a.xyz】5', 'server': '163.5.159.231', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '英国【付费推荐：https://a0a.xyz】6', 'server': '51.13.182.231', 'port': 3089, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'J0lgxy4mb52CIJ8UUcEgts'}
+- {'name': '中国【付费推荐：https://a0a.xyz】7', 'server': 'in06.my1188.org', 'port': 64016, 'type': 'vmess', 'uuid': 'fe0346d9-a972-3d8a-bac7-310604fa108f', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '美国【付费推荐：https://a0a.xyz】8', 'server': 'usa.lydurlclub.top', 'port': 443, 'type': 'trojan', 'password': 'c4843eba-b070-403f-b43f-ef1ef7db571e'}
+- {'name': '荷兰【付费推荐：https://a0a.xyz】9', 'server': '213.109.147.242', 'port': 62685, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'VpKABcOpNNA0l5G2AVOmw8'}
+- {'name': '法国【付费推荐：https://a0a.xyz】10', 'server': '62.210.88.22', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'iixjK30oKDptI6sQsU3m2K'}
+- {'name': '德国【付费推荐：https://a0a.xyz】11', 'server': '185.77.217.121', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'X7eoEBrARWsBUiVfchVEdH'}
+- {'name': '美国【付费推荐：https://a0a.xyz】12', 'server': '63.177.14.204', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国【付费推荐：https://a0a.xyz】13', 'server': '77.83.246.74', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'l6hXyMxi034TRntxgeF4tf'}
+- {'name': '俄罗斯【付费推荐：https://a0a.xyz】14', 'server': '194.87.69.52', 'port': 36641, 'type': 'vmess', 'uuid': '1cc59a3a-9625-40f7-b0e6-e233286ae82d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/'}}
+- {'name': '俄罗斯【付费推荐：https://a0a.xyz】15', 'server': '185.22.155.228', 'port': 23456, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'dongtaiwang.com'}
+- {'name': '德国【付费推荐：https://a0a.xyz】16', 'server': '35.156.140.140', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国【付费推荐：https://a0a.xyz】17', 'server': '3.97.73.14', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '英国【付费推荐：https://a0a.xyz】18', 'server': '18.175.41.6', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '英国【付费推荐：https://a0a.xyz】19', 'server': '51.13.182.236', 'port': 6870, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'M7x1mGNOwhPiRB9jSxZJNy'}
+- {'name': '英国【付费推荐：https://a0a.xyz】20', 'server': '5.39.252.204', 'port': 36641, 'type': 'vmess', 'uuid': '1cc59a3a-9625-40f7-b0e6-e233286ae82d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/'}}
+- {'name': '中国【付费推荐：https://a0a.xyz】21', 'server': 'cm1.awslcn.info', 'port': 25230, 'type': 'vmess', 'uuid': '243eab52-9ac1-405c-887c-eb112c0985b8', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'cm1.awslcn.info'}}}
+- {'name': '美国【付费推荐：https://a0a.xyz】22', 'server': 'series-a2-me.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Bog0ELmMM9DSxDdQ'}
+- {'name': '英国【付费推荐：https://a0a.xyz】23', 'server': 'series-a2.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg'}
+- {'name': '美国【付费推荐：https://a0a.xyz】24', 'server': '198.105.123.190', 'port': 46902, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8'}
+- {'name': '美国【付费推荐：https://a0a.xyz】25', 'server': 'jp.lydurlclub.top', 'port': 443, 'type': 'trojan', 'password': 'c4843eba-b070-403f-b43f-ef1ef7db571e'}
+- {'name': '法国【付费推荐：https://a0a.xyz】26', 'server': 'irvideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '美国【付费推荐：https://a0a.xyz】27', 'server': 'primer.ibilibi.li', 'port': 443, 'type': 'vmess', 'uuid': 'e5852393-ca52-4c90-a237-d63cbbb57f21', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/farcry?ed=2560', 'headers': {'Host': 'loki.oracle'}}}
+- {'name': '美国【付费推荐：https://a0a.xyz】28', 'server': '38.114.114.77', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
 
 
 # 代理组
