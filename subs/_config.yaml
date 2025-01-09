@@ -205,7 +205,7 @@ data:
     output: subs/blue-Youtube.yaml
   - id: hkaa0
     type: post-http
-    source: auto
+    source: clash
     target: clash
     urls:
       - https://tgstat.com/channel/@hkaa0
