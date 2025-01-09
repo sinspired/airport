@@ -188,7 +188,7 @@ data:
       - https://raw.githubusercontent.com/mksshare/mksshare.github.io/refs/heads/main/README.md
     output: subs/trial.yaml
     options:
-      func: (str)=>str.replaceAll("\n","").replaceAll("\r","").split("Clash订阅链接")[1].split("```").filter(Boolean)[0].concat("?flag=clash")
+      func: (str)=>[str.replaceAll("\n","").replaceAll("\r","").split("Clash订阅链接")[1].split("```").filter(Boolean)[0].concat("?flag=clash")]
   - id: SFZY666
     type: http
     source: clash
@@ -203,3 +203,12 @@ data:
     urls:
       - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/main/subscriptions/blue-Youtube.yaml
     output: subs/blue-Youtube.yaml
+  - id: hkaa0
+    type: post-http
+    source: auto
+    target: clash
+    urls:
+      - https://tgstat.com/channel/@hkaa0
+    output: subs/hkaa0.yaml
+    options:
+      func: (str)=>str.match(/https?:\/\/[^\s"<']+/mg)
