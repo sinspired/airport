@@ -37,13 +37,6 @@ data:
     urls:
       - https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml
     output: subs/chengaopan.yaml
-  - id: fromzero
-    type: http
-    source: clash
-    target: clash
-    urls:
-      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/fromzero.yaml
-    output: subs/fromzero.yaml
   - id: hkaa0
     type: http
     source: clash
@@ -117,7 +110,7 @@ data:
     source: clash
     target: clash
     urls:
-      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/yudou.yaml
+      - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/main/subscriptions/yudou.yaml
     output: subs/yudou.yaml
   - id: zhangkaiitugithub
     type: http
@@ -196,3 +189,17 @@ data:
     output: subs/trial.yaml
     options:
       func: (str)=>str.replaceAll("\n","").replaceAll("\r","").split("Clash订阅链接")[1].split("```").filter(Boolean)[0].concat("?flag=clash")
+  - id: SFZY666
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/main/subscriptions/SFZY666.yaml
+    output: subs/SFZY666.yaml
+  - id: blue-Youtube
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/main/subscriptions/blue-Youtube.yaml
+    output: subs/blue-Youtube.yaml
