@@ -98,10 +98,6 @@ proxy-providers:
     type: http
     url: 'https://raw.githubusercontent.com/dongchengjie/airport/main/subs/chengaopan.yaml'
     path: ./providers/chengaopan.yaml
-  fromzero:
-    type: http
-    url: 'https://raw.githubusercontent.com/dongchengjie/airport/main/subs/fromzero.yaml'
-    path: ./providers/fromzero.yaml
   hkaa0:
     type: http
     url: 'https://raw.githubusercontent.com/dongchengjie/airport/main/subs/hkaa0.yaml'
@@ -170,6 +166,14 @@ proxy-providers:
     type: http
     url: 'https://raw.githubusercontent.com/dongchengjie/airport/main/subs/trial.yaml'
     path: ./providers/trial.yaml
+  SFZY666:
+    type: http
+    url: 'https://raw.githubusercontent.com/dongchengjie/airport/main/subs/SFZY666.yaml'
+    path: ./providers/SFZY666.yaml
+  blue-Youtube:
+    type: http
+    url: 'https://raw.githubusercontent.com/dongchengjie/airport/main/subs/blue-Youtube.yaml'
+    path: ./providers/blue-Youtube.yaml
 
 # 代理组
 proxy-groups:
