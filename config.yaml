@@ -1,0 +1,171 @@
+sources:
+  - name: _pool
+    fetcher: url
+    output: subs/_pool.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml
+  - name: Pawdroid
+    fetcher: url
+    output: subs/Pawdroid.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub
+  - name: SFZY666
+    fetcher: url
+    output: subs/SFZY666.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/main/subscriptions/SFZY666.yaml
+  - name: aiboboxx
+    fetcher: url
+    output: subs/aiboboxx.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+  - name: anaer
+    fetcher: url
+    output: subs/anaer.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+  - name: blue-Youtube
+    fetcher: url
+    output: subs/blue-Youtube.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/main/subscriptions/blue-Youtube.yaml
+  - name: changfengoss
+    fetcher: github
+    output: subs/changfengoss.yaml
+    options:
+      repository: https://github.com/changfengoss/pub
+      span: 7d
+      extensions: [.yaml, .yml]
+  - name: chengaopan
+    fetcher: url
+    output: subs/chengaopan.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml
+  - name: clashfree
+    fetcher: github
+    output: subs/clashfree.yaml
+    options:
+      repository: https://github.com/clashfree/clashfree.github.io
+      span: 7d
+      extensions: [.yaml, .yml]
+  - name: coldwater-10
+    fetcher: url
+    output: subs/coldwater-10.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub1.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub2.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub3.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub4.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub5.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub6.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub7.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub8.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub9.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub10.txt
+  - name: ermaozi
+    fetcher: url
+    output: subs/ermaozi.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+        - https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml
+  - name: hkaa0
+    fetcher: post-url
+    output: subs/hkaa0.yaml
+    options:
+      urls:
+        - https://tgstat.com/channel/@hkaa0
+      function: (str)=>str.match(/https?:\/\/[^\s"<']+/mg)
+  - name: mahdibland
+    fetcher: url
+    output: subs/mahdibland.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
+        - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.yml
+  - name: peasoft
+    fetcher: url
+    output: subs/peasoft.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/list.yml
+  - name: ripaojiedian
+    fetcher: url
+    output: subs/ripaojiedian.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
+  - name: snakem982
+    fetcher: url
+    output: subs/snakem982.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml
+        - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
+  - name: soroushmirzaei
+    fetcher: url
+    output: subs/soroushmirzaei.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/grpc
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/http
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/tcp
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/ws
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/grpc
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/http
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/tcp
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/ws
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/grpc
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/http
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/tcp
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/ws
+  - name: tssf
+    fetcher: url
+    output: subs/tssf.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/ts-sf/fly/main/clash
+  - name: trial
+    fetcher: post-url
+    output: subs/trial.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/abshare/abshare.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/abshare3/abshare3.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/tolinkshare2/tolinkshare2.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/toshare5/toshare5.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/mkshare3/mkshare3.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/mksshare/mksshare.github.io/refs/heads/main/README.md
+      function: (str)=>[str.replaceAll("\n","").replaceAll("\r","").split("Clash订阅链接")[1].split("```").filter(Boolean)[0].concat("?flag=clash")]
+  - name: ttvg
+    fetcher: url
+    output: subs/ttvg.yaml
+    options:
+      urls:
+        - https://tt.vg/freeclash
+  - name: xrayvip
+    fetcher: url
+    output: subs/xrayvip.yaml
+    options:
+      urls:
+        - https://www.xrayvip.com/free.yaml
+  - name: yudou
+    fetcher: url
+    output: subs/yudou.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/main/subscriptions/yudou.yaml
+  - name: zhangkaiitugithub
+    fetcher: url
+    output: subs/zhangkaiitugithub.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml

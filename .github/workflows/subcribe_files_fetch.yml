@@ -17,11 +17,20 @@ concurrency:
 jobs:
   fetch-subcribe-files:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Fetch subscribe files
-        uses: dongchengjie/subs-puller@main
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch subscription files
+        uses: dongchengjie/subscription-fetcher@main
         with:
+          config: https://raw.githubusercontent.com/dongchengjie/airport/main/config.yaml
           token: ${{ secrets.GITHUB_TOKEN }}
-          config: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_config.yaml
-          merged: subs/merged/merged.yaml
+
+      - name: Update subscription files
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: subs
+          author_name: subscription-fetcher
+          author_email: subscription-fetcher@users.noreply.github.com
+          message: Committed by subscription-fetcher
