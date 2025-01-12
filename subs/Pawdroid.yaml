@@ -1,5 +1,12 @@
 proxies:
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.21.82.183","port":8880,"cipher":"auto","uuid":"5a7021e0-26b4-45d6-b175-fe551601ca97","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"server26.beheshtbaneh.com"}}}
-  - {"skip-cert-verify":false,"sni":"sstjj.esslh.filegear-sg.me","network":"ws","ws-opts":{"path":"/","headers":{"Host":"sstjj.esslh.filegear-sg.me"}},"type":"trojan","password":"SSorg","server":"185.204.109.190","port":8443,"name":"俄罗斯+V2CROSS.COM"}
-  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"202.78.162.5","port":443,"cipher":"auto","uuid":"2ff97c6d-8557-42a4-b43f-19c77c5959ea","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"irsoft.sytes.net"}},"servername":"irsoft.sytes.net"}
-  - {"name":"波兰+V2CROSS.COM","type":"ss","server":"193.243.147.128","port":40368,"cipher":"aes-256-gcm","password":"7BcLdsO1WweoGD0X"}
+  - {"name":"法国 法国计算机科学大学","type":"vmess","server":"163.5.159.231","port":443,"cipher":"auto","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
+  - {"name":"海南省海口市+电信","type":"ss","server":"ctmm.gscloud.bond","port":31620,"cipher":"chacha20-ietf-poly1305","password":"f16d3752-7bae-474e-87dc-f892df2caeaf"}
+  - {"name":"意大利+V2CROSS.COM","type":"ss","server":"212.102.53.197","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
+  - {"name":"美国 加利福尼亚州圣何塞PEG TECH","type":"vmess","server":"142.4.108.139","port":38007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"network":"ws","ws-opts":{"path":"/path/021101252414","headers":{}}}
+  - {"skip-cert-verify":true,"sni":"120.232.217.96","type":"trojan","password":"7daf833c-37b9-4afc-8495-96590f03f781","server":"120.232.217.96","port":21332,"name":"广东省广州市+移动"}
+  - {"name":"伊朗 V2CROSS.COM","type":"vmess","server":"92.242.220.22","port":37885,"cipher":"auto","uuid":"8dee19ab-50ce-4d06-be42-5e53c8989ccc","alterId":0,"tls":false}
+  - {"skip-cert-verify":false,"sni":"sstjj.esslh.filegear-sg.me","network":"ws","ws-opts":{"path":"/","headers":{"Host":"sstjj.esslh.filegear-sg.me"}},"type":"trojan","password":"SSorg","server":"108.165.152.80","port":2083,"name":"美国+V2CROSS.COM"}
+  - {"name":"亚太地区+V2CROSS.COM","type":"ss","server":"160.19.78.75","port":443,"cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"35.181.242.100","port":22222,"name":"法国+巴黎Amazon数据中心"}
+  - {"name":"美国 Fastly全球Anycast节点","type":"vmess","server":"151.101.2.216","port":80,"cipher":"auto","uuid":"c69f3029-ae1e-45ca-aa08-70970f14dfd2","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn","headers":{"Host":"telegram-ISVvpn.ir"}}}
+  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-privatevpns","server":"34.255.251.132","port":22222,"name":"爱尔兰+都柏林Amazon数据中心"}
