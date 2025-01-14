@@ -12,8 +12,8 @@ on:
 permissions: write-all
 
 concurrency:
-  group: "${{ github.workflow }} - ${{ github.head_ref || github.ref }}"
-  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+  group: subscription
+  cancel-in-progress: false
 
 jobs:
   test-proxies-within:
@@ -35,14 +35,40 @@ jobs:
 
       - name: 测试节点
         run: |
-          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --du http://www.gstatic.com/generate_204 --dt 800 --dr 5 --df 800 --top 500 --dn 32 --ff 0.5
-
-      - name: 结果统计
-        run: |
-          cp -f ./subs/merged/tested_within.csv ./subs/statistics/tested_within.csv
-          cp -f ./subs/merged/tested_within.md ./subs/statistics/tested_within.md
+          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./test_result/tested_within.yaml --du http://www.gstatic.com/generate_204 --dt 800 --dr 5 --df 800 --top 500 --dn 32 --ff 0.5
 
       - name: 上传测试结果
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-proxies-within-result
+          if-no-files-found: error
+          overwrite: true
+          path: |
+            test_result/*
+
+      # 部署测试过的节点到本地，细水长流
+      - name: 更新self-host主机代理
+        run: |
+          cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
+          curl -X POST http://127.0.0.1:9090/restart
+
+  upload:
+    needs: test-proxies-within
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+
+      - name: 下载测试结果
+        uses: actions/download-artifact@v4
+
+      - name: 提交文件
+        run: |
+          cp -f ./test-proxies-within-result/tested_within.yaml ./subs/merged/tested_within.yaml
+          cp -f ./test-proxies-within-result/tested_within.csv ./subs/statistics/tested_within.csv
+          cp -f ./test-proxies-within-result/tested_within.md ./subs/statistics/tested_within.md
+
+      - name: 提交测试结果
         uses: EndBug/add-and-commit@v9
         with:
           add: |
@@ -50,11 +76,6 @@ jobs:
             - subs/statistics/tested_within.csv
             - subs/statistics/tested_within.md
           author_name: metaST
-          author_email: "metaST@github.com"
-          message: Tested by metaST
-
-      # 部署测试过的节点到本地，细水长流
-      - name: 更新self-host主机代理
-        run: |
-          cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
-          curl -X POST http://127.0.0.1:9090/restart
+          author_email: metaST@users.noreply.github.com
+          message: Committed by metaST
+          pull: --rebase --autostash

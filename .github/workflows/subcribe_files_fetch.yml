@@ -11,8 +11,8 @@ on:
 permissions: write-all
 
 concurrency:
-  group: "${{ github.workflow }} - ${{ github.head_ref || github.ref }}"
-  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+  group: subscription
+  cancel-in-progress: false
 
 jobs:
   fetch-subcribe-files:
