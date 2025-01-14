@@ -78,98 +78,11 @@ proxy_group_common_config: &proxy_group_common_config
 
 # 订阅地址
 proxy-providers:
-  _pool:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml
-    path: ./providers/_pool.yaml
-  Pawdroid:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/Pawdroid.yaml
-    path: ./providers/Pawdroid.yaml
-  SFZY666:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/SFZY666.yaml
-    path: ./providers/SFZY666.yaml
-  aiboboxx:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/aiboboxx.yaml
-    path: ./providers/aiboboxx.yaml
-  anaer:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/anaer.yaml
-    path: ./providers/anaer.yaml
-  blue-Youtube:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/blue-Youtube.yaml
-    path: ./providers/blue-Youtube.yaml
-  changfengoss:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/changfengoss.yaml
-    path: ./providers/changfengoss.yaml
-  chengaopan:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/chengaopan.yaml
-    path: ./providers/chengaopan.yaml
-  clashfree:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/clashfree.yaml
-    path: ./providers/clashfree.yaml
-  coldwater-10:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/coldwater-10.yaml
-    path: ./providers/coldwater-10.yaml
-  ermaozi:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ermaozi.yaml
-    path: ./providers/ermaozi.yaml
-  hkaa0:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/hkaa0.yaml
-    path: ./providers/hkaa0.yaml
-  mahdibland:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mahdibland.yaml
-    path: ./providers/mahdibland.yaml
-  peasoft:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/peasoft.yaml
-    path: ./providers/peasoft.yaml
-  ripaojiedian:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ripaojiedian.yaml
-    path: ./providers/ripaojiedian.yaml
-  snakem982:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/snakem982.yaml
-    path: ./providers/snakem982.yaml
-  soroushmirzaei:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/soroushmirzaei.yaml
-    path: ./providers/soroushmirzaei.yaml
   trial:
     type: http
     url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/trial.yaml
     path: ./providers/trial.yaml
-  tssf:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/tssf.yaml
-    path: ./providers/tssf.yaml
-  ttvg:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ttvg.yaml
-    path: ./providers/ttvg.yaml
-  xrayvip:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/xrayvip.yaml
-    path: ./providers/xrayvip.yaml
-  yudou:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yudou.yaml
-    path: ./providers/yudou.yaml
-  zhangkaiitugithub:
-    type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/zhangkaiitugithub.yaml
-    path: ./providers/zhangkaiitugithub.yaml
+
 
 # 代理组
 proxy-groups:
