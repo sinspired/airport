@@ -52,7 +52,7 @@ jobs:
           cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
           curl -X POST http://127.0.0.1:9090/restart
 
-  upload:
+  upload-result:
     needs: test-proxies-within
     runs-on: ubuntu-latest
     steps:

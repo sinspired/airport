@@ -80,7 +80,7 @@ proxy_group_common_config: &proxy_group_common_config
 proxy-providers:
   trial:
     type: http
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/trial.yaml
+    url: https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/merged/tested_within.yaml
     path: ./providers/trial.yaml
 
 
