@@ -1,79 +1,67 @@
 proxies:
   - {"name":"高性价比机场:https://kfyun.uk","type":"ss","server":"127.0.0.1","port":443,"cipher":"aes-128-gcm","password":"6601fb90e9b3"}
-  - {"name":"0|--1","type":"ss","server":"221.150.109.88","port":59686,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--2","type":"ss","server":"210.217.18.69","port":30956,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--3","type":"ss","server":"3.1.204.240","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--4","type":"ss","server":"13.229.248.183","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--1","type":"ss","server":"27.255.82.134","port":46283,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--3","type":"ss","server":"27.255.82.135","port":61891,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--4","type":"ss","server":"210.217.18.69","port":30956,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
   - {"name":"0|--5","type":"ss","server":"54.179.76.173","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--8","type":"ss","server":"54.180.9.243","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--11","type":"ss","server":"195.15.254.25","port":54748,"cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0="}
-  - {"name":"0|--12","type":"ss","server":"35.89.145.123","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--13","type":"ss","server":"13.124.147.239","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--14","type":"ss","server":"13.113.190.198","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--15","type":"ss","server":"13.125.199.174","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--16","type":"ss","server":"18.183.217.250","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--17","type":"ss","server":"18.183.178.120","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--18","type":"ss","server":"27.255.82.49","port":61089,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--19","type":"ss","server":"168.126.234.233","port":40915,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--20","type":"ss","server":"125.141.31.100","port":17725,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--21","type":"ss","server":"112.213.102.228","port":4231,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--22","type":"ss","server":"203.234.238.147","port":41951,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--23","type":"ss","server":"13.112.239.190","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--24","type":"ss","server":"54.179.104.38","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--25","type":"ss","server":"54.169.119.131","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--26","type":"ss","server":"13.250.30.129","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--27","type":"ss","server":"18.142.51.90","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--28","type":"ss","server":"27.255.82.135","port":61891,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--29","type":"ss","server":"13.124.195.238","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--30","type":"ss","server":"54.179.150.222","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--31","type":"ss","server":"13.229.99.83","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--32","type":"ss","server":"222.112.15.141","port":38471,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--33","type":"ss","server":"221.150.109.21","port":7855,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--45","type":"vmess","server":"yx1.changyouVPN.top","port":8880,"cipher":"auto","uuid":"85c7eba1-dfba-4f3e-9f7a-833fa729dc19","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"yg.changyouVPN.top"}}}
-  - {"skip-cert-verify":false,"sni":"x2ger-amazon.devefun.net","type":"trojan","password":"Oe5CMj3tiO","server":"3.127.116.35","port":1935,"name":"0,15|DE_speednode_0006"}
-  - {"skip-cert-verify":true,"type":"trojan","password":"vzhXXZVw","server":"223.113.54.145","port":36442,"name":"13,14|香港|@ripaojiedian"}
-  - {"skip-cert-verify":true,"type":"trojan","password":"vzhXXZVw","server":"36.150.215.220","port":48544,"name":"13,14|香港2|@ripaojiedian"}
-  - {"name":"13|🇭🇰 香港3|@ripaojiedian","type":"vmess","server":"120.234.102.229","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"0|--6","type":"ss","server":"13.250.30.129","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--8","type":"ss","server":"13.113.190.198","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--9","type":"ss","server":"195.15.254.25","port":54748,"cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0="}
+  - {"name":"0|--11","type":"ss","server":"185.189.160.98","port":64759,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--14","type":"ss","server":"103.36.91.32","port":8388,"cipher":"chacha20-ietf","password":"asd123456"}
+  - {"name":"0,13|🇸🇬 狮城特殊|@ripaojiedian","type":"ss","server":"13.124.147.239","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--16","type":"ss","server":"13.229.248.183","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--17","type":"ss","server":"222.112.15.141","port":38471,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--18","type":"ss","server":"221.150.109.88","port":59686,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--20","type":"ss","server":"203.234.238.147","port":41951,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--21","type":"ss","server":"213.109.147.242","port":62685,"cipher":"chacha20-ietf-poly1305","password":"VpKABcOpNNA0l5G2AVOmw8"}
+  - {"name":"0|--22","type":"ss","server":"3.1.204.240","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--24","type":"ss","server":"18.183.178.120","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--25","type":"ss","server":"18.142.51.90","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"phXKwfrd","server":"36.150.215.196","port":34188,"name":"13,14|香港|@ripaojiedian"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"phXKwfrd","server":"223.113.54.145","port":36442,"name":"13,14|香港2|@ripaojiedian"}
+  - {"name":"13|🇭🇰 香港3|@ripaojiedian","type":"ss","server":"45.250.184.183","port":6181,"cipher":"chacha20-ietf-poly1305","password":"11a805f2-41a7-4cd8-8406-0470c3cde0d3"}
   - {"name":"13|🇭🇰 香港4|@ripaojiedian","type":"vmess","server":"183.236.51.23","port":53002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
   - {"name":"13|🇭🇰 香港5|@ripaojiedian","type":"ss","server":"8tv68qhq.slashdevslashnetslashtun.net","port":15005,"cipher":"aes-256-gcm","password":"NFYDVXE3DMWI2M3W"}
   - {"name":"13|🇭🇰 香港6|@ripaojiedian","type":"ss","server":"ti3hyra4.slashdevslashnetslashtun.net","port":15010,"cipher":"aes-256-gcm","password":"YPNNBXGRNCAXB9N7"}
+  - {"name":"13|🇭🇰 香港7|@ripaojiedian","type":"ss","server":"dns.a123.my","port":44471,"cipher":"chacha20-ietf-poly1305","password":"3a2ba863-cbce-4991-84ac-4505c2253183"}
+  - {"skip-cert-verify":false,"sni":"z259.hongkongnode.top","type":"trojan","password":"315f744a-c705-3e58-96d9-35f0a8d3310c","server":"gy.58n.net","port":24603,"name":"13,14|香港8|@ripaojiedian"}
   - {"skip-cert-verify":false,"sni":"tw01.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"tw01.trojanyyds.xyz","port":443,"name":"13,14|台湾|@ripaojiedian"}
   - {"skip-cert-verify":false,"sni":"tw02.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"74.226.136.204","port":443,"name":"13,14|台湾2|@ripaojiedian"}
+  - {"name":"13|🇹🇼 台湾3|@ripaojiedian","type":"ss","server":"dns.a123.my","port":11170,"cipher":"aes-256-gcm","password":"3a2ba863-cbce-4991-84ac-4505c2253183"}
   - {"skip-cert-verify":false,"sni":"cloudflare.node-ssl.cdn-alibaba.com","type":"trojan","password":"e279c494-c426-443a-a034-a04516409242","server":"naiu-jp.05vr9nyqg5.download","port":13012,"name":"13,14|日本|@ripaojiedian"}
-  - {"name":"13|🇯🇵 日本2|@ripaojiedian","type":"vmess","server":"45.159.50.143","port":40866,"cipher":"auto","uuid":"68227ff4-28f8-4564-9eef-8d3d3dacaf57","alterId":0,"tls":false}
+  - {"name":"13,14|日本2|@ripaojiedian","type":"vmess","server":"jp.cowvpn.org","port":443,"cipher":"auto","uuid":"11a805f2-41a7-4cd8-8406-0470c3cde0d3","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/cctv13/vmess_jpcf","headers":{"Host":"jpcf.cowvpn.org"}},"servername":"jpcf.cowvpn.org"}
   - {"name":"13|🇯🇵 日本3|@ripaojiedian","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":18016,"cipher":"aes-256-gcm","password":"D56RP4I5E1CWLAE3"}
   - {"name":"13|🇯🇵 日本4|@ripaojiedian","type":"ss","server":"8tv68qhq.slashdevslashnetslashtun.net","port":18001,"cipher":"aes-256-gcm","password":"MMRTIYVECN33018T"}
-  - {"name":"13|🇰🇷 韩国|@ripaojiedian","type":"ss","server":"p199.panda003.net","port":58368,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"13|🇯🇵 日本5|@ripaojiedian","type":"ss","server":"dns.a123.my","port":23910,"cipher":"chacha20-ietf-poly1305","password":"3a2ba863-cbce-4991-84ac-4505c2253183"}
   - {"name":"13|🇸🇬 新加坡|@ripaojiedian","type":"ss","server":"ctmm.gscloud.bond","port":31620,"cipher":"chacha20-ietf-poly1305","password":"f16d3752-7bae-474e-87dc-f892df2caeaf"}
-  - {"skip-cert-verify":false,"sni":"major-reindeer.boa152.lol","type":"trojan","password":"3723507166611775488","server":"major-reindeer.boa152.lol","port":443,"name":"13,14|新加坡3|@ripaojiedian"}
-  - {"name":"13|🇸🇬 新加坡4|@ripaojiedian","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":16016,"cipher":"aes-256-gcm","password":"6KYL3YM7UAOAE94Q"}
-  - {"name":"13|🇸🇬 新加坡5|@ripaojiedian","type":"ss","server":"qh62onjn.slashdevslashnetslashtun.net","port":16003,"cipher":"aes-256-gcm","password":"FAJT26PIM7CB71OZ"}
+  - {"skip-cert-verify":false,"sni":"major-reindeer.boa152.lol","type":"trojan","password":"3723507166611775488","server":"major-reindeer.boa152.lol","port":443,"name":"13,14|新加坡2|@ripaojiedian"}
+  - {"name":"13|🇸🇬 新加坡3|@ripaojiedian","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":16016,"cipher":"aes-256-gcm","password":"6KYL3YM7UAOAE94Q"}
   - {"skip-cert-verify":false,"sni":"sg02.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"sg02.trojanyyds.xyz","port":443,"name":"13|🇺🇸 美国|@ripaojiedian"}
   - {"name":"13|🇺🇸 美国2|@ripaojiedian","type":"ss","server":"8tv68qhq.slashdevslashnetslashtun.net","port":17001,"cipher":"aes-256-gcm","password":"QBNVUDH1J62ZEVWK"}
-  - {"name":"13|🇺🇸 美国3|@ripaojiedian","type":"ss","server":"23.154.136.247","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"13|🇸🇬 狮城特殊|@ripaojiedian","type":"ss","server":"52.79.248.198","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"13|🇰🇷 韩国特殊|@ripaojiedian","type":"ss","server":"18.183.98.103","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"13|🇯🇵 日本特殊|@ripaojiedian","type":"ss","server":"43.206.222.22","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"13|🇳🇱 荷兰|@ripaojiedian","type":"ss","server":"208.67.105.87","port":42501,"cipher":"chacha20-ietf-poly1305","password":"nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf"}
-  - {"name":"14|香港3|@ripaojiedian","type":"vmess","server":"120.234.102.229","port":52908,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"13,14|美国3|@ripaojiedian","type":"vmess","server":"us1.cowvpn.org","port":443,"cipher":"auto","uuid":"11a805f2-41a7-4cd8-8406-0470c3cde0d3","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/cctv13/vmess_us1cf","headers":{"Host":"us1cf.cowvpn.org"}},"servername":"us1cf.cowvpn.org"}
+  - {"name":"13|🇺🇸 美国4|@ripaojiedian","type":"ss","server":"dns.a123.my","port":53120,"cipher":"chacha20-ietf-poly1305","password":"3a2ba863-cbce-4991-84ac-4505c2253183"}
+  - {"name":"13|🇯🇵 日本特殊|@ripaojiedian","type":"ss","server":"52.198.226.5","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"13|🇰🇷 韩国特殊|@ripaojiedian","type":"ss","server":"18.183.217.250","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"14|香港3|@ripaojiedian","type":"ss","server":"45.250.184.183","port":6181,"cipher":"ss","password":"//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMWE4MDVmMi00MWE3LTRjZDgtODQwNi0wNDcwYzNjZGUwZDM"}
   - {"name":"14|香港4|@ripaojiedian","type":"vmess","server":"183.236.51.23","port":53002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
   - {"name":"14|香港5|@ripaojiedian","type":"ss","server":"8tv68qhq.slashdevslashnetslashtun.net","port":15005,"cipher":"ss","password":"//YWVzLTI1Ni1nY206TkZZRFZYRTNETVdJMk0zVw"}
   - {"name":"14|香港6|@ripaojiedian","type":"ss","server":"ti3hyra4.slashdevslashnetslashtun.net","port":15010,"cipher":"ss","password":"//YWVzLTI1Ni1nY206WVBOTkJYR1JOQ0FYQjlONw"}
-  - {"name":"14|日本2|@ripaojiedian","type":"vmess","server":"45.159.50.143","port":40866,"cipher":"auto","uuid":"68227ff4-28f8-4564-9eef-8d3d3dacaf57","alterId":0,"tls":false}
+  - {"name":"14|香港7|@ripaojiedian","type":"ss","server":"dns.a123.my","port":44471,"cipher":"ss","password":"//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYTJiYTg2My1jYmNlLTQ5OTEtODRhYy00NTA1YzIyNTMxODM"}
+  - {"name":"14|台湾3|@ripaojiedian","type":"ss","server":"dns.a123.my","port":11170,"cipher":"ss","password":"//YWVzLTI1Ni1nY206M2EyYmE4NjMtY2JjZS00OTkxLTg0YWMtNDUwNWMyMjUzMTgz"}
   - {"name":"14|日本3|@ripaojiedian","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":18016,"cipher":"ss","password":"//YWVzLTI1Ni1nY206RDU2UlA0STVFMUNXTEFFMw"}
   - {"name":"14|日本4|@ripaojiedian","type":"ss","server":"8tv68qhq.slashdevslashnetslashtun.net","port":18001,"cipher":"ss","password":"//YWVzLTI1Ni1nY206TU1SVElZVkVDTjMzMDE4VA"}
-  - {"name":"14|韩国|@ripaojiedian","type":"ss","server":"p199.panda003.net","port":58368,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA"}
+  - {"name":"14|日本5|@ripaojiedian","type":"ss","server":"dns.a123.my","port":23910,"cipher":"ss","password":"//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYTJiYTg2My1jYmNlLTQ5OTEtODRhYy00NTA1YzIyNTMxODM"}
   - {"name":"14|新加坡|@ripaojiedian","type":"ss","server":"ctmm.gscloud.bond","port":31620,"cipher":"ss","password":"//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMTZkMzc1Mi03YmFlLTQ3NGUtODdkYy1mODkyZGYyY2FlYWY"}
-  - {"name":"14|新加坡4|@ripaojiedian","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":16016,"cipher":"ss","password":"//YWVzLTI1Ni1nY206NktZTDNZTTdVQU9BRTk0UQ"}
-  - {"name":"14|新加坡5|@ripaojiedian","type":"ss","server":"qh62onjn.slashdevslashnetslashtun.net","port":16003,"cipher":"ss","password":"//YWVzLTI1Ni1nY206RkFKVDI2UElNN0NCNzFPWg"}
+  - {"name":"14|新加坡3|@ripaojiedian","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":16016,"cipher":"ss","password":"//YWVzLTI1Ni1nY206NktZTDNZTTdVQU9BRTk0UQ"}
   - {"name":"14|美国2|@ripaojiedian","type":"ss","server":"8tv68qhq.slashdevslashnetslashtun.net","port":17001,"cipher":"ss","password":"//YWVzLTI1Ni1nY206UUJOVlVESDFKNjJaRVZXSw"}
-  - {"name":"14|美国3|@ripaojiedian","type":"ss","server":"23.154.136.247","port":2376,"cipher":"ss","password":"//YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3"}
-  - {"name":"14|狮城特殊|@ripaojiedian","type":"ss","server":"52.79.248.198","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
-  - {"name":"14|韩国特殊|@ripaojiedian","type":"ss","server":"18.183.98.103","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
-  - {"name":"14|日本特殊|@ripaojiedian","type":"ss","server":"43.206.222.22","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
-  - {"name":"14|荷兰|@ripaojiedian","type":"ss","server":"208.67.105.87","port":42501,"cipher":"ss","password":"//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpucTk2S2Z0clpBajNMdUZRRVNxbW40NE1vNW9DdW8yY2lwb0VzYWUyNW1ybUhHMm9KNFZUMzdzY0JmVkJwTjVEV3RVRUxadXRWaGhYczhMZTVCOGZaOWhMbjl5dHd2YmY"}
+  - {"name":"14|美国4|@ripaojiedian","type":"ss","server":"dns.a123.my","port":53120,"cipher":"ss","password":"//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYTJiYTg2My1jYmNlLTQ5OTEtODRhYy00NTA1YzIyNTMxODM"}
+  - {"name":"14|日本特殊|@ripaojiedian","type":"ss","server":"52.198.226.5","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
+  - {"name":"14|狮城特殊|@ripaojiedian","type":"ss","server":"13.124.147.239","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
+  - {"name":"14|韩国特殊|@ripaojiedian","type":"ss","server":"18.183.217.250","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
   - {"skip-cert-verify":true,"type":"trojan","password":"vzhXXZVw","server":"36.150.215.222","port":12524,"name":"15|CN_speednode_0001"}
   - {"type":"vless","name":"15|CR_speednode_0004","server":"ns4.esfahansiman.com","port":443,"uuid":"436227b8-c20f-4871-8114-e21623c47f0c","tls":true,"alpn":["h2","http/1.1"],"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"WWW.pegAh-Esfahan.De."},"path":"/fp"},"servername":"WWW.pegAh-Esfahan.De."}
+  - {"skip-cert-verify":false,"sni":"x2ger-amazon.devefun.net","type":"trojan","password":"Oe5CMj3tiO","server":"3.127.116.35","port":1935,"name":"15|DE_speednode_0006"}
   - {"type":"vless","name":"15|DE_speednode_0007","server":"xpnteam-chanell-join.jaricopen.sbs","port":8443,"uuid":"d4317213-4c8b-4af6-b8ee-fb6ceba4a3b3","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"Upload.ir"},"path":"/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed"},"servername":"Upload.ir"}
   - {"type":"vless","name":"15|DE_speednode_0008","server":"159.69.35.198","port":1010,"uuid":"d2ab7136-f995-40b8-8b59-4f2ef0c5d590","skip-cert-verify":false,"network":"tcp","servername":"Speedtest.net"}
   - {"type":"vless","name":"15|DE_speednode_0009","server":"2na9noed62ec.dopraxrocks.com","port":80,"uuid":"01b12c3c-4d96-45c3-88ef-f1360804d7b0","skip-cert-verify":false,"network":"tcp","servername":"speedtest.net"}
