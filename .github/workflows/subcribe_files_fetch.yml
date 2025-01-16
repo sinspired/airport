@@ -31,6 +31,8 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           add: subs
-          author_name: subscription-fetcher
-          author_email: subscription-fetcher@users.noreply.github.com
-          message: Committed by subscription-fetcher
+          author_name: github-actions[bot]
+          author_email: github-actions[bot]@users.noreply.github.com
+          message: "ci: release ${{ github.ref_name }}"
+          push: origin HEAD:main
+          pull: --rebase --autostash

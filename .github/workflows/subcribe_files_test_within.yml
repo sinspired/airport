@@ -75,7 +75,8 @@ jobs:
             - subs/merged/tested_within.yaml
             - subs/statistics/tested_within.csv
             - subs/statistics/tested_within.md
-          author_name: metaST
-          author_email: metaST@users.noreply.github.com
-          message: Committed by metaST
+          author_name: github-actions[bot]
+          author_email: github-actions[bot]@users.noreply.github.com
+          message: "Committed by metaST"
+          push: origin HEAD:main
           pull: --rebase --autostash
