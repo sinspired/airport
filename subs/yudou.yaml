@@ -1,37 +1,37 @@
 proxies:
-  - {"name":"美国(yudou66.com 玉豆免费节点)","server":"188.164.159.91","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 2","server":"83.147.216.173","port":9848,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"zUQvFioae7KzAZ2GCMgNum","udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 3","server":"s4.cn-db.top","port":2086,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in172.67.103.33","headers":{"Host":"100-59-133-139.s4.cn-db.top"}}}
-  - {"name":"荷兰(yudou66.com 玉豆免费节点)","server":"5.8.35.208","port":443,"type":"trojan","password":"3648425794742788096","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 4","server":"212.41.15.119","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"法国(yudou66.com 玉豆免费节点)","server":"irvideo.cfd","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 5","server":"183.236.48.158","port":50052,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 6","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 7","server":"120.232.153.63","port":40972,"type":"vmess","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(yudou66.com 玉豆免费节点)","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 8","server":"120.234.102.229","port":52908,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点)","server":"183.236.48.158","port":50052,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 2","server":"212.41.15.119","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 3","server":"181.119.30.20","port":990,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3","udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 4","server":"104.19.57.183","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(yudou66.com 玉豆免费节点)","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"俄罗斯(yudou66.com 玉豆免费节点) 2","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"960c95a9-8502-4cbc-a527-d40c2d68d2b1","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 5","server":"183.236.51.23","port":46602,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 6","server":"173.245.59.109","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"英国(yudou66.com 玉豆免费节点)","server":"5.39.254.196","port":23985,"type":"vmess","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.254.196"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 7","server":"shs.xiaoqi666.xyz","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 8","server":"13.250.38.94","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 9","server":"120.234.102.229","port":52908,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 10","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(yudou66.com 玉豆免费节点) 3","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
   - {"name":"日本(yudou66.com 玉豆免费节点)","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
-  - {"name":"日本(yudou66.com 玉豆免费节点) 2","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 9","server":"183.236.51.23","port":56601,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 10","server":"shs.xiaoqi666.xyz","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
   - {"name":"美国(yudou66.com 玉豆免费节点) 11","server":"66.81.247.88","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 12","server":"52.231.97.210","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 13","server":"104.19.57.183","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 14","server":"185.204.109.190","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"英国(yudou66.com 玉豆免费节点)","server":"5.39.252.204","port":17926,"type":"vmess","uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.252.204"}}}
-  - {"name":"法国(yudou66.com 玉豆免费节点) 2","server":"88.218.78.95","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 15","server":"183.236.51.23","port":46602,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 16","server":"106.240.1.52","port":20443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 17","server":"206.238.236.134","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 18","server":"154.197.64.166","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 19","server":"209.94.90.87","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 20","server":"181.119.30.20","port":990,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3","udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 21","server":"154.197.64.189","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 22","server":"104.19.103.190","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 12","server":"185.204.109.190","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"荷兰(yudou66.com 玉豆免费节点)","server":"5.8.35.208","port":443,"type":"trojan","password":"3648425794742788096","skip-cert-verify":true,"udp":true}
+  - {"name":"日本(yudou66.com 玉豆免费节点) 2","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 13","server":"108.165.152.67","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 14","server":"183.236.51.23","port":56601,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 15","server":"103.116.7.103","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 16","server":"5.182.84.229","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 17","server":"198.62.62.192","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 18","server":"172.67.172.63","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 19","server":"154.197.64.189","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 20","server":"188.164.159.91","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 21","server":"104.19.103.190","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 22","server":"188.164.159.241","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"美国(yudou66.com 玉豆免费节点) 23","server":"162.159.45.156","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 24","server":"92.53.190.161","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"英国(yudou66.com 玉豆免费节点) 2","server":"51.44.146.158","port":22222,"type":"trojan","password":"telegram-id-privatevpns","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 25","server":"108.165.152.104","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"法国(yudou66.com 玉豆免费节点) 3","server":"163.5.159.231","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
-  - {"name":"俄罗斯(yudou66.com 玉豆免费节点) 2","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 26","server":"212.192.12.70","port":17926,"type":"vmess","uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"212.192.12.70"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 24","server":"206.238.236.134","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 25","server":"154.197.64.166","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 26","server":"92.53.190.161","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 27","server":"209.94.90.87","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 28","server":"homa.cybsecguru.com","port":55551,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"UNJXwrcb3vkdQbR6P5VGHA","udp":true}
+  - {"name":"俄罗斯(yudou66.com 玉豆免费节点) 4","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"960c95a9-8502-4cbc-a527-d40c2d68d2b1","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
