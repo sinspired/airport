@@ -1,9 +1,17 @@
 proxies:
   - {"name":"高性价比机场:https://kfyun.uk","type":"ss","server":"127.0.0.1","port":443,"cipher":"aes-128-gcm","password":"6601fb90e9b3"}
-  - {"name":"0|--1","type":"ss","server":"168.126.234.233","port":40915,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--2","type":"ss","server":"p231.panda004.net","port":61238,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--5","type":"ss","server":"121.170.203.147","port":37041,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--35","type":"vmess","server":"in06.my1188.org","port":64016,"cipher":"auto","uuid":"fe0346d9-a972-3d8a-bac7-310604fa108f","alterId":0,"tls":false}
+  - {"name":"0|--3","type":"ss","server":"13.125.6.123","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--11","type":"ss","server":"121.170.203.147","port":37041,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--12","type":"ss","server":"54.199.222.156","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--14","type":"ss","server":"218.50.149.114","port":34847,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--15","type":"ss","server":"27.255.82.23","port":5412,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--16","type":"ss","server":"218.38.103.150","port":28902,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--17","type":"ss","server":"212.102.53.197","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
+  - {"name":"0|--18","type":"ss","server":"uk-dc1.yangon.club","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
+  - {"name":"0|--23","type":"ss","server":"221.168.44.72","port":27973,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--31","type":"ss","server":"218.237.185.230","port":31066,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--32","type":"ss","server":"p231.panda004.net","port":61238,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--33","type":"ss","server":"121.170.203.148","port":4563,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
   - {"skip-cert-verify":true,"type":"trojan","password":"phXKwfrd","server":"223.113.54.145","port":36442,"name":"13,14,15|CN_speednode_0019"}
   - {"skip-cert-verify":true,"type":"trojan","password":"phXKwfrd","server":"36.150.215.219","port":42395,"name":"13,14|香港2|@ripaojiedian"}
   - {"skip-cert-verify":false,"sni":"cloudflare.node-ssl.cdn-alibaba.com","type":"trojan","password":"e279c494-c426-443a-a034-a04516409242","server":"naiu-hk.05vr9nyqg5.download","port":13004,"name":"13,14|香港3|@ripaojiedian"}
