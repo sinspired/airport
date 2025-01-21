@@ -46,7 +46,7 @@ proxies:
   - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-01","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"2a619dd6-b849-4173-9a34-339d6e9d65f3","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
   - {"name":"俄罗斯(mibei77.com 米贝节点分享) 4-01","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"016c0e7b-506e-4ced-ad74-0722e41bf52e","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
   - {"name":"俄罗斯(mibei77.com 米贝节点分享) 5-01","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"eb060c08-f284-49be-adb8-5188fb0521a5","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 6","server":"195.58.49.50","port":17926,"type":"vmess","uuid":"90128a15-c344-43c4-b379-53ea433b915c","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.50"}}}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 6-01","server":"195.58.49.50","port":17926,"type":"vmess","uuid":"90128a15-c344-43c4-b379-53ea433b915c","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.50"}}}
   - {"name":"俄罗斯(mibei77.com 米贝节点分享) 7","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"c7326a94-e394-4096-b741-88761f6ecf51","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
   - {"name":"俄罗斯(mibei77.com 米贝节点分享) 8","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"32ed8a2f-1946-4c1a-bee8-1215d17b42c6","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
   - {"name":"乌克兰(mibei77.com 米贝节点分享)","server":"31.43.179.60","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
@@ -302,6 +302,38 @@ proxies:
   - {"name":"KR韩国(mibei77.com 米贝节点分享)-01","server":"172.67.172.63","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"SG新加坡(mibei77.com 米贝节点分享) 14-01","server":"108.165.152.67","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享)-02","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
+  - {"name":"6元高速机场:cczzuu.top-03","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"重度用户推荐使用机场-03","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"免费节点可能会泄漏访问记录-03","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸_美国_1","port":80,"server":"104.19.48.236","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"chunchuan.kejixiaoqi666.store"}},"cipher":"auto","uuid":"e6543319-0574-42ac-b778-1c4325d626f5","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"中国 > 美国_1","port":13035,"server":"naiu-other.05vr9nyqg5.download","type":"trojan","udp":true,"sni":"naiu-other.05vr9nyqg5.download","password":"e279c494-c426-443a-a034-a04516409242","skip-cert-verify":true}
+  - {"name":"中国 > 美国_2","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_美国_2-03","port":443,"server":"74.226.136.204","type":"trojan","udp":true,"password":"243eab52-9ac1-405c-887c-eb112c0985b8","skip-cert-verify":true}
+  - {"name":"🇺🇦_乌克兰_1","port":8388,"server":"95.164.36.59","type":"ss","udp":true,"password":"ZmQwZjFk","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇪_比利时_1-03","port":443,"server":"tw01.trojanyyds.xyz","type":"trojan","udp":true,"sni":"tw01.trojanyyds.xyz","password":"243eab52-9ac1-405c-887c-eb112c0985b8","skip-cert-verify":true}
+  - {"name":"🇨中国 > 美国_3","port":46602,"server":"183.236.51.23","type":"vmess","network":"tcp","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"disable-sni":true,"servername":""}
+  - {"name":"🇺🇸_美国_3-03","port":443,"server":"in01.trojanyyds.xyz","type":"trojan","udp":true,"sni":"in01.trojanyyds.xyz","password":"243eab52-9ac1-405c-887c-eb112c0985b8","skip-cert-verify":true}
+  - {"name":"🇨🇳_中国 > 美国_4","port":12524,"server":"36.150.215.222","type":"trojan","udp":true,"password":"vzhXXZVw","skip-cert-verify":true}
+  - {"name":"🇨🇳_中国 > 美国_5","port":6181,"server":"45.250.184.183","type":"ss","udp":true,"password":"11a805f2-41a7-4cd8-8406-0470c3cde0d3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_美国_4-03","port":443,"server":"sg02.trojanyyds.xyz","type":"trojan","udp":true,"sni":"sg02.trojanyyds.xyz","password":"243eab52-9ac1-405c-887c-eb112c0985b8","skip-cert-verify":true}
+  - {"name":"🇨🇳_中国 > 美国_6","port":443,"server":"42.236.73.72","type":"trojan","udp":true,"password":"fuck","skip-cert-verify":true}
+  - {"name":"🇷🇺_俄罗斯_1","port":17926,"server":"194.87.69.52","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}},"cipher":"auto","uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇺🇸_美国_5","port":80,"server":"104.16.155.10","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"chunchuan.kejixiaoqi666.store"}},"cipher":"auto","uuid":"e6543319-0574-42ac-b778-1c4325d626f5","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇨🇳_中国 > 美国_7","port":18013,"server":"8tv68qhq.slashdevslashnetslashtun.net","type":"ss","udp":true,"password":"HEFXL9QGFUT6ET4L","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳_中国 > 美国_8","port":42395,"server":"36.150.215.219","type":"trojan","udp":true,"password":"phXKwfrd","skip-cert-verify":true}
+  - {"name":"🏳中国 > 美国_9","port":13012,"server":"naiu-jp.05vr9nyqg5.download","type":"trojan","udp":true,"sni":"naiu-jp.05vr9nyqg5.download","password":"e279c494-c426-443a-a034-a04516409242","skip-cert-verify":true}
+  - {"name":"🇺🇦_乌克兰_2","port":8388,"server":"95.164.44.221","type":"ss","udp":true,"password":"ZDAxZDE2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_中国 > 美国_10","port":56601,"server":"183.236.51.23","type":"vmess","network":"tcp","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"disable-sni":true,"servername":""}
+  - {"name":"🇨🇳_中国 > 美国_11","port":21673,"server":"223.111.144.12","type":"trojan","udp":true,"password":"phXKwfrd","skip-cert-verify":true}
+  - {"name":"🇨🇳_中国 > 美国_12-03","port":52908,"server":"120.234.102.229","type":"vmess","network":"tcp","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"disable-sni":true,"servername":""}
+  - {"name":"🇨🇳_中国 > 美国_13","port":50052,"server":"183.236.48.158","type":"vmess","network":"tcp","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"disable-sni":true,"servername":""}
+  - {"name":"🇨🇳_中国 > 美国_14","port":36442,"server":"223.113.54.145","type":"trojan","udp":true,"password":"phXKwfrd","skip-cert-verify":true}
+  - {"name":"🇧🇪_比利时_2-03","port":443,"server":"us01.trojanyyds.xyz","type":"trojan","udp":true,"sni":"us01.trojanyyds.xyz","password":"243eab52-9ac1-405c-887c-eb112c0985b8","skip-cert-verify":true}
+  - {"name":"🇬🇧_英国","port":17926,"server":"5.39.252.204","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"host":""}},"cipher":"auto","uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇨🇳_中国 > 美国_15","port":16014,"server":"ti3hyra4.slashdevslashnetslashtun.net","type":"ss","udp":true,"password":"H5IGGU6EPG7XR7X4","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇺_俄罗斯_2-03","port":8388,"server":"89.221.224.166","type":"ss","udp":true,"password":"MDZhNTAz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_中国 > 美国_16","port":60194,"server":"ru0195.alibabaokz.com","type":"trojan","udp":true,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2-03","port":25230,"server":"cm1.awslcn.info","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"servername":"cm1.awslcn.info"}
   - {"name":"🇷🇺_RU_俄罗斯_1-07","port":989,"server":"185.231.233.173","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🇦🇿_AZ_阿塞拜疆->🇺🇸_US_美国-02","port":443,"server":"94.20.141.173","type":"ss","udp":true,"password":"Txj30LibF3Mn5FOvQBuJFV","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇭_CH_瑞士-05","port":989,"server":"84.17.53.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
@@ -358,9 +390,9 @@ proxies:
   - {"name":"FR法国(mibei77.com 米贝节点分享)-01","server":"88.218.78.95","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 16-03","server":"s4.cn-db.top","port":2086,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in172.67.103.33","headers":{"Host":"100-59-133-139.s4.cn-db.top"}}}
   - {"name":"SG新加坡(mibei77.com 米贝节点分享) 16-01","server":"154.197.64.67","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"6元高速机场:cczzuu.top-03","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"重度用户推荐使用机场-03","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"免费节点可能会泄漏访问记录-03","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"6元高速机场:cczzuu.top-04","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"重度用户推荐使用机场-04","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"免费节点可能会泄漏访问记录-04","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
   - {"name":"🇨🇳_中国_1","port":21142,"server":"120.232.217.96","type":"trojan","udp":true,"password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true}
   - {"name":"🇨🇳_中国_2","port":39431,"server":"120.232.217.96","type":"trojan","udp":true,"password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true}
   - {"name":"🇨🇳_中国_3","port":60194,"server":"ru0195.alibabaokz.com","type":"trojan","udp":true,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
@@ -377,7 +409,7 @@ proxies:
   - {"name":"🇷🇺_RU_俄罗斯->🇮🇳_IN_印度-01","port":16431,"server":"194.87.69.122","type":"ss","udp":true,"password":"560b7d65c1f4b12a","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸_US_美国_2-06","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🇷🇺_RU_俄罗斯-04","port":989,"server":"185.231.233.112","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2-03","port":25230,"server":"cm1.awslcn.info","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"servername":"cm1.awslcn.info"}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2-04","port":25230,"server":"cm1.awslcn.info","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"servername":"cm1.awslcn.info"}
   - {"name":"defaultName","port":989,"server":"62.100.205.48","type":"ssr","udp":true,"obfs":"plain","password":"f8f7aCzcPKbsF8p3","protocol":"origin","cipher":"aes-256-cfb","group":"SSRProvider"}
   - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1-01","port":60194,"server":"ru0195.alibabaokz.com","type":"trojan","udp":true,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
   - {"name":"🇨🇳_CN_中国->🇿🇦_ZA_南非-01","port":2222,"server":"156.253.237.131","type":"ss","udp":true,"password":"bfWZbxtXnPX6sSF_n9byxw","cipher":"chacha20-ietf-poly1305"}
@@ -437,10 +469,10 @@ proxies:
   - {"name":"SG新加坡(mibei77.com 米贝节点分享) 14-03","server":"104.19.103.190","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"SG新加坡(mibei77.com 米贝节点分享) 15-02","server":"103.116.7.103","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"SG新加坡(mibei77.com 米贝节点分享) 16-02","server":"108.165.152.80","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 17","server":"198.62.62.192","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 18","server":"154.197.64.166","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 19","server":"154.197.64.189","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 20","server":"108.165.152.104","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 17-01","server":"198.62.62.192","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 18-01","server":"154.197.64.166","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 19-01","server":"154.197.64.189","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 20-01","server":"108.165.152.104","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"PL波兰(mibei77.com 米贝节点分享)-02","server":"45.136.199.132","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"KR韩国(mibei77.com 米贝节点分享)-03","server":"172.67.172.63","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"JP日本(mibei77.com 米贝节点分享)-05","server":"52.231.97.210","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
@@ -452,14 +484,14 @@ proxies:
   - {"name":"FR法国(mibei77.com 米贝节点分享)-02","server":"irvideo.cfd","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
   - {"name":"FR法国(mibei77.com 米贝节点分享) 2-01","server":"163.5.159.231","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
   - {"name":"DE德国(mibei77.com 米贝节点分享)-02","server":"212.41.15.119","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"6元高速机场：cczzuu.top","server":"127.0.0.1:443","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true,"sni":"127.0.0.1:443"}
-  - {"name":"重度用户推荐使用机场-04","server":"127.0.0.1:443","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true,"sni":"127.0.0.1:443"}
-  - {"name":"免费节点可能会泄漏访问记录-04","server":"127.0.0.1:443","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true,"sni":"127.0.0.1:443"}
-  - {"name":"_中国","server":"120.232.217.96","port":21142,"type":"trojan","password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true,"udp":true}
-  - {"name":"_芬兰","server":"95.217.72.126","port":3882,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"dEldTzkqVlhORUhbejg+MT5DPyhcVUowWl1aa0FsbVk=","udp":true}
-  - {"name":"_中国 2","server":"120.232.217.96","port":39431,"type":"trojan","password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true,"udp":true}
-  - {"name":"_中国 3","server":"ru0195.alibabaokz.com","port":60194,"type":"trojan","password":"38571ca6-6692-4559-b901-0bc5826b7661","sni":"ru0195.alibabaokz.com","skip-cert-verify":true,"udp":true}
-  - {"name":"_瑞士","server":"195.15.254.25","port":54748,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0=","udp":true}
+  - {"name":"6元高速机场：cczzuu.top-01","server":"127.0.0.1:443","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true,"sni":"127.0.0.1:443"}
+  - {"name":"重度用户推荐使用机场-05","server":"127.0.0.1:443","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true,"sni":"127.0.0.1:443"}
+  - {"name":"免费节点可能会泄漏访问记录-05","server":"127.0.0.1:443","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true,"sni":"127.0.0.1:443"}
+  - {"name":"_中国-01","server":"120.232.217.96","port":21142,"type":"trojan","password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true,"udp":true}
+  - {"name":"_芬兰-01","server":"95.217.72.126","port":3882,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"dEldTzkqVlhORUhbejg+MT5DPyhcVUowWl1aa0FsbVk=","udp":true}
+  - {"name":"_中国 2-01","server":"120.232.217.96","port":39431,"type":"trojan","password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true,"udp":true}
+  - {"name":"_中国 3-01","server":"ru0195.alibabaokz.com","port":60194,"type":"trojan","password":"38571ca6-6692-4559-b901-0bc5826b7661","sni":"ru0195.alibabaokz.com","skip-cert-verify":true,"udp":true}
+  - {"name":"_瑞士-01","server":"195.15.254.25","port":54748,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0=","udp":true}
   - {"name":"_CN_中国->🇺🇸_US_美国","server":"219.135.231.205","port":21019,"type":"trojan","password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true,"udp":true}
   - {"name":"_CN_中国->🇺🇸_US_美国 2","server":"219.135.231.205","port":40037,"type":"trojan","password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true,"udp":true}
   - {"name":"_IT_意大利","server":"37.143.129.230","port":989,"type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","udp":true}
@@ -508,6 +540,70 @@ proxies:
   - {"name":"🇨🇳_CN_中国->🇿🇦_ZA_南非-03","type":"ss","server":"156.253.237.131","port":2222,"cipher":"chacha20-ietf-poly1305","password":"bfWZbxtXnPX6sSF_n9byxw"}
   - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_5","type":"trojan","server":"219.135.231.205","port":40037,"password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true}
   - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_6","type":"trojan","server":"120.232.217.96","port":21142,"password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-05","server":"45.136.199.132","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"KR韩国(mibei77.com 米贝节点分享)-04","server":"172.67.172.63","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"HK香港(mibei77.com 米贝节点分享)-06","server":"47.238.136.235","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-04","server":"156.253.237.131","port":2222,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"bfWZbxtXnPX6sSF_n9byxw","udp":true}
+  - {"name":"HK香港(mibei77.com 米贝节点分享) 2-03","server":"mmt-shyd.iwe.la","port":46461,"type":"ss","cipher":"aes-128-gcm","password":"e2c62a73-3132-48a6-a020-25c3ae0d8af2","udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-03","server":"cu1.guguyun.xyz","port":23733,"type":"ss","cipher":"aes-128-gcm","password":"e2c62a73-3132-48a6-a020-25c3ae0d8af2","udp":true}
+  - {"name":"PL波兰(mibei77.com 米贝节点分享)-03","server":"45.136.199.132","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-06","server":"198.62.62.192","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 2-06","server":"154.197.64.189","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 3-06","server":"27.50.49.207","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 4-05","server":"108.165.152.67","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 5-05","server":"27.50.48.189","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 6-04","server":"206.238.236.90","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 7-04","server":"173.245.59.109","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 8-04","server":"104.19.103.190","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享)-06","server":"183.236.51.23","port":56601,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 9-04","server":"154.197.64.67","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 10-04","server":"154.197.64.166","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 2-06","server":"s4.cn-db.top","port":2086,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in172.67.103.33","headers":{"Host":"100-59-133-139.s4.cn-db.top"}}}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 11-04","server":"104.19.86.120","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 12-04","server":"27.50.49.156","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 13-04","server":"92.53.190.161","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 14-04","server":"104.19.4.237","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 15-03","server":"108.165.152.80","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 16-03","server":"188.164.159.241","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 17-02","server":"188.164.159.91","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 18-02","server":"104.19.107.190","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"KR韩国(mibei77.com 米贝节点分享) 2","server":"96.8.121.166","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 19-02","server":"5.182.84.229","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 4-02","server":"cm1.awslcn.info","port":25230,"type":"vmess","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}}}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 20-02","server":"108.165.152.104","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"HK香港(mibei77.com 米贝节点分享) 3-02","server":"8.210.171.28","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 3-06","server":"120.232.153.63","port":40972,"type":"vmess","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 21","server":"104.19.57.183","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享)-03","server":"88.218.78.95","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 4-06","server":"qh62onjn.slashdevslashnetslashtun.net","port":16003,"type":"ss","cipher":"aes-256-gcm","password":"FAJT26PIM7CB71OZ","udp":true}
+  - {"name":"KR韩国(mibei77.com 米贝节点分享) 3","server":"3.35.20.163","port":80,"type":"ss","cipher":"aes-256-gcm","password":"amazonskr05","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 5-06","server":"13.250.38.94","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 6-06","server":"cm1.awslcn.info","port":25230,"type":"vmess","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 7-06","server":"8tv68qhq.slashdevslashnetslashtun.net","port":17001,"type":"ss","cipher":"aes-256-gcm","password":"QBNVUDH1J62ZEVWK","udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 5-02","server":"119.8.115.238","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true}
+  - {"name":"DE德国(mibei77.com 米贝节点分享)-03","server":"212.41.15.119","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享)-06","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享) 2-02","server":"irvideo.cfd","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
+  - {"name":"FR法国(mibei77.com 米贝节点分享) 3-01","server":"irvideo.cfd","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 8-06","server":"183.236.48.158","port":50052,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 6-02","server":"195.15.254.25","port":54748,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0=","udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享) 2-04","server":"83.147.216.173","port":9848,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"zUQvFioae7KzAZ2GCMgNum","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 9-06","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享) 4-01","server":"163.5.159.231","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 10-06","server":"183.236.51.23","port":46602,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"6元高速机场：cczzuu.top-02","server":"127.0.0.1:443","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true,"sni":"127.0.0.1:443"}
+  - {"name":"重度用户推荐使用机场-06","server":"127.0.0.1:443","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true,"sni":"127.0.0.1:443"}
+  - {"name":"免费节点可能会泄漏访问记录-06","server":"127.0.0.1:443","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true,"sni":"127.0.0.1:443"}
+  - {"name":"_中国-02","server":"119.8.115.238","port":443,"type":"trojan","password":"fdd37849-e66c-464d-8b1c-56a1a16e05bf","skip-cert-verify":true,"udp":true}
+  - {"name":"_中国 2-02","server":"120.232.217.96","port":21142,"type":"trojan","password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true,"udp":true}
+  - {"name":"_芬兰-02","server":"95.217.72.126","port":3882,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"dEldTzkqVlhORUhbejg+MT5DPyhcVUowWl1aa0FsbVk=","udp":true}
+  - {"name":"_德国","server":"185.189.58.195","port":8080,"type":"vmess","uuid":"42e25353-b1ae-59f3-bd59-d86d2737b814","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"_俄罗斯","server":"194.87.69.122","port":16431,"type":"ss","cipher":"aes-256-gcm","password":"560b7d65c1f4b12a","udp":true}
+  - {"name":"_中国 3-02","server":"120.232.217.96","port":39431,"type":"trojan","password":"0bc68743-cff8-4730-9818-9d8192ee335c","skip-cert-verify":true,"udp":true}
+  - {"name":"_中国 4","server":"ru0195.alibabaokz.com","port":60194,"type":"trojan","password":"38571ca6-6692-4559-b901-0bc5826b7661","sni":"ru0195.alibabaokz.com","skip-cert-verify":true,"udp":true}
+  - {"name":"_瑞士-02","server":"195.15.254.25","port":54748,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0=","udp":true}
+  - {"name":"_韩国","server":"3.35.20.163","port":80,"type":"ss","cipher":"aes-256-gcm","password":"amazonskr05","udp":true}
+  - {"name":"_伊朗","server":"83.147.216.173","port":9848,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"zUQvFioae7KzAZ2GCMgNum","udp":true}
   - {"name":"🇨🇳_CN_中国->🇿🇦_ZA_南非-04","port":2222,"server":"156.253.237.131","type":"ss","udp":true,"password":"bfWZbxtXnPX6sSF_n9byxw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺_RU_俄罗斯-08","port":989,"server":"185.231.233.112","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国_1-09","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
@@ -543,39 +639,39 @@ proxies:
   - {"name":"🇮🇹_IT_意大利-04","type":"ss","server":"37.143.129.230","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇨🇭_CH_瑞士-08","type":"ss","server":"195.15.254.25","port":54748,"cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0="}
   - {"name":"🇩🇪_DE_德国->🇨🇳_CN_中国-02","type":"ss","server":"45.87.175.157","port":8080,"cipher":"chacha20-ietf-poly1305","password":"QCXDxuDlTTMD7jtgHUjIoj"}
-  - {"name":"US美国(mibei77.com 米贝节点分享)-06","server":"120.234.102.229","port":52908,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 2-06","server":"92.242.220.22","port":37885,"type":"vmess","uuid":"8dee19ab-50ce-4d06-be42-5e53c8989ccc","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"HK香港(mibei77.com 米贝节点分享)-06","server":"106.240.1.52","port":20443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 3-06","server":"151.101.2.216","port":80,"type":"vmess","uuid":"c69f3029-ae1e-45ca-aa08-70970f14dfd2","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn","headers":{"Host":"telegram-ISVvpn.ir"}}}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-06","server":"206.238.236.90","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"PL波兰(mibei77.com 米贝节点分享)-03","server":"45.136.199.132","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 4-06","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享)-03","server":"151.101.2.216","port":80,"type":"vmess","uuid":"c69f3029-ae1e-45ca-aa08-70970f14dfd2","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn","headers":{"Host":"telegram-ISVvpn.ir"}}}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 2-06","server":"206.238.236.134","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 3-06","server":"188.164.159.91","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 4-05","server":"209.94.90.87","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 5-05","server":"27.50.49.207","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-05","server":"45.87.175.157","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"QCXDxuDlTTMD7jtgHUjIoj","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 5-06","server":"s4.cn-db.top","port":2086,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in172.67.103.33","headers":{"Host":"100-59-133-139.s4.cn-db.top"}}}
-  - {"name":"HK香港(mibei77.com 米贝节点分享) 2-03","server":"212.41.15.119","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 6-04","server":"198.62.62.192","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-04","server":"185.22.155.228","port":23456,"type":"ss","cipher":"aes-256-gcm","password":"dongtaiwang.com","udp":true}
-  - {"name":"HK香港(mibei77.com 米贝节点分享) 3-02","server":"47.238.136.235","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-03","server":"195.15.254.25","port":54748,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0=","udp":true}
-  - {"name":"JP日本(mibei77.com 米贝节点分享)-06","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 6-06","server":"120.232.153.63","port":40972,"type":"vmess","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享)-07","server":"120.234.102.229","port":52908,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 2-07","server":"92.242.220.22","port":37885,"type":"vmess","uuid":"8dee19ab-50ce-4d06-be42-5e53c8989ccc","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"HK香港(mibei77.com 米贝节点分享)-07","server":"106.240.1.52","port":20443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 3-07","server":"151.101.2.216","port":80,"type":"vmess","uuid":"c69f3029-ae1e-45ca-aa08-70970f14dfd2","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn","headers":{"Host":"telegram-ISVvpn.ir"}}}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-07","server":"206.238.236.90","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"PL波兰(mibei77.com 米贝节点分享)-04","server":"45.136.199.132","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 4-07","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享)-04","server":"151.101.2.216","port":80,"type":"vmess","uuid":"c69f3029-ae1e-45ca-aa08-70970f14dfd2","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn","headers":{"Host":"telegram-ISVvpn.ir"}}}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 2-07","server":"206.238.236.134","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 3-07","server":"188.164.159.91","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 4-06","server":"209.94.90.87","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 5-06","server":"27.50.49.207","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-06","server":"45.87.175.157","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"QCXDxuDlTTMD7jtgHUjIoj","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 5-07","server":"s4.cn-db.top","port":2086,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in172.67.103.33","headers":{"Host":"100-59-133-139.s4.cn-db.top"}}}
+  - {"name":"HK香港(mibei77.com 米贝节点分享) 2-04","server":"212.41.15.119","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 6-05","server":"198.62.62.192","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-05","server":"185.22.155.228","port":23456,"type":"ss","cipher":"aes-256-gcm","password":"dongtaiwang.com","udp":true}
+  - {"name":"HK香港(mibei77.com 米贝节点分享) 3-03","server":"47.238.136.235","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-04","server":"195.15.254.25","port":54748,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0=","udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享)-07","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 6-07","server":"120.232.153.63","port":40972,"type":"vmess","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
   - {"name":"HK香港(mibei77.com 米贝节点分享) 4-02","server":"8.210.171.28","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 2-02","server":"181.119.30.20","port":990,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 7-06","server":"83.147.216.173","port":9848,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"zUQvFioae7KzAZ2GCMgNum","udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享) 2-03","server":"181.119.30.20","port":990,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 7-07","server":"83.147.216.173","port":9848,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"zUQvFioae7KzAZ2GCMgNum","udp":true}
   - {"name":"PL波兰(mibei77.com 米贝节点分享) 2","server":"18.182.63.216","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 4-02","server":"91.206.179.179","port":443,"type":"trojan","password":"3723507166611775488","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 8-06","server":"8tv68qhq.slashdevslashnetslashtun.net","port":17001,"type":"ss","cipher":"aes-256-gcm","password":"QBNVUDH1J62ZEVWK","udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 5-02","server":"23.154.136.247","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 9-06","server":"183.236.51.23","port":56601,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 10-06","server":"92.242.220.22","port":37885,"type":"vmess","uuid":"8dee19ab-50ce-4d06-be42-5e53c8989ccc","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 3","server":"irvideo.cfd","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 4","server":"88.218.78.95","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 7-04","server":"66.81.247.88","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 4-03","server":"91.206.179.179","port":443,"type":"trojan","password":"3723507166611775488","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 8-07","server":"8tv68qhq.slashdevslashnetslashtun.net","port":17001,"type":"ss","cipher":"aes-256-gcm","password":"QBNVUDH1J62ZEVWK","udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 5-03","server":"23.154.136.247","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 9-07","server":"183.236.51.23","port":56601,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 10-07","server":"92.242.220.22","port":37885,"type":"vmess","uuid":"8dee19ab-50ce-4d06-be42-5e53c8989ccc","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享) 3-02","server":"irvideo.cfd","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
+  - {"name":"FR法国(mibei77.com 米贝节点分享) 4-02","server":"88.218.78.95","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 7-05","server":"66.81.247.88","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"FR法国(mibei77.com 米贝节点分享) 5","server":"163.5.159.231","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
   - {"name":"FR法国(mibei77.com 米贝节点分享) 6","server":"irvideo.cfd","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
   - {"name":"FR法国(mibei77.com 米贝节点分享) 7","server":"163.5.159.231","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
