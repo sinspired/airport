@@ -1,6 +1,11 @@
 proxies:
   - {"name":"高性价比机场:https://kfyun.uk","type":"ss","server":"127.0.0.1","port":443,"cipher":"aes-128-gcm","password":"6601fb90e9b3"}
-  - {"sni":"tw01.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"tw01.trojanyyds.xyz","port":443,"name":"0|--51"}
+  - {"name":"0|--3","type":"ss","server":"121.170.203.147","port":37041,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--4","type":"ss","server":"38.91.101.221","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"0|--5","type":"ss","server":"38.91.101.221","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"0|--6","type":"ss","server":"221.139.79.20","port":51199,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--7","type":"ss","server":"54.185.31.212","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--28","type":"vmess","server":"64.225.109.206","port":2082,"cipher":"auto","uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{}}}
   - {"skip-cert-verify":true,"type":"trojan","password":"phXKwfrd","server":"223.113.54.145","port":36442,"name":"13,14|香港|@ripaojiedian"}
   - {"skip-cert-verify":true,"type":"trojan","password":"phXKwfrd","server":"36.150.215.196","port":18681,"name":"13,14|香港2|@ripaojiedian"}
   - {"name":"13|🇭🇰 香港3|@ripaojiedian","type":"ss","server":"103.149.183.61","port":8388,"cipher":"chacha20-ietf","password":"asd123456"}
