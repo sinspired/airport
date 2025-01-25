@@ -82,6 +82,10 @@ proxy-providers:
     type: http
     url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml
     path: ./providers/_pool.yaml
+  _previous:
+    type: http
+    url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_previous.yaml
+    path: ./providers/_previous.yaml
   Pawdroid:
     type: http
     url: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/Pawdroid.yaml
