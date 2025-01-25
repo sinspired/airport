@@ -1,14 +1,9 @@
 proxies:
   - {"name":"高性价比机场:https://kfyun.uk","type":"ss","server":"127.0.0.1","port":443,"cipher":"aes-128-gcm","password":"6601fb90e9b3"}
-  - {"name":"0|--11","type":"ss","server":"107.148.6.121","port":8388,"cipher":"chacha20-ietf","password":"asd123456"}
-  - {"name":"0|--14","type":"ss","server":"121.170.203.147","port":37041,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--16","type":"ss","server":"221.139.79.20","port":51199,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--38","type":"vmess","server":"64.225.109.206","port":2082,"cipher":"auto","uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{}}}
-  - {"name":"0|--40","type":"vmess","server":"94.182.150.230","port":80,"cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"tls":false}
-  - {"name":"0|--45","type":"vmess","server":"s4.db-link01.top","port":80,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in172.64.44.14","headers":{"Host":"100-157-232-164.s4.db-link01.top"}}}
-  - {"skip-cert-verify":true,"sni":"us01.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"us01.trojanyyds.xyz","port":443,"name":"0|--60"}
-  - {"sni":"in01.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"in01.trojanyyds.xyz","port":443,"name":"0|--62"}
-  - {"skip-cert-verify":true,"sni":"us01.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"74.226.136.204","port":443,"name":"0|--63"}
+  - {"name":"0|--3","type":"ss","server":"221.139.79.20","port":51199,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--8","type":"ss","server":"202.162.109.169","port":8388,"cipher":"chacha20-ietf","password":"asd123456"}
+  - {"name":"0|--10","type":"ss","server":"p196.panda001.net","port":27973,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--35","type":"vmess","server":"94.182.150.230","port":80,"cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"tls":false}
   - {"skip-cert-verify":false,"sni":"tr.koxok.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"tr.koxok.us.kg"}},"type":"trojan","password":"ouo","server":"103.44.255.81","port":443,"name":"13|🇭🇰 香港|@ripaojiedian"}
   - {"name":"13|🇭🇰 香港2|@ripaojiedian","type":"vmess","server":"183.236.51.23","port":48109,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
   - {"name":"13|🇭🇰 香港3|@ripaojiedian","type":"vmess","server":"183.236.51.23","port":54104,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
