@@ -5,6 +5,12 @@ sources:
     options:
       urls:
         - https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml
+  - name: _previous
+    fetcher: url
+    output: subs/_previous.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
   - name: Pawdroid
     fetcher: url
     output: subs/Pawdroid.yaml
