@@ -1,54 +1,58 @@
 proxies:
-  - {"sni":"able-mollusk.goat627.mom","type":"trojan","password":"3763495894587285504","server":"able-mollusk.goat627.mom","port":443,"name":"德国+黑森州法兰克福Amazon数据中心"}
-  - {"sni":"maximum-ant.treefrog761.one","type":"trojan","password":"3763495894587285504","server":"maximum-ant.treefrog761.one","port":443,"name":"法国+巴黎Amazon数据中心-01"}
-  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-privatevpns","server":"13.49.63.157","port":22222,"name":"瑞典+斯德哥尔摩Amazon数据中心"}
-  - {"name":"俄罗斯 V2CROSS.COM-01","type":"vmess","server":"195.58.49.42","port":23532,"cipher":"auto","uuid":"8438ed42-8094-4e83-8f3f-a9e0373f869b","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
-  - {"sni":"usiio.motrix.xyz","type":"trojan","password":"oKvQbooo8d77of0x7","server":"154.21.92.100","port":2651,"name":"美国+V2CROSS.COM-01"}
-  - {"skip-cert-verify":false,"sni":"yourjobnavigator.online","type":"trojan","password":"2cba4104747d49d18319e5ade1b93ab5","server":"yourjobnavigator.online","port":443,"name":"美国+V2CROSS.COM-02"}
-  - {"name":"美国 CloudFlare节点-01","type":"vmess","server":"hsj.lbxjc.online","port":80,"cipher":"auto","uuid":"e6543319-0574-42ac-b778-1c4325d626f5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"chunchuan.kejixiaoqi666.store"}}}
-  - {"sni":"set-swan.goat627.mom","type":"trojan","password":"3763495894587285504","server":"set-swan.goat627.mom","port":443,"name":"法国+巴黎Amazon数据中心-02"}
-  - {"sni":"honest-cow.goat627.mom","type":"trojan","password":"3763495894587285504","server":"honest-cow.goat627.mom","port":443,"name":"法国+巴黎Amazon数据中心-03"}
-  - {"sni":"sensible-crow.goat627.mom","type":"trojan","password":"3763495982449565696","server":"109.61.16.83","port":443,"name":"匈牙利+V2CROSS.COM-01"}
-  - {"name":"德国 法兰克福Oracle云计算数据中心","type":"vmess","server":"130.61.156.132","port":443,"cipher":"auto","uuid":"4f7c2243-a38a-4672-983b-f1378aee0a7f","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"frankfurt03.zgjok.com"}},"servername":"frankfurt03.zgjok.com"}
-  - {"name":"美国 CloudFlare节点-02","type":"vmess","server":"s4.db-link01.top","port":2082,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.25.248.188","headers":{"Host":"100-4-150-250.s4.db-link01.top"}}}
-  - {"name":"俄罗斯 V2CROSS.COM-02","type":"vmess","server":"77.232.140.180","port":8443,"cipher":"auto","uuid":"191babc5-2aaf-4fe5-a563-f14244aefb4e","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/xrenvws","headers":{"Host":"lax1.ibgfw.top"}},"servername":"lax1.ibgfw.top"}
-  - {"sni":"exact-chicken.goat627.mom","type":"trojan","password":"3763495894587285504","server":"exact-chicken.goat627.mom","port":443,"name":"美国+Xerox"}
-  - {"sni":"in-bengal.treefrog761.one","type":"trojan","password":"3763495894587285504","server":"18.199.17.210","port":443,"name":"美国+Amazon数据中心"}
-  - {"name":"美国 CloudFlare节点-03","type":"vmess","server":"104.16.155.10","port":2052,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.25.175.137","headers":{"Host":"100-102-247-92.s1.db-link02.top"}}}
-  - {"name":"美国 CloudFlare节点-04","type":"vmess","server":"104.16.155.10","port":80,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.17.169.115","headers":{"Host":"100-49-141-209.s1.db-link02.top"}}}
-  - {"name":"美国 CloudFlare节点-05","type":"vmess","server":"s2.db-link02.top","port":2052,"cipher":"auto","uuid":"f8c1f8ed-14b5-329d-b57d-61407783ee84","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in172.67.14.233","headers":{"Host":"100-196-88-104.s2.db-link02.top"}}}
-  - {"sni":"relaxed-jaybird.treefrog761.one","type":"trojan","password":"3763495982449565696","server":"relaxed-jaybird.treefrog761.one","port":443,"name":"俄罗斯+V2CROSS.COM-01"}
-  - {"skip-cert-verify":false,"type":"trojan","password":"38571ca6-6692-4559-b901-0bc5826b7661","server":"111.4.108.163","port":60194,"name":"湖北省+移动"}
-  - {"name":"中国+上海欧网网络科技发展有限公司","type":"ss","server":"45.250.184.183","port":6181,"cipher":"chacha20-ietf-poly1305","password":"11a805f2-41a7-4cd8-8406-0470c3cde0d3"}
-  - {"skip-cert-verify":false,"sni":"optimal-owl.goat627.mom","type":"trojan","password":"3763495894587285504","server":"185.67.125.147","port":443,"name":"土耳其+V2CROSS.COM"}
-  - {"name":"美国 CloudFlare节点-06","type":"vmess","server":"buffalo.899994.xyz","port":8443,"cipher":"auto","uuid":"a0605527-28e4-449c-80ee-5642cc16a8af","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{}},"servername":"buffalo.899994.xyz"}
-  - {"sni":"climbing-racer.treefrog761.one","type":"trojan","password":"3763495894587285504","server":"climbing-racer.treefrog761.one","port":443,"name":"美国+V2CROSS.COM-03"}
-  - {"name":"美国 Bodis有限责任公司","type":"vmess","server":"www.darkroom.lol","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"www.darkroom.lol"}}}
-  - {"name":"香港 腾讯云","type":"vmess","server":"43.154.34.74","port":1935,"cipher":"auto","uuid":"5ee5f222-f3b3-4f6a-b3ac-83b7c71a0212","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/5ee5f222-f3b3-4f6a-b3ac-83b7c71a0212-vmess","headers":{"Host":"letgo.soranokiseki.v6.army"}},"servername":"letgo.soranokiseki.v6.army"}
-  - {"sni":"sensible-crow.goat627.mom","type":"trojan","password":"3763495982449565696","server":"sensible-crow.goat627.mom","port":443,"name":"匈牙利+V2CROSS.COM-02"}
-  - {"skip-cert-verify":false,"sni":"data.steamdownload.top","type":"trojan","password":"dcaf63a2-9f6f-4de4-b19f-e418bad8cf3d","server":"s.1fengxin.xyz","port":16212,"name":"广东省+移动"}
-  - {"sni":"open-baboon.goat627.mom","type":"trojan","password":"3763495894587285504","server":"open-baboon.goat627.mom","port":443,"name":"俄罗斯+V2CROSS.COM-02"}
-  - {"sni":"useful-monkfish.goat627.mom","type":"trojan","password":"3763495894587285504","server":"useful-monkfish.goat627.mom","port":443,"name":"爱尔兰都柏林+亚马逊云"}
-  - {"sni":"perfect-hagfish.treefrog761.one","type":"trojan","password":"3763495894587285504","server":"perfect-hagfish.treefrog761.one","port":443,"name":"日本+东京Amazon数据中心-01"}
-  - {"name":"挪威 V2CROSS.COM","type":"vmess","server":"141.145.217.226","port":443,"cipher":"auto","uuid":"9b456c2a-f2c1-45e1-87a9-b7628b04bb24","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"Host":"beyonddsz.cfd"}},"servername":"beyonddsz.cfd"}
-  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-directvpn","server":"3.138.75.159","port":22222,"name":"美国+Amazon+EC2服务器-01"}
-  - {"name":"美国 CloudFlare节点-07","type":"vmess","server":"s2.cn-db.top","port":8880,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.24.231.155","headers":{"Host":"100-165-40-54.s2.cn-db.top"}}}
-  - {"sni":"artistic-snapper.goat627.mom","type":"trojan","password":"3763495894587285504","server":"artistic-snapper.goat627.mom","port":443,"name":"美国+Amazon+EC2服务器-02"}
-  - {"sni":"bs1.loadingip.com","type":"trojan","password":"94d219c9-1afc-4d42-b090-8b3794764380","server":"bs1.loadingip.com","port":443,"name":"亚太地区+V2CROSS.COM-01"}
-  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"202.78.162.5","port":443,"cipher":"auto","uuid":"2ff97c6d-8557-42a4-b43f-19c77c5959ea","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"irsoft.sytes.net"}},"servername":"irsoft.sytes.net"}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"52.60.77.139","port":22222,"name":"加拿大+魁北克省蒙特利尔Amazon数据中心"}
-  - {"name":"俄罗斯 莫斯科JustHost","type":"vmess","server":"185.22.153.73","port":49663,"cipher":"auto","uuid":"af7f07dc-d726-4b1e-967d-dbb6c594999f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"Host":"185.22.153.73"}}}
-  - {"sni":"refined-vervet.goat627.mom","type":"trojan","password":"3763495894587285504","server":"refined-vervet.goat627.mom","port":443,"name":"英国+社会保险安全部"}
-  - {"type":"trojan","password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","server":"cmc5.5gsieuvip.vn","port":443,"name":"澳大利亚+V2CROSS.COM:443","sni":"cmc5.5gsieuvip.vn"}
+  - {"name":"南非+V2CROSS.COM","type":"ss","server":"129.232.134.112","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"美国 V2CROSS.COM-1","type":"vmess","server":"167.68.42.137","port":8443,"cipher":"auto","uuid":"e88b85c6-93b4-47f6-b3fb-2c55dcb1289f","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/dyajvws","headers":{"Host":"lax2.ibgfw.top"}},"servername":"lax2.ibgfw.top"}
+  - {"name":"香港 CN2","type":"vmess","server":"156.226.173.220","port":56214,"cipher":"auto","uuid":"394294cc-eb0f-4f17-8453-5edbed60f4ee","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/login","headers":{"Host":"default.hk.akile-5.ddns.ad.989567.xyz"}},"servername":"default.hk.akile-5.ddns.ad.989567.xyz"}
+  - {"type":"trojan","password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","server":"103.173.66.191","port":443,"name":"亚太地区+V2CROSS.COM:443"}
+  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-directvpn","server":"3.77.135.77","port":22222,"name":"美国+Amazon+EC2服务器-1"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"34.241.79.47","port":22222,"name":"爱尔兰+都柏林Amazon数据中心-1"}
+  - {"name":"香港 UCloud-1","type":"vmess","server":"118.193.34.158","port":52825,"cipher":"auto","uuid":"67ff500a-8484-4ed8-cf8f-b8d341534140","alterId":0,"tls":false}
+  - {"sni":"daring-puma.goat627.mom","type":"trojan","password":"3763495894587285504","server":"3.250.247.186","port":443,"name":"爱尔兰都柏林+亚马逊云-1"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"104.16.155.10","port":2052,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.25.175.137","headers":{"Host":"100-102-247-92.s1.db-link02.top"}}}
+  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"14.102.229.82","port":8443,"cipher":"auto","uuid":"e88b85c6-93b4-47f6-b3fb-2c55dcb1289f","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/dyajvws","headers":{"Host":"lax2.ibgfw.top"}},"servername":"lax2.ibgfw.top"}
+  - {"sni":"faithful-chicken.treefrog761.one","type":"trojan","password":"3763495894587285504","server":"faithful-chicken.treefrog761.one","port":443,"name":"英国+社会保险安全部"}
+  - {"name":"广东省+移动","type":"ss","server":"5.forlive.live","port":60033,"cipher":"chacha20-ietf-poly1305","password":"54d73e4b-054d-4148-bab6-22646f4431a9"}
+  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"195.58.49.50","port":23532,"cipher":"auto","uuid":"47b79e95-3d2a-493b-9ac0-ef6783e656c2","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"sni":"exact-stud.goat627.mom","type":"trojan","password":"3763495894587285504","server":"3.67.55.100","port":443,"name":"美国+Amazon+EC2服务器-2"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"35.179.201.133","port":22222,"name":"英国+伦敦Amazon数据中心"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"s2.db-link01.top","port":2095,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.21.133.12","headers":{"Host":"100-130-136-50.s2.db-link01.top"}}}
+  - {"sni":"useful-monkfish.goat627.mom","type":"trojan","password":"3763495894587285504","server":"useful-monkfish.goat627.mom","port":443,"name":"爱尔兰都柏林+亚马逊云-2"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"52.213.14.4","port":22222,"name":"爱尔兰+都柏林Amazon数据中心-2"}
+  - {"sni":"bs1.loadingip.com","type":"trojan","password":"94d219c9-1afc-4d42-b090-8b3794764380","server":"bs1.loadingip.com","port":443,"name":"亚太地区+V2CROSS.COM-1"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"15.236.83.201","port":22222,"name":"美国+惠普公司"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"44.223.178.42","port":22222,"name":"美国+Amazon数据中心-1"}
+  - {"skip-cert-verify":false,"sni":"artistic-vulture.goat627.mom","type":"trojan","password":"3763495894587285504","server":"35.181.173.20","port":443,"name":"法国+巴黎Amazon数据中心-1"}
   - {"sni":"assured-fowl.treefrog761.one","type":"trojan","password":"3763495894587285504","server":"assured-fowl.treefrog761.one","port":443,"name":"新加坡+Amazon数据中心"}
-  - {"name":"美国 CloudFlare节点-08","type":"vmess","server":"172.67.51.186","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"servername":"foxlux.fovi.tk"}
-  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-privatevpns","server":"52.215.106.162","port":22222,"name":"爱尔兰+都柏林Amazon数据中心"}
-  - {"sni":"right-goldfish.goat627.mom","type":"trojan","password":"3763495894587285504","server":"46.229.253.79","port":443,"name":"克罗地亚+V2CROSS.COM"}
-  - {"name":"美国 CloudFlare节点-09","type":"vmess","server":"s4.db-link01.top","port":8080,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.20.125.64","headers":{"Host":"100-143-127-247.s4.db-link01.top"}}}
-  - {"name":"美国 CloudFlare节点-10","type":"vmess","server":"s5.db-link01.top","port":2095,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.24.108.89","headers":{"Host":"100-170-6-223.s5.db-link01.top"}}}
-  - {"name":"美国 CloudFlare节点-11","type":"vmess","server":"104.16.155.10","port":2095,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.20.27.115","headers":{"Host":"100-209-47-141.s2.db-link02.top"}}}
-  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-directvpn","server":"35.180.223.177","port":22222,"name":"法国+巴黎Amazon数据中心-04"}
-  - {"skip-cert-verify":false,"sni":"composed-anemone.goat627.mom","type":"trojan","password":"3763495894587285504","server":"composed-anemone.goat627.mom","port":443,"name":"日本+东京Amazon数据中心-02"}
-  - {"name":"英国+V2CROSS.COM","type":"ss","server":"78.129.140.11","port":443,"cipher":"chacha20-ietf-poly1305","password":"pDExaycAIr2Pim7P3oPSIH"}
-  - {"skip-cert-verify":false,"sni":"cmc3.5gsieuvip.vn","type":"trojan","password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","server":"cmc3.5gsieuvip.vn","port":443,"name":"亚太地区+V2CROSS.COM-02"}
-  - {"name":"美国 CloudFlare节点-12","type":"vmess","server":"s4.db-link02.top","port":8080,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.19.103.96","headers":{"Host":"100-80-77-140.s4.db-link02.top"}}}
+  - {"name":"香港 UCloud-2","type":"vmess","server":"118.193.38.173","port":21066,"cipher":"auto","uuid":"f11cf8ff-89b3-4c4c-fdf8-b47111d852d8","alterId":0,"tls":false}
+  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-privatevpns","server":"13.42.172.101","port":22222,"name":"美国+Amazon数据中心-2"}
+  - {"skip-cert-verify":false,"sni":"cmc3.5gsieuvip.vn","type":"trojan","password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","server":"cmc3.5gsieuvip.vn","port":443,"name":"亚太地区+V2CROSS.COM-2"}
+  - {"sni":"sensible-crow.goat627.mom","type":"trojan","password":"3763495894587285504","server":"sensible-crow.goat627.mom","port":443,"name":"匈牙利+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点-3","type":"vmess","server":"s4.db-link02.top","port":8080,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.19.103.96","headers":{"Host":"100-80-77-140.s4.db-link02.top"}}}
+  - {"skip-cert-verify":false,"sni":"in01.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"in01.trojanyyds.xyz","port":443,"name":"美国+亚特兰大"}
+  - {"skip-cert-verify":false,"sni":"topical-gibbon.goat627.mom","type":"trojan","password":"3763495982449565696","server":"185.67.125.160","port":443,"name":"土耳其+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点-4","type":"vmess","server":"172.67.165.53","port":2086,"cipher":"auto","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
+  - {"sni":"clever-chimp.goat627.mom","type":"trojan","password":"3763495894587285504","server":"clever-chimp.goat627.mom","port":443,"name":"美国+Amazon数据中心-3"}
+  - {"sni":"maximum-ant.treefrog761.one","type":"trojan","password":"3763495894587285504","server":"maximum-ant.treefrog761.one","port":443,"name":"法国+巴黎Amazon数据中心-2"}
+  - {"sni":"us01.trojanyyds.xyz","tfo":true,"type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"us01.trojanyyds.xyz","port":443,"name":"美国+惠普HP"}
+  - {"sni":"climbing-racer.treefrog761.one","type":"trojan","password":"3763495894587285504","server":"climbing-racer.treefrog761.one","port":443,"name":"美国+V2CROSS.COM-1"}
+  - {"sni":"artistic-snapper.goat627.mom","type":"trojan","password":"3763495894587285504","server":"artistic-snapper.goat627.mom","port":443,"name":"美国+Amazon+EC2服务器-3"}
+  - {"sni":"std1.loadingip.com","type":"trojan","password":"94d219c9-1afc-4d42-b090-8b3794764380","server":"160.30.21.105","port":443,"name":"澳大利亚+V2CROSS.COM-1"}
+  - {"sni":"smooth-buck.goat627.mom","type":"trojan","password":"3763495894587285504","server":"smooth-buck.goat627.mom","port":443,"name":"美国+弗吉尼亚州阿什本Amazon数据中心"}
+  - {"name":"美国 CloudFlare节点-5","type":"vmess","server":"tokyo.899994.xyz","port":443,"cipher":"auto","uuid":"a0605527-28e4-449c-80ee-5642cc16a8af","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/index","headers":{}},"servername":"tokyo.899994.xyz"}
+  - {"sni":"useful-honeybee.treefrog761.one","type":"trojan","password":"3763495894587285504","server":"13.43.156.128","port":443,"name":"美国+Amazon数据中心-4"}
+  - {"name":"美国 Fastly全球Anycast节点","type":"vmess","server":"gov.uk","port":443,"cipher":"auto","uuid":"77848824-93b7-4b89-ffd0-e91afff406ce","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/77848824","headers":{"Host":"zheshiscp.com"}},"servername":"gov.uk"}
+  - {"sni":"cmc5.5gsieuvip.vn","type":"trojan","password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","server":"160.30.160.134","port":443,"name":"澳大利亚+V2CROSS.COM-2"}
+  - {"sni":"useful-honeybee.treefrog761.one","type":"trojan","password":"3763495894587285504","server":"useful-honeybee.treefrog761.one","port":443,"name":"美国+Amazon数据中心-5"}
+  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-privatevpns","server":"18.199.215.148","port":22222,"name":"美国+Amazon数据中心-6"}
+  - {"name":"阿根廷+V2CROSS.COM","type":"ss","server":"181.119.30.20","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
+  - {"sni":"nearby-sheep.goat627.mom","type":"trojan","password":"3763495894587285504","server":"nearby-sheep.goat627.mom","port":443,"name":"波兰+V2CROSS.COM-1"}
+  - {"name":"美国 CloudFlare节点-6","type":"vmess","server":"104.16.155.10","port":8880,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.24.185.219","headers":{"Host":"100-151-81-36.s4.db-link01.top"}}}
+  - {"name":"美国 CloudFlare节点-7","type":"vmess","server":"s2.cn-db.top","port":2082,"cipher":"auto","uuid":"6e07bf0c-06d0-3b3b-9468-9463b119e64c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in172.64.53.101","headers":{"Host":"100-119-106-139.s2.cn-db.top"}}}
+  - {"skip-cert-verify":true,"sni":"yourjobnavigator.online","type":"trojan","password":"2cba4104747d49d18319e5ade1b93ab5","server":"161.35.34.48","port":443,"name":"美国+V2CROSS.COM-2"}
+  - {"name":"比利时+V2CROSS.COM","type":"ss","server":"a-config.96hezar.ir","port":4017,"cipher":"chacha20-ietf-poly1305","password":"o9v9NS2O0sxebNmxvZ06sg"}
+  - {"name":"美国+加州","type":"ss","server":"64.74.163.130","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
+  - {"sni":"nearby-sheep.goat627.mom","type":"trojan","password":"3763495894587285504","server":"94.177.131.199","port":443,"name":"波兰+V2CROSS.COM-2"}
+  - {"sni":"pet-bulldog.goat627.mom","type":"trojan","password":"3763495894587285504","server":"89.39.70.207","port":443,"name":"罗马尼亚+V2CROSS.COM"}
+  - {"name":"中国+上海欧网网络科技发展有限公司","type":"ss","server":"45.250.184.183","port":6181,"cipher":"chacha20-ietf-poly1305","password":"11a805f2-41a7-4cd8-8406-0470c3cde0d3"}
+  - {"name":"美国 V2CROSS.COM-2","type":"vmess","server":"45.144.48.128","port":8443,"cipher":"auto","uuid":"a4850481-9b95-430f-9b2d-192d2410b4f4","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{}}}
+  - {"sni":"top-aphid.goat627.mom","type":"trojan","password":"3763495894587285504","server":"top-aphid.goat627.mom","port":443,"name":"日本+东京都Amazon数据中心"}
+  - {"name":"广东省广州市 移动","type":"vmess","server":"120.232.153.63","port":40565,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
