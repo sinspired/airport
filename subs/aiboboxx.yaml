@@ -1,13 +1,37 @@
 proxies:
   - {"name":"高性价比机场:https://kfyun.uk","type":"ss","server":"127.0.0.1","port":443,"cipher":"aes-128-gcm","password":"6601fb90e9b3"}
-  - {"name":"0|--1","type":"ss","server":"13.231.234.231","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--2","type":"ss","server":"221.139.79.20","port":51199,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--26","type":"vmess","server":"64.225.109.206","port":2082,"cipher":"auto","uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{}}}
-  - {"skip-cert-verify":true,"sni":"us01.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"74.226.136.204","port":443,"name":"0|--47"}
-  - {"sni":"tw01.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"tw01.trojanyyds.xyz","port":443,"name":"0|--48"}
-  - {"sni":"in01.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"in01.trojanyyds.xyz","port":443,"name":"0|--50"}
-  - {"skip-cert-verify":true,"sni":"us01.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"us01.trojanyyds.xyz","port":443,"name":"0|--51"}
-  - {"sni":"tw02.trojanyyds.xyz","type":"trojan","password":"243eab52-9ac1-405c-887c-eb112c0985b8","server":"tw02.trojanyyds.xyz","port":443,"name":"0|--52"}
+  - {"name":"0|--2","type":"ss","server":"217.30.10.18","port":9033,"cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
+  - {"name":"0|--4","type":"ss","server":"34.217.211.112","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--5","type":"ss","server":"43.203.239.233","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--8","type":"ss","server":"54.189.160.123","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--9","type":"ss","server":"54.244.34.53","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--10","type":"ss","server":"35.92.44.190","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--11","type":"ss","server":"35.88.145.179","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--12","type":"ss","server":"3.38.251.26","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--14","type":"ss","server":"52.221.179.231","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--15","type":"ss","server":"54.95.145.3","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--16","type":"ss","server":"47.128.239.238","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--17","type":"ss","server":"13.231.234.231","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--18","type":"ss","server":"221.139.79.20","port":51199,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--19","type":"ss","server":"54.179.109.29","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--20","type":"ss","server":"217.30.10.18","port":9027,"cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
+  - {"name":"0|--21","type":"ss","server":"217.30.10.18","port":9038,"cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
+  - {"name":"0|--22","type":"ss","server":"217.30.10.18","port":9005,"cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
+  - {"name":"0|--23","type":"ss","server":"217.30.10.18","port":9006,"cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
+  - {"name":"0|--24","type":"ss","server":"217.30.10.18","port":9093,"cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"0|--25","type":"ss","server":"217.30.10.18","port":9025,"cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
+  - {"name":"0|--26","type":"ss","server":"217.30.10.18","port":9018,"cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
+  - {"name":"0|--27","type":"ss","server":"217.30.10.18","port":9003,"cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
+  - {"name":"0|--28","type":"ss","server":"217.30.10.18","port":9059,"cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
+  - {"name":"0|--29","type":"ss","server":"217.30.10.18","port":9037,"cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"name":"0|--30","type":"ss","server":"217.30.10.18","port":9084,"cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"0|--31","type":"ss","server":"217.30.10.18","port":9060,"cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ"}
+  - {"name":"0|--32","type":"ss","server":"217.30.10.18","port":9040,"cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
+  - {"name":"0|--33","type":"ss","server":"217.30.10.18","port":9019,"cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"name":"0|--34","type":"ss","server":"112.213.102.228","port":4231,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--35","type":"ss","server":"217.30.10.18","port":9088,"cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
+  - {"name":"0|--52","type":"vmess","server":"137.175.20.92","port":45017,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"0|--57","type":"vmess","server":"s4.db-link01.top","port":80,"cipher":"auto","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in172.64.44.14","headers":{"Host":"100-157-232-164.s4.db-link01.top"}}}
   - {"skip-cert-verify":false,"sni":"tr.koxok.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"tr.koxok.us.kg"}},"type":"trojan","password":"ouo","server":"103.44.255.81","port":443,"name":"13|🇭🇰 香港|@ripaojiedian"}
   - {"name":"13,14|香港2|@ripaojiedian","type":"vmess","server":"212.192.12.70","port":23532,"cipher":"auto","uuid":"5549a8c5-5d90-4abb-b1df-3182009206a0","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
   - {"name":"13|🇭🇰 香港3|@ripaojiedian","type":"vmess","server":"142.0.134.242","port":45017,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
@@ -39,31 +63,17 @@ proxies:
   - {"name":"14|狮城特殊|@ripaojiedian","type":"ss","server":"54.255.94.7","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
   - {"name":"14|日本特殊|@ripaojiedian","type":"ss","server":"13.114.24.98","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
   - {"name":"14|德国|@ripaojiedian","type":"vmess","server":"64.225.109.206","port":2082,"cipher":"auto","uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","alterId":0,"tls":false}
-  - {"type":"vless","name":"15|AR_speednode_0001","server":"eze-1.fromblancwithlove.com","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":false,"network":"tcp","servername":"eze-1.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|AR_speednode_0002","server":"103.50.33.138","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"eze-1.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|BE_speednode_0003","server":"79.127.224.12","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"bru-be-01.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|BR_speednode_0004","server":"46.151.194.89","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"sao-br.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|BR_speednode_0005","server":"sao-br.fromblancwithlove.com","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":false,"network":"tcp","servername":"sao-br.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|CO_speednode_0016","server":"169.150.228.24","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"bog-co-01.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|CO_speednode_0017","server":"bog-co-01.fromblancwithlove.com","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":false,"network":"tcp","servername":"bog-co-01.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|DE_speednode_0020","server":"195.181.175.176","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":false,"network":"tcp","servername":"de1.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|DE_speednode_0025","server":"156.67.30.77","port":443,"uuid":"1051bfbb-90db-4261-b5e4-8b91f62b436f","tls":true,"flow":"xtls-rprx-vision-udp443","client-fingerprint":"chrome","alpn":["http/1.1"],"skip-cert-verify":false,"network":"tcp","servername":"spotify.com"}
-  - {"type":"vless","name":"15|ES_speednode_0026","server":"212.102.48.216","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"mad-es.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|ES_speednode_0027","server":"mad-es.fromblancwithlove.com","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":false,"network":"tcp","servername":"mad-es.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|FR_speednode_0028","server":"91.134.102.128","port":22671,"uuid":"91989253-37d6-4d28-83fe-8ffd0c3de0f7","skip-cert-verify":false,"network":"tcp","servername":"telewebion.com"}
-  - {"type":"vless","name":"15|GB_speednode_0030","server":"95.173.205.70","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"osl-no-01.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|GR_speednode_0031","server":"ath-gr-01.fromblancwithlove.com","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":false,"network":"tcp","servername":"ath-gr-01.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|GR_speednode_0032","server":"79.127.218.204","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"ath-gr-01.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|IN_speednode_0034","server":"64.227.148.121","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"blr-in.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|KZ_speednode_0037","server":"kz-2.fromblancwithlove.com","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":false,"network":"tcp","servername":"kz-2.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|PE_speednode_0038","server":"lim-pe-01.fromblancwithlove.com","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":false,"network":"tcp","servername":"lim-pe-01.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|PE_speednode_0039","server":"79.127.252.81","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"lim-pe-01.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|RU_speednode_0042","server":"46.254.92.33","port":443,"uuid":"41abecd9-8096-4142-a75c-4e1d36d990bd","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"mmdserver.us.kg"},"path":"/?ed"},"servername":"mmdserver.us.kg"}
-  - {"type":"vless","name":"15|SG_speednode_0044","server":"156.146.56.207","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"sin-sg-01.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|SG_speednode_0045","server":"sin-sg-01.fromblancwithlove.com","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":false,"network":"tcp","servername":"sin-sg-01.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|US_speednode_0047","server":"192.0.54.235","port":443,"uuid":"41abecd9-8096-4142-a75c-4e1d36d990bd","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"mmdserver.us.kg"},"path":"/?ed"},"servername":"mmdserver.us.kg"}
-  - {"type":"vless","name":"15|ZA_speednode_0049","server":"jnb-sa.fromblancwithlove.com","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":false,"network":"tcp","servername":"jnb-sa.fromblancwithlove.com"}
-  - {"type":"vless","name":"15|ZA_speednode_0050","server":"169.150.246.91","port":8443,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"alpn":["h2"],"skip-cert-verify":true,"network":"tcp","servername":"jnb-sa.fromblancwithlove.com"}
+  - {"type":"vless","name":"15|speednode_0002","server":"91.134.102.128","port":22671,"uuid":"91989253-37d6-4d28-83fe-8ffd0c3de0f7","skip-cert-verify":false,"network":"tcp","servername":"telewebion.com"}
+  - {"type":"vless","name":"15|speednode_0004","server":"46.254.92.33","port":443,"uuid":"41abecd9-8096-4142-a75c-4e1d36d990bd","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"mmdserver.us.kg"},"path":"/?ed"},"servername":"mmdserver.us.kg"}
+  - {"type":"vless","name":"15|speednode_0005","server":"192.0.54.235","port":443,"uuid":"41abecd9-8096-4142-a75c-4e1d36d990bd","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"mmdserver.us.kg"},"path":"/?ed"},"servername":"mmdserver.us.kg"}
+  - {"skip-cert-verify":true,"sni":"cloudflare.node-ssl.cdn-alibaba.com","type":"trojan","password":"e279c494-c426-443a-a034-a04516409242","server":"naiu-other.05vr9nyqg5.download","port":13035,"name":"15|speednode_0009"}
+  - {"skip-cert-verify":true,"sni":"cmc3.5gsieuvip.vn","type":"trojan","password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","server":"cmc3.5gsieuvip.vn","port":443,"name":"15|speednode_0027"}
+  - {"skip-cert-verify":true,"sni":"cmc2.5gsieuvip.vn","type":"trojan","password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","server":"cmc2.5gsieuvip.vn","port":443,"name":"15|speednode_0031"}
+  - {"skip-cert-verify":true,"sni":"pet-bulldog.goat627.mom","type":"trojan","password":"3763495894587285504","server":"89.39.70.207","port":443,"name":"15|speednode_0032"}
+  - {"skip-cert-verify":true,"sni":"sensible-crow.goat627.mom","type":"trojan","password":"3763495982449565696","server":"109.61.16.83","port":443,"name":"15|speednode_0034"}
+  - {"skip-cert-verify":true,"sni":"enabling-cat.goat627.mom","type":"trojan","password":"3763495894587285504","server":"62.112.221.46","port":443,"name":"15|speednode_0039"}
+  - {"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"3.23.207.118","port":22222,"name":"15|speednode_0046"}
+  - {"skip-cert-verify":true,"sni":"daring-puma.goat627.mom","type":"trojan","password":"3763495894587285504","server":"3.250.247.186","port":443,"name":"15|speednode_0047"}
   - {"name":"16|d*********g.com_2","type":"vmess","server":"42.236.73.72","port":443,"cipher":"auto","uuid":"044f0177-0675-4dcf-89d4-804b6788e518","alterId":0,"tls":true,"servername":"www.zitian.cn"}
   - {"type":"vless","name":"16|d*********g.com_6","server":"42.236.73.72","port":443,"uuid":"11916472-4e2c-49c6-b75d-71196b3a7ecf","tls":true,"client-fingerprint":"chrome","alpn":["http/1.1"],"skip-cert-verify":false,"network":"tcp","servername":"www.zitian.cn"}
   - {"sni":"www.zitian.cn","alpn":["http/1.1"],"type":"trojan","password":"fuck","server":"42.236.73.72","port":443,"name":"16|d*********g.com_3"}
