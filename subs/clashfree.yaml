@@ -1,298 +1,512 @@
 proxies:
-  - {"name":"🇬🇧_GB_英国-1","type":"ss","server":"62.100.205.48","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇨🇦_CA_加拿大-1","type":"ss","server":"23.154.136.247","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯-1","type":"trojan","server":"ru0195.alibabaokz.com","port":60194,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
-  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1-1","type":"vmess","server":"cm1.awslcn.info","port":25230,"uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"alterId":0}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国-1","type":"trojan","server":"120.232.217.96","port":21332,"sni":"120.232.217.96","password":"7daf833c-37b9-4afc-8495-96590f03f781","skip-cert-verify":true}
-  - {"name":"🇷🇴_RO_罗马尼亚-1","type":"ss","server":"185.193.49.88","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇬🇧_GB_英国-01","type":"ss","server":"62.100.205.48","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇨🇦_CA_加拿大-01","type":"ss","server":"23.154.136.247","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯-01","type":"trojan","server":"ru0195.alibabaokz.com","port":60194,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1-01","type":"vmess","server":"cm1.awslcn.info","port":25230,"uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"alterId":0}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国-01","type":"trojan","server":"120.232.217.96","port":21332,"sni":"120.232.217.96","password":"7daf833c-37b9-4afc-8495-96590f03f781","skip-cert-verify":true}
+  - {"name":"🇷🇴_RO_罗马尼亚-01","type":"ss","server":"185.193.49.88","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇸🇬_SG_新加坡->🇩🇪_DE_德国","type":"ss","server":"54.179.76.173","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"name":"🇩🇪_DE_德国->🇺🇸_US_美国","type":"trojan","server":"165.22.74.230","port":443,"sni":"nextstepcareer.online","password":"4732adfa16c6450bbef87264e41332db"}
   - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","type":"ss","server":"8tv68qhq.slashdevslashnetslashtun.net","port":17001,"cipher":"aes-256-gcm","password":"QBNVUDH1J62ZEVWK"}
-  - {"name":"🇺🇸_US_美国-1","type":"ss","server":"137.175.113.192","port":8388,"cipher":"chacha20-ietf","password":"asd123456"}
-  - {"name":"🇳🇱_NL_荷兰-1","type":"ss","server":"213.109.147.242","port":62685,"cipher":"chacha20-ietf-poly1305","password":"VpKABcOpNNA0l5G2AVOmw8"}
-  - {"name":"🇺🇸_US_美国_1-1","type":"ss","server":"35.89.145.123","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇷🇺_RU_俄罗斯-1","type":"ss","server":"185.22.155.228","port":23456,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
+  - {"name":"🇺🇸_US_美国-01","type":"ss","server":"137.175.113.192","port":8388,"cipher":"chacha20-ietf","password":"asd123456"}
+  - {"name":"🇳🇱_NL_荷兰-01","type":"ss","server":"213.109.147.242","port":62685,"cipher":"chacha20-ietf-poly1305","password":"VpKABcOpNNA0l5G2AVOmw8"}
+  - {"name":"🇺🇸_US_美国_1-01","type":"ss","server":"35.89.145.123","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇷🇺_RU_俄罗斯-01","type":"ss","server":"185.22.155.228","port":23456,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
   - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国","type":"vmess","server":"151.101.2.216","port":80,"uuid":"c69f3029-ae1e-45ca-aa08-70970f14dfd2","cipher":"auto","network":"ws","ws-opts":{"path":"/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn","headers":{"Host":"telegram-ISVvpn.ir"}},"alterId":0}
-  - {"name":"🇮🇷_IR_伊朗-1","type":"ss","server":"83.147.216.173","port":9848,"cipher":"chacha20-ietf-poly1305","password":"zUQvFioae7KzAZ2GCMgNum"}
+  - {"name":"🇮🇷_IR_伊朗-01","type":"ss","server":"83.147.216.173","port":9848,"cipher":"chacha20-ietf-poly1305","password":"zUQvFioae7KzAZ2GCMgNum"}
   - {"name":"🇸🇬_SG_新加坡->🇩🇪_DE_德国_1","type":"ss","server":"13.229.248.183","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇵🇱_PL_波兰-1","type":"trojan","server":"91.206.179.179","port":443,"sni":"holy-seahorse.boa152.lol","password":"3723507166611775488"}
+  - {"name":"🇵🇱_PL_波兰-01","type":"trojan","server":"91.206.179.179","port":443,"sni":"holy-seahorse.boa152.lol","password":"3723507166611775488"}
   - {"name":"🇩🇪_DE_德国","type":"trojan","server":"54.93.128.162","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","alpn":["http/1.1"]}
-  - {"name":"🇩🇪_DE_德国_1-1","type":"trojan","server":"nextstepcareer.online","port":443,"password":"4732adfa16c6450bbef87264e41332db","sni":"nextstepcareer.online"}
-  - {"name":"🇮🇹_IT_意大利-1","type":"ss","server":"37.143.129.230","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇨🇭_CH_瑞士-1","type":"ss","server":"195.15.254.25","port":54748,"cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0="}
+  - {"name":"🇩🇪_DE_德国_1-01","type":"trojan","server":"nextstepcareer.online","port":443,"password":"4732adfa16c6450bbef87264e41332db","sni":"nextstepcareer.online"}
+  - {"name":"🇮🇹_IT_意大利-01","type":"ss","server":"37.143.129.230","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇨🇭_CH_瑞士-01","type":"ss","server":"195.15.254.25","port":54748,"cipher":"chacha20-ietf-poly1305","password":"ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0="}
   - {"name":"🇩🇪_DE_德国->🇨🇳_CN_中国","type":"ss","server":"45.87.175.157","port":8080,"cipher":"chacha20-ietf-poly1305","password":"QCXDxuDlTTMD7jtgHUjIoj"}
-  - {"name":"🇺🇸_US_美国-2","type":"vmess","server":"190.93.245.230","port":2086,"uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","cipher":"auto","network":"ws","ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"alterId":0}
-  - {"name":"🇬🇧_GB_英国-2","type":"ss","server":"51.15.15.82","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇬🇧_GB_英国_1-1","type":"trojan","server":"51.24.50.65","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","alpn":["http/1.1"]}
-  - {"name":"🇺🇸_US_美国_1-2","type":"ss","server":"185.47.252.251","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇺🇸_US_美国-02","type":"vmess","server":"190.93.245.230","port":2086,"uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","cipher":"auto","network":"ws","ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"alterId":0}
+  - {"name":"🇬🇧_GB_英国-02","type":"ss","server":"51.15.15.82","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇬🇧_GB_英国_1-01","type":"trojan","server":"51.24.50.65","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","alpn":["http/1.1"]}
+  - {"name":"🇺🇸_US_美国_1-02","type":"ss","server":"185.47.252.251","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇷🇺_RU_俄罗斯->🇬🇧_GB_英国","type":"vmess","server":"195.58.49.50","port":23532,"uuid":"d44df4da-3ee6-4a57-ac22-cd532da65f93","cipher":"auto","network":"ws","ws-opts":{"path":"/"},"alterId":0}
   - {"name":"🇺🇦_UA_乌克兰","type":"ss","server":"de1.opensocks.site","port":8388,"cipher":"chacha20-ietf-poly1305","password":"M2I0MzM2"}
-  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯-2","type":"vmess","server":"cm1.awslcn.info","port":25230,"uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"alterId":0}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯-02","type":"vmess","server":"cm1.awslcn.info","port":25230,"uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"alterId":0}
   - {"name":"🇿🇦_ZA_南非","type":"ss","server":"129.232.134.112","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇫🇷_FR_法国-1","type":"ss","server":"163.172.118.110","port":12345,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
-  - {"name":"🇨🇭_CH_瑞士-2","type":"ss","server":"84.17.53.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇫🇷_FR_法国_1-1","type":"trojan","server":"15.236.108.236","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国-2","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":17002,"cipher":"aes-256-gcm","password":"U177NTV9CLY0D3SP"}
-  - {"name":"🇳🇱_NL_荷兰-2","type":"ssr","server":"ssca.irundns.net","port":443,"cipher":"aes-128-cfb","password":"$$Turb0VPN$$","obfs":"http_post","protocol":"auth_aes128_md5"}
-  - {"name":"🇬🇧_GB_英国_2-1","type":"ss","server":"62.100.205.48","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇷🇺_RU_俄罗斯_1-1","type":"ss","server":"185.231.233.112","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇺🇸_US_美国_2-1","type":"vmess","server":"64.225.109.206","port":2082,"uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","cipher":"auto","network":"http","skip-cert-verify":true,"http-opts":{"path":["/"]},"alterId":0}
+  - {"name":"🇫🇷_FR_法国-01","type":"ss","server":"163.172.118.110","port":12345,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
+  - {"name":"🇨🇭_CH_瑞士-02","type":"ss","server":"84.17.53.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇫🇷_FR_法国_1-01","type":"trojan","server":"15.236.108.236","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国-02","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":17002,"cipher":"aes-256-gcm","password":"U177NTV9CLY0D3SP"}
+  - {"name":"🇳🇱_NL_荷兰-02","type":"ssr","server":"ssca.irundns.net","port":443,"cipher":"aes-128-cfb","password":"$$Turb0VPN$$","obfs":"http_post","protocol":"auth_aes128_md5"}
+  - {"name":"🇬🇧_GB_英国_2-01","type":"ss","server":"62.100.205.48","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇷🇺_RU_俄罗斯_1-01","type":"ss","server":"185.231.233.112","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇺🇸_US_美国_2-01","type":"vmess","server":"64.225.109.206","port":2082,"uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","cipher":"auto","network":"http","skip-cert-verify":true,"http-opts":{"path":["/"]},"alterId":0}
   - {"name":"🇬🇧_GB_英国_3","type":"vmess","server":"5.39.252.204","port":23532,"uuid":"30dc7507-c8c8-4673-882b-1d17ac412042","cipher":"auto","network":"ws","ws-opts":{"path":"/"},"alterId":0}
-  - {"name":"🇮🇹_IT_意大利-2","type":"ss","server":"37.143.129.230","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇵🇱_PL_波兰-2","type":"ss","server":"185.255.123.92","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇱🇻_LV_拉脱维亚->🇨🇳_CN_中国-1","type":"ss","server":"46.183.217.232","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇷🇴_RO_罗马尼亚-2","type":"ss","server":"185.193.49.88","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇮🇪_IE_爱尔兰->🇬🇧_GB_英国-1","type":"trojan","server":"54.73.212.66","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","alpn":["http/1.1"]}
-  - {"name":"🇺🇸_US_美国_3-1","type":"ss","server":"185.237.185.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"US美国(mibei77.com 米贝节点分享)-1","server":"ignacio.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"ignacio.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
-  - {"name":"澳大利亚(mibei77.com 米贝节点分享)","server":"185.218.7.217","port":1443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 2-1","server":"154.197.64.248","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-1","server":"193.29.139.179","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 3-1","server":"154.21.93.92","port":37955,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"🇮🇹_IT_意大利-02","type":"ss","server":"37.143.129.230","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇵🇱_PL_波兰-02","type":"ss","server":"185.255.123.92","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇱🇻_LV_拉脱维亚->🇨🇳_CN_中国-01","type":"ss","server":"46.183.217.232","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇷🇴_RO_罗马尼亚-02","type":"ss","server":"185.193.49.88","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇮🇪_IE_爱尔兰->🇬🇧_GB_英国-01","type":"trojan","server":"54.73.212.66","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","alpn":["http/1.1"]}
+  - {"name":"🇺🇸_US_美国_3-01","type":"ss","server":"185.237.185.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"US美国(mibei77.com 米贝节点分享)-01","server":"ignacio.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"ignacio.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
+  - {"name":"澳大利亚(mibei77.com 米贝节点分享)-01","server":"185.218.7.217","port":1443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 2-01","server":"154.197.64.248","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-01","server":"193.29.139.179","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 3-01","server":"154.21.93.92","port":37955,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"FR法国(mibei77.com 米贝节点分享)","server":"irvideo.cfd","port":443,"type":"vmess","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 4-1","server":"199.34.228.187","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 5-1","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-1","server":"89.208.113.187","port":39803,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"PUnVoNipikiBENRKPPSuXv","udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-1","server":"ctmm.gscloud.bond","port":31620,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f16d3752-7bae-474e-87dc-f892df2caeaf","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 6-1","server":"shs.xiaoqi666.xyz","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 7-1","server":"185.188.147.79","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 8","server":"qh62onjn.slashdevslashnetslashtun.net","port":17007,"type":"ss","cipher":"aes-256-gcm","password":"71GJL31AYF3CXZ2K","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 9","server":"s4.db-link01.top","port":2052,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.16.229.16","headers":{"Host":"100-2-96-202.s4.db-link01.top"}}}
-  - {"name":"JP日本(mibei77.com 米贝节点分享)-1","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
-  - {"name":"DE德国(mibei77.com 米贝节点分享)-1","server":"3.124.196.164","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-1","server":"89.248.207.37","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 10","server":"35.155.38.149","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 2","server":"27.50.49.61","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 11","server":"188.164.159.22","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 12","server":"188.164.159.185","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 13","server":"27.50.49.136","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 14","server":"3.101.133.120","port":80,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 15","server":"arvind.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"arvind.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 4-01","server":"199.34.228.187","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 5-01","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-01","server":"89.208.113.187","port":39803,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"PUnVoNipikiBENRKPPSuXv","udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-01","server":"ctmm.gscloud.bond","port":31620,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f16d3752-7bae-474e-87dc-f892df2caeaf","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 6-01","server":"shs.xiaoqi666.xyz","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 7-01","server":"185.188.147.79","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 8-01","server":"qh62onjn.slashdevslashnetslashtun.net","port":17007,"type":"ss","cipher":"aes-256-gcm","password":"71GJL31AYF3CXZ2K","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 9-01","server":"s4.db-link01.top","port":2052,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.16.229.16","headers":{"Host":"100-2-96-202.s4.db-link01.top"}}}
+  - {"name":"JP日本(mibei77.com 米贝节点分享)-01","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
+  - {"name":"DE德国(mibei77.com 米贝节点分享)-01","server":"3.124.196.164","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-01","server":"89.248.207.37","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 10-01","server":"35.155.38.149","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 2-01","server":"27.50.49.61","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 11-01","server":"188.164.159.22","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 12-01","server":"188.164.159.185","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 13-01","server":"27.50.49.136","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 14-01","server":"3.101.133.120","port":80,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 15-01","server":"arvind.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"arvind.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
   - {"name":"FR法国(mibei77.com 米贝节点分享) 2","server":"163.172.118.110","port":12345,"type":"ss","cipher":"aes-256-gcm","password":"dongtaiwang.com","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 16","server":"54.241.79.250","port":80,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 3","server":"27.50.49.37","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 17","server":"108.165.152.225","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 18","server":"190.93.245.230","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 2-1","server":"193.29.139.189","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 19","server":"167.68.4.58","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 20","server":"sage.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"sage.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 21","server":"s1.db-link01.top","port":80,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.32.204","headers":{"Host":"100-97-115-235.s1.db-link01.top"}}}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-1","server":"5.182.85.255","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 22","server":"18.144.44.213","port":80,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 23","server":"199.34.228.71","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 24","server":"192.200.160.169","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 25","server":"63.141.128.66","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 26","server":"hsj.lbxjc.online","port":80,"type":"vmess","uuid":"e6543319-0574-42ac-b778-1c4325d626f5","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"chunchuan.kejixiaoqi666.store"}}}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 3","server":"213.109.147.242","port":62685,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"VpKABcOpNNA0l5G2AVOmw8","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享)-2","server":"w72tapyb.slashdevslashnetslashtun.net","port":17002,"type":"ss","cipher":"aes-256-gcm","password":"U177NTV9CLY0D3SP","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 2-2","server":"s1.db-link01.top","port":80,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.32.204","headers":{"Host":"100-97-115-235.s1.db-link01.top"}}}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 3-2","server":"qh62onjn.slashdevslashnetslashtun.net","port":17007,"type":"ss","cipher":"aes-256-gcm","password":"71GJL31AYF3CXZ2K","udp":true}
-  - {"name":"HK香港(mibei77.com 米贝节点分享)","server":"cm1.awslcn.info","port":25230,"type":"vmess","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}}}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-2","server":"193.29.139.179","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 4-2","server":"s4.db-link01.top","port":2052,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.16.229.16","headers":{"Host":"100-2-96-202.s4.db-link01.top"}}}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 5-2","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 6-2","server":"hsj.lbxjc.online","port":80,"type":"vmess","uuid":"e6543319-0574-42ac-b778-1c4325d626f5","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"chunchuan.kejixiaoqi666.store"}}}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 7-2","server":"s4.db-link02.top","port":2095,"type":"vmess","uuid":"bd7901ae-f0c5-38d5-a2aa-501c4273d86a","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.21.142.235","headers":{"Host":"100-179-100-30.s4.db-link02.top"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 16-01","server":"54.241.79.250","port":80,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 3-01","server":"27.50.49.37","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 17-01","server":"108.165.152.225","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 18-01","server":"190.93.245.230","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 2-01","server":"193.29.139.189","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 19-01","server":"167.68.4.58","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 20-01","server":"sage.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"sage.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 21-01","server":"s1.db-link01.top","port":80,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.32.204","headers":{"Host":"100-97-115-235.s1.db-link01.top"}}}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-01","server":"5.182.85.255","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 22-01","server":"18.144.44.213","port":80,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 23-01","server":"199.34.228.71","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 24-01","server":"192.200.160.169","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 25-01","server":"63.141.128.66","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 26-01","server":"hsj.lbxjc.online","port":80,"type":"vmess","uuid":"e6543319-0574-42ac-b778-1c4325d626f5","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"chunchuan.kejixiaoqi666.store"}}}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 3-01","server":"213.109.147.242","port":62685,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"VpKABcOpNNA0l5G2AVOmw8","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享)-02","server":"w72tapyb.slashdevslashnetslashtun.net","port":17002,"type":"ss","cipher":"aes-256-gcm","password":"U177NTV9CLY0D3SP","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 2-02","server":"s1.db-link01.top","port":80,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.32.204","headers":{"Host":"100-97-115-235.s1.db-link01.top"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 3-02","server":"qh62onjn.slashdevslashnetslashtun.net","port":17007,"type":"ss","cipher":"aes-256-gcm","password":"71GJL31AYF3CXZ2K","udp":true}
+  - {"name":"HK香港(mibei77.com 米贝节点分享)-01","server":"cm1.awslcn.info","port":25230,"type":"vmess","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}}}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-02","server":"193.29.139.179","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 4-02","server":"s4.db-link01.top","port":2052,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.16.229.16","headers":{"Host":"100-2-96-202.s4.db-link01.top"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 5-02","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 6-02","server":"hsj.lbxjc.online","port":80,"type":"vmess","uuid":"e6543319-0574-42ac-b778-1c4325d626f5","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"chunchuan.kejixiaoqi666.store"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 7-02","server":"s4.db-link02.top","port":2095,"type":"vmess","uuid":"bd7901ae-f0c5-38d5-a2aa-501c4273d86a","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.21.142.235","headers":{"Host":"100-179-100-30.s4.db-link02.top"}}}
   - {"name":"南非(mibei77.com 米贝节点分享)","server":"129.232.134.112","port":990,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3","udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-2","server":"ctmm.gscloud.bond","port":31620,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f16d3752-7bae-474e-87dc-f892df2caeaf","udp":true}
-  - {"name":"DE德国(mibei77.com 米贝节点分享)-2","server":"5.75.201.39","port":59521,"type":"vmess","uuid":"53e6dd39-27d4-4063-817a-9c00b077a2b7","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 2-2","server":"193.29.139.189","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u","udp":true}
-  - {"name":"JP日本(mibei77.com 米贝节点分享)-2","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
-  - {"name":"6元高速机场:cczzuu.top-1","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"重度用户推荐使用机场-1","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"免费节点可能会泄漏访问记录-1","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"中国+>+美国_2","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_中国+>+美国_16-1","port":60194,"server":"ru0195.alibabaokz.com","type":"trojan","udp":true,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
-  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2-1","port":25230,"server":"cm1.awslcn.info","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"servername":"cm1.awslcn.info"}
-  - {"name":"🇷🇴_RO_罗马尼亚_2-1","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_2-1","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇵🇱_PL_波兰-3","port":990,"server":"185.255.123.92","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_4-1","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_6-1","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_1-3","port":2082,"server":"64.225.109.206","type":"vmess","network":"http","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","alterId":0,"http-opts":{"path":["/"]},"disable-sni":true,"servername":""}
-  - {"name":"🇺🇸_US_美国_2-2","port":2086,"server":"190.93.245.230","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"cipher":"auto","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"disable-sni":true,"servername":""}
-  - {"name":"🇬🇧_GB_英国-3","port":989,"server":"62.100.205.48","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国-3","port":17007,"server":"qh62onjn.slashdevslashnetslashtun.net","type":"ss","udp":true,"password":"71GJL31AYF3CXZ2K","cipher":"aes-256-gcm"}
-  - {"name":"🇷🇺_RU_俄罗斯_1-2","port":39803,"server":"89.208.113.187","type":"ss","udp":true,"password":"PUnVoNipikiBENRKPPSuXv","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国->🇰🇷_KR_韩国","port":443,"server":"54.185.31.212","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇫🇷_FR_法国-2","port":989,"server":"195.154.169.198","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯_2-1","port":989,"server":"185.231.233.112","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇴_RO_罗马尼亚-3","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国->🇨🇳_CN_中国-1","port":443,"server":"34.217.130.149","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯-2","port":989,"server":"185.231.233.112","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇦_UA_乌克兰_1-1","port":31348,"server":"188.191.147.127","type":"ss","udp":true,"password":"6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇴_RO_罗马尼亚_1-1","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇫🇷_FR_法国_1-2","port":989,"server":"195.154.169.198","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_1-4","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_2-2","port":443,"server":"34.217.62.14","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇮🇹_IT_意大利-3","port":989,"server":"37.143.129.230","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇴_RO_罗马尼亚_2-2","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇬🇧_GB_英国-4","port":989,"server":"62.100.205.48","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-02","server":"ctmm.gscloud.bond","port":31620,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f16d3752-7bae-474e-87dc-f892df2caeaf","udp":true}
+  - {"name":"DE德国(mibei77.com 米贝节点分享)-02","server":"5.75.201.39","port":59521,"type":"vmess","uuid":"53e6dd39-27d4-4063-817a-9c00b077a2b7","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 2-02","server":"193.29.139.189","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u","udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享)-02","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
+  - {"name":"6元高速机场:cczzuu.top-01","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"重度用户推荐使用机场-01","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"免费节点可能会泄漏访问记录-01","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"中国+>+美国_2-01","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_中国+>+美国_16-01","port":60194,"server":"ru0195.alibabaokz.com","type":"trojan","udp":true,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2-01","port":25230,"server":"cm1.awslcn.info","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"servername":"cm1.awslcn.info"}
+  - {"name":"🇷🇴_RO_罗马尼亚_2-01","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_2-1-01","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇵🇱_PL_波兰-03","port":990,"server":"185.255.123.92","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_4-01","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_6-01","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1-03","port":2082,"server":"64.225.109.206","type":"vmess","network":"http","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","alterId":0,"http-opts":{"path":["/"]},"disable-sni":true,"servername":""}
+  - {"name":"🇺🇸_US_美国_2-2-01","port":2086,"server":"190.93.245.230","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"cipher":"auto","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇬🇧_GB_英国-03","port":989,"server":"62.100.205.48","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国-03","port":17007,"server":"qh62onjn.slashdevslashnetslashtun.net","type":"ss","udp":true,"password":"71GJL31AYF3CXZ2K","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇺_RU_俄罗斯_1-02","port":39803,"server":"89.208.113.187","type":"ss","udp":true,"password":"PUnVoNipikiBENRKPPSuXv","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国->🇰🇷_KR_韩国-01","port":443,"server":"54.185.31.212","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇫🇷_FR_法国-02","port":989,"server":"195.154.169.198","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_2-01","port":989,"server":"185.231.233.112","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇴_RO_罗马尼亚-03","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"6元高速机场:cczzuu.top-02","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"重度用户推荐使用机场-02","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"免费节点可能会泄漏访问记录-02","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"中国+>+美国_2-02","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_中国+>+美国_16-02","port":60194,"server":"ru0195.alibabaokz.com","type":"trojan","udp":true,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2-02","port":25230,"server":"cm1.awslcn.info","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"servername":"cm1.awslcn.info"}
+  - {"name":"🇷🇴_RO_罗马尼亚_2-02","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_2-1-02","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇵🇱_PL_波兰-04","port":990,"server":"185.255.123.92","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_4-02","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_6-02","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1-04","port":2082,"server":"64.225.109.206","type":"vmess","network":"http","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","alterId":0,"http-opts":{"path":["/"]},"disable-sni":true,"servername":""}
+  - {"name":"🇺🇸_US_美国_2-2-02","port":2086,"server":"190.93.245.230","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"cipher":"auto","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇬🇧_GB_英国-04","port":989,"server":"62.100.205.48","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国-04","port":17007,"server":"qh62onjn.slashdevslashnetslashtun.net","type":"ss","udp":true,"password":"71GJL31AYF3CXZ2K","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇺_RU_俄罗斯_1-03","port":39803,"server":"89.208.113.187","type":"ss","udp":true,"password":"PUnVoNipikiBENRKPPSuXv","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国->🇰🇷_KR_韩国-02","port":443,"server":"54.185.31.212","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇫🇷_FR_法国-03","port":989,"server":"195.154.169.198","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_2-02","port":989,"server":"185.231.233.112","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇴_RO_罗马尼亚-04","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国->🇨🇳_CN_中国-01","port":443,"server":"34.217.130.149","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯-02","port":989,"server":"185.231.233.112","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇦_UA_乌克兰_1-01","port":31348,"server":"188.191.147.127","type":"ss","udp":true,"password":"6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇴_RO_罗马尼亚_1-01","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇫🇷_FR_法国_1-02","port":989,"server":"195.154.169.198","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1-05","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_2-02","port":443,"server":"34.217.62.14","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇮🇹_IT_意大利-03","port":989,"server":"37.143.129.230","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇴_RO_罗马尼亚_2-03","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧_GB_英国-05","port":989,"server":"62.100.205.48","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🇫🇷_FR_法国_2","port":12345,"server":"163.172.118.110","type":"ss","udp":true,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇦_UA_乌克兰_2-1","port":8388,"server":"de1.opensocks.site","type":"ss","udp":true,"password":"M2I0MzM2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_3-2","port":443,"server":"52.36.157.30","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇦_UA_乌克兰_2-01","port":8388,"server":"de1.opensocks.site","type":"ss","udp":true,"password":"M2I0MzM2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_3-02","port":443,"server":"52.36.157.30","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇮🇳_IN_印度_1","port":443,"server":"54.188.41.183","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇱🇹_LT_立陶宛","port":990,"server":"147.78.1.27","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇹_IT_意大利-4","port":989,"server":"37.143.129.230","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_1-5","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇫🇷_FR_法国-3","port":12345,"server":"163.172.118.110","type":"ss","udp":true,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇦_UA_乌克兰_1-2","port":8388,"server":"95.164.68.37","type":"ss","udp":true,"password":"M2I0MzM2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇱🇻_LV_拉脱维亚->🇨🇳_CN_中国-2","port":990,"server":"46.183.217.232","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇴_RO_罗马尼亚-4","port":8080,"server":"194.5.215.59","type":"ss","udp":true,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
-  - {"name":"🇺🇸_US_美国_2-3","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇳🇱_NL_荷兰_1-1","port":8080,"server":"193.29.139.189","type":"ss","udp":true,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇦_UA_乌克兰_2-2","port":8388,"server":"de1.opensocks.site","type":"ss","udp":true,"password":"M2I0MzM2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇹_IT_意大利-04","port":989,"server":"37.143.129.230","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1-06","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇫🇷_FR_法国-04","port":12345,"server":"163.172.118.110","type":"ss","udp":true,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇦_UA_乌克兰_1-02","port":8388,"server":"95.164.68.37","type":"ss","udp":true,"password":"M2I0MzM2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇱🇻_LV_拉脱维亚->🇨🇳_CN_中国-02","port":990,"server":"46.183.217.232","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇴_RO_罗马尼亚-05","port":8080,"server":"194.5.215.59","type":"ss","udp":true,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
+  - {"name":"🇺🇸_US_美国_2-03","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇳🇱_NL_荷兰_1-01","port":8080,"server":"193.29.139.189","type":"ss","udp":true,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇦_UA_乌克兰_2-02","port":8388,"server":"de1.opensocks.site","type":"ss","udp":true,"password":"M2I0MzM2","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_美国->🇮🇳_IN_印度_2","port":443,"server":"34.217.62.14","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇸🇰_SK_斯洛伐克","port":989,"server":"156.146.40.194","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇮🇳_IN_印度_3","port":8388,"server":"137.175.113.215","type":"ss","udp":true,"password":"asd123456","cipher":"chacha20-ietf"}
-  - {"name":"🇬🇧_GB_英国_1-2","port":989,"server":"62.100.205.48","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯-3","port":989,"server":"185.231.233.112","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇳🇱_NL_荷兰_2-1","port":8080,"server":"193.29.139.179","type":"ss","udp":true,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧_GB_英国_2-2","port":989,"server":"51.15.15.82","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯-4","type":"ss","server":"185.231.233.173","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇬🇧_GB_英国_1-02","port":989,"server":"62.100.205.48","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯-03","port":989,"server":"185.231.233.112","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇳🇱_NL_荷兰_2-01","port":8080,"server":"193.29.139.179","type":"ss","udp":true,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧_GB_英国_2-02","port":989,"server":"51.15.15.82","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯-04","type":"ss","server":"185.231.233.173","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇨🇭_CH_瑞士->🇺🇸_US_美国","type":"ss","server":"84.17.53.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇮🇪_IE_爱尔兰","type":"trojan","server":"52.16.69.127","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-directvpn","alpn":["http/1.1"]}
-  - {"name":"🇺🇸_US_美国-3","type":"vmess","server":"64.225.109.206","port":2082,"uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","cipher":"auto","network":"http","skip-cert-verify":true,"http-opts":{"path":["/"]},"alterId":0}
-  - {"name":"🇺🇸_US_美国_1-6","type":"trojan","server":"13.49.252.114","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","skip-cert-verify":false}
-  - {"name":"🇺🇸_US_美国_2-4","type":"ss","server":"185.237.185.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇺🇸_US_美国_3-3","type":"ss","server":"54.190.19.18","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇬🇧_GB_英国-5","type":"vmess","server":"5.39.254.196","port":23985,"uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
-  - {"name":"🇳🇱_NL_荷兰-3","type":"ss","server":"45.150.32.46","port":37904,"cipher":"chacha20-ietf-poly1305","password":"EOk/bIj8XER6b0kjVQxuM/iLMTE7P8h/PT/RCI2Z2wg="}
-  - {"name":"🇺🇸_US_美国_4-2","type":"ss","server":"38.107.226.238","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸_US_美国_5-1","type":"vmess","server":"190.93.245.230","port":2086,"uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","cipher":"auto","network":"ws","ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"alterId":0}
-  - {"name":"🇬🇧_GB_英国->🇮🇪_IE_爱尔兰","type":"trojan","server":"51.44.135.15","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","alpn":["http/1.1"]}
-  - {"name":"🇫🇷_FR_法国-4","type":"ss","server":"163.172.118.110","port":12345,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
-  - {"name":"🇷🇺_RU_俄罗斯_1-3","type":"ss","server":"185.231.233.112","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇷🇺_RU_俄罗斯_2-2","type":"vmess","server":"194.87.69.50","port":17926,"uuid":"680ab8f5-2d55-40bc-bf8d-a35bd63426a7","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
-  - {"name":"🇮🇪_IE_爱尔兰->🇬🇧_GB_英国-2","type":"trojan","server":"52.209.236.56","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-directvpn","alpn":["http/1.1"]}
-  - {"name":"🇬🇧_GB_英国_1-3","type":"ss","server":"62.100.205.48","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇷🇴_RO_罗马尼亚-5","type":"ss","server":"188.214.36.155","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇵🇱_PL_波兰-4","type":"vmess","server":"188.68.250.202","port":21113,"uuid":"0fb7f2fc-22d0-4e60-bba8-71819906329a","cipher":"auto","network":"tcp","alterId":0}
-  - {"name":"🇬🇧_GB_英国->🇦🇺_AU_澳大利亚-1","type":"ss","server":"146.70.61.18","port":8080,"cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
+  - {"name":"🇺🇸_US_美国-03","type":"vmess","server":"64.225.109.206","port":2082,"uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","cipher":"auto","network":"http","skip-cert-verify":true,"http-opts":{"path":["/"]},"alterId":0}
+  - {"name":"🇺🇸_US_美国_1-07","type":"trojan","server":"13.49.252.114","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","skip-cert-verify":false}
+  - {"name":"🇺🇸_US_美国_2-04","type":"ss","server":"185.237.185.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇺🇸_US_美国_3-03","type":"ss","server":"54.190.19.18","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇬🇧_GB_英国-06","type":"vmess","server":"5.39.254.196","port":23985,"uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
+  - {"name":"🇳🇱_NL_荷兰-03","type":"ss","server":"45.150.32.46","port":37904,"cipher":"chacha20-ietf-poly1305","password":"EOk/bIj8XER6b0kjVQxuM/iLMTE7P8h/PT/RCI2Z2wg="}
+  - {"name":"🇺🇸_US_美国_4-03","type":"ss","server":"38.107.226.238","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸_US_美国_5-01","type":"vmess","server":"190.93.245.230","port":2086,"uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","cipher":"auto","network":"ws","ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"alterId":0}
+  - {"name":"🇬🇧_GB_英国->🇮🇪_IE_爱尔兰-01","type":"trojan","server":"51.44.135.15","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","alpn":["http/1.1"]}
+  - {"name":"🇫🇷_FR_法国-05","type":"ss","server":"163.172.118.110","port":12345,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
+  - {"name":"🇷🇺_RU_俄罗斯_1-04","type":"ss","server":"185.231.233.112","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇷🇺_RU_俄罗斯_2-03","type":"vmess","server":"194.87.69.50","port":17926,"uuid":"680ab8f5-2d55-40bc-bf8d-a35bd63426a7","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
+  - {"name":"🇮🇪_IE_爱尔兰->🇬🇧_GB_英国-02","type":"trojan","server":"52.209.236.56","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-directvpn","alpn":["http/1.1"]}
+  - {"name":"🇬🇧_GB_英国_1-03","type":"ss","server":"62.100.205.48","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇷🇴_RO_罗马尼亚-06","type":"ss","server":"188.214.36.155","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇵🇱_PL_波兰-05","type":"vmess","server":"188.68.250.202","port":21113,"uuid":"0fb7f2fc-22d0-4e60-bba8-71819906329a","cipher":"auto","network":"tcp","alterId":0}
+  - {"name":"🇬🇧_GB_英国->🇦🇺_AU_澳大利亚-01","type":"ss","server":"146.70.61.18","port":8080,"cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
   - {"name":"🇺🇸_US_美国_7","type":"ss","server":"185.47.252.251","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇮🇹_IT_意大利-5","type":"ss","server":"37.143.129.230","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇮🇹_IT_意大利-05","type":"ss","server":"37.143.129.230","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇷🇺_RU_俄罗斯_3","type":"vmess","server":"45.8.159.241","port":33395,"uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
+  - {"name":"US美国(mibei77.com 米贝节点分享)-03","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 2-03","server":"172.67.166.228","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 3-03","server":"5.182.85.189","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-02","server":"5.182.84.50","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 4-03","server":"198.62.62.61","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 5-03","server":"192.0.54.221","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-02","server":"45.67.214.3","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 6-03","server":"172.64.105.24","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"HK香港(mibei77.com 米贝节点分享)-02","server":"154.197.64.132","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"HK香港(mibei77.com 米贝节点分享) 2","server":"154.197.64.196","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 7-03","server":"176.124.223.40","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享)-03","server":"94.182.150.231","port":80,"type":"vmess","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 8-02","server":"108.165.152.249","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 9-02","server":"108.165.152.67","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-02","server":"176.124.223.133","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-03","server":"27.50.49.251","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 10-02","server":"27.50.49.136","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 11-02","server":"188.164.159.74","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 12-02","server":"104.19.103.190","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 13-02","server":"108.165.152.36","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 14-02","server":"104.129.166.131","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 2-02","server":"27.50.49.156","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 15-02","server":"192.200.160.35","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 3-02","server":"27.50.49.136","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 4-01","server":"46.254.92.142","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 16-02","server":"161.145.150.14","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 17-02","server":"s1.db-link01.top","port":80,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.32.204","headers":{"Host":"100-97-115-235.s1.db-link01.top"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 18-02","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"c882b684-ab94-4b46-b34e-609d1f3b5c0f","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 19-02","server":"190.93.245.230","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 20-02","server":"154.197.64.248","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 4-01","server":"ctmm.gscloud.bond","port":31620,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f16d3752-7bae-474e-87dc-f892df2caeaf","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 21-02","server":"s4.db-link01.top","port":2052,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.16.229.16","headers":{"Host":"100-2-96-202.s4.db-link01.top"}}}
+  - {"name":"GB英国(mibei77.com 米贝节点分享)-01","server":"5.39.254.196","port":23985,"type":"vmess","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.254.196"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 22-02","server":"185.188.147.79","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 23-02","server":"shs.xiaoqi666.xyz","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 24-02","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"4a0bd0bc-8c52-4737-99cb-6c34e8befd16","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"HK香港(mibei77.com 米贝节点分享) 3","server":"103.148.72.147","port":1443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 25-02","server":"s5.db-link01.top","port":2052,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.204.143","headers":{"Host":"100-62-189-118.s5.db-link01.top"}}}
+  - {"name":"HK香港(mibei77.com 米贝节点分享) 4","server":"154.198.227.53","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 2-01","server":"5.39.254.196","port":23985,"type":"vmess","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.254.196"}}}
+  - {"name":"HK香港(mibei77.com 米贝节点分享) 5","server":"18.162.134.60","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 26-02","server":"38.107.226.238","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-03","server":"45.150.32.46","port":37904,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"EOk/bIj8XER6b0kjVQxuM/iLMTE7P8h/PT/RCI2Z2wg=","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 27-01","server":"66.81.247.230","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 28-01","server":"66.81.247.88","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 29-01","server":"108.165.152.143","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享)-01","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"50c8ff66-8c21-415f-a199-b5a9f9b0459a","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 30-01","server":"167.68.4.131","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 31-01","server":"108.165.152.29","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享) 2-01","server":"103.116.7.67","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 5-01","server":"45.8.159.241","port":33395,"type":"vmess","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"45.8.159.241"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 32-01","server":"38.59.242.169","port":27738,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 33","server":"theo.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"theo.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 6-01","server":"77.232.140.101","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 7-01","server":"45.150.115.195","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享) 3-01","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 34","server":"172.67.210.4","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 8-01","server":"5.182.84.52","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 35","server":"206.238.237.62","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"6元高速机场:cczzuu.top-03","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"重度用户推荐使用机场-03","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"免费节点可能会泄漏访问记录-03","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"中国+>+美国_2-03","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_中国 > 美国_12-01","port":52908,"server":"120.234.102.229","type":"vmess","network":"tcp","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"disable-sni":true,"servername":""}
+  - {"name":"🇨🇳_中国+>+美国_16-03","port":60194,"server":"ru0195.alibabaokz.com","type":"trojan","udp":true,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2-03","port":25230,"server":"cm1.awslcn.info","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"servername":"cm1.awslcn.info"}
+  - {"name":"🇷🇺_RU_俄罗斯_1-1","port":989,"server":"185.231.233.173","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇴_RO_罗马尼亚_2-04","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_2-1-03","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇵🇱_PL_波兰-06","port":990,"server":"185.255.123.92","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_4-1","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_5-01","port":33395,"server":"45.8.159.241","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"host":""}},"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇺🇸_US_美国_6-03","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1-08","port":2082,"server":"64.225.109.206","type":"vmess","network":"http","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","alterId":0,"http-opts":{"path":["/"]},"disable-sni":true,"servername":""}
+  - {"name":"🇺🇸_US_美国_2-2-03","port":443,"server":"54.190.19.18","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧_GB_英国_1-04","port":23985,"server":"5.39.254.196","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"host":""}},"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇳🇱_NL_荷兰-04","port":37904,"server":"45.150.32.46","type":"ss","udp":true,"password":"EOk/bIj8XER6b0kjVQxuM/iLMTE7P8h/PT/RCI2Z2wg=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_3-04","port":2375,"server":"38.107.226.238","type":"ss","udp":true,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_4-2","port":2086,"server":"190.93.245.230","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"cipher":"auto","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇬🇧_GB_英国->🇮🇪_IE_爱尔兰-02","port":22222,"server":"51.44.135.15","type":"trojan","udp":true,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","skip-cert-verify":true}
+  - {"name":"🇫🇷_FR_法国-06","port":12345,"server":"163.172.118.110","type":"ss","udp":true,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇺_RU_俄罗斯_1-2","port":989,"server":"185.231.233.112","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧_GB_英国_2-03","port":989,"server":"62.100.205.48","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧_GB_英国->🇦🇺_AU_澳大利亚-02","port":8080,"server":"146.70.61.18","type":"ss","udp":true,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
+  - {"name":"🇮🇹_IT_意大利-06","port":989,"server":"37.143.129.230","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_2-04","port":33395,"server":"45.8.159.241","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"host":""}},"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"disable-sni":true,"servername":""}
   - {"name":"🇳🇱_NL_荷兰->🇱🇹_LT_立陶宛","port":8080,"server":"193.29.139.189","type":"ss","udp":true,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧_GB_英国->🇦🇺_AU_澳大利亚-2","port":8080,"server":"146.70.61.18","type":"ss","udp":true,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
-  - {"name":"🇺🇸_US_美国_1-7","port":443,"server":"34.216.219.123","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_2-5","port":443,"server":"54.188.41.183","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧_GB_英国->🇦🇺_AU_澳大利亚-03","port":8080,"server":"146.70.61.18","type":"ss","udp":true,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
+  - {"name":"🇺🇸_US_美国_1-09","port":443,"server":"34.216.219.123","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_2-05","port":443,"server":"54.188.41.183","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇩🇰_DK_丹麦","port":989,"server":"185.186.79.53","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国-4","port":8080,"server":"107.155.57.11","type":"ss","udp":true,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
-  - {"name":"🇷🇴_RO_罗马尼亚-6","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇳🇱_NL_荷兰_1-2","port":37904,"server":"45.150.32.46","type":"ss","udp":true,"password":"EOk/bIj8XER6b0kjVQxuM/iLMTE7P8h/PT/RCI2Z2wg=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱_NL_荷兰_2-2","port":62685,"server":"213.109.147.242","type":"ss","udp":true,"password":"VpKABcOpNNA0l5G2AVOmw8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_3-4","port":2375,"server":"38.107.226.238","type":"ss","udp":true,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国-05","port":8080,"server":"107.155.57.11","type":"ss","udp":true,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
+  - {"name":"🇷🇴_RO_罗马尼亚-07","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇳🇱_NL_荷兰_1-02","port":37904,"server":"45.150.32.46","type":"ss","udp":true,"password":"EOk/bIj8XER6b0kjVQxuM/iLMTE7P8h/PT/RCI2Z2wg=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱_NL_荷兰_2-02","port":62685,"server":"213.109.147.242","type":"ss","udp":true,"password":"VpKABcOpNNA0l5G2AVOmw8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_3-05","port":2375,"server":"38.107.226.238","type":"ss","udp":true,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸_US_美国->🇸🇬_SG_新加坡","port":443,"server":"35.94.25.109","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇫🇷_FR_法国-5","port":12345,"server":"163.172.118.110","type":"ss","udp":true,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_US_美国_4-3","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_5-2","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯-5","type":"vmess","server":"45.8.159.241","port":33395,"uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
-  - {"name":"🇺🇸_US_美国-4","type":"trojan","server":"16.16.87.68","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-directvpn","alpn":["http/1.1"]}
-  - {"name":"🇵🇱_PL_波兰-5","type":"ss","server":"185.255.123.92","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇮🇷_IR_伊朗-2","type":"vmess","server":"94.182.150.230","port":80,"uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","cipher":"auto","network":"tcp","alterId":0}
-  - {"name":"🇦🇱_AL_阿尔巴尼亚-1","type":"ss","server":"109.104.154.146","port":33333,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
-  - {"name":"🇩🇪_DE_德国_1-2","type":"trojan","server":"35.157.231.252","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","alpn":["http/1.1"]}
-  - {"name":"🇺🇸_US_美国_1-8","type":"ss","server":"54.187.174.202","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇺🇸_US_美国_2-6","type":"vmess","server":"190.93.245.230","port":2086,"uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","cipher":"auto","network":"ws","ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"alterId":0}
-  - {"name":"🇮🇹_IT_意大利-6","type":"ss","server":"37.143.129.230","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇷🇺_RU_俄罗斯_1-4","type":"vmess","server":"195.58.49.42","port":17926,"uuid":"d39ad1df-e8b5-4759-8c58-e27d2f3ff679","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
-  - {"name":"🇺🇸_US_美国_3-5","type":"vmess","server":"s1.db-link01.top","port":2052,"uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","cipher":"auto","network":"ws","ws-opts":{"path":"/dabai.in172.67.2.142","headers":{"Host":"100-151-164-47.s1.db-link01.top"}},"alterId":0}
-  - {"name":"🇳🇱_NL_荷兰-4","type":"ss","server":"45.140.146.223","port":8388,"cipher":"chacha20-ietf-poly1305","password":"YjJiYzBj"}
-  - {"name":"🇺🇸_US_美国_4-4","type":"vmess","server":"64.225.109.206","port":2082,"uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","cipher":"auto","network":"http","skip-cert-verify":true,"http-opts":{"path":["/"]},"alterId":0}
-  - {"name":"🇺🇸_US_美国_5-3","type":"ss","server":"54.190.19.18","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇷🇺_RU_俄罗斯_2-3","type":"vmess","server":"195.58.49.50","port":17926,"uuid":"de3695e9-b174-4788-ba90-16bc9e46f53c","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
+  - {"name":"🇫🇷_FR_法国-07","port":12345,"server":"163.172.118.110","type":"ss","udp":true,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_4-04","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_5-02","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯-05","type":"vmess","server":"45.8.159.241","port":33395,"uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
+  - {"name":"🇺🇸_US_美国-04","type":"trojan","server":"16.16.87.68","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-directvpn","alpn":["http/1.1"]}
+  - {"name":"🇵🇱_PL_波兰-07","type":"ss","server":"185.255.123.92","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇮🇷_IR_伊朗-02","type":"vmess","server":"94.182.150.230","port":80,"uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","cipher":"auto","network":"tcp","alterId":0}
+  - {"name":"🇦🇱_AL_阿尔巴尼亚-01","type":"ss","server":"109.104.154.146","port":33333,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
+  - {"name":"🇩🇪_DE_德国_1-02","type":"trojan","server":"35.157.231.252","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","alpn":["http/1.1"]}
+  - {"name":"🇺🇸_US_美国_1-10","type":"ss","server":"54.187.174.202","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国_2-06","type":"vmess","server":"190.93.245.230","port":2086,"uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","cipher":"auto","network":"ws","ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"alterId":0}
+  - {"name":"🇮🇹_IT_意大利-07","type":"ss","server":"37.143.129.230","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇷🇺_RU_俄罗斯_1-05","type":"vmess","server":"195.58.49.42","port":17926,"uuid":"d39ad1df-e8b5-4759-8c58-e27d2f3ff679","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
+  - {"name":"🇺🇸_US_美国_3-06","type":"vmess","server":"s1.db-link01.top","port":2052,"uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","cipher":"auto","network":"ws","ws-opts":{"path":"/dabai.in172.67.2.142","headers":{"Host":"100-151-164-47.s1.db-link01.top"}},"alterId":0}
+  - {"name":"🇳🇱_NL_荷兰-05","type":"ss","server":"45.140.146.223","port":8388,"cipher":"chacha20-ietf-poly1305","password":"YjJiYzBj"}
+  - {"name":"🇺🇸_US_美国_4-05","type":"vmess","server":"64.225.109.206","port":2082,"uuid":"48264b45-64b8-4e9f-8a88-cef41f20c736","cipher":"auto","network":"http","skip-cert-verify":true,"http-opts":{"path":["/"]},"alterId":0}
+  - {"name":"🇺🇸_US_美国_5-03","type":"ss","server":"54.190.19.18","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇷🇺_RU_俄罗斯_2-05","type":"vmess","server":"195.58.49.50","port":17926,"uuid":"de3695e9-b174-4788-ba90-16bc9e46f53c","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/"},"alterId":0}
   - {"name":"🇮🇷_IR_伊朗_1","type":"vmess","server":"94.182.150.231","port":80,"uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","cipher":"auto","network":"tcp","alterId":0}
-  - {"name":"🇨🇦_CA_加拿大-2","type":"trojan","server":"15.222.88.136","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-directvpn","alpn":["http/1.1"]}
-  - {"name":"🇺🇸_US_美国->🇨🇳_CN_中国-2","type":"ss","server":"35.94.25.109","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯-3","type":"trojan","server":"221.131.165.210","port":60194,"password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
-  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1-2","type":"vmess","server":"cm1.awslcn.info","port":25230,"uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"alterId":0}
-  - {"name":"🇷🇴_RO_罗马尼亚-7","type":"ss","server":"185.193.49.88","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇬🇧_GB_英国-6","type":"vmess","server":"5.39.254.196","port":23985,"uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.254.196"}},"alterId":0}
-  - {"name":"🇺🇸_US_美国_6-2","type":"ss","server":"185.47.252.251","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"6元高速机场:cczzuu.top-2","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"重度用户推荐使用机场-2","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"免费节点可能会泄漏访问记录-2","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
-  - {"name":"中国+>+美国_2_1","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国+>+美国_2_2","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_中国 > 美国_12","port":52908,"server":"120.234.102.229","type":"vmess","network":"tcp","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"disable-sni":true,"servername":""}
-  - {"name":"🇷🇺_俄罗斯_2","port":8388,"server":"89.221.224.166","type":"ss","udp":true,"password":"MDZhNTAz","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_中国+>+美国_16-2","port":60194,"server":"ru0195.alibabaokz.com","type":"trojan","udp":true,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
-  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2-2","port":25230,"server":"cm1.awslcn.info","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"servername":"cm1.awslcn.info"}
-  - {"name":"🇷🇺_RU_俄罗斯_1_1","port":989,"server":"185.231.233.173","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇨🇭_CH_瑞士-3","port":989,"server":"84.17.53.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇴_RO_罗马尼亚_1-2","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯_1_2","port":17926,"server":"195.58.49.86","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"host":""}},"cipher":"auto","uuid":"2dbf46e8-1b20-4c7d-9cf4-5360c3ab5099","alterId":0,"disable-sni":true,"servername":""}
-  - {"name":"🇦🇱_AL_阿尔巴尼亚-2","port":33333,"server":"109.104.154.146","type":"ss","udp":true,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"🇷🇴_RO_罗马尼亚_2-3","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇦🇹_AT_奥地利->🇺🇸_US_美国_1","port":990,"server":"192.36.61.59","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_2-7","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯","port":8388,"server":"45.140.146.223","type":"ss","udp":true,"password":"YjJiYzBj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱_PL_波兰-6","port":990,"server":"185.255.123.92","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_4-5","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯_5","port":33395,"server":"45.8.159.241","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"host":""}},"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"disable-sni":true,"servername":""}
-  - {"name":"🇺🇸_US_美国_6-3","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇦🇹_AT_奥地利->🇺🇸_US_美国_2","port":989,"server":"192.36.61.59","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯_1-5","port":39803,"server":"89.208.113.187","type":"ss","udp":true,"password":"PUnVoNipikiBENRKPPSuXv","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱_NL_荷兰_1-3","port":8388,"server":"45.140.146.223","type":"ss","udp":true,"password":"YjJiYzBj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺_RU_俄罗斯_2-4","port":989,"server":"185.231.233.173","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_1-9","port":443,"server":"54.202.49.210","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_2-8","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_3-6","port":443,"server":"34.216.219.123","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇳🇱_NL_荷兰_2-3","port":8080,"server":"193.29.139.189","type":"ss","udp":true,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_4-6","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇦_CA_加拿大-02","type":"trojan","server":"15.222.88.136","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-directvpn","alpn":["http/1.1"]}
+  - {"name":"🇺🇸_US_美国->🇨🇳_CN_中国-02","type":"ss","server":"35.94.25.109","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯-03","type":"trojan","server":"221.131.165.210","port":60194,"password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1-02","type":"vmess","server":"cm1.awslcn.info","port":25230,"uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"alterId":0}
+  - {"name":"🇷🇴_RO_罗马尼亚-08","type":"ss","server":"185.193.49.88","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇬🇧_GB_英国-07","type":"vmess","server":"5.39.254.196","port":23985,"uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.254.196"}},"alterId":0}
+  - {"name":"🇺🇸_US_美国_6-04","type":"ss","server":"185.47.252.251","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"伊朗(mibei77.com 米贝节点分享)","server":"94.182.150.230","port":80,"type":"vmess","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"亚美尼亚(mibei77.com 米贝节点分享)","server":"188.164.159.25","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"乌克兰(mibei77.com 米贝节点分享)","server":"31.43.179.27","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-03","server":"46.254.93.37","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-03","server":"176.124.223.133","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-03","server":"5.182.85.189","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 4-02","server":"5.182.84.229","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 5-02","server":"46.254.92.142","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 6-02","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"a78b7841-6eff-4c0f-a509-50b69afc45fc","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 7-02","server":"176.124.223.92","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 8-02","server":"45.67.214.41","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 9","server":"92.243.74.115","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 10","server":"92.243.74.23","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 11","server":"5.182.85.28","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 12","server":"77.232.140.101","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 13","server":"5.182.84.52","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 14","server":"45.67.214.3","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 15","server":"5.182.84.50","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"澳大利亚(mibei77.com 米贝节点分享)-02","server":"37.123.192.214","port":34237,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享)-04","server":"130.250.137.63","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 2-04","server":"161.145.150.14","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 3-04","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"4a0bd0bc-8c52-4737-99cb-6c34e8befd16","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 4-04","server":"108.165.152.55","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 5-04","server":"104.19.103.190","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 6-04","server":"shs.xiaoqi666.xyz","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 7-04","server":"108.165.152.163","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 8-03","server":"104.19.107.190","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 9-03","server":"lynn.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"lynn.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 10-03","server":"154.219.5.249","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 11-03","server":"154.219.5.44","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 12-03","server":"167.68.4.131","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 13-03","server":"108.165.152.29","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 14-03","server":"66.81.247.88","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 15-03","server":"154.83.2.88","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 16-03","server":"66.81.247.230","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 17-03","server":"183.236.51.23","port":53002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 18-03","server":"s5.db-link01.top","port":2052,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.204.143","headers":{"Host":"100-62-189-118.s5.db-link01.top"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 19-03","server":"190.93.245.230","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 20-03","server":"theo.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"theo.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 21-03","server":"ignacio.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"ignacio.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 22-03","server":"172.67.210.4","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 23-03","server":"172.64.105.24","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 24-03","server":"108.165.152.31","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 25-03","server":"108.165.152.25","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 26-03","server":"172.67.166.228","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 27-02","server":"108.165.152.249","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 28-02","server":"108.165.152.143","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 29-02","server":"108.165.152.36","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 30-02","server":"198.62.62.61","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 31-02","server":"154.219.5.55","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 32-02","server":"206.238.236.31","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-04","server":"109.104.154.146","port":33333,"type":"ss","cipher":"aes-256-gcm","password":"dongtaiwang.com","udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 2-03","server":"27.50.48.186","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 3-03","server":"27.50.49.37","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 4-02","server":"27.50.49.136","port":443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 5","server":"27.50.49.251","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 6","server":"27.50.49.156","port":2096,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享) 7","server":"27.50.48.126","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享)-02","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"d39ad1df-e8b5-4759-8c58-e27d2f3ff679","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 2-01","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"50c8ff66-8c21-415f-a199-b5a9f9b0459a","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 3-01","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"7f1f6b5e-86df-4f6a-a5d2-e49b7dae59fb","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 4-01","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"7ddc1431-30e8-4161-b34e-4eac928cfc7f","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
+  - {"name":"PL波兰(mibei77.com 米贝节点分享)","server":"185.255.123.92","port":990,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3","udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-04","server":"pranab.ns.cloudflare.com","port":443,"type":"trojan","password":"Aimer","sni":"pranab.ns.cloudflare.com","skip-cert-verify":true,"udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 2-03","server":"77.74.228.4","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 3-02","server":"45.140.146.223","port":8388,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"YjJiYzBj","udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享)-04","server":"103.116.7.67","port":2083,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享) 2-02","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享) 3-02","server":"94.182.150.231","port":80,"type":"vmess","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"HK香港(mibei77.com 米贝节点分享)-03","server":"154.197.64.132","port":2053,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享)-02","server":"5.39.254.196","port":23985,"type":"vmess","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.254.196"}}}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 2-02","server":"5.39.254.196","port":23985,"type":"vmess","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.254.196"}}}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 3","server":"176.53.144.206","port":8443,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 4","server":"5.39.252.204","port":17926,"type":"vmess","uuid":"680ab8f5-2d55-40bc-bf8d-a35bd63426a7","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.252.204"}}}
+  - {"name":"6元高速机场:cczzuu.top-04","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"重度用户推荐使用机场-04","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"免费节点可能会泄漏访问记录-04","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"中国+>+美国_2_1-01","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"中国+>+美国_2_2-01","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_中国 > 美国_12-02","port":52908,"server":"120.234.102.229","type":"vmess","network":"tcp","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"disable-sni":true,"servername":""}
+  - {"name":"🇷🇺_俄罗斯_2-01","port":8388,"server":"89.221.224.166","type":"ss","udp":true,"password":"MDZhNTAz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_中国+>+美国_16-04","port":60194,"server":"ru0195.alibabaokz.com","type":"trojan","udp":true,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2-04","port":25230,"server":"cm1.awslcn.info","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"servername":"cm1.awslcn.info"}
+  - {"name":"🇷🇺_RU_俄罗斯_1_1-01","port":989,"server":"185.231.233.173","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇭_CH_瑞士-03","port":989,"server":"84.17.53.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇴_RO_罗马尼亚_1-02","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_1_2-01","port":17926,"server":"195.58.49.86","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"host":""}},"cipher":"auto","uuid":"2dbf46e8-1b20-4c7d-9cf4-5360c3ab5099","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇦🇱_AL_阿尔巴尼亚-02","port":33333,"server":"109.104.154.146","type":"ss","udp":true,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇴_RO_罗马尼亚_2-05","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇦🇹_AT_奥地利->🇺🇸_US_美国_1-01","port":990,"server":"192.36.61.59","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_2-07","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯-01","port":8388,"server":"45.140.146.223","type":"ss","udp":true,"password":"YjJiYzBj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱_PL_波兰-08","port":990,"server":"185.255.123.92","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_4-06","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_5-02","port":33395,"server":"45.8.159.241","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"host":""}},"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇺🇸_US_美国_6-05","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇦🇹_AT_奥地利->🇺🇸_US_美国_2-01","port":989,"server":"192.36.61.59","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_1-06","port":39803,"server":"89.208.113.187","type":"ss","udp":true,"password":"PUnVoNipikiBENRKPPSuXv","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱_NL_荷兰_1-03","port":8388,"server":"45.140.146.223","type":"ss","udp":true,"password":"YjJiYzBj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺_RU_俄罗斯_2-06","port":989,"server":"185.231.233.173","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1-11","port":443,"server":"54.202.49.210","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_2-08","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_3-07","port":443,"server":"34.216.219.123","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇳🇱_NL_荷兰_2-03","port":8080,"server":"193.29.139.189","type":"ss","udp":true,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_4-07","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇯🇵_JP_日本","port":443,"server":"54.202.6.21","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇵🇱_PL_波兰","port":443,"server":"54.187.174.202","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇮🇹_IT_意大利-7","port":989,"server":"37.143.129.230","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇴_RO_罗马尼亚-8","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇮🇹_IT_意大利-08","port":989,"server":"37.143.129.230","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇴_RO_罗马尼亚-09","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🇨🇭_CH_瑞士->🇨🇳_CN_中国","type":"ss","server":"84.17.53.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇦🇹_AT_奥地利->🇺🇸_US_美国","type":"ss","server":"192.36.61.59","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇺🇸_US_美国-5","type":"vmess","server":"190.93.245.230","port":2086,"uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"alterId":0}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享)","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"ad2f4fa1-f290-456e-b66b-b8111dcea4f2","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-2","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"84551ec3-0575-4ea0-9db6-fae0f442c4fe","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 2","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"131d1070-3626-4978-93bd-0b3568bc6da0","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 3","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"99edecdf-9ad1-47e7-a7bb-f35711de3622","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
-  - {"name":"JP日本(mibei77.com 米贝节点分享)-3","server":"13.79.171.214","port":25444,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"drqi55BCvwi3nOXulYjGLQ","udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 4","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"a135aba4-6c0b-42f7-8605-1890f7ff5368","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-2","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"df1f258b-bdc6-49ef-bd07-df6651d77a11","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
-  - {"name":"JP日本(mibei77.com 米贝节点分享) 2","server":"94.182.150.231","port":80,"type":"vmess","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享)-3","server":"s1.db-link01.top","port":80,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.32.204","headers":{"Host":"100-97-115-235.s1.db-link01.top"}}}
+  - {"name":"🇺🇸_US_美国-05","type":"vmess","server":"190.93.245.230","port":2086,"uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","cipher":"auto","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}},"alterId":0}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享)-03","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"ad2f4fa1-f290-456e-b66b-b8111dcea4f2","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-04","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"84551ec3-0575-4ea0-9db6-fae0f442c4fe","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 2-02","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"131d1070-3626-4978-93bd-0b3568bc6da0","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 3-02","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"99edecdf-9ad1-47e7-a7bb-f35711de3622","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
+  - {"name":"JP日本(mibei77.com 米贝节点分享)-05","server":"13.79.171.214","port":25444,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"drqi55BCvwi3nOXulYjGLQ","udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 4-02","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"a135aba4-6c0b-42f7-8605-1890f7ff5368","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-04","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"df1f258b-bdc6-49ef-bd07-df6651d77a11","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
+  - {"name":"JP日本(mibei77.com 米贝节点分享) 2-03","server":"94.182.150.231","port":80,"type":"vmess","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享)-05","server":"s1.db-link01.top","port":80,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.32.204","headers":{"Host":"100-97-115-235.s1.db-link01.top"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 5","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"d2dd8b01-d993-4895-afc4-8cf71346477b","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-2","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"d2dd8b01-d993-4895-afc4-8cf71346477b","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-04","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"d2dd8b01-d993-4895-afc4-8cf71346477b","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 6","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"02ca12e0-d5dc-4389-9922-956582504340","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 7","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"192f7b8a-444f-4a0a-8ae1-b93ff72bb7ec","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 8","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"0e31f1df-a782-4368-b956-d40520a0e077","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 9","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"131d1070-3626-4978-93bd-0b3568bc6da0","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
-  - {"name":"JP日本(mibei77.com 米贝节点分享) 3","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 2-3","server":"s5.db-link01.top","port":2052,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.204.143","headers":{"Host":"100-62-189-118.s5.db-link01.top"}}}
+  - {"name":"JP日本(mibei77.com 米贝节点分享) 3-03","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 2-05","server":"s5.db-link01.top","port":2052,"type":"vmess","uuid":"4b36625c-b9d9-3ea6-aed5-86d62c70e16d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/dabai.in104.24.204.143","headers":{"Host":"100-62-189-118.s5.db-link01.top"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 10","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"680ab8f5-2d55-40bc-bf8d-a35bd63426a7","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 11","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"0d144c6f-1919-4bda-a60b-36b944633a56","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 12","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"680ab8f5-2d55-40bc-bf8d-a35bd63426a7","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 3-3","server":"shs.xiaoqi666.xyz","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 3-05","server":"shs.xiaoqi666.xyz","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 13","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"3e200091-324f-47ec-a767-15782ca937f8","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 14","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"f126347a-b060-4069-ba84-33a314015603","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 15","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"3e200091-324f-47ec-a767-15782ca937f8","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 16","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"7f1f6b5e-86df-4f6a-a5d2-e49b7dae59fb","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 17","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"50c8ff66-8c21-415f-a199-b5a9f9b0459a","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
-  - {"name":"GB英国(mibei77.com 米贝节点分享)","server":"5.39.254.196","port":23985,"type":"vmess","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.254.196"}}}
+  - {"name":"GB英国(mibei77.com 米贝节点分享)-03","server":"5.39.254.196","port":23985,"type":"vmess","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"5.39.254.196"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 18","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"192f7b8a-444f-4a0a-8ae1-b93ff72bb7ec","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 19","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"de3695e9-b174-4788-ba90-16bc9e46f53c","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 20","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"c87420e7-2b53-446e-8b6e-112ff03a5fed","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 21","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"736d1e23-c106-44a7-b0a5-867901dbef42","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 22","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"72bfcd54-f969-4d9a-9891-0a985666b3ee","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 23","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"d39ad1df-e8b5-4759-8c58-e27d2f3ff679","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 4","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"597980f7-bfa4-46e6-a656-acd239a2714b","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 4-03","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"597980f7-bfa4-46e6-a656-acd239a2714b","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 24","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"d2dd8b01-d993-4895-afc4-8cf71346477b","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 4-3","server":"shs.xiaoqi666.xyz","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 4-05","server":"shs.xiaoqi666.xyz","port":2086,"type":"vmess","uuid":"3fd7b958-2161-46e1-b6fc-bd6bb2165312","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shs.xiaoqi666.xyz"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 25","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"960fe676-7d5d-40a8-af96-b482bab22f14","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 26","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"a0913106-9749-42c3-964f-71d21e6dd517","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 5","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"a135aba4-6c0b-42f7-8605-1890f7ff5368","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-3","server":"5.8.35.208","port":443,"type":"trojan","password":"3648425794742788096","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 5-03","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"a135aba4-6c0b-42f7-8605-1890f7ff5368","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-05","server":"5.8.35.208","port":443,"type":"trojan","password":"3648425794742788096","skip-cert-verify":true,"udp":true}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 27","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"2dbf46e8-1b20-4c7d-9cf4-5360c3ab5099","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 28","server":"195.58.49.86","port":17926,"type":"vmess","uuid":"72bfcd54-f969-4d9a-9891-0a985666b3ee","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.86"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 29","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"c82ca4e5-4ffa-4dff-88b1-19b6fe9872c5","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 30","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"84551ec3-0575-4ea0-9db6-fae0f442c4fe","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 31","server":"194.87.69.50","port":17926,"type":"vmess","uuid":"7ddc1431-30e8-4161-b34e-4eac928cfc7f","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.50"}}}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 5-3","server":"104.21.81.115","port":443,"type":"vmess","uuid":"de04add9-5c68-8bab-950c-08cd5320df18","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/vmess","headers":{"Host":"northflank.107421.xyz"}},"servername":"northflank.107421.xyz"}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 5-05","server":"104.21.81.115","port":443,"type":"vmess","uuid":"de04add9-5c68-8bab-950c-08cd5320df18","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/vmess","headers":{"Host":"northflank.107421.xyz"}},"servername":"northflank.107421.xyz"}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 32","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"df1f258b-bdc6-49ef-bd07-df6651d77a11","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 33","server":"194.87.69.52","port":17926,"type":"vmess","uuid":"cdcc9f3a-ad63-46e2-92f4-173c2a6ec201","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.69.52"}}}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 34","server":"195.58.49.42","port":17926,"type":"vmess","uuid":"cdcc9f3a-ad63-46e2-92f4-173c2a6ec201","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"195.58.49.42"}}}
+  - {"name":"6元高速机场:cczzuu.top-05","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"重度用户推荐使用机场-05","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"免费节点可能会泄漏访问记录-05","port":443,"server":"127.0.0.1","type":"ss","udp":true,"password":"6601fb90e9b3","cipher":"aes-128-gcm"}
+  - {"name":"中国+>+美国_2_1-02","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"中国+>+美国_2_2-02","port":31620,"server":"ctmm.gscloud.bond","type":"ss","udp":true,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_中国 > 美国_12-03","port":52908,"server":"120.234.102.229","type":"vmess","network":"tcp","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"disable-sni":true,"servername":""}
+  - {"name":"🇷🇺_俄罗斯_2-02","port":8388,"server":"89.221.224.166","type":"ss","udp":true,"password":"MDZhNTAz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_中国+>+美国_16-05","port":60194,"server":"ru0195.alibabaokz.com","type":"trojan","udp":true,"sni":"ru0195.alibabaokz.com","password":"38571ca6-6692-4559-b901-0bc5826b7661","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2-05","port":25230,"server":"cm1.awslcn.info","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"Host":"cm1.awslcn.info"}},"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"servername":"cm1.awslcn.info"}
+  - {"name":"🇷🇺_RU_俄罗斯_1_1-02","port":989,"server":"185.231.233.173","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇭_CH_瑞士-04","port":989,"server":"84.17.53.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇴_RO_罗马尼亚_1-03","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_1_2-02","port":17926,"server":"195.58.49.86","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"host":""}},"cipher":"auto","uuid":"2dbf46e8-1b20-4c7d-9cf4-5360c3ab5099","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇦🇱_AL_阿尔巴尼亚-03","port":33333,"server":"109.104.154.146","type":"ss","udp":true,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇴_RO_罗马尼亚_2-06","port":989,"server":"185.193.49.88","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇦🇹_AT_奥地利->🇺🇸_US_美国_1-02","port":990,"server":"192.36.61.59","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_2-09","port":989,"server":"185.47.253.171","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯-02","port":8388,"server":"45.140.146.223","type":"ss","udp":true,"password":"YjJiYzBj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱_PL_波兰-09","port":990,"server":"185.255.123.92","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_4-08","port":989,"server":"185.47.252.251","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_5-03","port":33395,"server":"45.8.159.241","type":"vmess","network":"ws","tls":false,"udp":true,"version":"2","skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"host":""}},"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"disable-sni":true,"servername":""}
+  - {"name":"🇺🇸_US_美国_6-06","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇦🇹_AT_奥地利->🇺🇸_US_美国_2-02","port":989,"server":"192.36.61.59","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国->🇱🇹_LT_立陶宛","port":443,"server":"34.221.178.146","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇴_RO_罗马尼亚-10","port":989,"server":"188.214.36.155","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯-06","port":8388,"server":"89.221.224.166","type":"ss","udp":true,"password":"MDZhNTAz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱_NL_荷兰-06","port":8388,"server":"45.140.146.223","type":"ss","udp":true,"password":"YjJiYzBj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_1-12","port":443,"server":"184.170.241.194","type":"ss","udp":true,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {"name":"🇺🇸_US_美国_2-10","port":5001,"server":"23.157.40.102","type":"ss","udp":true,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_3-08","port":443,"server":"77.83.246.74","type":"ss","udp":true,"password":"WcfzJr8NIZaFY6OCitU1Cy","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇹_IT_意大利-09","port":989,"server":"37.143.129.230","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_4-09","port":443,"server":"34.211.250.149","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国->🇺🇦_UA_乌克兰","port":443,"server":"54.202.49.210","type":"ss","udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_5-04","port":989,"server":"185.237.185.160","type":"ss","udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
