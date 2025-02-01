@@ -1,68 +1,88 @@
 proxies:
   - {"name":"高性价比机场:https://kfyun.uk","type":"ss","server":"127.0.0.1","port":443,"cipher":"aes-128-gcm","password":"6601fb90e9b3"}
-  - {"name":"0|--1","type":"ss","server":"52.78.2.44","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--2","type":"ss","server":"35.90.9.35","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--3","type":"ss","server":"52.194.212.178","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--4","type":"ss","server":"35.162.184.175","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--5","type":"ss","server":"52.10.15.85","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--6","type":"ss","server":"52.195.223.31","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--7","type":"ss","server":"185.77.217.121","port":443,"cipher":"chacha20-ietf-poly1305","password":"X7eoEBrARWsBUiVfchVEdH"}
-  - {"name":"0|--8","type":"ss","server":"43.207.204.247","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--9","type":"ss","server":"52.195.0.55","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--10","type":"ss","server":"15.165.15.42","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--14","type":"ss","server":"54.169.214.126","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--17","type":"ss","server":"211.178.105.134","port":51633,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--18","type":"ss","server":"18.140.68.245","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--19","type":"ss","server":"35.85.136.7","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--21","type":"ss","server":"218.38.103.150","port":28902,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
-  - {"name":"0|--22","type":"ss","server":"54.169.216.161","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--23","type":"ss","server":"54.188.6.37","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--24","type":"ss","server":"34.222.145.125","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--25","type":"ss","server":"35.89.84.182","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--26","type":"ss","server":"47.129.228.204","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--27","type":"ss","server":"54.254.91.60","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--28","type":"ss","server":"57.180.41.158","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--29","type":"ss","server":"52.78.107.95","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--30","type":"ss","server":"35.90.6.76","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--31","type":"ss","server":"34.222.65.155","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--32","type":"ss","server":"35.89.211.210","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--33","type":"ss","server":"3.112.203.145","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--34","type":"ss","server":"34.215.210.60","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--35","type":"ss","server":"35.94.145.113","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--36","type":"ss","server":"35.95.28.198","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--37","type":"ss","server":"54.200.108.181","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--38","type":"ss","server":"13.229.70.25","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--39","type":"ss","server":"52.79.96.7","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--40","type":"ss","server":"54.213.131.250","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|--52","type":"vmess","server":"94.182.150.230","port":80,"cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"tls":false}
-  - {"name":"0|--57","type":"vmess","server":"yx1.changyouVPN.top","port":8880,"cipher":"auto","uuid":"85c7eba1-dfba-4f3e-9f7a-833fa729dc19","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"yg.changyouVPN.top"}}}
-  - {"name":"13|🇭🇰 香港|@ripaojiedian","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":15008,"cipher":"aes-256-gcm","password":"AAV5FFSS0OWDY2UA"}
+  - {"name":"0|--1","type":"ss","server":"34.222.145.125","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--2","type":"ss","server":"13.229.70.25","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--3","type":"ss","server":"18.183.79.218","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--4","type":"ss","server":"3.112.203.145","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--5","type":"ss","server":"43.207.204.247","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--7","type":"ss","server":"60.249.28.138","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--9","type":"ss","server":"211.22.161.134","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--10","type":"ss","server":"60.249.28.60","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--11","type":"ss","server":"60.249.35.2","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--12","type":"ss","server":"54.64.148.82","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--13","type":"ss","server":"60.249.28.136","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--14","type":"ss","server":"60.249.35.59","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--15","type":"ss","server":"60.249.35.37","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--16","type":"ss","server":"60.249.28.137","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--17","type":"ss","server":"60.249.35.3","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--18","type":"ss","server":"95.174.71.29","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--19","type":"ss","server":"23.247.137.165","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--20","type":"ss","server":"60.249.28.59","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--21","type":"ss","server":"95.174.71.28","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--22","type":"ss","server":"60.249.35.38","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--23","type":"ss","server":"18.176.215.63","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--24","type":"ss","server":"34.215.210.60","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--25","type":"ss","server":"34.222.65.155","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--26","type":"ss","server":"13.209.84.81","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--27","type":"ss","server":"54.213.131.250","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--28","type":"ss","server":"35.162.184.175","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--29","type":"ss","server":"35.95.28.198","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--30","type":"ss","server":"35.85.136.7","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--31","type":"ss","server":"52.195.0.55","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--32","type":"ss","server":"103.36.91.32","port":8388,"cipher":"chacha20-ietf","password":"asd123456"}
+  - {"name":"0|--33","type":"ss","server":"52.78.2.44","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--37","type":"ss","server":"218.38.103.150","port":28902,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"0|--40","type":"ss","server":"15.165.15.42","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--44","type":"ss","server":"18.140.69.216","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--45","type":"ss","server":"47.129.228.204","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--46","type":"ss","server":"211.22.161.135","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--47","type":"ss","server":"60.249.35.39","port":2377,"cipher":"chacha20-ietf-poly1305","password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"}
+  - {"name":"0|--49","type":"ss","server":"54.200.108.181","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--50","type":"ss","server":"52.10.15.85","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--51","type":"ss","server":"18.140.68.245","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--52","type":"ss","server":"54.169.214.126","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--53","type":"ss","server":"35.90.6.76","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--55","type":"ss","server":"54.169.216.161","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--56","type":"ss","server":"46.137.229.233","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--59","type":"ss","server":"52.195.223.31","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--60","type":"ss","server":"52.78.107.95","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--61","type":"ss","server":"35.89.84.182","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--62","type":"ss","server":"52.79.96.7","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--63","type":"ss","server":"34.221.203.0","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|--77","type":"vmess","server":"57.129.24.124","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"aveiror.com"}},"servername":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"}
+  - {"name":"0|--83","type":"vmess","server":"94.182.150.230","port":80,"cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"tls":false}
+  - {"skip-cert-verify":false,"sni":"yg01.redapricotcloud.com","type":"trojan","password":"75e1e3ca-01c0-431d-a03b-836449aa973f","server":"lm.kaiqsz.com","port":11735,"name":"13,14|香港|@ripaojiedian"}
+  - {"name":"13|🇭🇰 香港2|@ripaojiedian","type":"vmess","server":"103.224.80.37","port":11227,"cipher":"auto","uuid":"0549b941-23f0-4802-ab15-264402d3b6be","alterId":0,"tls":false}
   - {"name":"13|🇭🇰 香港3|@ripaojiedian","type":"ss","server":"120.232.81.50","port":16088,"cipher":"aes-256-cfb","password":"hGkQ6915tD"}
   - {"name":"13|🇭🇰 香港5|@ripaojiedian","type":"vmess","server":"120.232.153.63","port":40565,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
-  - {"name":"13|🇯🇵 日本|@ripaojiedian","type":"vmess","server":"ywtwepcnwlou.xn--fiqs8sjz2bull.com","port":60717,"cipher":"auto","uuid":"dbb4c3e2-12de-4678-aafe-7e520b609098","alterId":0,"tls":false}
-  - {"name":"13|🇯🇵 日本2|@ripaojiedian","type":"ss","server":"ti3hyra4.slashdevslashnetslashtun.net","port":18012,"cipher":"aes-256-gcm","password":"5QCGV4AXFQAJE5KA"}
-  - {"skip-cert-verify":false,"sni":"cloudflare.node-ssl.cdn-alibaba.com","type":"trojan","password":"e279c494-c426-443a-a034-a04516409242","server":"naiu-other.05vr9nyqg5.download","port":13036,"name":"13,14|韩国|@ripaojiedian"}
-  - {"name":"13|🇸🇬 新加坡|@ripaojiedian","type":"ss","server":"qh62onjn.slashdevslashnetslashtun.net","port":16009,"cipher":"aes-256-gcm","password":"OYWWKWCLAJ8ZCO78"}
-  - {"name":"13|🇸🇬 新加坡2|@ripaojiedian","type":"vmess","server":"pudvkjvvgdol.xn--fiqs8sjz2bull.com","port":49549,"cipher":"auto","uuid":"dbb4c3e2-12de-4678-aafe-7e520b609098","alterId":0,"tls":false}
-  - {"name":"13|🇺🇸 美国|@ripaojiedian","type":"ss","server":"183.232.239.172","port":17005,"cipher":"aes-256-gcm","password":"B7LS4987BZH4EBPG"}
-  - {"name":"13|🇺🇸 美国2|@ripaojiedian","type":"vmess","server":"bzryjncvbwng.xn--fiqs8sjz2bull.com","port":23763,"cipher":"auto","uuid":"dbb4c3e2-12de-4678-aafe-7e520b609098","alterId":0,"tls":false}
+  - {"skip-cert-verify":false,"sni":"mm2.redapricotcloud.com","type":"trojan","password":"75e1e3ca-01c0-431d-a03b-836449aa973f","server":"wb.kaiqsz.com","port":18147,"name":"13,14|台湾|@ripaojiedian"}
+  - {"name":"13|🇯🇵 日本|@ripaojiedian","type":"ss","server":"156.231.104.17","port":18007,"cipher":"aes-256-gcm","password":"Y7YAFIFIFLS9Z3PX"}
+  - {"name":"13|🇯🇵 日本2|@ripaojiedian","type":"ss","server":"156.231.104.23","port":18013,"cipher":"aes-256-gcm","password":"EJ3GOLPLAAUX9WCY"}
+  - {"name":"13|🇯🇵 日本3|@ripaojiedian","type":"ss","server":"156.231.104.12","port":18002,"cipher":"aes-256-gcm","password":"QFR3FSQMQRZL4HQ2"}
+  - {"name":"13|🇸🇬 新加坡|@ripaojiedian","type":"ss","server":"154.196.244.19","port":16009,"cipher":"aes-256-gcm","password":"DCCLUB5YPGIF01PJ"}
+  - {"name":"13|🇸🇬 新加坡2|@ripaojiedian","type":"ss","server":"154.196.244.21","port":16011,"cipher":"aes-256-gcm","password":"8VB49D7PPZFHBJES"}
+  - {"name":"13|🇸🇬 新加坡3|@ripaojiedian","type":"ss","server":"154.196.244.23","port":16013,"cipher":"aes-256-gcm","password":"BCSHUPDQ1CGQ1W0Q"}
+  - {"name":"13|🇺🇸 美国|@ripaojiedian","type":"ss","server":"23.185.248.17","port":17007,"cipher":"aes-256-gcm","password":"U3FEPWPAFNUWVVNR"}
+  - {"name":"13|🇺🇸 美国2|@ripaojiedian","type":"ss","server":"23.185.248.16","port":17006,"cipher":"aes-256-gcm","password":"OPF3DARDPEQ0166L"}
+  - {"name":"13|🇺🇸 美国3|@ripaojiedian","type":"ss","server":"23.185.248.14","port":17004,"cipher":"aes-256-gcm","password":"GS8Y0BJITHBHZWPE"}
+  - {"name":"13|🇯🇵 日本特殊|@ripaojiedian","type":"ss","server":"57.180.41.158","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"13|🇰🇷 韩国特殊|@ripaojiedian","type":"ss","server":"43.206.253.217","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"name":"13|🇸🇬 狮城特殊|@ripaojiedian","type":"ss","server":"54.255.22.224","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"13|🇯🇵 日本特殊|@ripaojiedian","type":"ss","server":"52.194.205.70","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"13|🇰🇷 韩国特殊|@ripaojiedian","type":"ss","server":"3.0.91.253","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"13|🇺🇦 乌克兰|@ripaojiedian","type":"ss","server":"at1.opensocks.site","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ZmQwZjFk"}
-  - {"name":"14|香港|@ripaojiedian","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":15008,"cipher":"ss","password":"//YWVzLTI1Ni1nY206QUFWNUZGU1MwT1dEWTJVQQ"}
+  - {"name":"14|香港2|@ripaojiedian","type":"vmess","server":"103.224.80.37","port":11227,"cipher":"auto","uuid":"0549b941-23f0-4802-ab15-264402d3b6be","alterId":0,"tls":false}
   - {"name":"14|香港3|@ripaojiedian","type":"ss","server":"120.232.81.50","port":16088,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA"}
   - {"name":"14|香港5|@ripaojiedian","type":"vmess","server":"120.232.153.63","port":40565,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
-  - {"name":"14|日本|@ripaojiedian","type":"vmess","server":"ywtwepcnwlou.xn--fiqs8sjz2bull.com","port":60717,"cipher":"auto","uuid":"dbb4c3e2-12de-4678-aafe-7e520b609098","alterId":0,"tls":false}
-  - {"name":"14|日本2|@ripaojiedian","type":"ss","server":"ti3hyra4.slashdevslashnetslashtun.net","port":18012,"cipher":"ss","password":"//YWVzLTI1Ni1nY206NVFDR1Y0QVhGUUFKRTVLQQ"}
-  - {"name":"14|新加坡|@ripaojiedian","type":"ss","server":"qh62onjn.slashdevslashnetslashtun.net","port":16009,"cipher":"ss","password":"//YWVzLTI1Ni1nY206T1lXV0tXQ0xBSjhaQ083OA"}
-  - {"name":"14|新加坡2|@ripaojiedian","type":"vmess","server":"pudvkjvvgdol.xn--fiqs8sjz2bull.com","port":49549,"cipher":"auto","uuid":"dbb4c3e2-12de-4678-aafe-7e520b609098","alterId":0,"tls":false}
-  - {"name":"14|美国|@ripaojiedian","type":"ss","server":"183.232.239.172","port":17005,"cipher":"ss","password":"//YWVzLTI1Ni1nY206QjdMUzQ5ODdCWkg0RUJQRw"}
-  - {"name":"14|美国2|@ripaojiedian","type":"vmess","server":"bzryjncvbwng.xn--fiqs8sjz2bull.com","port":23763,"cipher":"auto","uuid":"dbb4c3e2-12de-4678-aafe-7e520b609098","alterId":0,"tls":false}
+  - {"name":"14|日本|@ripaojiedian","type":"ss","server":"156.231.104.17","port":18007,"cipher":"ss","password":"//YWVzLTI1Ni1nY206WTdZQUZJRklGTFM5WjNQWA"}
+  - {"name":"14|日本2|@ripaojiedian","type":"ss","server":"156.231.104.23","port":18013,"cipher":"ss","password":"//YWVzLTI1Ni1nY206RUozR09MUExBQVVYOVdDWQ"}
+  - {"name":"14|日本3|@ripaojiedian","type":"ss","server":"156.231.104.12","port":18002,"cipher":"ss","password":"//YWVzLTI1Ni1nY206UUZSM0ZTUU1RUlpMNEhRMg"}
+  - {"name":"14|新加坡|@ripaojiedian","type":"ss","server":"154.196.244.19","port":16009,"cipher":"ss","password":"//YWVzLTI1Ni1nY206RENDTFVCNVlQR0lGMDFQSg"}
+  - {"name":"14|新加坡2|@ripaojiedian","type":"ss","server":"154.196.244.21","port":16011,"cipher":"ss","password":"//YWVzLTI1Ni1nY206OFZCNDlEN1BQWkZIQkpFUw"}
+  - {"name":"14|新加坡3|@ripaojiedian","type":"ss","server":"154.196.244.23","port":16013,"cipher":"ss","password":"//YWVzLTI1Ni1nY206QkNTSFVQRFExQ0dRMVcwUQ"}
+  - {"name":"14|美国|@ripaojiedian","type":"ss","server":"23.185.248.17","port":17007,"cipher":"ss","password":"//YWVzLTI1Ni1nY206VTNGRVBXUEFGTlVXVlZOUg"}
+  - {"name":"14|美国2|@ripaojiedian","type":"ss","server":"23.185.248.16","port":17006,"cipher":"ss","password":"//YWVzLTI1Ni1nY206T1BGM0RBUkRQRVEwMTY2TA"}
+  - {"name":"14|美国3|@ripaojiedian","type":"ss","server":"23.185.248.14","port":17004,"cipher":"ss","password":"//YWVzLTI1Ni1nY206R1M4WTBCSklUSEJIWldQRQ"}
+  - {"name":"14|日本特殊|@ripaojiedian","type":"ss","server":"57.180.41.158","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
+  - {"name":"14|韩国特殊|@ripaojiedian","type":"ss","server":"43.206.253.217","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
   - {"name":"14|狮城特殊|@ripaojiedian","type":"ss","server":"54.255.22.224","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
-  - {"name":"14|日本特殊|@ripaojiedian","type":"ss","server":"52.194.205.70","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
-  - {"name":"14|韩国特殊|@ripaojiedian","type":"ss","server":"3.0.91.253","port":443,"cipher":"ss","password":"//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU"}
-  - {"name":"14|乌克兰|@ripaojiedian","type":"ss","server":"at1.opensocks.site","port":8388,"cipher":"ss","password":"//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpabVF3WmpGaw"}
   - {"type":"vless","name":"15|speednode_0009","server":"192.0.54.235","port":443,"uuid":"41abecd9-8096-4142-a75c-4e1d36d990bd","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"mmdserver.us.kg"},"path":"/?ed"},"servername":"mmdserver.us.kg"}
   - {"type":"vless","name":"15|speednode_0010","server":"46.254.92.33","port":443,"uuid":"41abecd9-8096-4142-a75c-4e1d36d990bd","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"mmdserver.us.kg"},"path":"/?ed"},"servername":"mmdserver.us.kg"}
   - {"skip-cert-verify":true,"type":"trojan","password":"20a84ebf-9341-4f5f-8245-3975e2fdeee5","server":"219.135.231.205","port":21019,"name":"15|speednode_0048"}
