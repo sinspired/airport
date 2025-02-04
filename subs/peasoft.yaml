@@ -1,19 +1,12 @@
 proxies:
-  - {"cipher":"aes-256-cfb","name":"0|🇸🇬1 |  5.9MB/s","password":"amazonskr05","port":443,"server":"13.212.249.95","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇯🇵1 |  6.1MB/s","password":"amazonskr05","port":443,"server":"54.168.25.210","type":"ss","client-fingerprint":"chrome"}
-  - {"name":"0|🇯🇵2 |  5.4MB/s","password":"e109f24e-673e-3403-8cf0-d40a5b2874de","port":20071,"server":"gy.58n.net","skip-cert-verify":true,"sni":"x71.flybar.work","type":"trojan","udp":true,"client-fingerprint":"chrome"}
-  - {"name":"0|🇯🇵3 |  5.9MB/s","password":"e109f24e-673e-3403-8cf0-d40a5b2874de","port":20059,"server":"gy.58n.net","skip-cert-verify":true,"sni":"x59.flybar.work","type":"trojan","udp":true,"client-fingerprint":"chrome"}
-  - {"alterId":2,"cipher":"auto","name":"0|🇺🇸1 |  1.3MB/s","network":"ws","port":23617,"server":"17.mamamajd.site","skip-cert-verify":true,"tls":false,"type":"vmess","udp":true,"uuid":"09c25516-64e0-3b3e-b15c-361def5edf28","ws-opts":{"headers":{"Host":"17.mamamajd.site"},"path":"/"},"client-fingerprint":"chrome"}
-  - {"name":"0|🇹🇼1 |  28.8MB/s","password":"e109f24e-673e-3403-8cf0-d40a5b2874de","port":36821,"server":"gy.58n.net","skip-cert-verify":true,"sni":"z262.hongkongnode.top","type":"trojan","udp":true,"client-fingerprint":"chrome"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"0|🇯🇵4 |  2.6MB/s","password":"2afbc97400ca71c8f3306f9843a6e1c2","port":443,"server":"south-korea-2.keenvpn.me","type":"ss","udp":true,"client-fingerprint":"chrome"}
-  - {"name":"0|🇺🇸2 |  2.4MB/s","password":"e109f24e-673e-3403-8cf0-d40a5b2874de","port":20307,"server":"gy.58n.net","skip-cert-verify":true,"sni":"z307.hongkongnode.top","type":"trojan","udp":true,"client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇯🇵5 |  2.7MB/s","password":"amazonskr05","port":443,"server":"43.207.138.233","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"chacha20-ietf-poly1305","country":"🇨🇳CN","delay":479,"name":"0|🇷🇺1 |  2.7MB/s","password":"e3a183f4-1f0f-42ea-842a-f22195f67d09","port":30003,"server":"gdgs.tarioblink.me","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇸🇬2 |  5.3MB/s","password":"amazonskr05","port":443,"server":"52.74.90.75","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"0|🌀2- |  2.4MB/s","password":"06f67158-54c8-4cd2-8be0-08c3b7b84690","port":36471,"server":"free.2weradf.xyz","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇺🇸5 |  5.5MB/s","password":"amazonskr05","port":443,"server":"54.185.251.195","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇯🇵6 |  10.0MB/s","password":"amazonskr05","port":443,"server":"13.231.129.236","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇺🇸6 |  5.2MB/s","password":"amazonskr05","port":443,"server":"54.245.146.74","type":"ss","client-fingerprint":"chrome"}
+  - {"name":"0|🇺🇸1 |  3.0MB/s","password":"f6f037b8-d6f5-4892-9bb5-0f915cac5b3b","port":443,"server":"pop.e2e6e30c-9832-4092-a925-034ef112f346.heima360.cc","skip-cert-verify":false,"sni":"pop.e2e6e30c-9832-4092-a925-034ef112f346.heima360.cc","type":"trojan","client-fingerprint":"chrome"}
+  - {"cipher":"aes-256-cfb","name":"0|🇷🇺1 |  5.2MB/s","password":"f8f7aCzcPKbsF8p3","port":989,"server":"185.231.233.173","type":"ss","client-fingerprint":"chrome"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"0|🇸🇬1 |  5.8MB/s","password":"2afbc97400ca71c8f3306f9843a6e1c2","port":443,"server":"singapore-6.keenvpn.me","type":"ss","udp":true,"client-fingerprint":"chrome"}
+  - {"name":"0|🇺🇸3 |  1.3MB/s","password":"5d499973-9b33-3919-8424-27d2460b074b","port":20306,"server":"gy.58n.net","skip-cert-verify":true,"sni":"z306.hongkongnode.top","type":"trojan","udp":true,"client-fingerprint":"chrome"}
+  - {"name":"0|🇯🇵2 |  1.0MB/s","password":"5d499973-9b33-3919-8424-27d2460b074b","port":20298,"server":"gy.58n.net","skip-cert-verify":true,"sni":"z298.hongkongnode.top","type":"trojan","udp":true,"client-fingerprint":"chrome"}
+  - {"cipher":"aes-256-cfb","name":"0|🇨🇦1 |  6.0MB/s","password":"amazonskr05","port":443,"server":"47.129.255.141","type":"ss","client-fingerprint":"chrome"}
+  - {"cipher":"aes-256-cfb","name":"0|🇯🇵3 |  5.4MB/s","password":"amazonskr05","port":443,"server":"3.112.1.143","type":"ss","client-fingerprint":"chrome"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"0|🌀3- |  2.1MB/s","password":"2afbc97400ca71c8f3306f9843a6e1c2","port":443,"server":"us-ashburn-virginia.keenvpn.me","type":"ss","client-fingerprint":"chrome"}
   - {"cipher":"aes-128-gcm","name":"13|🇭🇰 香港|@ripaojiedian","password":"cbf3d234-6d24-47ec-a9cb-2c2692c5dcf1","port":12008,"server":"mdss-hk.04z3susick.download","tfo":false,"type":"ss","client-fingerprint":"chrome"}
   - {"alterId":0,"cipher":"auto","name":"13|🇭🇰 香港2|@ripaojiedian","port":50028,"server":"50028.baidu-cdn.top","skip-cert-verify":false,"tfo":false,"tls":false,"type":"vmess","uuid":"cdb49a9b-6e23-4d90-b2a8-5c158b437cf2","client-fingerprint":"chrome"}
   - {"cipher":"aes-256-cfb","name":"13|🇭🇰 香港3|@ripaojiedian","password":"hGkQ6915tD","port":16088,"server":"120.232.81.50","tfo":false,"type":"ss","client-fingerprint":"chrome"}
