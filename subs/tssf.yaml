@@ -1,201 +1,201 @@
 proxies:
-  - {"name":"未知","type":"ss","server":"193.29.139.157","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"QCXDxuDlTTMD7jtgHUjIoj","skip-cert-verify":true}
-  - {"name":"🇰🇷KR韩国","type":"trojan","server":"211.57.90.42","port":50000,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知2","type":"trojan","server":"162.159.153.2","port":443,"alterId":0,"password":"bpb-trojan","sni":"zamim340.ggff.net","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"未知3","type":"trojan","server":"104.16.112.144","port":443,"alterId":0,"password":"blue2024","sni":"ta.promote.icu","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱NL荷兰","type":"trojan","server":"45.134.21.8","port":2053,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国","type":"trojan","server":"198.62.62.192","port":2083,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知4","type":"trojan","server":"220.78.106.96","port":50000,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国2","type":"trojan","server":"162.159.134.143","port":2096,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知5","type":"trojan","server":"104.16.218.64","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
-  - {"name":"US","type":"trojan","server":"108.165.152.65","port":8443,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知6 54.5KB/s","type":"ss","server":"160.19.78.75","port":443,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"Nk9asglDzHzjktVzTkvhaA","skip-cert-verify":true}
-  - {"name":"未知7","type":"ss","server":"160.22.16.6","port":40021,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"65abdb1c-1cdf-4630-a32b-8ae566b48c00","skip-cert-verify":true}
-  - {"name":"未知8 24.1KB/s","type":"ss","server":"95.164.249.61","port":54075,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3","skip-cert-verify":true}
-  - {"name":"🇦🇲AM亚美尼亚","type":"trojan","server":"188.164.159.214","port":2083,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇰🇷KR韩国2","type":"trojan","server":"121.186.173.204","port":10022,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知9","type":"trojan","server":"104.21.35.43","port":443,"alterId":0,"password":"auto","sni":"esetsecuritylicense3.wawafec355.workers.dev","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"未知10 630.6KB/s","type":"ss","server":"194.87.45.189","port":443,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"nOfkKboDAxhTx2k1cAltIz","skip-cert-verify":true}
-  - {"name":"🇺🇸US美国3","type":"trojan","server":"167.68.4.223","port":2096,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"US2","type":"trojan","server":"52.89.149.132","port":443,"alterId":0,"password":"3770966768580042752","sni":"fitting-foxhound.goat627.mom","skip-cert-verify":true,"udp":true}
-  - {"name":"US3 1.8MB/s","type":"ss","server":"23.157.40.120","port":6379,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"zDNVedRFPQexG9v","skip-cert-verify":true}
-  - {"name":"🇺🇸US美国4","type":"trojan","server":"34.218.130.79","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"US4 144.3MB/s","type":"ss","server":"37.19.198.160","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
-  - {"name":"未知11 3.0MB/s","type":"ss","server":"185.177.229.245","port":1866,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"oXGp1+ihlfKg826H","skip-cert-verify":true}
-  - {"name":"未知12","type":"vmess","server":"85.133.253.183","port":1408,"cipher":"auto","uuid":"abb0b05d-4683-42f1-981f-f3537026ac2d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"未知13","type":"trojan","server":"108.162.193.128","port":443,"alterId":0,"password":"Aimer","sni":"kip.ns.cloudflare.com","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸US美国5","type":"trojan","server":"3.230.207.59","port":8443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国6","type":"trojan","server":"209.208.227.79","port":443,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知14","type":"trojan","server":"54.155.29.239","port":22222,"alterId":0,"password":"telegram-id-v2rayvpnchannel","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
-  - {"name":"未知15","type":"trojan","server":"190.93.245.154","port":443,"alterId":0,"password":"blue2024","sni":"hb.lii2010.us.kg","skip-cert-verify":true,"udp":true}
-  - {"name":"未知16","type":"trojan","server":"62.112.221.46","port":443,"alterId":0,"password":"3763495894587285504","sni":"enabling-cat.goat627.mom","skip-cert-verify":true,"udp":true}
-  - {"name":"US5","type":"vmess","server":"142.4.104.33","port":52143,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US6 1.6MB/s","type":"ss","server":"23.157.40.95","port":5000,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"Y6R9pAtvxxzmGC","skip-cert-verify":true}
-  - {"name":"US7 1.5MB/s","type":"ss","server":"23.157.40.95","port":443,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"pKEW8JPByTVTLtM","skip-cert-verify":true}
-  - {"name":"🇺🇸US美国7","type":"trojan","server":"173.245.59.202","port":2083,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇨🇳CN中国","type":"trojan","server":"154.219.5.55","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国8","type":"trojan","server":"63.141.128.66","port":2087,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知17 17.7MB/s","type":"trojan","server":"3.66.238.211","port":22222,"alterId":0,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
-  - {"name":"未知18","type":"trojan","server":"172.64.33.128","port":443,"alterId":0,"password":"Aimer","sni":"kip.ns.cloudflare.com","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"未知19","type":"trojan","server":"108.162.195.168","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知20","type":"trojan","server":"46.254.93.134","port":2087,"alterId":0,"password":"SSorg","sni":"ssjj.esslh.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"US8 1.6MB/s","type":"ss","server":"67.220.95.102","port":9101,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"e4FCWrgpkji3QY","skip-cert-verify":true}
-  - {"name":"未知21","type":"trojan","server":"cmc2.5gsieuvip.vn","port":443,"alterId":0,"password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","skip-cert-verify":true,"udp":true,"sni":"cmc2.5gsieuvip.vn"}
-  - {"name":"未知22","type":"ss","server":"gdgs.tarioblink.me","port":30002,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"b577cffa-34c6-4ebd-9546-f957e126e24a","skip-cert-verify":true,"sni":"gdgs.tarioblink.me"}
-  - {"name":"🇷🇺RU俄罗斯","type":"trojan","server":"5.182.86.252","port":2053,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知23 18.3MB/s","type":"ss","server":"212.102.53.78","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
-  - {"name":"🇫🇷FR法国","type":"trojan","server":"35.181.77.67","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇰🇷KR韩国3","type":"trojan","server":"222.107.52.3","port":50000,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知24 697.6KB/s","type":"trojan","server":"95.110.142.205","port":443,"alterId":0,"password":"3767107462583558144","sni":"grown-cardinal.treefrog761.one","skip-cert-verify":true,"udp":true}
-  - {"name":"未知25","type":"trojan","server":"104.26.14.203","port":443,"alterId":0,"password":"blue2024","sni":"hb.lii2010.us.kg","skip-cert-verify":true,"udp":true}
-  - {"name":"未知26","type":"trojan","server":"5.182.85.28","port":443,"alterId":0,"password":"Aimer","sni":"acepo.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"US9","type":"ss","server":"38.91.101.221","port":7306,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"FoOiGlkAA9yPEGP","skip-cert-verify":true}
-  - {"name":"🇺🇸US美国9","type":"trojan","server":"167.68.4.199","port":2053,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知27 590.2KB/s","type":"vmess","server":"49.12.115.200","port":41887,"cipher":"auto","uuid":"be564078-66d3-4307-f164-e90aa1bc3cfa","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"未知28","type":"ss","server":"45.158.171.132","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"cvII85TrW6n0OGyfpHVS1u","skip-cert-verify":true}
-  - {"name":"未知29","type":"ss","server":"193.29.139.206","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"4a2rfixophdjffa8KVA4Aa","skip-cert-verify":true}
-  - {"name":"🇺🇸US美国10","type":"trojan","server":"18.153.94.168","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知30","type":"vmess","server":"91.107.138.53","port":5050,"cipher":"auto","uuid":"e2e0be70-1c5d-4dc5-8467-43e453b57b7a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"httpupgrade"}
-  - {"name":"🇺🇸US美国11 7.4MB/s","type":"trojan","server":"15.236.118.19","port":22222,"alterId":0,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
-  - {"name":"🇰🇷KR韩国4","type":"trojan","server":"168.126.66.181","port":50000,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国12","type":"trojan","server":"23.169.184.28","port":13800,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇵🇱PL波兰","type":"trojan","server":"91.149.239.234","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"HK","type":"ss","server":"156.245.190.23","port":15014,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"O6IKQIP6LAJ0C0S0","skip-cert-verify":true}
-  - {"name":"未知31 737.8KB/s","type":"ss","server":"54.36.174.181","port":8009,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"XKFKl2rULjIp74","skip-cert-verify":true}
-  - {"name":"未知32 10.3MB/s","type":"ss","server":"156.146.62.164","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
-  - {"name":"未知33 650.6KB/s","type":"ss","server":"95.164.9.144","port":2927,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"ug4Fu79SEREdFGlt2sUyT4","skip-cert-verify":true}
-  - {"name":"US10 15.4MB/s","type":"ss","server":"172.233.128.126","port":1866,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"oXGp1+ihlfKg826H","skip-cert-verify":true}
-  - {"name":"未知34 16.2MB/s","type":"ss","server":"52.169.55.136","port":65481,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"h5qye6NegIdnruu7y4qmsd","skip-cert-verify":true}
-  - {"name":"US11","type":"trojan","server":"23.22.196.39","port":443,"alterId":0,"password":"3770966768580042752","sni":"bursting-bunny.goat627.mom","skip-cert-verify":true,"udp":true}
-  - {"name":"🇰🇷KR韩国5","type":"trojan","server":"211.227.87.99","port":50000,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国13","type":"trojan","server":"51.116.121.75","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知35","type":"trojan","server":"127.0.0.1","port":1080,"alterId":0,"password":"cabcbaa-bcaa-acab-cdba-abccbcabacab","skip-cert-verify":true,"udp":true}
-  - {"name":"未知36 528.4KB/s","type":"vmess","server":"152.69.197.60","port":1069,"cipher":"auto","uuid":"ac8e26fe-8150-4b60-ae64-82fc77eba2cf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇬🇧GB英国","type":"trojan","server":"uk.fastsoonlink.com","port":40007,"alterId":0,"password":"65abdb1c-1cdf-4630-a32b-8ae566b48c00","sni":"uknode.soon.guru","skip-cert-verify":true,"udp":true}
-  - {"name":"未知37","type":"trojan","server":"172.66.44.171","port":443,"alterId":0,"password":"4785f3ca-8fa3-4717-8c81-9d19087c73a3","sni":"pardazeshvpn-tg104.pages.dev","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"未知38","type":"vmess","server":"85.133.253.183","port":1409,"cipher":"auto","uuid":"abb0b05d-4683-42f1-981f-f3537026ac2d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US12 1.7MB/s","type":"ss","server":"23.150.152.56","port":5600,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"Y6R9pAtvxxzmGC","skip-cert-verify":true}
-  - {"name":"未知39","type":"ss","server":"185.239.48.109","port":8388,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"T8lNjomzJhCTfPfZ","skip-cert-verify":true}
-  - {"name":"未知40","type":"trojan","server":"27.50.49.166","port":8443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸US美国14","type":"trojan","server":"162.159.44.233","port":8443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知41","type":"trojan","server":"162.159.152.198","port":443,"alterId":0,"password":"bpb-trojan","sni":"bpbpanel.ac.cn.eu.org","skip-cert-verify":true,"udp":true}
-  - {"name":"未知42 16.6MB/s","type":"ss","server":"212.102.53.79","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
-  - {"name":"🇷🇺RU俄罗斯2","type":"trojan","server":"46.254.93.52","port":8443,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"TW 473.6KB/s","type":"ss","server":"2.58.241.42","port":443,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"2afbc97400ca71c8f3306f9843a6e1c2","skip-cert-verify":true}
-  - {"name":"未知43","type":"trojan","server":"89.213.40.26","port":40007,"alterId":0,"password":"65abdb1c-1cdf-4630-a32b-8ae566b48c00","sni":"uknode.soon.guru","skip-cert-verify":true,"udp":true}
-  - {"name":"🇬🇧GB英国2","type":"trojan","server":"176.53.144.206","port":8443,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知44 14.7MB/s","type":"ss","server":"193.29.139.138","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"QCXDxuDlTTMD7jtgHUjIoj","skip-cert-verify":true}
-  - {"name":"US13 16.0MB/s","type":"ss","server":"139.64.165.101","port":5601,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"Y6R9pAtvxxzmGC","skip-cert-verify":true}
-  - {"name":"🇺🇸US美国15","type":"trojan","server":"199.34.228.143","port":2096,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国16","type":"trojan","server":"67.226.221.102","port":80,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知45","type":"trojan","server":"173.245.59.110","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"US14 1.6MB/s","type":"ss","server":"142.202.48.105","port":2376,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"faBAoD54k87UJG7","skip-cert-verify":true}
-  - {"name":"未知46","type":"ss","server":"45.158.171.36","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"a8bt9fY0QsLS6eLnXUe0Ym","skip-cert-verify":true}
-  - {"name":"未知47","type":"trojan","server":"35.177.135.207","port":22222,"alterId":0,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
-  - {"name":"🇰🇷KR韩国6","type":"trojan","server":"183.102.71.200","port":50000,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知48","type":"trojan","server":"45.67.215.95","port":443,"alterId":0,"password":"tg-fq521free","sni":"torjan.xn--xhq44j.eu.org","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"US15 29.3MB/s","type":"ss","server":"212.102.47.132","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
-  - {"name":"US16 1.6MB/s","type":"ss","server":"67.220.95.102","port":8882,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"kDWvXYZoTBcGkC4","skip-cert-verify":true}
-  - {"name":"未知49","type":"trojan","server":"gy.58n.net","port":54178,"alterId":0,"password":"09e6689e-8dd3-332f-9655-ff09803e64d5","sni":"x115.flybar.work","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇺RU俄罗斯3","type":"trojan","server":"213.241.198.56","port":2083,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇺RU俄罗斯4","type":"trojan","server":"46.254.92.142","port":2087,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知50 14.1MB/s","type":"vmess","server":"23.166.88.183","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"未知51","type":"trojan","server":"173.245.59.91","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
-  - {"name":"未知52","type":"trojan","server":"162.159.22.138","port":443,"alterId":0,"password":"blue2024","sni":"hb.lii2010.us.kg","skip-cert-verify":true,"udp":true}
-  - {"name":"US17 1.5MB/s","type":"ss","server":"23.157.40.95","port":8882,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"kDWvXYZoTBcGkC4","skip-cert-verify":true}
-  - {"name":"未知53","type":"ss","server":"194.105.89.58","port":40003,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"65abdb1c-1cdf-4630-a32b-8ae566b48c00","skip-cert-verify":true}
-  - {"name":"未知54 155.2KB/s","type":"ss","server":"157.175.18.30","port":443,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"Bog0ELmMM9DSxDdQ","skip-cert-verify":true}
-  - {"name":"🇰🇷KR韩国7","type":"trojan","server":"211.197.34.88","port":16098,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"US18 1.8MB/s","type":"ss","server":"23.157.40.95","port":5498,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"lGqs95QkFHo2NV","skip-cert-verify":true}
-  - {"name":"🇰🇷KR韩国8","type":"trojan","server":"220.126.185.107","port":30019,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"US19 1.9MB/s","type":"ss","server":"23.157.40.95","port":8881,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"kDWvXYZoTBcGkC4","skip-cert-verify":true}
-  - {"name":"🇰🇷KR韩国9","type":"trojan","server":"218.152.197.93","port":50000,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知55","type":"trojan","server":"51.44.37.55","port":22222,"alterId":0,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国17","type":"trojan","server":"104.19.239.137","port":2087,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知56","type":"ss","server":"192.36.61.59","port":990,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"f8f7aCzcPKbsF8p3","skip-cert-verify":true}
-  - {"name":"未知57","type":"ss","server":"61.130.144.150","port":2333,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"a0605527-28e4-449c-80ee-5642cc16a8af","skip-cert-verify":true}
-  - {"name":"HK2","type":"ss","server":"213.130.141.113","port":58226,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"ba8d6492-f3f5-4376-aa88-1c3bda57a6d9","skip-cert-verify":true}
-  - {"name":"🇺🇸US美国18","type":"trojan","server":"thaddeus.ns.cloudflare.com","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知58","type":"ss","server":"46.202.130.110","port":49693,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"auPD89z7JneRsFA228YwFMrhGKAmG30Atq6HbZY4Ka8=","skip-cert-verify":true}
-  - {"name":"🇺🇸US美国19","type":"trojan","server":"167.68.4.10","port":2096,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国20","type":"trojan","server":"173.245.59.109","port":2087,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知59","type":"trojan","server":"190.93.247.175","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
-  - {"name":"未知60","type":"vmess","server":"156.246.94.94","port":433,"cipher":"auto","uuid":"bebdb5c1-e0cb-4319-b614-a0581fdd3158","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"未知61","type":"trojan","server":"59.22.103.99","port":18077,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知62 12.2MB/s","type":"ss","server":"95.164.36.59","port":8388,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"OWY4ODBm","skip-cert-verify":true}
-  - {"name":"未知63","type":"ss","server":"193.29.139.233","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"QCXDxuDlTTMD7jtgHUjIoj","skip-cert-verify":true}
-  - {"name":"未知64","type":"vmess","server":"5.75.197.221","port":8080,"cipher":"aes-128-gcm","uuid":"b44ceabe-997c-4988-932d-8efa6a530fc5","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"未知65","type":"trojan","server":"172.67.204.84","port":2096,"alterId":0,"password":"98f0c223-cb75-4faa-859e-47110b1f052b","sni":"iNTeRnET4EVERIeONe7.PaGes.DeV","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"🇫🇮FI芬兰","type":"trojan","server":"95.216.143.166","port":443,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国21","type":"trojan","server":"104.129.166.131","port":8443,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知66","type":"trojan","server":"89.213.40.225","port":2333,"alterId":0,"password":"4db82bff-0889-4320-8944-7b8d8ee66ff5","sni":"www","skip-cert-verify":true,"udp":true}
-  - {"name":"未知67","type":"trojan","server":"cmc1.5gsieuvip.vn","port":443,"alterId":0,"password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","skip-cert-verify":true,"udp":true,"sni":"cmc1.5gsieuvip.vn"}
-  - {"name":"🇺🇸US美国22","type":"trojan","server":"172.67.68.56","port":2096,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知68","type":"trojan","server":"141.11.203.203","port":443,"alterId":0,"password":"NISHIKUITAN111","sni":"za.ylks.xyz","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"US20","type":"ss","server":"67.220.95.102","port":443,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"pKEW8JPByTVTLtM","skip-cert-verify":true}
-  - {"name":"🇷🇺RU俄罗斯5","type":"trojan","server":"92.243.74.180","port":8443,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知69","type":"trojan","server":"172.67.156.115","port":2087,"alterId":0,"password":"SSorg","sni":"ssjj.esslh.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知70","type":"trojan","server":"54.72.170.215","port":22222,"alterId":0,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
-  - {"name":"未知71","type":"trojan","server":"13.50.120.25","port":22222,"alterId":0,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
-  - {"name":"US21","type":"trojan","server":"137.220.42.248","port":443,"alterId":0,"password":"xjtZ2S5FgQ","skip-cert-verify":true,"udp":true}
-  - {"name":"US22","type":"trojan","server":"15.204.234.166","port":443,"alterId":0,"password":"fc685880-dffe-11ef-8ac5-1239d0255272","sni":"usa.test3.net","skip-cert-verify":true,"udp":true}
-  - {"name":"未知72","type":"trojan","server":"172.64.155.16","port":2053,"alterId":0,"password":"trojan","sni":"ana-service-anaservice--anaservice-antenircomorg.fmwlmluu.workers.dev","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"未知73","type":"trojan","server":"104.24.184.159","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
-  - {"name":"未知74 17.6MB/s","type":"vmess","server":"159.69.120.98","port":41391,"cipher":"auto","uuid":"b5c3e2e8-dfb6-4a0a-b656-87e997610785","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"未知75 19.9MB/s","type":"ss","server":"212.102.53.197","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
-  - {"name":"🇷🇺RU俄罗斯6","type":"ss","server":"south.sf0jm.xyz","port":49229,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"e0ef499f-a47e-44f7-90e3-a30f334e669d","skip-cert-verify":true,"sni":"south.sf0jm.xyz"}
-  - {"name":"未知76","type":"trojan","server":"172.64.35.168","port":443,"alterId":0,"password":"Aimer","sni":"damien.ns.cloudflare.com","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"未知77","type":"trojan","server":"62.112.221.209","port":443,"alterId":0,"password":"3767107462583558144","sni":"uncommon-dory.goat627.mom","skip-cert-verify":true,"udp":true}
-  - {"name":"未知78","type":"trojan","server":"45.131.7.206","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
+  - {"name":"未知 1009.5KB/s","type":"ss","server":"54.36.174.181","port":3389,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"Y6R9pAtvxxzmGC","skip-cert-verify":true}
+  - {"name":"🇺🇸US美国","type":"trojan","server":"104.196.250.34","port":2087,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知2","type":"ss","server":"45.142.214.123","port":8388,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"ZjFmYTY0","skip-cert-verify":true}
+  - {"name":"未知3 784.7KB/s","type":"ss","server":"51.77.53.200","port":443,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"pKEW8JPByTVTLtM","skip-cert-verify":true}
+  - {"name":"未知4","type":"trojan","server":"gy.58n.net","port":41767,"alterId":0,"password":"f0b00f01-c9b3-352b-84e6-00bb2a719662","sni":"x114.flybar.work","skip-cert-verify":true,"udp":true}
+  - {"name":"未知5","type":"trojan","server":"172.67.65.113","port":2083,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知6 1.8MB/s","type":"ss","server":"149.202.82.172","port":5601,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"Y6R9pAtvxxzmGC","skip-cert-verify":true}
+  - {"name":"未知7","type":"trojan","server":"172.66.47.170","port":2053,"alterId":0,"password":"Ys.c7%3FD9qmBLo%5EZ%5D","sni":"JOInMaHDiSeRVeR-333.pAGEs.DeV","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"🇰🇷KR韩国","type":"trojan","server":"211.222.211.60","port":50000,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知8 57.0MB/s","type":"vmess","server":"79.127.229.54","port":18000,"cipher":"auto","uuid":"fa1897db-1925-4c86-a495-939a959af900","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"未知9","type":"trojan","server":"211.227.87.99","port":50000,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知10","type":"trojan","server":"194.164.32.27","port":2053,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"US 1.9MB/s","type":"ss","server":"38.107.226.238","port":2375,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"faBAoD54k87UJG7","skip-cert-verify":true}
+  - {"name":"未知11","type":"trojan","server":"104.18.123.217","port":443,"alterId":0,"password":"blue2024","sni":"ta.promote.icu","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"TW 92.1KB/s","type":"ss","server":"2.58.241.42","port":443,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"2afbc97400ca71c8f3306f9843a6e1c2","skip-cert-verify":true}
+  - {"name":"未知12","type":"ss","server":"185.231.205.179","port":8388,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"OTVlMzcy","skip-cert-verify":true}
+  - {"name":"未知13","type":"trojan","server":"74.226.136.204","port":443,"alterId":0,"password":"243eab52-9ac1-405c-887c-eb112c0985b8","sni":"us02.trojanyyds.xyz","skip-cert-verify":true,"udp":true}
+  - {"name":"未知14","type":"trojan","server":"162.159.16.224","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
+  - {"name":"未知15","type":"trojan","server":"190.93.247.175","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
+  - {"name":"US2","type":"ss","server":"2.58.87.221","port":16899,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"Yc2CtrIz8L","skip-cert-verify":true}
+  - {"name":"未知16 15.9MB/s","type":"trojan","server":"95.110.142.205","port":443,"alterId":0,"password":"3767107462583558144","sni":"grown-cardinal.treefrog761.one","skip-cert-verify":true,"udp":true}
+  - {"name":"未知17 3.8MB/s","type":"trojan","server":"3.122.13.170","port":22222,"alterId":0,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"未知18","type":"trojan","server":"45.80.110.224","port":443,"alterId":0,"password":"bpb-trojan","sni":"bpb.my79801.com","skip-cert-verify":true,"udp":true}
+  - {"name":"US3","type":"trojan","server":"52.89.149.132","port":443,"alterId":0,"password":"3770966768580042752","sni":"fitting-foxhound.goat627.mom","skip-cert-verify":true,"udp":true}
+  - {"name":"未知19","type":"trojan","server":"188.164.159.55","port":2096,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知20","type":"trojan","server":"172.66.47.183","port":8443,"alterId":0,"password":"V%2B%40iFj2PAdz.%7D_Hq","sni":"jOinmAhdIsERveR-62E.PaGes.dEv","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知21 84.0KB/s","type":"ss","server":"160.19.78.75","port":443,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"Nk9asglDzHzjktVzTkvhaA","skip-cert-verify":true}
+  - {"name":"未知22","type":"ss","server":"193.29.139.162","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"4a2rfixophdjffa8KVA4Aa","skip-cert-verify":true}
+  - {"name":"🇰🇷KR韩国2","type":"trojan","server":"119.198.67.48","port":10033,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知23","type":"trojan","server":"42.236.73.72","port":443,"alterId":0,"password":"fuck","sni":"www.zitian.cn","skip-cert-verify":true,"udp":true}
+  - {"name":"🇳🇱NL荷兰","type":"trojan","server":"109.234.39.115","port":2053,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知24","type":"trojan","server":"172.66.44.226","port":2087,"alterId":0,"password":"0q%2776Evm32qz%40Q%27%28","sni":"JOInMahdiserver-11R.PaGES.dEv","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"🇰🇷KR韩国3","type":"trojan","server":"121.137.2.55","port":18245,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"US4","type":"trojan","server":"161.145.150.26","port":2087,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知25","type":"trojan","server":"206.238.236.16","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知26","type":"trojan","server":"104.18.107.117","port":443,"alterId":0,"password":"bpb-trojan","sni":"bpb.my79801.com","skip-cert-verify":true,"udp":true}
+  - {"name":"未知27 19.1MB/s","type":"ss","server":"149.34.244.77","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
+  - {"name":"未知28 94.5KB/s","type":"ss","server":"147.78.1.27","port":990,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"f8f7aCzcPKbsF8p3","skip-cert-verify":true}
+  - {"name":"未知29","type":"trojan","server":"198.41.205.240","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
+  - {"name":"US5 1.8MB/s","type":"ss","server":"142.202.48.105","port":8080,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"KixLvKzwjekG00rm","skip-cert-verify":true}
+  - {"name":"未知30 1.8MB/s","type":"ss","server":"217.182.198.219","port":9101,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"e4FCWrgpkji3QY","skip-cert-verify":true}
+  - {"name":"未知31","type":"trojan","server":"185.193.29.193","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
+  - {"name":"未知32","type":"trojan","server":"173.245.59.202","port":2083,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知33","type":"trojan","server":"104.19.90.210","port":443,"alterId":0,"password":"blue2024","sni":"hb.lii2010.us.kg","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知34","type":"trojan","server":"13.61.243.33","port":22222,"alterId":0,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"未知35","type":"trojan","server":"172.64.34.52","port":2096,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知36 533.8KB/s","type":"ss","server":"54.36.174.181","port":7307,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"FoOiGlkAA9yPEGP","skip-cert-verify":true}
+  - {"name":"未知37 14.0MB/s","type":"ss","server":"193.29.139.164","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"4a2rfixophdjffa8KVA4Aa","skip-cert-verify":true}
+  - {"name":"未知38","type":"trojan","server":"104.20.138.222","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
+  - {"name":"未知39","type":"vmess","server":"104.19.150.10","port":2095,"cipher":"auto","uuid":"94f332b0-c5d3-4531-a1d6-6e6358cc6c72","alterId":0,"tls":true,"skip-cert-verify":true,"network":"httpupgrade"}
+  - {"name":"未知40","type":"trojan","server":"188.164.159.138","port":2083,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知41","type":"trojan","server":"92.53.190.161","port":2087,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知42 14.6MB/s","type":"ss","server":"156.146.62.161","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
   - {"name":"🇮🇹IT意大利","type":"trojan","server":"91.193.5.121","port":8443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇺RU俄罗斯7","type":"trojan","server":"89.248.207.37","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知79","type":"vmess","server":"183.236.51.36","port":59003,"cipher":"none","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"未知80","type":"trojan","server":"108.162.195.199","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇰🇷KR韩国10","type":"trojan","server":"221.165.64.92","port":50000,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知81","type":"trojan","server":"104.18.153.27","port":443,"alterId":0,"password":"blue2024","sni":"td.promote.icu","skip-cert-verify":true,"udp":true}
-  - {"name":"未知82","type":"trojan","server":"103.173.66.192","port":443,"alterId":0,"password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","skip-cert-verify":true,"udp":true}
-  - {"name":"未知83","type":"trojan","server":"188.164.159.74","port":8443,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"US23","type":"trojan","server":"151.101.194.228","port":443,"alterId":0,"password":"f8bb4ae1-2358-4a76-ab75-2a6bc94272d6","sni":"pscresearch.faculty.ucdavis.edu","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"🇩🇪DE德国","type":"trojan","server":"188.166.162.201","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知84","type":"trojan","server":"94.177.131.199","port":443,"alterId":0,"password":"3763495894587285504","sni":"nearby-sheep.goat627.mom","skip-cert-verify":true,"udp":true}
-  - {"name":"未知85","type":"trojan","server":"gy.58n.net","port":20308,"alterId":0,"password":"09e6689e-8dd3-332f-9655-ff09803e64d5","sni":"z308.hongkongnode.top","skip-cert-verify":true,"udp":true}
-  - {"name":"未知86 451.3KB/s","type":"ss","server":"64.176.85.73","port":1866,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"oXGp1+ihlfKg826H","skip-cert-verify":true}
-  - {"name":"🇺🇸US美国23","type":"trojan","server":"173.245.59.203","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇰🇷KR韩国11","type":"trojan","server":"119.196.34.173","port":50000,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知87","type":"trojan","server":"190.93.245.62","port":443,"alterId":0,"password":"blue2024","sni":"td.promote.icu","skip-cert-verify":true,"udp":true}
-  - {"name":"🇨🇳CN中国2","type":"trojan","server":"gy.58n.net","port":30712,"alterId":0,"password":"5198bb80-b38d-387b-bdd9-5287b4ff4d09","sni":"x83.flybar.work","skip-cert-verify":true,"udp":true}
-  - {"name":"🇵🇰PK巴基斯坦","type":"trojan","server":"103.137.63.3","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知88","type":"vmess","server":"185.113.10.40","port":56060,"cipher":"auto","uuid":"f60af146-6c9c-4148-b4fa-2ae62305d424","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"未知89","type":"ss","server":"45.87.175.199","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"cvII85TrW6n0OGyfpHVS1u","skip-cert-verify":true}
-  - {"name":"🇺🇸US美国24","type":"trojan","server":"172.64.105.24","port":2053,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国25","type":"trojan","server":"104.19.60.99","port":2087,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知90","type":"trojan","server":"162.159.16.224","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国26","type":"trojan","server":"162.159.39.181","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知91","type":"ss","server":"213.109.147.242","port":62685,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"VpKABcOpNNA0l5G2AVOmw8","skip-cert-verify":true}
-  - {"name":"US24 1.6MB/s","type":"ss","server":"23.150.152.56","port":8008,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"XKFKl2rULjIp74","skip-cert-verify":true}
-  - {"name":"未知92","type":"vmess","server":"91.107.138.53","port":2020,"cipher":"auto","uuid":"a04fc96f-f4cc-4032-866a-5441f3d1259f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"未知93","type":"trojan","server":"172.64.33.110","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知94 550.1KB/s","type":"ss","server":"54.36.174.181","port":7001,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"RexnBgU7EV5ADxG","skip-cert-verify":true}
-  - {"name":"US25","type":"trojan","server":"108.165.152.40","port":2096,"alterId":0,"password":"Aimer","sni":"ngep.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"US26 1.8MB/s","type":"ss","server":"23.157.40.47","port":5500,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"KixLvKzwjekG00rm","skip-cert-verify":true}
-  - {"name":"未知95 417.3KB/s","type":"ss","server":"103.120.178.193","port":51348,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"pULZkJUnl5FB4mOQUngUKFtPfohf0cUCpOxqyRD52hy9WuHe","skip-cert-verify":true}
-  - {"name":"US27","type":"ss","server":"23.185.248.13","port":17003,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"2VMSAJ5HAWHYMBRN","skip-cert-verify":true}
-  - {"name":"🇷🇺RU俄罗斯8","type":"trojan","server":"5.182.84.229","port":2087,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知96","type":"trojan","server":"108.162.193.144","port":443,"alterId":0,"password":"Aimer","sni":"theo.ns.cloudflare.com","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"🇨🇳CN中国3","type":"trojan","server":"219.76.13.180","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知97","type":"trojan","server":"162.159.44.168","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知98","type":"trojan","server":"104.21.195.144","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
-  - {"name":"US28","type":"ss","server":"38.91.101.221","port":7307,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"FoOiGlkAA9yPEGP","skip-cert-verify":true}
-  - {"name":"未知99 1.6MB/s","type":"ss","server":"149.22.87.241","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
-  - {"name":"🇰🇷KR韩国12","type":"trojan","server":"112.162.68.10","port":50004,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"US29 1.7MB/s","type":"ss","server":"38.121.43.142","port":9101,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"e4FCWrgpkji3QY","skip-cert-verify":true}
-  - {"name":"未知100","type":"trojan","server":"36.151.194.64","port":46002,"alterId":0,"password":"4ea1d07c-41c2-42b5-954d-414fee051856","skip-cert-verify":true,"udp":true}
-  - {"name":"未知101","type":"trojan","server":"219.135.231.205","port":21019,"alterId":0,"password":"20a84ebf-9341-4f5f-8245-3975e2fdeee5","skip-cert-verify":true,"udp":true}
-  - {"name":"🇺🇸US美国27 9.0MB/s","type":"trojan","server":"13.36.20.147","port":22222,"alterId":0,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
-  - {"name":"US30","type":"trojan","server":"108.165.152.239","port":8443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"未知102","type":"trojan","server":"104.17.57.75","port":443,"alterId":0,"password":"blue2024","sni":"ta.promote.icu","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"未知103 183.2KB/s","type":"ss","server":"147.78.1.27","port":990,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"f8f7aCzcPKbsF8p3","skip-cert-verify":true}
-  - {"name":"🇨🇳CN中国4","type":"trojan","server":"154.197.64.206","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知104","type":"trojan","server":"104.26.9.227","port":443,"alterId":0,"password":"b80Iy90Fma","sni":"usa03.rtx.al","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸US美国28","type":"trojan","server":"172.64.34.52","port":2096,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
-  - {"name":"未知105","type":"trojan","server":"13.60.100.99","port":22222,"alterId":0,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"US6","type":"trojan","server":"161.145.150.14","port":443,"alterId":0,"password":"Aimer","sni":"acepo.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"US7 239.0KB/s","type":"ss","server":"34.233.201.214","port":443,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"2afbc97400ca71c8f3306f9843a6e1c2","skip-cert-verify":true}
+  - {"name":"🇺🇸US美国2","type":"trojan","server":"107.174.79.149","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知43","type":"trojan","server":"213.241.198.189","port":2053,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知44","type":"trojan","server":"162.159.153.2","port":443,"alterId":0,"password":"bpb-trojan","sni":"zamim340.ggff.net","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知45","type":"vmess","server":"183.236.51.36","port":59003,"cipher":"none","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"US8 1.0MB/s","type":"vmess","server":"144.202.22.45","port":8881,"cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"未知46","type":"trojan","server":"172.66.44.171","port":443,"alterId":0,"password":"4785f3ca-8fa3-4717-8c81-9d19087c73a3","sni":"pardazeshvpn-tg104.pages.dev","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"🇰🇷KR韩国4","type":"trojan","server":"125.134.175.67","port":50000,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知47","type":"trojan","server":"108.162.195.168","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知48","type":"trojan","server":"121.180.184.145","port":50000,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知49 734.1KB/s","type":"ss","server":"54.36.174.181","port":8881,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"kDWvXYZoTBcGkC4","skip-cert-verify":true}
+  - {"name":"US9 14.9MB/s","type":"ss","server":"139.64.165.101","port":7306,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"FoOiGlkAA9yPEGP","skip-cert-verify":true}
+  - {"name":"未知50 13.1MB/s","type":"ss","server":"212.102.53.197","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
+  - {"name":"未知51","type":"trojan","server":"213.241.198.56","port":2083,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知52","type":"trojan","server":"188.164.159.241","port":2096,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"🇰🇷KR韩国5","type":"trojan","server":"175.192.27.197","port":16992,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知53","type":"trojan","server":"195.133.52.153","port":8443,"alterId":0,"password":"%40NoForcedHeaven%40NoForcedHeaven%40NoForcedHeaven%40NoForcedHeaven%40NoForcedHeaven","sni":"ru2.asc-sam.ir","skip-cert-verify":true,"udp":true}
+  - {"name":"US10","type":"trojan","server":"18.238.109.41","port":443,"alterId":0,"password":"0000000","sni":"www.lovelive-anime.jp","skip-cert-verify":true,"udp":true}
+  - {"name":"US11 2.5MB/s","type":"trojan","server":"154.17.24.29","port":443,"alterId":0,"password":"x3wOepOcT04FnR8YYF35pzSACDgRBa3CAe9qNalDCy6a2uE8Z7xlX3SSyZKDIj","sni":"imprint.freetrade.link","skip-cert-verify":true,"udp":true}
+  - {"name":"未知54","type":"trojan","server":"188.114.97.88","port":2053,"alterId":0,"password":"bpb-trojan","sni":"G1-21N.paGEs.dev","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"US12","type":"trojan","server":"108.165.152.202","port":2083,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知55 245.0KB/s","type":"ss","server":"193.29.139.133","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"cvII85TrW6n0OGyfpHVS1u","skip-cert-verify":true}
+  - {"name":"🇭🇰HK香港","type":"ss","server":"mdss-hk.04z3susick.download","port":12010,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"40983d6d-48be-4c9a-aa48-3aaf3146833e","skip-cert-verify":true,"sni":"mdss-hk.04z3susick.download"}
+  - {"name":"未知56","type":"trojan","server":"104.25.22.6","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
+  - {"name":"未知57 90.5KB/s","type":"ss","server":"154.90.37.139","port":990,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"f8f7aCzcPKbsF8p3","skip-cert-verify":true}
+  - {"name":"未知58 1.7MB/s","type":"ss","server":"149.22.87.204","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
+  - {"name":"未知59","type":"trojan","server":"45.67.215.250","port":2096,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸US美国3","type":"trojan","server":"172.67.70.33","port":2096,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知60","type":"vmess","server":"Reza.ns.cloudflare.com","port":2087,"cipher":"auto","uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","servername":"Reza.ns.cloudflare.com"}
+  - {"name":"未知61","type":"vmess","server":"172.67.69.236","port":2096,"cipher":"auto","uuid":"32eb9cf5-c4c7-40e3-b584-a4b1fc5833ec","alterId":0,"tls":true,"skip-cert-verify":true,"network":"httpupgrade"}
+  - {"name":"未知62","type":"trojan","server":"162.159.192.163","port":443,"alterId":0,"password":"89b3cbba-e6ac-485a-9481-976a0415eab9","sni":"blOOM-cHh.pAges.DeV","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知63","type":"ss","server":"194.105.89.58","port":40003,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"65abdb1c-1cdf-4630-a32b-8ae566b48c00","skip-cert-verify":true}
+  - {"name":"未知64 5.9KB/s","type":"ss","server":"95.164.249.61","port":54075,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3","skip-cert-verify":true}
+  - {"name":"未知65 12.7MB/s","type":"ss","server":"212.102.53.78","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
+  - {"name":"未知66 10.3MB/s","type":"ss","server":"45.87.175.157","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"cvII85TrW6n0OGyfpHVS1u","skip-cert-verify":true}
+  - {"name":"未知67","type":"trojan","server":"108.162.195.199","port":443,"alterId":0,"password":"Aimer","sni":"pranab.ns.cloudflare.com","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知68","type":"trojan","server":"218.154.47.250","port":50000,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知69","type":"trojan","server":"104.26.9.227","port":443,"alterId":0,"password":"b80Iy90Fma","sni":"usa03.rtx.al","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知70 890.8KB/s","type":"trojan","server":"13.60.119.195","port":22222,"alterId":0,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"未知71 1.8MB/s","type":"ss","server":"217.182.198.219","port":9102,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"e4FCWrgpkji3QY","skip-cert-verify":true}
+  - {"name":"🇫🇷FR法国","type":"ss","server":"185.234.64.35","port":8388,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"YTNjNDY5","skip-cert-verify":true}
+  - {"name":"US13","type":"trojan","server":"63.141.128.66","port":2087,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知72","type":"trojan","server":"172.67.204.84","port":2096,"alterId":0,"password":"98f0c223-cb75-4faa-859e-47110b1f052b","sni":"iNTeRnET4EVERIeONe7.PaGes.DeV","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知73","type":"trojan","server":"89.116.46.33","port":443,"alterId":0,"password":"NISHIKUITAN111","sni":"zb.ylks.xyz","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知74","type":"trojan","server":"36.151.194.64","port":46002,"alterId":0,"password":"4ea1d07c-41c2-42b5-954d-414fee051856","skip-cert-verify":true,"udp":true}
+  - {"name":"未知75 687.8KB/s","type":"ss","server":"45.156.248.11","port":990,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"f8f7aCzcPKbsF8p3","skip-cert-verify":true}
+  - {"name":"US14 12.6MB/s","type":"ss","server":"139.64.165.101","port":8090,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"PCnnH6SQSnfoS27","skip-cert-verify":true}
+  - {"name":"US15","type":"trojan","server":"198.202.211.146","port":443,"alterId":0,"password":"bpb-trojan","sni":"bpb.my79801.com","skip-cert-verify":true,"udp":true}
+  - {"name":"未知76","type":"trojan","server":"104.21.96.1","port":2096,"alterId":0,"password":"RV%3CoAVP5SBk%25Q%40jE","sni":"JoInmaHdiservER-484.pagEs.DeV","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知77","type":"ss","server":"154.196.244.22","port":16012,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"QEV5BG4YLEABW6LB","skip-cert-verify":true}
+  - {"name":"未知78","type":"trojan","server":"188.164.159.185","port":8443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知79","type":"trojan","server":"172.67.180.227","port":443,"alterId":0,"password":"bpb-trojan","sni":"bpb-hd.aaronchin.xyz","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知80","type":"trojan","server":"34.251.60.138","port":22222,"alterId":0,"password":"telegram-id-v2rayvpnchannel","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"🇹🇼TW台湾","type":"trojan","server":"120.198.71.173","port":18147,"alterId":0,"password":"f1df4c41-0e78-400b-8588-eaa24bd8fd21","sni":"mm2.redapricotcloud.com","skip-cert-verify":true,"udp":true}
+  - {"name":"未知81","type":"ss","server":"95.164.44.221","port":8388,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"ZDAxZDE2","skip-cert-verify":true}
+  - {"name":"未知82","type":"trojan","server":"84.247.144.24","port":443,"alterId":0,"password":"172d295b-abd4-4219-a83d-0585b498542c","sni":"pop.09d21837-9b89-4490-92bf-eabf449e3321.heima360.cc","skip-cert-verify":true,"udp":true}
+  - {"name":"US16","type":"trojan","server":"44.224.24.91","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知83 546.2KB/s","type":"ss","server":"185.213.20.227","port":990,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"f8f7aCzcPKbsF8p3","skip-cert-verify":true}
+  - {"name":"US17 1.6MB/s","type":"ss","server":"23.157.40.95","port":443,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"pKEW8JPByTVTLtM","skip-cert-verify":true}
+  - {"name":"🇺🇸US美国4","type":"trojan","server":"162.159.44.233","port":8443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知84","type":"trojan","server":"43.201.176.8","port":443,"alterId":0,"password":"65086520307764900","sni":"useful-jennet.shiner427.skin","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸US美国5","type":"trojan","server":"duke.ns.cloudflare.com","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知85","type":"trojan","server":"108.162.193.110","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知86","type":"trojan","server":"18.135.3.77","port":22222,"alterId":0,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"未知87","type":"trojan","server":"168.126.66.181","port":50000,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知88","type":"trojan","server":"154.197.64.206","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知89","type":"trojan","server":"gy.58n.net","port":20294,"alterId":0,"password":"f0b00f01-c9b3-352b-84e6-00bb2a719662","sni":"z294.hongkongnode.top","skip-cert-verify":true,"udp":true}
+  - {"name":"未知90","type":"trojan","server":"188.164.159.246","port":2096,"alterId":0,"password":"Aimer","sni":"acepo.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"US18 759.6KB/s","type":"ss","server":"23.150.152.16","port":2376,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"faBAoD54k87UJG7","skip-cert-verify":true}
+  - {"name":"未知91","type":"trojan","server":"104.21.16.1","port":2096,"alterId":0,"password":"RV%3CoAVP5SBk%25Q%40jE","sni":"JoInmaHdiservER-484.pagEs.DeV","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知92 642.4KB/s","type":"ss","server":"103.106.1.92","port":23492,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"yMX9WGPgUEcRZmlaa0YHHC","skip-cert-verify":true}
+  - {"name":"🇯🇵JP日本","type":"trojan","server":"52.195.187.159","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知93","type":"trojan","server":"172.64.35.127","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"HK","type":"trojan","server":"107.149.254.26","port":158,"alterId":0,"password":"f6f037b8-d6f5-4892-9bb5-0f915cac5b3b","skip-cert-verify":true,"udp":true}
+  - {"name":"未知94","type":"trojan","server":"51.107.9.31","port":8443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知95","type":"trojan","server":"104.19.222.79","port":443,"alterId":0,"password":"bpb-trojan","sni":"qq.vvii.us.kg","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知96","type":"trojan","server":"172.64.146.66","port":443,"alterId":0,"password":"blue2024","sni":"ta.promote.icu","skip-cert-verify":true,"udp":true}
+  - {"name":"未知97","type":"trojan","server":"46.254.92.27","port":443,"alterId":0,"password":"NISHIKUITAN111","sni":"zb.ylks.xyz","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知98","type":"trojan","server":"198.41.200.142","port":443,"alterId":0,"password":"blue2024","sni":"ta.promote.icu","skip-cert-verify":true,"udp":true}
+  - {"name":"US19 2.0MB/s","type":"ss","server":"142.202.48.105","port":2376,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"faBAoD54k87UJG7","skip-cert-verify":true}
+  - {"name":"🇺🇸US美国6","type":"trojan","server":"15.157.33.104","port":22222,"alterId":0,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"未知99 84.5KB/s","type":"ss","server":"54.36.174.181","port":5004,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"g5MeD6Ft3CWlJId","skip-cert-verify":true}
+  - {"name":"未知100 400.0KB/s","type":"ss","server":"51.77.53.200","port":7307,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"FoOiGlkAA9yPEGP","skip-cert-verify":true}
+  - {"name":"US20","type":"trojan","server":"103.116.7.67","port":2083,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知101","type":"trojan","server":"173.245.59.110","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知102","type":"trojan","server":"46.254.93.211","port":2053,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知103","type":"trojan","server":"92.243.74.2","port":8443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"US21 1.9MB/s","type":"ss","server":"23.157.40.103","port":8091,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"PCnnH6SQSnfoS27","skip-cert-verify":true}
+  - {"name":"未知104","type":"trojan","server":"176.124.223.50","port":8443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"US22 1.9MB/s","type":"ss","server":"23.157.40.120","port":6697,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"TEzjfAYq2IjtuoS","skip-cert-verify":true}
+  - {"name":"未知105 50.0KB/s","type":"ss","server":"86.104.74.243","port":14255,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"fDDmH4QefmWqMJ8UURZrGh","skip-cert-verify":true}
+  - {"name":"US23 73.6MB/s","type":"ss","server":"172.236.122.188","port":1866,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"oXGp1+ihlfKg826H","skip-cert-verify":true}
+  - {"name":"未知106","type":"trojan","server":"125.142.156.70","port":50000,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知107","type":"trojan","server":"104.21.32.1","port":2096,"alterId":0,"password":"RV%3CoAVP5SBk%25Q%40jE","sni":"JoInmaHdiservER-484.pagEs.DeV","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知108","type":"trojan","server":"104.19.107.190","port":2096,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知109","type":"trojan","server":"45.153.7.216","port":2053,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知110","type":"trojan","server":"18.171.236.219","port":8443,"alterId":0,"password":"SSorg","sni":"sstjj.esslh.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知111 1017.7KB/s","type":"ss","server":"51.77.53.200","port":8090,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"PCnnH6SQSnfoS27","skip-cert-verify":true}
+  - {"name":"🇷🇺RU俄罗斯","type":"trojan","server":"89.248.207.37","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸US美国7","type":"trojan","server":"185.183.84.163","port":60022,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知112","type":"trojan","server":"103.173.66.191","port":443,"alterId":0,"password":"5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad","skip-cert-verify":true,"udp":true}
+  - {"name":"🇹🇼TW台湾2","type":"trojan","server":"naiu-other.05vr9nyqg5.download","port":13035,"alterId":0,"password":"2b39bbdd-a565-4f8e-b6b6-6b034b2076f4","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"udp":true}
+  - {"name":"未知113","type":"trojan","server":"172.66.44.73","port":8443,"alterId":0,"password":"V%2B%40iFj2PAdz.%7D_Hq","sni":"jOinmAhdIsERveR-62E.PaGes.dEv","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"US24 555.9KB/s","type":"ss","server":"23.157.40.87","port":7002,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"RexnBgU7EV5ADxG","skip-cert-verify":true}
+  - {"name":"未知114 292.0KB/s","type":"ss","server":"107.181.155.244","port":55330,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"frsa5DFzRANYPs5yMexsVUrC7d6NY8pvBRFn4g1WkF4R71Y5a6E6qYp3SxP2EaUh2yXsAKbTAm7SmL5qk5xMGoDRjH5F8BBU","skip-cert-verify":true}
+  - {"name":"US25 205.3MB/s","type":"ss","server":"37.19.198.236","port":443,"cipher":"aes-128-gcm","alterId":0,"tls":true,"password":"shadowsocks","skip-cert-verify":true}
+  - {"name":"US26","type":"trojan","server":"151.101.2.133","port":443,"alterId":0,"password":"29e0206a-2cef-4c8d-aa4b-dd7a43748167","sni":"zmaoz.faculty.ucdavis.edu.","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知115","type":"trojan","server":"13.61.212.164","port":22222,"alterId":0,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"未知116","type":"trojan","server":"45.131.209.89","port":443,"alterId":0,"password":"NISHIKUITAN111","sni":"za.ylks.xyz","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知117 205.1KB/s","type":"ss","server":"157.175.10.85","port":443,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"Bog0ELmMM9DSxDdQ","skip-cert-verify":true}
+  - {"name":"US27","type":"trojan","server":"127.0.0.1","port":8080,"alterId":0,"password":"bcbacaa-acba-aabc-bcda-cabbcabcbaac","skip-cert-verify":true,"udp":true}
+  - {"name":"US28 1.9MB/s","type":"ss","server":"67.220.95.102","port":8090,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"PCnnH6SQSnfoS27","skip-cert-verify":true}
+  - {"name":"🇺🇸US美国8","type":"trojan","server":"3.99.88.216","port":22222,"alterId":0,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"未知118","type":"trojan","server":"13.61.64.143","port":22222,"alterId":0,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"US29","type":"trojan","server":"162.120.94.232","port":8443,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知119","type":"trojan","server":"3.64.205.189","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知120","type":"trojan","server":"104.26.14.203","port":443,"alterId":0,"password":"blue2024","sni":"hb.lii2010.us.kg","skip-cert-verify":true,"udp":true}
+  - {"name":"US30 1.3MB/s","type":"ss","server":"23.150.152.56","port":5601,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"Y6R9pAtvxxzmGC","skip-cert-verify":true}
+  - {"name":"🇳🇱NL荷兰2","type":"trojan","server":"45.147.50.154","port":443,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知121","type":"ss","server":"156.231.104.23","port":18013,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"EJ3GOLPLAAUX9WCY","skip-cert-verify":true}
+  - {"name":"未知122 458.2KB/s","type":"trojan","server":"15.236.150.124","port":22222,"alterId":0,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"未知123","type":"trojan","server":"218.158.251.112","port":20900,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知124","type":"ss","server":"193.29.139.227","port":8080,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"cvII85TrW6n0OGyfpHVS1u","skip-cert-verify":true}
+  - {"name":"未知125","type":"trojan","server":"108.162.193.128","port":443,"alterId":0,"password":"Aimer","sni":"kip.ns.cloudflare.com","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"US31","type":"trojan","server":"54.213.215.13","port":2053,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"US32","type":"trojan","server":"154.211.8.18","port":2083,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知126","type":"trojan","server":"104.20.151.19","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
+  - {"name":"未知127","type":"trojan","server":"188.164.159.174","port":2053,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"US33 1.7MB/s","type":"ss","server":"23.154.136.176","port":5500,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"KixLvKzwjekG00rm","skip-cert-verify":true}
+  - {"name":"🇺🇸US美国9","type":"trojan","server":"154.21.82.84","port":54622,"alterId":0,"password":"Aimer","sni":"ngepz.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知128","type":"trojan","server":"154.197.64.104","port":8443,"alterId":0,"password":"SSorg","sni":"ssjj.esslh.filegear-sg.me","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
+  - {"name":"未知129","type":"trojan","server":"218.151.99.167","port":50000,"alterId":0,"password":"Aimer","sni":"ngepy.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知130","type":"trojan","server":"3.9.109.44","port":22222,"alterId":0,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"US34","type":"trojan","server":"35.83.185.225","port":443,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知131","type":"trojan","server":"188.114.99.102","port":443,"alterId":0,"password":"blue2024","sni":"hb.lii2010.us.kg","skip-cert-verify":true,"udp":true}
+  - {"name":"未知132","type":"trojan","server":"5.182.84.93","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
+  - {"name":"未知133","type":"trojan","server":"206.238.236.252","port":2096,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知134 12.5MB/s","type":"ss","server":"142.4.216.225","port":80,"cipher":"chacha20-ietf-poly1305","alterId":0,"tls":true,"password":"JIhN6rBKkaEboLNXVSv5rq","skip-cert-verify":true}
+  - {"name":"未知135 122.4KB/s","type":"ss","server":"54.36.174.181","port":2376,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"faBAoD54k87UJG7","skip-cert-verify":true}
+  - {"name":"US35","type":"trojan","server":"45.32.137.6","port":443,"alterId":0,"password":"wkmY1R4EcP","skip-cert-verify":true,"udp":true}
+  - {"name":"US36","type":"trojan","server":"108.165.216.155","port":443,"alterId":0,"password":"bpb-trojan","sni":"bpb.my79801.com","skip-cert-verify":true,"udp":true}
+  - {"name":"未知136","type":"trojan","server":"141.101.122.171","port":443,"alterId":0,"password":"NISHIKUITAN111","skip-cert-verify":true,"udp":true}
+  - {"name":"未知137","type":"trojan","server":"27.50.49.37","port":2053,"alterId":0,"password":"Aimer","sni":"ngepx.ambercc.filegear-sg.me","skip-cert-verify":true,"udp":true}
+  - {"name":"未知138","type":"ss","server":"46.202.130.110","port":49693,"cipher":"aes-256-gcm","alterId":0,"tls":true,"password":"auPD89z7JneRsFA228YwFMrhGKAmG30Atq6HbZY4Ka8=","skip-cert-verify":true}
+  - {"name":"未知139","type":"trojan","server":"104.17.147.22","port":443,"alterId":0,"password":"4732adfa16c6450bbef87264e41332db","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/"}}
