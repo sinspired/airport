@@ -1,16 +1,13 @@
 proxies:
-  - {"cipher":"chacha20-ietf-poly1305","name":"0|🇺🇸1 |  1.2MB/s","password":"f175d66f-7cf5-47aa-83be-a8e969cdbe2d","port":40000,"server":"rk1.boost1.top","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇺🇸3 |  5.6MB/s","password":"amazonskr05","port":443,"server":"44.243.30.0","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇺🇸6 |  7.5MB/s","password":"amazonskr05","port":443,"server":"34.219.5.41","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"0|🌀1- |  5.6MB/s","password":"4408d568-c998-462e-aa9e-b90ed80c7a43","port":15888,"server":"vip.baima360.com","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"chacha20-ietf-poly1305","name":"0|🌀2- |  1.8MB/s","password":"4408d568-c998-462e-aa9e-b90ed80c7a43","port":55997,"server":"vip.baima360.com","type":"ss","client-fingerprint":"chrome"}
-  - {"name":"0|🇹🇼2 |  5.4MB/s","password":"8b164756-ebc6-3906-bec0-52b5583ccb24","port":21247,"server":"gy.58n.net","skip-cert-verify":true,"sni":"x91.flybar.work","type":"trojan","udp":true,"client-fingerprint":"chrome"}
-  - {"cipher":"aes-128-gcm","name":"0|🇺🇸8 |  20.9MB/s","password":"e2c62a73-3132-48a6-a020-25c3ae0d8af2","port":23733,"server":"cu1.guguyun.xyz","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇸🇬1 |  1.7MB/s","password":"amazonskr05","port":443,"server":"13.212.113.186","type":"ss","client-fingerprint":"chrome"}
-  - {"name":"0|🇺🇸9 |  1.4MB/s","password":"8b164756-ebc6-3906-bec0-52b5583ccb24","port":20296,"server":"gy.58n.net","skip-cert-verify":true,"sni":"z296.hongkongnode.top","type":"trojan","udp":true,"client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇸🇬2 |  6.0MB/s","password":"amazonskr05","port":443,"server":"18.136.211.144","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇰🇷1 |  5.8MB/s","password":"amazonskr05","port":443,"server":"52.79.249.199","type":"ss","client-fingerprint":"chrome"}
-  - {"cipher":"aes-256-cfb","name":"0|🇨🇦1 |  6.0MB/s","password":"amazonskr05","port":443,"server":"47.129.207.193","type":"ss","client-fingerprint":"chrome"}
+  - {"cipher":"aes-256-cfb","name":"0|🇸🇬1 |  5.2MB/s","password":"amazonskr05","port":443,"server":"3.1.103.118","type":"ss","client-fingerprint":"chrome"}
+  - {"cipher":"aes-256-cfb","name":"0|🇯🇵1 |  5.1MB/s","password":"amazonskr05","port":443,"server":"43.203.206.63","type":"ss","client-fingerprint":"chrome"}
+  - {"name":"0|🇯🇵3 |  6.2MB/s","password":"85d6e3a8-a3c2-33d3-836f-494a7e77f08d","port":20142,"server":"gy.58n.net","skip-cert-verify":false,"sni":"z142.hongkongnode.top","type":"trojan","client-fingerprint":"chrome"}
+  - {"cipher":"aes-256-cfb","name":"0|🇯🇵4 |  3.8MB/s","password":"amazonskr05","port":443,"server":"54.248.40.18","type":"ss","client-fingerprint":"chrome"}
+  - {"cipher":"aes-256-cfb","name":"0|🇺🇸2 |  2.9MB/s","password":"amazonskr05","port":443,"server":"18.236.161.128","type":"ss","client-fingerprint":"chrome"}
+  - {"alterId":0,"cipher":"auto","name":"0|🇺🇸3 |  1.1MB/s","port":50003,"server":"50003.baidu-cdn.top","tls":false,"type":"vmess","uuid":"722ee660-ca57-467f-9eda-5739859212f9","client-fingerprint":"chrome"}
+  - {"cipher":"aes-256-cfb","name":"0|🇺🇸4 |  4.3MB/s","password":"amazonskr05","port":443,"server":"34.211.228.158","type":"ss","client-fingerprint":"chrome"}
+  - {"cipher":"aes-256-cfb","name":"0|🇸🇬2 |  4.5MB/s","password":"amazonskr05","port":443,"server":"13.250.112.201","type":"ss","client-fingerprint":"chrome"}
+  - {"cipher":"aes-256-cfb","name":"0|🇯🇵6 |  4.9MB/s","password":"amazonskr05","port":443,"server":"54.249.170.37","type":"ss","client-fingerprint":"chrome"}
   - {"cipher":"aes-128-gcm","name":"13|🇭🇰 香港|@ripaojiedian","password":"b2e5c36c-257c-4a11-ae20-4fb99d44606a","port":12001,"server":"mdss-hk.04z3susick.download","tfo":false,"type":"ss","client-fingerprint":"chrome"}
   - {"alterId":0,"cipher":"auto","name":"13|🇭🇰 香港2|@ripaojiedian","port":49838,"server":"38.147.189.115","skip-cert-verify":false,"tfo":false,"tls":false,"type":"vmess","uuid":"e413fd92-afde-423a-8ba2-b337bf5d7ca2","client-fingerprint":"chrome"}
   - {"cipher":"aes-256-cfb","name":"13|🇭🇰 香港3|@ripaojiedian","password":"hGkQ6915tD","port":16088,"server":"120.232.81.50","tfo":false,"type":"ss","client-fingerprint":"chrome"}
