@@ -1,19 +1,20 @@
 proxies:
   - {"name":"高性价比机场:https://kfyun.uk","type":"ss","server":"127.0.0.1","port":443,"cipher":"aes-128-gcm","password":"6601fb90e9b3"}
-  - {"skip-cert-verify":true,"sni":"z141.hongkongnode.top","type":"trojan","password":"8b164756-ebc6-3906-bec0-52b5583ccb24","server":"gy.58n.net","port":20141,"name":"0|🇯🇵1 |  5.6MB/s"}
-  - {"skip-cert-verify":true,"sni":"z267.hongkongnode.top","type":"trojan","password":"8b164756-ebc6-3906-bec0-52b5583ccb24","server":"gy.58n.net","port":25238,"name":"0|🇬🇧1 |  5.0MB/s"}
-  - {"name":"0|🇺🇸6 |  5.5MB/s","type":"vmess","server":"15.mamamajd.site","port":23615,"cipher":"auto","uuid":"8d56be76-e365-3745-bd39-db12dee2ba5e","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"15.mamamajd.site"}}}
-  - {"name":"0|🇺🇸7 |  1.0MB/s","type":"ss","server":"44.243.30.0","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"skip-cert-verify":true,"sni":"0PCrvpNAve6BS2xK.apple.com","type":"trojan","password":"50463abf-32e2-47c9-a205-b7894c40e2af","server":"tj-hk-2.aikunapp.com","port":6001,"name":"0|🇨🇦1 |  1.7MB/s"}
-  - {"skip-cert-verify":true,"sni":"x114.flybar.work","type":"trojan","password":"8b164756-ebc6-3906-bec0-52b5583ccb24","server":"gy.58n.net","port":41767,"name":"0|🇯🇵2 |  2.5MB/s"}
-  - {"name":"0|🇸🇬1 |  5.7MB/s","type":"ss","server":"13.229.199.138","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|🇸🇬2 |  4.7MB/s","type":"ss","server":"13.212.113.186","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|🇸🇬3 |  5.9MB/s","type":"ss","server":"13.229.229.102","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|🇸🇬4 |  9.3MB/s","type":"ss","server":"18.136.211.144","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"0|🌏1 |  2.8MB/s","type":"ss","server":"103.149.183.61","port":8388,"cipher":"chacha20-ietf","password":"asd123456"}
-  - {"skip-cert-verify":true,"sni":"x299.flybar.work","type":"trojan","password":"8b164756-ebc6-3906-bec0-52b5583ccb24","server":"gy.58n.net","port":20299,"name":"0|🇸🇬5 |  1.4MB/s"}
-  - {"name":"0|🌀2- |  10.5MB/s","type":"ss","server":"146.103.40.29","port":4017,"cipher":"chacha20-ietf-poly1305","password":"U4nFT9mjZMq5RcpTzrOukA"}
-  - {"name":"0|🌀3- |  1.6MB/s","type":"vmess","server":"50031.baidu-cdn.top","port":50031,"cipher":"auto","uuid":"722ee660-ca57-467f-9eda-5739859212f9","alterId":0,"tls":false}
+  - {"name":"0|🇸🇬1 |  10.0MB/s","type":"ss","server":"18.141.24.255","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|🇺🇸1 |  1.1MB/s","type":"ss","server":"52.195.0.55","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"0|🇸🇬2 |  6.1MB/s","type":"ss","server":"13.229.128.74","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"skip-cert-verify":true,"sni":"robust-insect.insect388.motorcycles","type":"trojan","password":"3774827088566296576","server":"robust-insect.insect388.motorcycles","port":443,"name":"0|🇺🇸2 |  5.9MB/s"}
+  - {"type":"vless","name":"0|🇺🇸3 |  5.2MB/s","server":"lucky.cepu.us.kg","port":443,"uuid":"cd45501e-52ec-4584-affe-f12f9a5a3aeb","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"lucky.cepu.us.kg"},"path":"/198.13.42.58-32954fp"},"servername":"lucky.cepu.us.kg"}
+  - {"skip-cert-verify":true,"sni":"amused-buzzard.insect388.motorcycles","type":"trojan","password":"3774827088566296576","server":"amused-buzzard.insect388.motorcycles","port":443,"name":"0|🇺🇸4 |  2.5MB/s"}
+  - {"name":"0|🇺🇸5 |  1.3MB/s","type":"ss","server":"rk1.boost1.top","port":40000,"cipher":"chacha20-ietf-poly1305","password":"f175d66f-7cf5-47aa-83be-a8e969cdbe2d"}
+  - {"name":"0|🇰🇷1 |  9.7MB/s","type":"ss","server":"3.34.123.239","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"skip-cert-verify":true,"sni":"real-meerkat.insect388.motorcycles","type":"trojan","password":"3774827088566296576","server":"real-meerkat.insect388.motorcycles","port":443,"name":"0|🇰🇷2 |  5.3MB/s"}
+  - {"skip-cert-verify":true,"sni":"flying-tuna.treefrog761.one","type":"trojan","password":"3774827088566296576","server":"flying-tuna.treefrog761.one","port":443,"name":"0|🇸🇬3 |  5.9MB/s"}
+  - {"skip-cert-verify":true,"sni":"probable-drum.treefrog761.one","type":"trojan","password":"3774827088566296576","server":"probable-drum.treefrog761.one","port":443,"name":"0|🇸🇬4 |  10.7MB/s"}
+  - {"skip-cert-verify":true,"sni":"better-caribou.insect388.motorcycles","type":"trojan","password":"3774827088566296576","server":"better-caribou.insect388.motorcycles","port":443,"name":"0|🇺🇸7 |  5.4MB/s"}
+  - {"name":"0|🇷🇺2 |  5.0MB/s","type":"ss","server":"south.sf0jm.xyz","port":49227,"cipher":"aes-128-gcm","password":"5911d36c-530a-40d6-b31c-505f238ca313"}
+  - {"skip-cert-verify":true,"sni":"natural-aphid.insect388.motorcycles","type":"trojan","password":"3774827088566296576","server":"natural-aphid.insect388.motorcycles","port":443,"name":"0|🇺🇸8 |  5.7MB/s"}
+  - {"name":"0|🌀1- |  5.7MB/s","type":"vmess","server":"50032.baidu-cdn.top","port":50032,"cipher":"auto","uuid":"b222084f-7993-4518-a940-b1fdac146995","alterId":0,"tls":false}
   - {"name":"13|🇭🇰 香港|@ripaojiedian","type":"ss","server":"mdss-hk.04z3susick.download","port":12001,"cipher":"aes-128-gcm","password":"b2e5c36c-257c-4a11-ae20-4fb99d44606a"}
   - {"name":"13|🇭🇰 香港2|@ripaojiedian","type":"vmess","server":"38.147.189.115","port":49838,"cipher":"auto","uuid":"e413fd92-afde-423a-8ba2-b337bf5d7ca2","alterId":0,"tls":false}
   - {"name":"13|🇭🇰 香港3|@ripaojiedian","type":"ss","server":"120.232.81.50","port":16088,"cipher":"aes-256-cfb","password":"hGkQ6915tD"}
