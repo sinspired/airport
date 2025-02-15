@@ -1,4 +1,3 @@
 proxies:
-  - {"alterId":0,"cipher":"auto","name":"庆祝亚冬会胜利召开","network":"tcp","port":443,"server":"web.51.la","tls":true,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","client-fingerprint":"chrome","servername":"web.51.la"}
   - {"alterId":0,"cipher":"auto","name":"敏感时期，更新暂停","network":"tcp","port":443,"server":"web.51.la","tls":true,"type":"vmess","uuid":"c6e84072-2e69-4928-90af-436b3fcd0663","client-fingerprint":"chrome","servername":"web.51.la"}
   - {"alterId":0,"cipher":"auto","name":"如有需要，自行搭建","network":"tcp","port":443,"server":"web.51.la","tls":true,"type":"vmess","uuid":"e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b","client-fingerprint":"chrome","servername":"web.51.la"}

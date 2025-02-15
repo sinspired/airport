@@ -16,7 +16,6 @@ proxies:
   - {"name":"美国(yudou66.com 玉豆免费节点) 8","server":"sunny-jackal.insect388.motorcycles","port":443,"type":"trojan","password":"3747000103274291200","sni":"sunny-jackal.insect388.motorcycles","skip-cert-verify":true,"udp":true}
   - {"name":"韩国(yudou66.com 玉豆免费节点) 3","server":"125.132.46.2","port":10022,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"韩国(yudou66.com 玉豆免费节点) 4","server":"14.37.56.164","port":50000,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 9","server":"104.18.149.75","port":443,"type":"vmess","uuid":"506b46ce-568f-47a7-f0dd-0864fb7f8040","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/aa","headers":{"Host":"sg.insbot.filegear-sg.me"}},"servername":"sg.insbot.filegear-sg.me"}
   - {"name":"美国(yudou66.com 玉豆免费节点) 10","server":"adjusted-mongoose.adder289.quest","port":443,"type":"trojan","password":"3747000103274291200","sni":"adjusted-mongoose.adder289.quest","skip-cert-verify":true,"udp":true}
   - {"name":"英国(yudou66.com 玉豆免费节点) 2","server":"18.132.30.207","port":443,"type":"trojan","password":"3747000103274291200","skip-cert-verify":true,"udp":true}
   - {"name":"韩国(yudou66.com 玉豆免费节点) 5","server":"118.45.241.209","port":50000,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}

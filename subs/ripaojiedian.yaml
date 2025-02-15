@@ -1,13 +1,11 @@
 proxies:
   - {"name":"tg频道:@ripaojiedian","type":"http","server":"krecs.ftq.ink","port":4002,"tls":true,"sni":"krecs.ftq.ink"}
-  - {"name":"🇭🇰 香港|@ripaojiedian","server":"AZHJ.dmak.cyou","port":21718,"client-fingerprint":"chrome","type":"vmess","uuid":"cd21873e-332d-3b13-98a7-f26996cfdfd9","alterId":0,"cipher":"auto","tls":false,"tfo":false,"skip-cert-verify":false}
   - {"name":"🇭🇰 香港2|@ripaojiedian","server":"156.245.190.13","port":15004,"client-fingerprint":"chrome","type":"ss","cipher":"aes-256-gcm","password":"PT2N60DCUH6VCQPC","tfo":false}
   - {"name":"🇭🇰 香港3|@ripaojiedian","server":"156.245.190.18","port":15009,"client-fingerprint":"chrome","type":"ss","cipher":"aes-256-gcm","password":"AN3FTAV65XV9BQKG","tfo":false}
   - {"name":"🇭🇰 香港4|@ripaojiedian","server":"104.251.227.182","port":443,"client-fingerprint":"chrome","type":"trojan","password":"43e5eeacbad3032bfe4c25a2f011b6b7","sni":"hezijiasuqi.com","skip-cert-verify":true}
   - {"name":"🇭🇰 香港5|@ripaojiedian","server":"156.245.190.15","port":15006,"client-fingerprint":"chrome","type":"ss","cipher":"aes-256-gcm","password":"RAMLXXTO5NSM786O","tfo":false}
   - {"name":"🇯🇵 日本|@ripaojiedian","server":"20.78.127.141","port":550,"client-fingerprint":"chrome","type":"vmess","uuid":"9e11e992-c3a4-45fb-bb67-5f4f42fcd551","alterId":0,"cipher":"auto","tls":false,"tfo":false,"skip-cert-verify":false}
   - {"name":"🇯🇵 日本2|@ripaojiedian","server":"concise-quail.adder289.quest","port":443,"client-fingerprint":"chrome","type":"trojan","password":"3778399737045327872","sni":"concise-quail.adder289.quest","skip-cert-verify":false}
-  - {"name":"🇯🇵 日本3|@ripaojiedian","server":"AZHJ001.dmak.cyou","port":20808,"client-fingerprint":"chrome","type":"vmess","uuid":"cd21873e-332d-3b13-98a7-f26996cfdfd9","alterId":0,"cipher":"auto","tls":false,"tfo":false,"skip-cert-verify":false}
   - {"name":"🇰🇷 韩国|@ripaojiedian","server":"coherent-drum.adder289.quest","port":443,"client-fingerprint":"chrome","type":"trojan","password":"3778399737045327872","sni":"coherent-drum.adder289.quest","skip-cert-verify":false}
   - {"name":"🇰🇷 韩国2|@ripaojiedian","server":"patient-trout.adder289.quest","port":443,"client-fingerprint":"chrome","type":"trojan","password":"3778399737045327872","sni":"patient-trout.adder289.quest","skip-cert-verify":false}
   - {"name":"🇰🇷 韩国3|@ripaojiedian","server":"218.38.103.150","port":28902,"client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false}
