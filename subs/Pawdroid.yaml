@@ -1,16 +1,12 @@
 proxies:
-  - {"name":"乌克兰+V2CROSS.COM-1","type":"ss","server":"95.164.34.7","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ZTFkZ"}
-  - {"name":"乌克兰+V2CROSS.COM-2","type":"ss","server":"185.234.64.35","port":8388,"cipher":"chacha20-ietf-poly1305","password":"YTNjNDY5"}
-  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"202.78.162.5","port":443,"cipher":"auto","uuid":"2ff97c6d-8557-42a4-b43f-19c77c5959ea","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"irsoft.sytes.net"}},"servername":"irsoft.sytes.net"}
-  - {"sni":"integral-malamute.adder289.quest","type":"trojan","password":"3747000103274291200","server":"integral-malamute.adder289.quest","port":443,"name":"匈牙利+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"cf.0sm.com","port":80,"cipher":"auto","uuid":"b9a3206d-278c-4614-b352-eef632d1c8d5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/rongseven?ed=2048","headers":{"Host":"us.cfyyds.filegear-sg.me"}}}
+  - {"name":"北美地区+V2CROSS.COM-1","type":"ss","server":"23.185.248.11","port":17001,"cipher":"aes-256-gcm","password":"Z7ZSQR3OI9JVRA6N"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"172.67.136.233","port":443,"cipher":"auto","uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/link","headers":{"Host":"az05.beyondy.cfd"}},"servername":"az05.beyondy.cfd"}
+  - {"name":"乌克兰+V2CROSS.COM","type":"ss","server":"193.108.119.63","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"sni":"hezijiasuqi.com","type":"trojan","password":"43e5eeacbad3032bfe4c25a2f011b6b7","server":"104.251.227.182","port":443,"name":"香港+Clayer+Limited数据中心"}
+  - {"name":"印度 V2CROSS.COM-1","type":"vmess","server":"202.78.162.5","port":443,"cipher":"auto","uuid":"716eded6-2201-4dbd-9d63-1638c9e8e677","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"pendar.onthewifi.com"}},"servername":"pendar.onthewifi.com"}
+  - {"name":"印度 V2CROSS.COM-2","type":"vmess","server":"202.78.162.5","port":443,"cipher":"auto","uuid":"2ff97c6d-8557-42a4-b43f-19c77c5959ea","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"irsoft.sytes.net"}},"servername":"irsoft.sytes.net"}
   - {"name":"广东省广州市 移动","type":"vmess","server":"120.232.153.123","port":45402,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
-  - {"sni":"destined-cub.treefrog761.one","type":"trojan","password":"3774827088566296576","server":"destined-cub.treefrog761.one","port":443,"name":"意大利+V2CROSS.COM-1"}
-  - {"name":"斯洛文尼亚 V2CROSS.COM","type":"vmess","server":"92.53.188.185","port":8443,"cipher":"auto","uuid":"191babc5-2aaf-4fe5-a563-f14244aefb4e","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/xrenvws","headers":{"Host":"lax1.ibgfw.top"}},"servername":"lax1.ibgfw.top"}
-  - {"name":"日本 东京都Amazon数据中心","type":"vmess","server":"tls.02.node-for-bigairport.win","port":443,"cipher":"auto","uuid":"3519dfc0-fa27-41cc-8c19-981818f9f6d5","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{}},"servername":"tls.02.node-for-bigairport.win"}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"45.144.48.128","port":8443,"cipher":"auto","uuid":"a4850481-9b95-430f-9b2d-192d2410b4f4","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{}}}
-  - {"name":"北美地区+V2CROSS.COM","type":"ss","server":"23.185.248.14","port":17004,"cipher":"aes-256-gcm","password":"IC4APDY4ATHX890I"}
-  - {"name":"阿根廷+V2CROSS.COM","type":"ss","server":"181.119.30.20","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"35.158.247.63","port":22222,"name":"德国+黑森州法兰克福Amazon数据中心"}
-  - {"type":"trojan","password":"ypDt8RkT7J","server":"89.187.181.172","port":43118,"name":"美国+伊利诺伊州芝加哥CDN77节点:443"}
-  - {"type":"trojan","password":"5a81db08-7af3-49a4-b089-b7a5b2c24c38","server":"us003.421421.xyz","port":20230,"name":"美国+俄勒冈州波特兰Amazon数据中心:443","sni":"us003.421421.xyz"}
-  - {"sni":"destined-cub.treefrog761.one","type":"trojan","password":"3774827088566296576","server":"95.110.142.205","port":443,"name":"意大利+V2CROSS.COM-2"}
+  - {"name":"法国+V2CROSS.COM","type":"ss","server":"146.19.106.5","port":8388,"cipher":"chacha20-ietf-poly1305","password":"MzZjN"}
+  - {"name":"北美地区+V2CROSS.COM-2","type":"ss","server":"23.185.248.15","port":17005,"cipher":"aes-256-gcm","password":"X1GBLWQ3U4ULO6XV"}
+  - {"name":"美国 CloudFlare节点-3","type":"vmess","server":"zmkkyc.whmvmkwuey.store","port":443,"cipher":"auto","uuid":"ba3c4c6b-b22c-471b-ae14-4de9e81cdc34","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"zmkkyc.whmvmkwuey.store"}},"servername":"zmkkyc.whmvmkwuey.store"}
