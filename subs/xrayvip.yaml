@@ -1,10 +1,14 @@
 proxies:
   - {"name":"节点日期：02-14","server":"192.71.249.146","port":990,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"中国【付费推荐：https://socks.news】2","server":"AZHJ001.dmak.cyou","port":20776,"type":"vmess","uuid":"cd21873e-332d-3b13-98a7-f26996cfdfd9","alterId":0,"cipher":"auto","tls":false}
+  - {"name":"中国【付费推荐：https://socks.news】3","server":"AZHJ.dmak.cyou","port":20800,"type":"vmess","uuid":"cd21873e-332d-3b13-98a7-f26996cfdfd9","alterId":0,"cipher":"auto","tls":false}
+  - {"name":"中国【付费推荐：https://socks.news】4","server":"AZHJ001.dmak.cyou","port":20965,"type":"vmess","uuid":"cd21873e-332d-3b13-98a7-f26996cfdfd9","alterId":0,"cipher":"auto","tls":false}
   - {"name":"美国【付费推荐：https://socks.news】5","server":"38.114.123.245","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
   - {"name":"中国【付费推荐：https://socks.news】6","server":"45.250.184.183","port":6181,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"11a805f2-41a7-4cd8-8406-0470c3cde0d3"}
   - {"name":"波兰【付费推荐：https://socks.news】7","server":"91.149.239.70","port":443,"type":"trojan","password":"Aimer","sni":"agepq.ambercc.filegear-sg.me","network":"ws","ws-opts":{"path":"/","headers":{"Host":"agepq.ambercc.filegear-sg.me"}}}
   - {"name":"加拿大【付费推荐：https://socks.news】8","server":"15.223.8.202","port":22222,"type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
   - {"name":"乌克兰【付费推荐：https://socks.news】9","server":"85.90.194.160","port":443,"type":"trojan","password":"3747000103274291200","sni":"awaited-chicken.adder289.quest"}
+  - {"name":"中国【付费推荐：https://socks.news】10","server":"AZHJ.dmak.cyou","port":20803,"type":"vmess","uuid":"cd21873e-332d-3b13-98a7-f26996cfdfd9","alterId":0,"cipher":"auto","tls":false}
   - {"name":"乌克兰【付费推荐：https://socks.news】11","server":"185.234.64.35","port":8388,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"YTNjNDY5"}
   - {"name":"保加利亚【付费推荐：https://socks.news】12","server":"149.34.244.72","port":443,"type":"ss","cipher":"aes-128-gcm","password":"shadowsocks"}
   - {"name":"南非【付费推荐：https://socks.news】13","server":"129.232.134.112","port":990,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
