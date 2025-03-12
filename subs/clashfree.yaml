@@ -41,6 +41,20 @@ proxies:
   - {"name":"🇺🇸_US_美国_12-01","type":"ss","server":"35.160.134.223","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"name":"🇺🇸_US_美国->🇸🇬_SG_新加坡_1","type":"ss","server":"52.32.166.45","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"name":"🇩🇪_DE_德国->🇺🇸_US_美国","type":"trojan","server":"35.159.100.34","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns","skip-cert-verify":false}
+  - {"name":"🇺🇸_US_美国-02","type":"ss","server":"35.86.89.247","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国_1-02","type":"ss","server":"18.236.83.127","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国_4-01","type":"trojan","server":"192.3.130.103","port":443,"udp":true,"sni":"us10-02zl.huangshang.filegear-sg.me","password":"576c81b6-4976-4fe3-b1a9-05a9c302e98e","network":"grpc","alpn":["h2"],"client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"i8oL7PsxV002zYFTmiIeg"}}
+  - {"name":"🇺🇸_US_美国_5-03","type":"ss","server":"52.24.145.185","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇸🇰_SK_斯洛伐克-01","type":"ss","server":"156.146.40.194","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国","type":"ss","server":"34.222.44.5","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国_6-01","type":"ss","server":"34.217.73.31","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国_7-03","type":"ss","server":"77.83.246.74","port":443,"cipher":"chacha20-ietf-poly1305","password":"QiedihFikxn4kCWygMXmFb"}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_1-01","type":"ss","server":"54.186.195.135","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国_8-01","type":"ss","server":"52.13.119.156","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇦_UA_乌克兰-03","type":"ss","server":"95.164.36.59","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ODA2MGZh"}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_2-01","type":"ss","server":"54.200.183.45","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_3-01","type":"ss","server":"35.87.121.216","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇨🇳_CN_中国->🇬🇧_GB_英国-01","type":"trojan","server":"gy.58n.net","port":20295,"sni":"z295.hongkongnode.top","password":"e06739e1-5c25-32de-8fb7-95ce8e8f9576","skip-cert-verify":true}
   - {"name":"US美国(mibei77.com 米贝节点分享)-01","server":"120.198.71.219","port":42055,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
   - {"name":"HK香港(mibei77.com 米贝节点分享)-01","server":"120.198.71.214","port":35565,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
   - {"name":"乌克兰(mibei77.com 米贝节点分享)","server":"95.164.36.59","port":8388,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ODA2MGZh","udp":true}
@@ -168,12 +182,12 @@ proxies:
   - {"name":"🇺🇸_US_美国_2-02","type":"ss","server":"38.114.114.77","port":5500,"tls":false,"password":"KixLvKzwjekG00rm","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇨🇦_CA_加拿大_1-02","type":"ss","server":"23.154.136.132","port":5000,"tls":false,"password":"Y6R9pAtvxxzmGC","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇸🇪_SE_瑞典-02","type":"vmess","server":"www.aetv.com","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","tls":false,"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto","ws-opts":{"headers":{"Host":"www.aetv.com"},"path":"/"}}
-  - {"name":"🇺🇸_US_美国_6-01","type":"ss","server":"18.236.83.127","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_8-01","type":"ss","server":"18.236.156.97","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_6-02","type":"ss","server":"18.236.83.127","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_8-02","type":"ss","server":"18.236.156.97","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇨🇳_CN_中国-03","type":"trojan","server":"3.78.108.122","port":22222,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"skip-cert-verify":false,"ip-version":"dual","udp":true}
   - {"name":"🇨🇦_CA_加拿大_2-02","type":"ss","server":"23.154.136.132","port":5601,"tls":false,"password":"Y6R9pAtvxxzmGC","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇺🇸_US_美国_10-02","type":"ss","server":"35.91.198.93","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇦_UA_乌克兰-03","type":"ss","server":"95.164.36.59","port":8388,"tls":false,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇦_UA_乌克兰-04","type":"ss","server":"95.164.36.59","port":8388,"tls":false,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_美国_12-02","type":"ss","server":"34.217.73.31","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国-02","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","tls":false,"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto","ws-opts":{"path":"/"}}
   - {"name":"🇺🇸_US_美国_14","type":"ss","server":"35.86.89.247","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
@@ -185,74 +199,74 @@ proxies:
   - {"name":"重度用户推荐使用机场-02","type":"ss","server":"127.0.0.1","port":443,"tls":false,"password":"6601fb90e9b3","ip-version":"dual","cipher":"aes-128-gcm"}
   - {"name":"免费节点可能会泄漏访问记录-02","type":"ss","server":"127.0.0.1","port":443,"tls":false,"password":"6601fb90e9b3","ip-version":"dual","cipher":"aes-128-gcm"}
   - {"name":"🇯🇵_JP_日本","type":"ss","server":"us2.ssocks.wiki","port":8388,"tls":false,"password":"ZGY1N","ip-version":"dual","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇦_UA_乌克兰-04","type":"ss","server":"at1.opensocks.site","port":8388,"tls":false,"password":"ODA2MGZh","ip-version":"dual","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇦_UA_乌克兰-05","type":"ss","server":"at1.opensocks.site","port":8388,"tls":false,"password":"ODA2MGZh","ip-version":"dual","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国-02","type":"vmess","server":"frtf.cokecloud.top","port":15468,"uuid":"baa572cf-3d43-41f3-8b3a-d3edb6797cd2","network":"tcp","tls":false,"ip-version":"dual","cipher":"auto"}
   - {"name":"🇬🇧_GB_英国-02","type":"trojan","server":"51.24.14.210","port":22222,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"skip-cert-verify":false,"ip-version":"dual"}
   - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯-01","type":"ss","server":"35.91.216.191","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇰_SK_斯洛伐克-01","type":"ss","server":"156.146.40.194","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇰_SK_斯洛伐克-02","type":"ss","server":"156.146.40.194","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","cipher":"aes-256-cfb"}
   - {"name":"6元高速机场：cczzuu.top-03","type":"ss","server":"127.0.0.1","port":443,"tls":false,"password":"6601fb90e9b3","ip-version":"dual","udp":true,"cipher":"aes-128-gcm"}
   - {"name":"重度用户推荐使用机场-03","type":"ss","server":"127.0.0.1","port":443,"tls":false,"password":"6601fb90e9b3","ip-version":"dual","udp":true,"cipher":"aes-128-gcm"}
   - {"name":"免费节点可能会泄漏访问记录-03","type":"ss","server":"127.0.0.1","port":443,"tls":false,"password":"6601fb90e9b3","ip-version":"dual","udp":true,"cipher":"aes-128-gcm"}
-  - {"name":"🇺🇸_US_美国_1-02","type":"ss","server":"35.86.89.247","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1-03","type":"ss","server":"35.86.89.247","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国_2-03","type":"ss","server":"18.236.83.127","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_5-03","type":"trojan","server":"192.3.130.103","port":443,"network":"grpc","password":"576c81b6-4976-4fe3-b1a9-05a9c302e98e","sni":"us10-02zl.huangshang.filegear-sg.me","alpn":["h2"],"skip-cert-verify":false,"client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"i8oL7PsxV002zYFTmiIeg"},"ip-version":"dual","udp":true}
-  - {"name":"🇺🇸_US_美国_6-02","type":"ss","server":"52.24.145.185","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇸🇰_SK_斯洛伐克-02","type":"ss","server":"156.146.40.194","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_1-01","type":"ss","server":"34.222.44.5","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_7-03","type":"ss","server":"34.217.73.31","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_8-02","type":"ss","server":"77.83.246.74","port":443,"tls":false,"password":"QiedihFikxn4kCWygMXmFb","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_2-01","type":"ss","server":"54.186.195.135","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_5-04","type":"trojan","server":"192.3.130.103","port":443,"network":"grpc","password":"576c81b6-4976-4fe3-b1a9-05a9c302e98e","sni":"us10-02zl.huangshang.filegear-sg.me","alpn":["h2"],"skip-cert-verify":false,"client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"i8oL7PsxV002zYFTmiIeg"},"ip-version":"dual","udp":true}
+  - {"name":"🇺🇸_US_美国_6-03","type":"ss","server":"52.24.145.185","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇸🇰_SK_斯洛伐克-03","type":"ss","server":"156.146.40.194","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_1-02","type":"ss","server":"34.222.44.5","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_7-04","type":"ss","server":"34.217.73.31","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_8-03","type":"ss","server":"77.83.246.74","port":443,"tls":false,"password":"QiedihFikxn4kCWygMXmFb","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_2-02","type":"ss","server":"54.186.195.135","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国_9-03","type":"ss","server":"52.13.119.156","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇦_UA_乌克兰-05","type":"ss","server":"95.164.36.59","port":8388,"tls":false,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_3-01","type":"ss","server":"54.200.183.45","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇦_UA_乌克兰-06","type":"ss","server":"95.164.36.59","port":8388,"tls":false,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_3-02","type":"ss","server":"54.200.183.45","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_4","type":"ss","server":"35.87.121.216","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇨🇳_CN_中国->🇬🇧_GB_英国","type":"trojan","server":"gy.58n.net","port":20295,"password":"e06739e1-5c25-32de-8fb7-95ce8e8f9576","sni":"z295.hongkongnode.top","skip-cert-verify":true,"ip-version":"dual","udp":true}
+  - {"name":"🇨🇳_CN_中国->🇬🇧_GB_英国-02","type":"trojan","server":"gy.58n.net","port":20295,"password":"e06739e1-5c25-32de-8fb7-95ce8e8f9576","sni":"z295.hongkongnode.top","skip-cert-verify":true,"ip-version":"dual","udp":true}
   - {"name":"🇺🇸_US_美国->🇧🇪_BE_比利时-01","type":"ss","server":"54.244.204.173","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇨🇦_CA_加拿大_1-03","type":"ss","server":"23.154.136.132","port":5601,"password":"Y6R9pAtvxxzmGC","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_US_美国_1-03","type":"ss","server":"18.236.83.127","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1-04","type":"ss","server":"18.236.83.127","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国_2-04","type":"ss","server":"35.91.198.93","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇦_UA_乌克兰-06","type":"ss","server":"95.164.36.59","port":8388,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇦_UA_乌克兰-07","type":"ss","server":"95.164.36.59","port":8388,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_美国_3-02","type":"ss","server":"38.114.114.77","port":5500,"password":"KixLvKzwjekG00rm","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇨🇭_CH_瑞士->🇺🇸_US_美国-03","type":"vmess","server":"141.148.158.99","port":42634,"uuid":"3c5350be-a97a-4ee6-9c50-7155f88aba01","network":"ws","ws-opts":{"path":"/https://t.me/fqzw9"},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇨🇦_CA_加拿大_2-03","type":"ss","server":"23.154.136.132","port":5004,"password":"g5MeD6Ft3CWlJId","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇸🇬_SG_新加坡->🇨🇳_CN_中国-01","type":"ss","server":"54.169.244.122","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_4-01","type":"ss","server":"35.86.89.247","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_4-02","type":"ss","server":"35.86.89.247","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇸🇬_SG_新加坡-02","type":"ss","server":"35.91.235.173","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇸🇪_SE_瑞典-03","type":"vmess","server":"www.aetv.com","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇨🇦_CA_加拿大_3-02","type":"ss","server":"23.154.136.132","port":5000,"password":"Y6R9pAtvxxzmGC","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_US_美国_5-04","type":"ss","server":"52.13.119.156","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_5-05","type":"ss","server":"52.13.119.156","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国-03","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇺🇸_US_美国->🇨🇳_CN_中国-04","type":"trojan","server":"13.49.45.134","port":22222,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","ip-version":"dual","udp":true}
   - {"name":"🇺🇸_US_美国->🇧🇪_BE_比利时-02","type":"ss","server":"54.244.204.173","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇨🇦_CA_加拿大_1-04","type":"ss","server":"23.154.136.132","port":5601,"password":"Y6R9pAtvxxzmGC","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_US_美国_1-04","type":"ss","server":"18.236.83.127","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1-05","type":"ss","server":"18.236.83.127","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国_2-05","type":"ss","server":"35.91.198.93","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇦_UA_乌克兰-07","type":"ss","server":"95.164.36.59","port":8388,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇦_UA_乌克兰-08","type":"ss","server":"95.164.36.59","port":8388,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_美国_3-03","type":"ss","server":"38.114.114.77","port":5500,"password":"KixLvKzwjekG00rm","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇨🇭_CH_瑞士->🇺🇸_US_美国-04","type":"vmess","server":"141.148.158.99","port":42634,"uuid":"3c5350be-a97a-4ee6-9c50-7155f88aba01","network":"ws","ws-opts":{"path":"/https://t.me/fqzw9"},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇨🇦_CA_加拿大_2-04","type":"ss","server":"23.154.136.132","port":5004,"password":"g5MeD6Ft3CWlJId","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇸🇬_SG_新加坡->🇨🇳_CN_中国-02","type":"ss","server":"54.169.244.122","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_4-02","type":"ss","server":"35.86.89.247","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_4-03","type":"ss","server":"35.86.89.247","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇸🇬_SG_新加坡-03","type":"ss","server":"35.91.235.173","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇸🇪_SE_瑞典-04","type":"vmess","server":"www.aetv.com","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇨🇦_CA_加拿大_3-03","type":"ss","server":"23.154.136.132","port":5000,"password":"Y6R9pAtvxxzmGC","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_US_美国_5-05","type":"ss","server":"52.13.119.156","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_5-06","type":"ss","server":"52.13.119.156","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国-04","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇺🇸_US_美国->🇨🇳_CN_中国-05","type":"trojan","server":"13.49.45.134","port":22222,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","ip-version":"dual","udp":true}
   - {"name":"🇷🇺_RU_俄罗斯_1-02","type":"vmess","server":"185.174.138.199","port":2052,"uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/az05.beyondy.cfd/link?/TM","headers":{"Host":"yellow-paper-029c.yvonna.workers.dev"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
-  - {"name":"🇺🇸_US_美国_1-05","type":"ss","server":"34.217.73.31","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1-06","type":"ss","server":"34.217.73.31","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国_2-06","type":"ss","server":"52.24.145.185","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇫🇷_FR_法国->🇺🇸_US_美国","type":"trojan","server":"15.236.167.194","port":22222,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","ip-version":"dual","udp":true}
   - {"name":"🇺🇸_US_美国_3-04","type":"ss","server":"77.83.246.74","port":443,"password":"QiedihFikxn4kCWygMXmFb","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇦_UA_乌克兰->🇺🇸_US_美国","type":"ss","server":"85.90.194.200","port":8080,"password":"d0fa3a9b-2115-4cc0-a8f5-7f4f7caf6ec1","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_4-03","type":"trojan","server":"192.3.130.103","port":443,"network":"grpc","password":"576c81b6-4976-4fe3-b1a9-05a9c302e98e","sni":"us10-02zl.huangshang.filegear-sg.me","alpn":["h2"],"client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"i8oL7PsxV002zYFTmiIeg"},"ip-version":"dual","udp":true}
+  - {"name":"🇺🇸_US_美国_4-04","type":"trojan","server":"192.3.130.103","port":443,"network":"grpc","password":"576c81b6-4976-4fe3-b1a9-05a9c302e98e","sni":"us10-02zl.huangshang.filegear-sg.me","alpn":["h2"],"client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"i8oL7PsxV002zYFTmiIeg"},"ip-version":"dual","udp":true}
   - {"name":"🇺🇸_US_美国->🇯🇵_JP_日本","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇷🇺_RU_俄罗斯_2-02","type":"vmess","server":"185.174.138.196","port":2082,"uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560","headers":{"Host":"yellow-paper-029c.yvonna.workers.dev"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
-  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_1-02","type":"ss","server":"34.222.44.5","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_2-02","type":"ss","server":"54.200.183.45","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_1-03","type":"ss","server":"34.222.44.5","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_2-03","type":"ss","server":"54.200.183.45","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇷🇺_RU_俄罗斯_3-01","type":"vmess","server":"185.174.138.209","port":2095,"uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560","headers":{"Host":"yellow-paper-029c.yvonna.workers.dev"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
-  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_3-02","type":"ss","server":"54.186.195.135","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_5-06","type":"ss","server":"35.86.89.247","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国_3-03","type":"ss","server":"54.186.195.135","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_5-07","type":"ss","server":"35.86.89.247","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇳🇱_NL_荷兰->🇺🇸_US_美国","type":"vmess","server":"45.142.120.190","port":2082,"uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","network":"ws","skip-cert-verify":true,"ws-opts":{"path":"/az05.beyondy.cfd/link#","headers":{"Host":"yellow-paper-029c.yvonna.workers.dev"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"香港(yudou66.com 玉豆免费节点)-01","server":"183.236.51.38","port":53902,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
   - {"name":"美国(yudou66.com 玉豆免费节点)-01","server":"www.aetv.com","port":80,"type":"vmess","uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}}}
@@ -380,14 +394,14 @@ proxies:
   - {"name":"俄罗斯(yudou66.com 玉豆免费节点) 8","server":"5.182.84.229","port":2087,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"美国(yudou66.com 玉豆免费节点) 36","server":"183.102.71.200","port":50000,"type":"trojan","password":"Aimer","skip-cert-verify":true,"udp":true}
   - {"name":"🇸🇪_SE_瑞典-05","type":"ss","server":"194.14.217.38","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇺🇸_US_美国_1-06","type":"ss","server":"52.34.200.48","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国_1-07","type":"ss","server":"52.34.200.48","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"name":"🇺🇸_US_美国_2-07","type":"ss","server":"38.86.135.223","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
   - {"name":"🇷🇺_RU_俄罗斯-02","type":"ss","server":"217.30.10.18","port":9024,"cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ"}
   - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯-02","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","cipher":"auto","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"alterId":0}
   - {"name":"🇷🇺_RU_俄罗斯_1-03","type":"ss","server":"217.30.10.18","port":9011,"cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
   - {"name":"🇨🇳_CN_中国->🇮🇪_IE_爱尔兰","type":"ss","server":"107.155.57.11","port":8080,"cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
   - {"name":"🇩🇪_DE_德国-02","type":"ss","server":"134.255.210.49","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇺🇦_UA_乌克兰-08","type":"ss","server":"176.103.53.105","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇺🇦_UA_乌克兰-09","type":"ss","server":"176.103.53.105","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇲🇩_MD_摩尔多瓦-02","type":"ss","server":"91.132.94.200","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇷🇺_RU_俄罗斯_2-03","type":"ss","server":"217.30.10.18","port":9094,"cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
   - {"name":"🇮🇳_IN_印度","type":"ss","server":"103.104.247.49","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A"}
@@ -395,17 +409,17 @@ proxies:
   - {"name":"🇩🇪_DE_德国->🇷🇴_RO_罗马尼亚-01","type":"ss","server":"45.87.175.154","port":8080,"cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa"}
   - {"name":"🇺🇸_US_美国_3-05","type":"ss","server":"185.237.185.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇷🇺_RU_俄罗斯_4-01","type":"ss","server":"217.30.10.18","port":9005,"cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
-  - {"name":"🇺🇸_US_美国_7-04","type":"ss","server":"54.244.204.173","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国_7-05","type":"ss","server":"54.244.204.173","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"name":"🇷🇺_RU_俄罗斯_5-01","type":"ss","server":"217.30.10.18","port":9010,"cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
   - {"name":"🇬🇧_GB_英国_1-02","type":"ss","server":"212.102.53.196","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
   - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯_3-01","type":"vmess","server":"172.67.202.155","port":8080,"uuid":"e322b371-9fb0-49b4-dd38-887e92a8a987","cipher":"auto","network":"ws","fingerprint":"","ws-opts":{"path":"/mehdi","headers":{"Host":"Freedomisnear.onetwothree123.ir"}},"alterId":0}
   - {"name":"🇷🇺_RU_俄罗斯_6-01","type":"ss","server":"217.30.10.18","port":9006,"cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
-  - {"name":"🇺🇸_US_美国-02","type":"trojan","server":"13.61.43.128","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns"}
-  - {"name":"🇺🇸_US_美国_1-07","type":"ss","server":"23.166.88.104","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸_US_美国-03","type":"trojan","server":"13.61.43.128","port":22222,"sni":"trojan.burgerip.co.uk","password":"telegram-id-privatevpns"}
+  - {"name":"🇺🇸_US_美国_1-08","type":"ss","server":"23.166.88.104","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
   - {"name":"🇷🇺_RU_俄罗斯-03","type":"ss","server":"213.156.137.67","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国-05","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","cipher":"auto","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"alterId":0}
   - {"name":"🇷🇺_RU_俄罗斯_1-04","type":"ss","server":"185.231.233.173","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇺🇦_UA_乌克兰-09","type":"ss","server":"95.164.36.59","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ODA2MGZh"}
+  - {"name":"🇺🇦_UA_乌克兰-10","type":"ss","server":"95.164.36.59","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ODA2MGZh"}
   - {"name":"🇷🇺_RU_俄罗斯_2-04","type":"ss","server":"217.30.10.18","port":9040,"cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
   - {"name":"🇷🇺_RU_俄罗斯_3-03","type":"ss","server":"217.30.10.18","port":9027,"cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
   - {"name":"🇲🇩_MD_摩尔多瓦-03","type":"ss","server":"91.132.94.200","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
@@ -416,7 +430,7 @@ proxies:
   - {"name":"🇷🇺_RU_俄罗斯_6-02","type":"ss","server":"217.30.10.18","port":9003,"cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
   - {"name":"🇨🇦_CA_加拿大-02","type":"ss","server":"23.154.136.162","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
   - {"name":"🇺🇦_UA_乌克兰_1-01","type":"ss","server":"176.103.53.105","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇺🇸_US_美国_4-04","type":"ss","server":"54.185.211.74","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国_4-05","type":"ss","server":"54.185.211.74","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"name":"🇯🇵_JP_日本->🇺🇸_US_美国-01","type":"vmess","server":"www.aetv.com","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","cipher":"auto","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"alterId":0}
   - {"name":"🇷🇺_RU_俄罗斯_7-01","type":"ss","server":"217.30.10.18","port":9060,"cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ"}
   - {"name":"🇷🇺_RU_俄罗斯_8-01","type":"ss","server":"217.30.10.18","port":9088,"cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
@@ -428,23 +442,23 @@ proxies:
   - {"name":"🇷🇺_RU_俄罗斯_12-01","type":"ss","server":"217.30.10.18","port":9031,"cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
   - {"name":"🇨🇦_CA_加拿大_1-05","type":"ss","server":"23.154.136.162","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
   - {"name":"🇷🇺_RU_俄罗斯_13-01","type":"ss","server":"217.30.10.18","port":9042,"cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
-  - {"name":"🇺🇸_US_美国_5-07","type":"ss","server":"185.237.185.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"🇺🇸_US_美国_5-08","type":"ss","server":"185.237.185.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇮🇹_IT_意大利-02","type":"ss","server":"37.143.129.230","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇨🇦_CA_加拿大-03","type":"vmess","server":"51.79.103.76","port":80,"uuid":"58fe1542-5290-40ad-815a-77707a81afe5","cipher":"auto","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"}},"alterId":0}
   - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国-06","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","cipher":"auto","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"alterId":0}
   - {"name":"🇩🇰_DK_丹麦-04","type":"ss","server":"185.186.79.53","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇺🇸_US_美国_1-08","type":"ss","server":"34.212.0.149","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸_US_美国_1-09","type":"ss","server":"34.212.0.149","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"name":"🇨🇦_CA_加拿大_1-06","type":"vmess","server":"51.79.102.253","port":80,"uuid":"58fe1542-5290-40ad-815a-77707a81afe5","cipher":"auto","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"}},"alterId":0}
   - {"name":"🇳🇱_NL_荷兰-02","type":"ssr","server":"ssca.irundns.net","port":443,"cipher":"aes-128-cfb","password":"$$Turb0VPN$$","obfs":"http_post","protocol":"auth_aes128_md5"}
   - {"name":"🇷🇺_RU_俄罗斯-04","type":"ss","server":"185.231.233.112","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"name":"🇨🇭_CH_瑞士->🇩🇰_DK_丹麦-01","type":"ss","server":"84.17.53.160","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇺🇸_US_美国_5-08","type":"trojan","server":"54.177.162.0","port":41922,"sni":"hk12.bilibili.com","password":"e1e72bbb-59ef-41b6-bd09-6b4d54c4877b","skip-cert-verify":true}
-  - {"name":"🇺🇸_US_美国_7-05","type":"vmess","server":"151.101.194.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","cipher":"auto","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"alterId":0}
+  - {"name":"🇺🇸_US_美国_5-09","type":"trojan","server":"54.177.162.0","port":41922,"sni":"hk12.bilibili.com","password":"e1e72bbb-59ef-41b6-bd09-6b4d54c4877b","skip-cert-verify":true}
+  - {"name":"🇺🇸_US_美国_7-06","type":"vmess","server":"151.101.194.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","cipher":"auto","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"alterId":0}
   - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大-01","type":"trojan","server":"89.187.181.179","port":43118,"sni":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc","password":"ypDt8RkT7J","skip-cert-verify":true}
   - {"name":"🇺🇸_US_美国_9-04","type":"trojan","server":"54.241.211.51","port":43995,"sni":"hk12.bilibili.com","password":"e1e72bbb-59ef-41b6-bd09-6b4d54c4877b","skip-cert-verify":true}
   - {"name":"🇺🇸_US_美国_10-03","type":"trojan","server":"161.35.34.48","port":443,"sni":"yourjobnavigator.online","password":"2cba4104747d49d18319e5ade1b93ab5","skip-cert-verify":true}
   - {"name":"🇺🇸_US_美国->🇮🇪_IE_爱尔兰-01","type":"trojan","server":"54.177.162.0","port":46023,"sni":"hk12.bilibili.com","password":"e1e72bbb-59ef-41b6-bd09-6b4d54c4877b","skip-cert-verify":true}
-  - {"name":"🇺🇦_UA_乌克兰-10","type":"ss","server":"95.164.36.59","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ODA2MGZh"}
+  - {"name":"🇺🇦_UA_乌克兰-11","type":"ss","server":"95.164.36.59","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ODA2MGZh"}
   - {"name":"🇺🇸_US_美国_12-03","type":"trojan","server":"54.241.211.51","port":41922,"sni":"hk12.bilibili.com","password":"e1e72bbb-59ef-41b6-bd09-6b4d54c4877b","skip-cert-verify":true}
   - {"name":"俄罗斯(mibei77.com 米贝节点分享)-03","server":"92.243.75.49","port":2087,"type":"trojan","password":"wb6368","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享)-04","server":"38.86.135.223","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","udp":true}
@@ -549,7 +563,7 @@ proxies:
   - {"name":"6元高速机场：cczzuu.top-04","type":"ss","server":"127.0.0.1","port":443,"tls":false,"password":"6601fb90e9b3","ip-version":"dual","udp":true,"cipher":"aes-128-gcm"}
   - {"name":"重度用户推荐使用机场-04","type":"ss","server":"127.0.0.1","port":443,"tls":false,"password":"6601fb90e9b3","ip-version":"dual","udp":true,"cipher":"aes-128-gcm"}
   - {"name":"免费节点可能会泄漏访问记录-04","type":"ss","server":"127.0.0.1","port":443,"tls":false,"password":"6601fb90e9b3","ip-version":"dual","udp":true,"cipher":"aes-128-gcm"}
-  - {"name":"🇺🇸_US_美国_1-09","type":"trojan","server":"13.61.43.128","port":22222,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":false,"ip-version":"dual","udp":true}
+  - {"name":"🇺🇸_US_美国_1-10","type":"trojan","server":"13.61.43.128","port":22222,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":false,"ip-version":"dual","udp":true}
   - {"name":"🇺🇸_US_美国_2-08","type":"ss","server":"23.166.88.104","port":6697,"tls":false,"password":"TEzjfAYq2IjtuoS","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇷🇺_RU_俄罗斯_1-05","type":"ss","server":"213.156.137.67","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国-07","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","tls":false,"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto","ws-opts":{"path":"/"}}
@@ -561,11 +575,11 @@ proxies:
   - {"name":"🇷🇺_RU_俄罗斯_5-03","type":"ss","server":"217.30.10.18","port":9093,"tls":false,"password":"wfLC2y7rzZyCmuyt","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇩🇰_DK_丹麦-05","type":"ss","server":"185.186.79.53","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇷🇺_RU_俄罗斯_6-03","type":"ss","server":"217.30.10.18","port":9038,"tls":false,"password":"gYCYXfkUQEs2TaJQ","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_4-05","type":"ss","server":"185.47.253.171","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_4-06","type":"ss","server":"185.47.253.171","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇷🇺_RU_俄罗斯_7-02","type":"ss","server":"217.30.10.18","port":9003,"tls":false,"password":"JdmRK9gMEqFgs8nP","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇨🇦_CA_加拿大_1-07","type":"ss","server":"23.154.136.162","port":7002,"tls":false,"password":"RexnBgU7EV5ADxG","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇺🇦_UA_乌克兰_2","type":"ss","server":"176.103.53.105","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_5-09","type":"ss","server":"54.185.211.74","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_5-10","type":"ss","server":"54.185.211.74","port":443,"tls":false,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇯🇵_JP_日本->🇺🇸_US_美国-02","type":"vmess","server":"www.aetv.com","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","tls":false,"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto","ws-opts":{"headers":{"Host":"www.aetv.com"},"path":"/"}}
   - {"name":"🇷🇺_RU_俄罗斯_8-02","type":"ss","server":"217.30.10.18","port":9060,"tls":false,"password":"ueLXVkvh4hckhErQ","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇷🇺_RU_俄罗斯_9-02","type":"ss","server":"217.30.10.18","port":9088,"tls":false,"password":"f8npKgNzdkss2ytn","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
@@ -577,7 +591,7 @@ proxies:
   - {"name":"🇷🇺_RU_俄罗斯_13-02","type":"ss","server":"217.30.10.18","port":9031,"tls":false,"password":"BwcAUZk8hUFAkDGN","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇨🇦_CA_加拿大_2-05","type":"ss","server":"23.154.136.162","port":6697,"tls":false,"password":"TEzjfAYq2IjtuoS","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇷🇺_RU_俄罗斯_14","type":"ss","server":"217.30.10.18","port":9042,"tls":false,"password":"S7KwUu7yBy58S3Ga","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_6-03","type":"ss","server":"185.237.185.160","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_6-04","type":"ss","server":"185.237.185.160","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇮🇹_IT_意大利-03","type":"ss","server":"37.143.129.230","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"6元高速机场：cczzuu.top-05","type":"ss","server":"127.0.0.1","port":443,"tls":false,"password":"6601fb90e9b3","ip-version":"dual","udp":true,"cipher":"aes-128-gcm"}
   - {"name":"重度用户推荐使用机场-05","type":"ss","server":"127.0.0.1","port":443,"tls":false,"password":"6601fb90e9b3","ip-version":"dual","udp":true,"cipher":"aes-128-gcm"}
@@ -589,58 +603,58 @@ proxies:
   - {"name":"🇨🇦_CA_加拿大_2-06","type":"vmess","server":"51.79.102.253","port":80,"uuid":"58fe1542-5290-40ad-815a-77707a81afe5","network":"ws","tls":false,"ip-version":"dual","udp":true,"cipher":"auto","ws-opts":{"path":"/"}}
   - {"name":"🇷🇺_RU_俄罗斯-05","type":"ss","server":"185.231.233.112","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇨🇭_CH_瑞士->🇩🇰_DK_丹麦-02","type":"ss","server":"84.17.53.160","port":989,"tls":false,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_6-04","type":"trojan","server":"54.177.162.0","port":41922,"password":"e1e72bbb-59ef-41b6-bd09-6b4d54c4877b","sni":"hk12.bilibili.com","skip-cert-verify":true,"ip-version":"dual","udp":true}
-  - {"name":"🇺🇸_US_美国_8-03","type":"vmess","server":"151.101.194.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","tls":false,"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_US_美国_6-05","type":"trojan","server":"54.177.162.0","port":41922,"password":"e1e72bbb-59ef-41b6-bd09-6b4d54c4877b","sni":"hk12.bilibili.com","skip-cert-verify":true,"ip-version":"dual","udp":true}
+  - {"name":"🇺🇸_US_美国_8-04","type":"vmess","server":"151.101.194.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","tls":false,"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto","ws-opts":{"path":"/"}}
   - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大-02","type":"trojan","server":"89.187.181.179","port":43118,"password":"ypDt8RkT7J","sni":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc","skip-cert-verify":true,"ip-version":"dual","udp":true}
   - {"name":"🇺🇸_US_美国_10-04","type":"trojan","server":"54.241.211.51","port":43995,"password":"e1e72bbb-59ef-41b6-bd09-6b4d54c4877b","sni":"hk12.bilibili.com","skip-cert-verify":true,"ip-version":"dual","udp":true}
   - {"name":"🇺🇸_US_美国_11-02","type":"trojan","server":"161.35.34.48","port":443,"password":"2cba4104747d49d18319e5ade1b93ab5","sni":"yourjobnavigator.online","skip-cert-verify":true,"ip-version":"dual","udp":true}
   - {"name":"🇺🇸_US_美国->🇮🇪_IE_爱尔兰-02","type":"trojan","server":"54.177.162.0","port":46023,"password":"e1e72bbb-59ef-41b6-bd09-6b4d54c4877b","sni":"hk12.bilibili.com","skip-cert-verify":true,"ip-version":"dual","udp":true}
-  - {"name":"🇺🇦_UA_乌克兰-11","type":"ss","server":"95.164.36.59","port":8388,"tls":false,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇦_UA_乌克兰-12","type":"ss","server":"95.164.36.59","port":8388,"tls":false,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_美国_13-02","type":"trojan","server":"54.241.211.51","port":41922,"password":"e1e72bbb-59ef-41b6-bd09-6b4d54c4877b","sni":"hk12.bilibili.com","skip-cert-verify":true,"ip-version":"dual","udp":true}
   - {"name":"🇷🇺_RU_俄罗斯_1-06","type":"ss","server":"217.30.10.18","port":9056,"password":"rNBfNuuANFCAk7KB","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1-01","type":"vmess","server":"freedomisnear.onetwothree123.ir","port":2086,"uuid":"666f3931-0dc1-4078-d7fa-a86b63bf067e","network":"ws","ws-opts":{"path":"/mehdi","headers":{"Host":"Freedomisnear.onetwothree123.ir"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
-  - {"name":"🇺🇸_US_美国_1-10","type":"ss","server":"38.86.135.223","port":9102,"password":"e4FCWrgpkji3QY","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_1-11","type":"ss","server":"38.86.135.223","port":9102,"password":"e4FCWrgpkji3QY","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇷🇺_RU_俄罗斯_2-06","type":"ss","server":"185.231.233.173","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国_2-10","type":"ss","server":"54.190.1.125","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇦_UA_乌克兰-12","type":"ss","server":"176.103.53.105","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇦_UA_乌克兰-13","type":"ss","server":"176.103.53.105","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇷🇺_RU_俄罗斯_3-05","type":"ss","server":"217.30.10.18","port":9019,"password":"GA9KzeEgvfxNrgmM","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国_3-07","type":"ss","server":"54.185.211.74","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯_2-01","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇨🇭_CH_瑞士->🇺🇸_US_美国-05","type":"ss","server":"84.17.53.160","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇩🇪_DE_德国->🇷🇴_RO_罗马尼亚-02","type":"ss","server":"45.87.175.154","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_4-06","type":"ss","server":"38.86.135.223","port":5499,"password":"lGqs95QkFHo2NV","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_4-07","type":"ss","server":"38.86.135.223","port":5499,"password":"lGqs95QkFHo2NV","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇷🇴_RO_罗马尼亚_1-01","type":"ss","server":"194.5.215.59","port":8080,"password":"14fFPrbezE3HDZzsMOr6","ip-version":"dual","udp":true,"cipher":"rc4-md5"}
   - {"name":"🇷🇴_RO_罗马尼亚_2-01","type":"ss","server":"185.193.49.88","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯_3-02","type":"vmess","server":"104.21.44.185","port":2052,"uuid":"8088e23c-2332-4422-c754-927729c568bd","network":"ws","fingerprint":"","ws-opts":{"path":"/mehdi","headers":{"Host":"Freedomisnear.onetwothree123.ir"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇷🇺_RU_俄罗斯_1-07","type":"ss","server":"217.30.10.18","port":9056,"password":"rNBfNuuANFCAk7KB","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1-02","type":"vmess","server":"freedomisnear.onetwothree123.ir","port":2086,"uuid":"666f3931-0dc1-4078-d7fa-a86b63bf067e","network":"ws","ws-opts":{"path":"/mehdi","headers":{"Host":"Freedomisnear.onetwothree123.ir"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
-  - {"name":"🇺🇸_US_美国_1-11","type":"ss","server":"38.86.135.223","port":9102,"password":"e4FCWrgpkji3QY","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_1-12","type":"ss","server":"38.86.135.223","port":9102,"password":"e4FCWrgpkji3QY","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇷🇺_RU_俄罗斯_2-07","type":"ss","server":"185.231.233.173","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国_2-11","type":"ss","server":"54.190.1.125","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇦_UA_乌克兰-13","type":"ss","server":"176.103.53.105","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇦_UA_乌克兰-14","type":"ss","server":"176.103.53.105","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇷🇺_RU_俄罗斯_3-06","type":"ss","server":"217.30.10.18","port":9019,"password":"GA9KzeEgvfxNrgmM","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国_3-08","type":"ss","server":"54.185.211.74","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯_2-02","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇨🇭_CH_瑞士->🇺🇸_US_美国-06","type":"ss","server":"84.17.53.160","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇩🇪_DE_德国->🇷🇴_RO_罗马尼亚-03","type":"ss","server":"45.87.175.154","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国_4-07","type":"ss","server":"38.86.135.223","port":5499,"password":"lGqs95QkFHo2NV","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_4-08","type":"ss","server":"38.86.135.223","port":5499,"password":"lGqs95QkFHo2NV","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇷🇴_RO_罗马尼亚_1-02","type":"ss","server":"194.5.215.59","port":8080,"password":"14fFPrbezE3HDZzsMOr6","ip-version":"dual","udp":true,"cipher":"rc4-md5"}
   - {"name":"🇷🇴_RO_罗马尼亚_2-02","type":"ss","server":"185.193.49.88","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯_3-03","type":"vmess","server":"104.21.44.185","port":2052,"uuid":"8088e23c-2332-4422-c754-927729c568bd","network":"ws","fingerprint":"","ws-opts":{"path":"/mehdi","headers":{"Host":"Freedomisnear.onetwothree123.ir"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇮🇪_IE_爱尔兰","type":"trojan","server":"3.254.11.81","port":22222,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"ip-version":"dual","udp":true}
-  - {"name":"🇺🇸_US_美国_1-12","type":"ss","server":"18.236.101.195","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇦_UA_乌克兰-14","type":"ss","server":"95.164.36.59","port":8388,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_1-13","type":"ss","server":"18.236.101.195","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇦_UA_乌克兰-15","type":"ss","server":"95.164.36.59","port":8388,"password":"ODA2MGZh","ip-version":"dual","udp":true,"cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_美国_2-12","type":"trojan","server":"161.35.34.48","port":443,"password":"2cba4104747d49d18319e5ade1b93ab5","sni":"yourjobnavigator.online","skip-cert-verify":true,"ip-version":"dual","udp":true}
   - {"name":"🇺🇸_US_美国_3-09","type":"vmess","server":"151.101.194.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大-03","type":"trojan","server":"89.187.181.179","port":43118,"password":"ypDt8RkT7J","sni":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc","skip-cert-verify":true,"ip-version":"dual","udp":true}
   - {"name":"🇷🇺_RU_俄罗斯-06","type":"ss","server":"185.231.233.112","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇨🇦_CA_加拿大_1-09","type":"vmess","server":"51.79.102.253","port":80,"uuid":"58fe1542-5290-40ad-815a-77707a81afe5","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"🇸🇪_SE_瑞典-06","type":"vmess","server":"www.aetv.com","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
-  - {"name":"🇺🇸_US_美国_4-08","type":"ss","server":"38.143.66.186","port":8000,"password":"KixLvKzwjekG00rm","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_4-09","type":"ss","server":"38.143.66.186","port":8000,"password":"KixLvKzwjekG00rm","ip-version":"dual","udp":true,"cipher":"aes-256-gcm"}
   - {"name":"🇩🇰_DK_丹麦-07","type":"ss","server":"185.186.79.53","port":989,"password":"f8f7aCzcPKbsF8p3","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国-09","type":"vmess","server":"151.101.66.168","port":80,"uuid":"7dc78582-88a8-4b4c-9e3e-50831d672766","network":"ws","ws-opts":{"path":"/XESALISTHEBEST?ed=2048","headers":{"Host":"amd.al"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
-  - {"name":"🇺🇸_US_美国_5-10","type":"ss","server":"34.212.0.149","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_6-05","type":"ss","server":"52.24.145.185","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_5-11","type":"ss","server":"34.212.0.149","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_6-06","type":"ss","server":"52.24.145.185","port":443,"password":"amazonskr05","ip-version":"dual","udp":true,"cipher":"aes-256-cfb"}
   - {"name":"🇨🇦_CA_加拿大_2-07","type":"vmess","server":"51.79.103.76","port":80,"uuid":"58fe1542-5290-40ad-815a-77707a81afe5","network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"}},"ip-version":"dual","udp":true,"alterId":0,"cipher":"auto"}
   - {"name":"美国(yudou66.com 玉豆免费节点)-04","server":"120.198.71.216","port":55482,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
   - {"name":"英国(yudou66.com 玉豆免费节点)","server":"212.102.53.196","port":443,"type":"ss","cipher":"aes-128-gcm","password":"shadowsocks","udp":true}
