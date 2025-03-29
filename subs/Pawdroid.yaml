@@ -1,12 +1,19 @@
 proxies:
-  - {"name":"广东省湛江市 移动-1","type":"vmess","server":"120.198.71.219","port":42055,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"sanjose05.852224.ggff.net","port":443,"cipher":"auto","uuid":"89c1aea7-4d0d-4013-b663-0f94a3e6bdbd","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/YfB29GXf4cThJQeJb","headers":{"Host":"sanjose05.852224.ggff.net"}},"servername":"sanjose05.852224.ggff.net"}
-  - {"name":"广东省广州市 移动-1","type":"vmess","server":"120.232.153.123","port":51052,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"美国 Fastly全球Anycast节点","type":"vmess","server":"gov.uk","port":443,"cipher":"auto","uuid":"77848824-93b7-4b89-ffd0-e91afff406ce","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/77848824","headers":{"Host":"zheshiscp.com"}},"servername":"gov.uk"}
-  - {"name":"广东省广州市 移动-2","type":"vmess","server":"120.232.153.63","port":40105,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"servername":"cf.fovi.tk"}
-  - {"name":"广东省湛江市 移动-2","type":"vmess","server":"120.198.71.216","port":40059,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"广东省广州市 移动-3","type":"vmess","server":"120.232.153.40","port":34042,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"202.78.162.5","port":443,"cipher":"auto","uuid":"716eded6-2201-4dbd-9d63-1638c9e8e677","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"pendar.onthewifi.com"}},"servername":"pendar.onthewifi.com"}
-  - {"name":"巴西圣保罗 CloudFlare节点","type":"vmess","server":"188.114.96.2","port":443,"cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"Host":"afrhms16v.bestxray.buzz"}},"servername":"afrhms16v.bestxray.buzz"}
-  - {"name":"北京市+北京世通泰达通信技术有限公司","type":"ss","server":"xg1.gywanglug.xyz","port":23987,"cipher":"aes-128-gcm","password":"e935efa8-ede3-4fc5-8e2a-7d63b1090452"}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"45.142.120.190","port":2082,"cipher":"auto","uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/az05.beyondy.cfd/link#","headers":{"Host":"yellow-paper-029c.yvonna.workers.dev"}}}
+  - {"name":"广东省广州市+移动-1","type":"ss","server":"183.232.229.164","port":11002,"cipher":"chacha20-ietf-poly1305","password":"ee19fceb-cedc-4832-b460-fccf24fdc8be"}
+  - {"name":"江苏省+移动","type":"ss","server":"zf1.10101251.xyz","port":41705,"cipher":"aes-256-gcm","password":"4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f"}
+  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-privatevpns","server":"13.61.76.50","port":22222,"name":"美国+Xerox"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"13.36.115.203","port":22222,"name":"美国+Amazon数据中心-1"}
+  - {"name":"广东省广州市 移动","type":"vmess","server":"183.236.51.38","port":55754,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"name":"北美地区+V2CROSS.COM","type":"ss","server":"23.150.152.43","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-privatevpns","server":"3.11.29.124","port":22222,"name":"英国+伦敦Amazon数据中心"}
+  - {"sni":"trojan.burgerip.co.uk","alpn":["http/1.1"],"type":"trojan","password":"telegram-id-privatevpns","server":"34.247.150.78","port":22222,"name":"爱尔兰+都柏林Amazon数据中心"}
+  - {"type":"trojan","password":"90e7b2f3-fb61-4fd7-959f-176e9a51d8d7","server":"us004.421421.xyz","port":20230,"name":"美国+俄勒冈州波特兰Amazon数据中心:443","sni":"us004.421421.xyz"}
+  - {"name":"广东省湛江市 移动","type":"vmess","server":"120.198.71.214","port":34093,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"sni":"uS6-16.890601.xyz","client-fingerprint":"chrome","alpn":["http/1.1"],"network":"ws","ws-opts":{"path":"/ILLcisbMYUd6MQzxVoMQ","headers":{"Host":"us6-16.890601.xyz"}},"type":"trojan","password":"0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01","server":"172.67.135.23","port":443,"name":"美国+CloudFlare节点-1"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"www.visa.com.tw","port":443,"cipher":"auto","uuid":"47eab0de-97f9-49be-f2f3-2e4eb17268e6","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/aa","headers":{"Host":"hk.insbot.filegear-sg.me"}},"servername":"www.visa.com.tw"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"193.122.58.158","port":443,"cipher":"auto","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"Host":"irvideo.cfd"}},"servername":"irvideo.cfd"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"18.169.181.130","port":22222,"name":"美国+Amazon数据中心-2"}
+  - {"sni":"uS6-16.890601.xyz","client-fingerprint":"chrome","alpn":["http/1.1"],"network":"ws","ws-opts":{"path":"/ILLcisbMYUd6MQzxVoMQ","headers":{"Host":"us6-16.890601.xyz"}},"type":"trojan","password":"0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01","server":"104.21.6.179","port":443,"name":"美国+CloudFlare节点-2"}
+  - {"name":"广东省广州市+移动-2","type":"ss","server":"free.2weradf.xyz","port":36171,"cipher":"chacha20-ietf-poly1305","password":"790f6e17-11c9-4854-82e9-6a8583817688"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"13.39.168.64","port":22222,"name":"美国+Amazon数据中心-3"}
