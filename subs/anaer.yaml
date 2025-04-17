@@ -843,3 +843,5 @@ proxies:
   - {"name":"立陶宛 040","type":"vless","network":"grpc","server":"84.32.9.29","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","skip-cert-verify":false,"tls":true,"udp":true,"tfo":false,"client-fingerprint":"chrome"}
   - {"name":"土耳其 003","type":"vless","network":"grpc","server":"5.180.46.9","port":8880,"uuid":"e464526a-e3de-4db9-8821-4e146507976f","skip-cert-verify":false,"tls":true,"udp":true,"tfo":false,"client-fingerprint":"chrome"}
   - {"name":"美国 568","type":"trojan","server":"18.171.119.248","port":22222,"password":"telegram-id-directvpn","skip-cert-verify":false,"sni":"trojan.burgerip.co.uk","allowInsecure":"","client-fingerprint":"chrome"}
+  - {"name":"克罗地亚 003","type":"vmess","network":"tcp","server":"89.18.58.104","port":180,"uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","skip-cert-verify":true,"tls":false,"alterId":0,"cipher":"auto","ws-headers":{"Host":"89.18.58.104"},"client-fingerprint":"chrome"}
+  - {"name":"美国 569","type":"vless","network":"grpc","server":"88.218.95.8","port":8880,"uuid":"9e28dd25-f4e1-4434-a31d-40c8ed0c0f52","skip-cert-verify":false,"tls":true,"udp":true,"tfo":false,"client-fingerprint":"chrome"}
