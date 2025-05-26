@@ -35,7 +35,7 @@ jobs:
 
       - name: 测试节点
         run: |
-          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./test_result/tested_within.yaml --du http://www.gstatic.com/generate_204 --dt 800 --dr 5 --df 800 --top 500 --dn 32 --ff 0.5
+          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./test_result/tested_within.yaml --du https://www.gstatic.com/generate_204 --dt 800 --dr 5 --df 800 --top 500 --dn 32 --ff 0.5
 
       - name: 上传测试结果
         uses: actions/upload-artifact@v4
