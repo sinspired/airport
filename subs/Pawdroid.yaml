@@ -1,13 +1,14 @@
 proxies:
-  - {"name":"广东省广州市 移动-1","type":"vmess","server":"120.232.153.40","port":52182,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"104.21.82.183","port":8880,"cipher":"auto","uuid":"5a7021e0-26b4-45d6-b175-fe551601ca97","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"server26.beheshtbaneh.com"}}}
-  - {"type":"ss","server":"185.22.153.235","port":2019,"cipher":"aes-256-gcm","password":"e04ae67d4e4cd165","name":"俄罗斯+莫斯科JustHost"}
-  - {"name":"广东省广州市 移动-2","type":"vmess","server":"183.236.51.38","port":49121,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
-  - {"name":"希腊 V2CROSS.COM","type":"vmess","server":"144.24.200.164","port":443,"cipher":"auto","uuid":"9b456c2a-f2c1-45e1-87a9-b7628b04bb24","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"Host":"beyonddsz.cfd"}},"servername":"beyonddsz.cfd"}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"us01.sh-cloudflare.sbs","port":8443,"cipher":"auto","uuid":"2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"us01.sh-cloudflare.sbs"}},"servername":"us01.sh-cloudflare.sbs"}
-  - {"name":"美国 CloudFlare节点-3","type":"vmess","server":"104.21.64.1","port":2096,"cipher":"auto","uuid":"8f78e709-2c5f-4c19-9f44-b5b5f80ab74c","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"cc2d1.988988.shop"}},"servername":"cc2d1.988988.shop"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"158.180.228.226","port":443,"cipher":"auto","uuid":"9b456c2a-f2c1-45e1-87a9-b7628b04bb24","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"Host":"beyonddsz.cfd"}},"servername":"beyonddsz.cfd"}
-  - {"name":"美国 CloudFlare节点-4","type":"vmess","server":"de01.sh-cloudflare.sbs","port":2096,"cipher":"auto","uuid":"b3928f8d-ea81-4d75-bcec-4016a072adff","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"de01.sh-cloudflare.sbs"}},"servername":"de01.sh-cloudflare.sbs"}
-  - {"name":"广东省江门市 移动","type":"vmess","server":"120.234.102.229","port":42174,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"type":"ss","server":"ti3hyra4.slashdevslashnetslashtun.net","port":16015,"cipher":"aes-256-gcm","password":"3IJTYIFVEXKSJ92G","name":"广东省广州市+电信"}
-  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"202.78.162.5","port":443,"cipher":"auto","uuid":"716eded6-2201-4dbd-9d63-1638c9e8e677","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"pendar.onthewifi.com"}},"servername":"pendar.onthewifi.com"}
+  - {"type":"ss","server":"ti3hyra4.slashdevslashnetslashtun.net","port":18010,"cipher":"aes-256-gcm","password":"HO86LQ8KH31JNMBQ","name":"广东省广州市+电信-1"}
+  - {"name":"广东省广州市 移动-1","type":"vmess","server":"183.236.51.38","port":49121,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"type":"ss","server":"85.210.120.237","port":443,"cipher":"chacha20-ietf-poly1305","password":"Bog0ELmMM9DSxDdQ","name":"英国+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"c1xxdcswe.777169.xyz","port":80,"cipher":"auto","uuid":"cad5a49f-14e5-4a05-aae9-c5df8fad394f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/TjUzWyRmR4P2fGqXENw4Z4","headers":{"Host":"c1xxdcswe.777169.xyz"}}}
+  - {"name":"吉林省 移动(全省通用)","type":"vmess","server":"111.26.109.79","port":30828,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"name":"广东省湛江市 移动","type":"vmess","server":"120.198.71.216","port":35921,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"广东省广州市 移动-2","type":"vmess","server":"120.232.153.41","port":41597,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"type":"ss","server":"193.243.147.128","port":40368,"cipher":"aes-256-gcm","password":"7BcLdsO1WweoGD0X","name":"波兰+V2CROSS.COM"}
+  - {"type":"ss","server":"ti3hyra4.slashdevslashnetslashtun.net","port":18008,"cipher":"aes-256-gcm","password":"OWLMD5QDW9FYKEI4","name":"广东省广州市+电信-2"}
+  - {"skip-cert-verify":false,"sni":"eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net","type":"trojan","password":"0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9","server":"eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net","port":15229,"name":"广东省+联通"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"xxcvfrrt6.999820.xyz","port":80,"cipher":"auto","uuid":"90f357dd-79ac-47c6-b0b8-958e2d19de07","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/10W6SJaK0F0oVXeNU6S2RVRP","headers":{"Host":"xxcvfrrt6.999820.xyz"}}}
+  - {"sni":"broker.superpokemon.com","type":"trojan","password":"CXCu72eya8wFeRySSFpDz3CN6jBYac5OIl3q0gSl8xZOADY3EK94pxZanDA3RT","server":"35.77.216.3","port":443,"name":"日本+东京Amazon数据中心"}
+  - {"name":"美国 CloudFlare节点-3","type":"vmess","server":"hk2.lrzdx.uk","port":443,"cipher":"auto","uuid":"db69d5bc-d36c-4903-f471-74b98c5cefe5","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/register","headers":{}},"servername":"hk2.lrzdx.uk"}
