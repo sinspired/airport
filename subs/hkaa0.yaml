@@ -6415,6 +6415,9 @@ proxies:
   - {"name":"美国-拉斯维加斯-002","type":"vmess","server":"45.147.201.231","port":23090,"uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"美国-拉斯维加斯-HY-001","server":"45.147.201.231","port":30073,"up":1,"down":1,"skip-cert-verify":true,"type":"hysteria2","password":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","obfs":"salamander","obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
   - {"name":"美国-拉斯维加斯-HY-002","server":"45.147.201.231","port":33076,"up":1,"down":1,"skip-cert-verify":true,"type":"hysteria2","password":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","obfs":"salamander","obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
+  - {"name":"公益|俄罗斯|V2","type":"vmess","server":"45.8.159.241","port":33895,"uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"闪云.com 永久官网高速付费服务","type":"vmess","server":"45.8.158.32","port":13530,"uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"公益|英国|V2","type":"vmess","server":"5.39.254.196","port":26185,"uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"http tgstat.ru/research-2021:443-01","type":"http","tls":true,"server":"tgstat.ru/research-2021","port":443,"sni":"tgstat.ru/research-2021"}
   - {"name":"http tgstat.ru/research-2021:443-02","type":"http","tls":true,"server":"tgstat.ru/research-2021","port":443,"sni":"tgstat.ru/research-2021"}
   - {"name":"http tgstat.ru/research-2021:443-03","type":"http","tls":true,"server":"tgstat.ru/research-2021","port":443,"sni":"tgstat.ru/research-2021"}
