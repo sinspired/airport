@@ -1,15 +1,12 @@
 proxies:
-  - {"name":"广东省中山市 移动-1","type":"vmess","server":"183.238.90.8","port":39076,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"type":"ss","server":"146.235.43.201","port":7702,"cipher":"aes-256-gcm","password":"b24cdc0e-7c5d-4b9a-a27b-c578a0f7deb6","name":"美国+V2CROSS.COM"}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"15.237.225.58","port":22223,"name":"美国+惠普公司"}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"s2.db-link02.top","port":2095,"cipher":"auto","uuid":"c7820065-fa05-36d6-ab77-56e4b03c5881","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.21.14.155","headers":{"Host":"100-151-200-15.s2.db-link02.top"}}}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"12936b43-sy0cg0-t7fz1r-8rja.hgc1.tcpbbr.net","port":8080,"cipher":"auto","uuid":"d18bcaf4-1323-11ec-a0fc-f23c913c8d2b","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
-  - {"name":"广东省中山市 移动-2","type":"vmess","server":"183.238.90.8","port":41766,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"18.199.36.179","port":22223,"name":"美国+Amazon数据中心"}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"v18.nmcf.me","port":8000,"cipher":"auto","uuid":"d26fc1a3-0d97-416b-abcd-b335b4bf7881","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nmkj","headers":{"Host":"www.bing.com"}}}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"104.17.25.173","port":8880,"cipher":"auto","uuid":"e7e26f7b-c4d8-3856-9c9a-dbb98f97fd6b","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in104.25.200.4","headers":{"Host":"100-235-132-47.s5.db-link02.top"}}}
-  - {"skip-cert-verify":true,"sni":"brwx.spvpv.com","type":"trojan","password":"1b4c16925f934c57b954a9f0f23dea33","server":"42.240.152.238","port":8842,"name":"广东省广州市+UCloud"}
-  - {"name":"吉林省 移动(全省通用)","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
-  - {"skip-cert-verify":false,"sni":"k28.tudou211.com","type":"trojan","password":"2b1ed981-6547-4094-998b-06a3323d6f6c","server":"120.233.44.201","port":21102,"name":"广东省+移动"}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"3.66.99.0","port":22222,"name":"美国+Amazon+EC2服务器"}
-  - {"name":"美国 CloudFlare节点-3","type":"vmess","server":"www.xinjuc.com","port":80,"cipher":"auto","uuid":"2f38f848-a899-4c87-9807-207a41615e3c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/rongseven?ed=2048","headers":{"Host":"hk.freeyyds.dpdns.org"}}}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"15.236.243.30","port":22222,"name":"美国+惠普公司-1"}
+  - {"skip-cert-verify":true,"sni":"36.151.251.62","type":"trojan","password":"HrTsLJvh","server":"36.151.251.62","port":38632,"name":"江苏省+移动"}
+  - {"type":"ss","server":"zf1.10101251.xyz","port":20251,"cipher":"aes-256-gcm","password":"3ee90aa9-8831-4ea3-9425-c361090a938d","name":"广东省湛江市+移动"}
+  - {"skip-cert-verify":true,"sni":"www.yrtok.com","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"113.99.140.184","port":39001,"name":"广东省广州市+腾讯云"}
+  - {"name":"吉林省 移动(全省通用)-1","type":"vmess","server":"v35.heduian.link","port":30835,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v35.heduian.link"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"s1.cn-db.top","port":8880,"cipher":"auto","uuid":"05881d43-e9da-3d65-8cbe-fb0459b78557","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in172.64.34.180","headers":{"Host":"100-253-82-166.s1.cn-db.top"}}}
+  - {"skip-cert-verify":true,"sni":"vle.amclubsvip.dpdns.org","client-fingerprint":"chrome","network":"ws","ws-opts":{"path":"/?ed=2560&PROT_TYPE=trojan","headers":{"Host":"vle.amclubsvip.dpdns.org"}},"type":"trojan","password":"d6b8011a-c725-435a-9fec-bf6d3530392c","server":"194.53.53.249","port":2083,"name":"俄罗斯+V2CROSS.COM"}
+  - {"name":"广东省湛江市 移动","type":"vmess","server":"120.198.71.219","port":49355,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"name":"吉林省 移动(全省通用)-2","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"15.236.243.30","port":22223,"name":"美国+惠普公司-2"}
+  - {"skip-cert-verify":false,"sni":"120.233.128.68","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"120.233.128.68","port":39001,"name":"广东省+移动"}
