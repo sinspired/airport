@@ -1,14 +1,13 @@
 proxies:
-  - {"name":"广东省广州市 移动","type":"vmess","server":"120.232.153.40","port":50152,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"吉林省 移动(全省通用)-1","type":"vmess","server":"111.26.109.79","port":30828,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
-  - {"type":"trojan","password":"n5u8K43axK","server":"212.224.107.171","port":41135,"name":"德国+V2CROSS.COM:443"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.18.149.76","port":443,"cipher":"auto","uuid":"de94cc0a-0592-4969-b1fc-97ea8f0ea0b3","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/aa","headers":{"Host":"us.kkp.me.eu.org"}},"servername":"us.kkp.me.eu.org"}
-  - {"type":"ss","server":"194.87.71.228","port":2222,"cipher":"chacha20-ietf-poly1305","password":"qscavF5UviIL-8V-E4raBA","name":"俄罗斯+V2CROSS.COM"}
-  - {"type":"ss","server":"120.232.220.156","port":20406,"cipher":"aes-256-gcm","password":"dwz1GtF7","name":"广东省广州市+移动"}
-  - {"skip-cert-verify":true,"sni":"k30.tudou211.com","type":"trojan","password":"2b1ed981-6547-4094-998b-06a3323d6f6c","server":"120.233.44.201","port":21179,"name":"广东省+移动-1"}
-  - {"name":"台湾省新北市 中华电信","type":"vmess","server":"twjxlnnoljxc.jkhkgj.xyz","port":80,"cipher":"auto","uuid":"b0af4d14-db9d-4217-b010-5fd2a4b80590","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/market/tw?ed=512","headers":{"Host":"file.dingtalk.com"}}}
-  - {"name":"吉林省 移动(全省通用)-2","type":"vmess","server":"v32.heduian.link","port":30832,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"吉林省 移动(全省通用)-3","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"吉林省 移动(全省通用)","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
   - {"skip-cert-verify":true,"type":"trojan","password":"HrTsLJvh","server":"36.151.251.62","port":38632,"name":"江苏省+移动"}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"13.39.72.77","port":22223,"name":"美国+Amazon数据中心"}
-  - {"skip-cert-verify":true,"sni":"120.233.128.68","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"120.233.128.68","port":39001,"name":"广东省+移动-2"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"741c97ef-sy9ls0-szpnze-1pr35.hgc1.tcpbbr.net","port":8080,"cipher":"auto","uuid":"6b7c1278-ff9d-11ee-84ca-f23c913c8d2b","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
+  - {"skip-cert-verify":true,"sni":"vle.amclubdns.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560&PROT_TYPE=trojan","headers":{"Host":"vle.amclubdns.dpdns.org"}},"type":"trojan","password":"d6b8011a-c725-435a-9fec-bf6d3530392c","server":"104.25.254.4","port":2087,"name":"美国+CloudFlare节点"}
+  - {"skip-cert-verify":false,"sni":"www.yrtok.com","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"203.156.253.11","port":39001,"name":"上海市+上海电信科技发展有限公司(中山南路111号)"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"51.44.90.29","port":22223,"name":"英国+社会保险安全部-1"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"51.44.90.29","port":22222,"name":"英国+社会保险安全部-2"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"198.41.209.45","port":80,"cipher":"auto","uuid":"6df5accb-d452-366e-b0c4-878177deb6bd","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/555?ed=2048","headers":{"Host":"gv.galgamer.xyz"}}}
+  - {"type":"ss","server":"78.129.140.11","port":443,"cipher":"chacha20-ietf-poly1305","password":"uEOqo6yyuwsBfbeu2xo6ss","name":"英国+V2CROSS.COM"}
+  - {"skip-cert-verify":true,"sni":"120.233.128.68","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"120.233.128.68","port":39001,"name":"广东省+移动"}
+  - {"skip-cert-verify":false,"sni":"www.yrtok.com","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"113.99.140.184","port":39001,"name":"广东省广州市+腾讯云"}
+  - {"type":"ss","server":"112.54.160.36","port":30232,"cipher":"aes-256-gcm","password":"dwz1GtF7","name":"中国+移动"}
