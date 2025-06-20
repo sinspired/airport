@@ -1,12 +1,11 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"120.233.128.68","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"120.233.128.68","port":39001,"name":"广东省+移动"}
-  - {"type":"ss","server":"120.232.220.156","port":20406,"cipher":"aes-256-gcm","password":"dwz1GtF7","name":"广东省广州市+移动"}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"63.178.28.207","port":22222,"name":"美国+Sprint网络"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"198.41.209.45","port":80,"cipher":"auto","uuid":"6df5accb-d452-366e-b0c4-878177deb6bd","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/555?ed=2048","headers":{"Host":"gv.galgamer.xyz"}}}
-  - {"sni":"ni.mjt000.com","type":"trojan","password":"172b2279-f7f5-4542-ab6c-9e96ad7dd5be","server":"ni.mjt000.com","port":443,"name":"澳大利亚+V2CROSS.COM"}
-  - {"name":"江苏省宿迁市 电信/宿迁电信IDC机房","type":"vmess","server":"15002.vpdnss.top","port":15002,"cipher":"auto","uuid":"9f513161-576b-3abc-9c98-06e52c3a24c6","alterId":0,"tls":false}
-  - {"type":"ss","server":"112.54.160.36","port":30232,"cipher":"aes-256-gcm","password":"dwz1GtF7","name":"中国+移动"}
-  - {"name":"广东省湛江市 移动","type":"vmess","server":"120.198.71.214","port":31180,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"type":"ss","server":"223.165.4.173","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3","name":"印度尼西亚+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"SssssssW.222560.XYz","port":80,"cipher":"auto","uuid":"393b1061-d615-459a-8616-3f9447bdff5a","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/iXfi0mMmPYp9UA6Y34zWUk6JUQ","headers":{"Host":"sssssssw.222560.xyz"}}}
+  - {"name":"台湾省台北市 中华电信","type":"vmess","server":"twjxlnnoljxc.jkhkgj.xyz","port":80,"cipher":"auto","uuid":"b0af4d14-db9d-4217-b010-5fd2a4b80590","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/market/tw?ed=512","headers":{"Host":"file.dingtalk.com"}}}
+  - {"name":"吉林省 移动(全省通用)-1","type":"vmess","server":"111.26.109.79","port":30828,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"skip-cert-verify":true,"sni":"www.yrtok.com","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"116.31.75.150","port":39001,"name":"广东省广州市+电信"}
+  - {"name":"江苏省 移动","type":"vmess","server":"v12.heduian.link","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"name":"吉林省 移动(全省通用)-2","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"name":"广东省广州市 移动","type":"vmess","server":"183.236.51.38","port":36519,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"name":"吉林省 移动(全省通用)-3","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
   - {"name":"广东省梅州市 移动","type":"vmess","server":"v24.heduian.link","port":30824,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v24.heduian.link"}}}
-  - {"skip-cert-verify":true,"sni":"TG.WangCai2","type":"trojan","password":"VdWBGFmg","server":"36.151.251.62","port":23770,"name":"江苏省+移动"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"63.178.28.207","port":22223,"name":"美国+Sprint网络"}
