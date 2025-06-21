@@ -1,13 +1,9 @@
 proxies:
-  - {"name":"俄罗斯 莫斯科JustHost","type":"vmess","server":"45.147.201.231","port":20063,"cipher":"auto","uuid":"ee3e8f28-2ca6-4d1c-a79b-5102d647f2b1","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"name":"广东省广州市 移动-1","type":"vmess","server":"183.236.51.38","port":41024,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"skip-cert-verify":false,"sni":"www.yrtok.com","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"203.156.253.11","port":39001,"name":"上海市+上海电信科技发展有限公司(中山南路111号)"}
-  - {"type":"ss","server":"tr.vpnsparta.pro","port":57456,"cipher":"chacha20-ietf-poly1305","password":"c40641c1f89e7acb","name":"俄罗斯+V2CROSS.COM"}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"13.36.106.226","port":22222,"name":"美国+Amazon数据中心"}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"hk2.lrzdx.uk","port":443,"cipher":"auto","uuid":"db69d5bc-d36c-4903-f471-74b98c5cefe5","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/register","headers":{}},"servername":"hk2.lrzdx.uk"}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"de01.sh-cloudflare.sbs","port":2096,"cipher":"auto","uuid":"16c09798-7b2a-46ec-993c-7e24aad20ce8","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"de01.sh-cloudflare.sbs"}},"servername":"de01.sh-cloudflare.sbs"}
-  - {"name":"江苏省宿迁市 电信/宿迁电信IDC机房","type":"vmess","server":"15002.vpdnss.top","port":15002,"cipher":"auto","uuid":"9f513161-576b-3abc-9c98-06e52c3a24c6","alterId":0,"tls":false}
-  - {"skip-cert-verify":false,"sni":"www.yrtok.com","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"113.99.140.184","port":39001,"name":"广东省广州市+腾讯云"}
-  - {"name":"广东省广州市 移动-2","type":"vmess","server":"120.232.153.63","port":37805,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"台湾省台北市 中华电信","type":"vmess","server":"twjxlnnoljxc.jkhkgj.xyz","port":80,"cipher":"auto","uuid":"b0af4d14-db9d-4217-b010-5fd2a4b80590","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/market/tw?ed=512","headers":{"Host":"file.dingtalk.com"}}}
-  - {"skip-cert-verify":true,"sni":"TG.WangCai2","type":"trojan","password":"VdWBGFmg","server":"36.151.251.62","port":23770,"name":"江苏省+移动"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"www.hdmoli.com","port":80,"cipher":"auto","uuid":"2f38f848-a899-4c87-9807-207a41615e3c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/rongseven?ed=2048","headers":{"Host":"fr.freeyyds.dpdns.org"}}}
+  - {"type":"ss","server":"120.232.220.156","port":20406,"cipher":"aes-256-gcm","password":"dwz1GtF7","name":"广东省广州市+移动"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"npmjs.com","port":8080,"cipher":"auto","uuid":"6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"ke7hz36ewz-4515017473.mashallahbet.com"}}}
+  - {"skip-cert-verify":true,"type":"trojan","password":"HrTsLJvh","server":"36.151.251.62","port":38632,"name":"江苏省+移动"}
+  - {"name":"德国 法兰克福Oracle云计算数据中心","type":"vmess","server":"132.145.232.171","port":443,"cipher":"auto","uuid":"9b456c2a-f2c1-45e1-87a9-b7628b04bb24","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"Host":"beyonddsz.cfd"}},"servername":"beyonddsz.cfd"}
+  - {"skip-cert-verify":true,"sni":"brwx.spvpv.com","type":"trojan","password":"1b4c16925f934c57b954a9f0f23dea33","server":"42.240.152.238","port":8842,"name":"广东省广州市+UCloud"}
+  - {"skip-cert-verify":true,"sni":"vle.amclubdns.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560&PROT_TYPE=trojan","headers":{"Host":"vle.amclubdns.dpdns.org"}},"type":"trojan","password":"d6b8011a-c725-435a-9fec-bf6d3530392c","server":"104.25.254.4","port":2087,"name":"美国+CloudFlare节点"}
+  - {"name":"吉林省 移动(全省通用)","type":"vmess","server":"v35.heduian.link","port":30835,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v35.heduian.link"}}}
