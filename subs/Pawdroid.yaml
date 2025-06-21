@@ -1,13 +1,13 @@
 proxies:
-  - {"name":"吉林省 移动(全省通用)","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"skip-cert-verify":true,"type":"trojan","password":"HrTsLJvh","server":"36.151.251.62","port":38632,"name":"江苏省+移动"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"741c97ef-sy9ls0-szpnze-1pr35.hgc1.tcpbbr.net","port":8080,"cipher":"auto","uuid":"6b7c1278-ff9d-11ee-84ca-f23c913c8d2b","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
-  - {"skip-cert-verify":true,"sni":"vle.amclubdns.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560&PROT_TYPE=trojan","headers":{"Host":"vle.amclubdns.dpdns.org"}},"type":"trojan","password":"d6b8011a-c725-435a-9fec-bf6d3530392c","server":"104.25.254.4","port":2087,"name":"美国+CloudFlare节点"}
+  - {"name":"俄罗斯 莫斯科JustHost","type":"vmess","server":"45.147.201.231","port":20063,"cipher":"auto","uuid":"ee3e8f28-2ca6-4d1c-a79b-5102d647f2b1","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"name":"广东省广州市 移动-1","type":"vmess","server":"183.236.51.38","port":41024,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
   - {"skip-cert-verify":false,"sni":"www.yrtok.com","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"203.156.253.11","port":39001,"name":"上海市+上海电信科技发展有限公司(中山南路111号)"}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"51.44.90.29","port":22223,"name":"英国+社会保险安全部-1"}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"51.44.90.29","port":22222,"name":"英国+社会保险安全部-2"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"198.41.209.45","port":80,"cipher":"auto","uuid":"6df5accb-d452-366e-b0c4-878177deb6bd","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/555?ed=2048","headers":{"Host":"gv.galgamer.xyz"}}}
-  - {"type":"ss","server":"78.129.140.11","port":443,"cipher":"chacha20-ietf-poly1305","password":"uEOqo6yyuwsBfbeu2xo6ss","name":"英国+V2CROSS.COM"}
-  - {"skip-cert-verify":true,"sni":"120.233.128.68","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"120.233.128.68","port":39001,"name":"广东省+移动"}
+  - {"type":"ss","server":"tr.vpnsparta.pro","port":57456,"cipher":"chacha20-ietf-poly1305","password":"c40641c1f89e7acb","name":"俄罗斯+V2CROSS.COM"}
+  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"13.36.106.226","port":22222,"name":"美国+Amazon数据中心"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"hk2.lrzdx.uk","port":443,"cipher":"auto","uuid":"db69d5bc-d36c-4903-f471-74b98c5cefe5","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/register","headers":{}},"servername":"hk2.lrzdx.uk"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"de01.sh-cloudflare.sbs","port":2096,"cipher":"auto","uuid":"16c09798-7b2a-46ec-993c-7e24aad20ce8","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"de01.sh-cloudflare.sbs"}},"servername":"de01.sh-cloudflare.sbs"}
+  - {"name":"江苏省宿迁市 电信/宿迁电信IDC机房","type":"vmess","server":"15002.vpdnss.top","port":15002,"cipher":"auto","uuid":"9f513161-576b-3abc-9c98-06e52c3a24c6","alterId":0,"tls":false}
   - {"skip-cert-verify":false,"sni":"www.yrtok.com","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"113.99.140.184","port":39001,"name":"广东省广州市+腾讯云"}
-  - {"type":"ss","server":"112.54.160.36","port":30232,"cipher":"aes-256-gcm","password":"dwz1GtF7","name":"中国+移动"}
+  - {"name":"广东省广州市 移动-2","type":"vmess","server":"120.232.153.63","port":37805,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"name":"台湾省台北市 中华电信","type":"vmess","server":"twjxlnnoljxc.jkhkgj.xyz","port":80,"cipher":"auto","uuid":"b0af4d14-db9d-4217-b010-5fd2a4b80590","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/market/tw?ed=512","headers":{"Host":"file.dingtalk.com"}}}
+  - {"skip-cert-verify":true,"sni":"TG.WangCai2","type":"trojan","password":"VdWBGFmg","server":"36.151.251.62","port":23770,"name":"江苏省+移动"}
