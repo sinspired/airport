@@ -1,11 +1,14 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"www.yrtok.com","client-fingerprint":"chrome","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"203.156.253.12","port":39001,"name":"上海市+上海电信科技发展有限公司(中山南路111号)"}
-  - {"name":"上海市徐汇区 联通漕河泾数据中心","type":"vmess","server":"lt.fxlcn.com","port":45258,"cipher":"auto","uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"tls":false}
-  - {"name":"广东省广州市 电信","type":"vmess","server":"fg.fxlcn.com","port":45242,"cipher":"auto","uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"tls":false}
-  - {"skip-cert-verify":true,"sni":"vle.amclubdns.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560&PROT_TYPE=trojan","headers":{"Host":"vle.amclubdns.dpdns.org"}},"type":"trojan","password":"d6b8011a-c725-435a-9fec-bf6d3530392c","server":"104.17.128.1","port":2096,"name":"美国+CloudFlare节点-1"}
-  - {"name":"广东省广州市 移动","type":"vmess","server":"183.236.51.38","port":46921,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"吉林省 移动(全省通用)-1","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"sni":"3ERt.4444916.XyZ","client-fingerprint":"chrome","network":"ws","ws-opts":{"path":"/bi35bFWoRrnPhIJoo2wcE6Q","headers":{"Host":"3ert.4444916.xyz"}},"type":"trojan","password":"03e92910-34b1-4245-ac63-04a865f43cd5","server":"104.21.84.242","port":443,"name":"美国+CloudFlare节点-2"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"172.67.209.79","port":80,"cipher":"auto","uuid":"512d9674-db12-44ca-a1b5-654244549b65","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/uiAxvH6OkVk0VCfa7dX3JIrYk7zm","headers":{"Host":"xcccvvbnmj.999834.xyz"}}}
+  - {"sni":"nextstepcareer.online","type":"trojan","password":"4732adfa16c6450bbef87264e41332db","server":"165.22.74.230","port":443,"name":"美国+V2CROSS.COM"}
+  - {"name":"湖北省武汉市 联通","type":"vmess","server":"lt.fxlcn.com","port":45276,"cipher":"auto","uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"tls":false}
+  - {"name":"广东省广州市 移动-1","type":"vmess","server":"120.232.153.63","port":37805,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"type":"ss","server":"111.45.33.5","port":30017,"cipher":"aes-256-gcm","password":"dwz1GtF7","name":"广东省广州市+电信IDC机房"}
+  - {"name":"吉林省 移动(全省通用)-1","type":"vmess","server":"v35.heduian.link","port":30835,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v35.heduian.link"}}}
+  - {"skip-cert-verify":true,"sni":"brwx.spvpv.com","type":"trojan","password":"1b4c16925f934c57b954a9f0f23dea33","server":"42.240.152.238","port":8842,"name":"广东省广州市+UCloud"}
+  - {"name":"吉林省 移动(全省通用)-2","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
   - {"name":"广东省中山市 移动","type":"vmess","server":"183.238.90.8","port":46920,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"吉林省 移动(全省通用)-2","type":"vmess","server":"111.26.109.79","port":30828,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"npmjs.com","port":8080,"cipher":"auto","uuid":"6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"ke7hz36ewz-4515017473.mashallahbet.com"}}}
+  - {"skip-cert-verify":false,"sni":"ZZzzzZZ.890601.XYZ","network":"ws","ws-opts":{"path":"/l96MZ8se5Kl2p8BiMhP42l","headers":{"Host":"ZZzzzZZ.890601.XYZ"}},"type":"trojan","password":"6757b7d6-fa32-4708-b5d1-30e3cf928b51","server":"104.21.6.179","port":443,"name":"美国+CloudFlare节点"}
+  - {"name":"广东省广州市 移动-2","type":"vmess","server":"183.236.51.38","port":41302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"ssSSSD.00890604.Xyz","port":443,"cipher":"auto","uuid":"c7919150-946e-4383-af57-65d01d101f51","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/9Vn0NRIFjaNIuRODgEtuBg2FAYIX","headers":{"Host":"sssssd.00890604.xyz"}},"servername":"ssSSSD.00890604.Xyz"}
+  - {"skip-cert-verify":true,"sni":"120.233.128.68","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"120.233.128.68","port":39001,"name":"广东省+移动"}
