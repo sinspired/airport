@@ -1,12 +1,11 @@
 proxies:
-  - {"type":"ss","server":"120.233.128.98","port":30015,"cipher":"aes-256-gcm","password":"dwz1GtF7","name":"广东省+移动"}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"de01.sh-cloudflare.sbs","port":2096,"cipher":"auto","uuid":"2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"de01.sh-cloudflare.sbs"}},"servername":"de01.sh-cloudflare.sbs"}
-  - {"name":"广东省中山市 移动-1","type":"vmess","server":"183.238.90.8","port":46920,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"吉林省 移动(全省通用)-1","type":"vmess","server":"v40.heduian.link","port":30840,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"Host":"api100-core-quic-lf.amemv.com"}}}
-  - {"type":"ss","server":"111.45.33.5","port":30017,"cipher":"aes-256-gcm","password":"dwz1GtF7","name":"广东省广州市+电信IDC机房"}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top","port":443,"cipher":"auto","uuid":"5f726fe3-d82e-4da5-a711-8af0cbb2b682","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/azumase.ren","headers":{"Host":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"}},"servername":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"}
-  - {"name":"广东省中山市 移动-2","type":"vmess","server":"183.238.90.8","port":39076,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
-  - {"name":"江苏省宿迁市 电信/宿迁电信IDC机房","type":"vmess","server":"15002.vpdnss.top","port":15002,"cipher":"auto","uuid":"9f513161-576b-3abc-9c98-06e52c3a24c6","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"www.yrtok.com","client-fingerprint":"chrome","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"203.156.253.12","port":39001,"name":"上海市+上海电信科技发展有限公司(中山南路111号)"}
+  - {"name":"上海市徐汇区 联通漕河泾数据中心","type":"vmess","server":"lt.fxlcn.com","port":45258,"cipher":"auto","uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"tls":false}
+  - {"name":"广东省广州市 电信","type":"vmess","server":"fg.fxlcn.com","port":45242,"cipher":"auto","uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"vle.amclubdns.dpdns.org","network":"ws","ws-opts":{"path":"/?ed=2560&PROT_TYPE=trojan","headers":{"Host":"vle.amclubdns.dpdns.org"}},"type":"trojan","password":"d6b8011a-c725-435a-9fec-bf6d3530392c","server":"104.17.128.1","port":2096,"name":"美国+CloudFlare节点-1"}
+  - {"name":"广东省广州市 移动","type":"vmess","server":"183.236.51.38","port":46921,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"name":"吉林省 移动(全省通用)-1","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"sni":"3ERt.4444916.XyZ","client-fingerprint":"chrome","network":"ws","ws-opts":{"path":"/bi35bFWoRrnPhIJoo2wcE6Q","headers":{"Host":"3ert.4444916.xyz"}},"type":"trojan","password":"03e92910-34b1-4245-ac63-04a865f43cd5","server":"104.21.84.242","port":443,"name":"美国+CloudFlare节点-2"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"172.67.209.79","port":80,"cipher":"auto","uuid":"512d9674-db12-44ca-a1b5-654244549b65","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/uiAxvH6OkVk0VCfa7dX3JIrYk7zm","headers":{"Host":"xcccvvbnmj.999834.xyz"}}}
+  - {"name":"广东省中山市 移动","type":"vmess","server":"183.238.90.8","port":46920,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
   - {"name":"吉林省 移动(全省通用)-2","type":"vmess","server":"111.26.109.79","port":30828,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
-  - {"skip-cert-verify":false,"type":"trojan","password":"HrTsLJvh","server":"36.151.251.62","port":38632,"name":"江苏省+移动"}
-  - {"skip-cert-verify":false,"sni":"www.yrtok.com","type":"trojan","password":"85f133142f04dbf6547da33895cfabb3","server":"116.31.75.150","port":39001,"name":"广东省广州市+电信"}
