@@ -1,10 +1,7 @@
 proxies:
-  - {"name":"吉林省 移动(全省通用)-1","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
-  - {"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-directvpn","server":"18.198.80.85","port":22223,"name":"美国+Amazon数据中心"}
-  - {"name":"吉林省 移动(全省通用)-2","type":"vmess","server":"111.26.109.79","port":30828,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}},"client-fingerprint":"chrome"}
-  - {"type":"ss","server":"ti3hyra4.slashdevslashnetslashtun.net","port":18008,"cipher":"aes-256-gcm","password":"QZVFNGZY8253LZYP","name":"广东省佛山市+电信"}
-  - {"name":"广东省梅州市 广东移动梅州市分公司","type":"vmess","server":"v24.heduian.link","port":30824,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v24.heduian.link"}},"client-fingerprint":"chrome"}
-  - {"name":"吉林省 移动(全省通用)-3","type":"vmess","server":"111.26.109.79","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"wSxcdFR5.999824.xyz","port":80,"cipher":"auto","uuid":"cdec9d57-661d-456a-bbf2-b4c38e9c6711","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/9dZlJLjHHrL0VwSolbqFpg","headers":{"Host":"wsxcdfr5.999824.xyz"}}}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"eERRRty6.999824.xyz","port":443,"cipher":"auto","uuid":"512d9674-db12-44ca-a1b5-654244549b65","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/uiAxvH6OkVk0VCfa7dX3JIrYk7zm","headers":{"Host":"eerrrty6.999824.xyz"}},"servername":"eERRRty6.999824.xyz"}
-  - {"name":"吉林省 移动(全省通用)-4","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"xcvBnMjKi.999824.xyZ","port":443,"cipher":"auto","uuid":"512d9674-db12-44ca-a1b5-654244549b65","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/uiAxvH6OkVk0VCfa7dX3JIrYk7zm","headers":{}},"servername":"xcvBnMjKi.999824.xyZ"}
+  - {"type":"ss","server":"pr.fastsoonlink.com","port":40030,"cipher":"chacha20-ietf-poly1305","password":"7905a32b-012c-4711-89e2-73b6713eca75","name":"广东省广州市+电信"}
+  - {"type":"ss","server":"d1.cloudtaste.xyz","port":22737,"cipher":"aes-128-gcm","password":"281b3470-6322-4dcd-85f5-ceb7c509a335","name":"澳大利亚+V2CROSS.COM"}
+  - {"type":"ss","server":"120.233.128.98","port":30015,"cipher":"aes-256-gcm","password":"dwz1GtF7","name":"广东省+移动"}
+  - {"type":"ss","server":"77.246.102.112","port":60117,"cipher":"chacha20-ietf-poly1305","password":"Y1hjiUmSgucgzYYJ0WtqwW","name":"俄罗斯+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"iIiiI8.222560.xYZ","port":80,"cipher":"auto","uuid":"393b1061-d615-459a-8616-3f9447bdff5a","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/iXfi0mMmPYp9UA6Y34zWUk6JUQ","headers":{"Host":"iIiiI8.222560.xYZ"}}}
