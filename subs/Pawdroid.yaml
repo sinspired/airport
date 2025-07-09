@@ -1,6 +1,9 @@
 proxies:
-  - {"name":"广东省广州市 电信","type":"vmess","server":"fg.fxlcn.com","port":45242,"cipher":"auto","uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"tls":false}
-  - {"skip-cert-verify":true,"type":"trojan","password":"7367d04e-4c59-4dff-a50e-12e730a09891","server":"155.117.228.70","port":26193,"name":"比利时+V2CROSS.COM"}
+  - {"name":"广东省广州市 移动-1","type":"vmess","server":"120.232.153.121","port":59222,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
   - {"name":"广东省汕头市 移动-1","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
-  - {"type":"ss","server":"45.158.171.141","port":8080,"cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa","name":"美国+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxpol.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
+  - {"name":"广东省广州市 移动-2","type":"vmess","server":"120.232.153.40","port":52552,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"f5a39ef1-sz8sg0-szi8d6-1ro8s.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"a18ef18e-293a-11ef-b76e-f23c91cfbbc9","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
+  - {"name":"广东省广州市 移动-3","type":"vmess","server":"120.232.153.40","port":32209,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
   - {"name":"广东省汕头市 移动-2","type":"vmess","server":"v12.heduian.link","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"ip.sb","port":443,"cipher":"auto","uuid":"c9ddb489-7b5e-49ed-8b21-749f4a0ed56d","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/c9ddb489-7b5e-49ed-8b21-749f4a0ed56d-vmess","headers":{"Host":"usshs.atlen.dpdns.org"}},"servername":"ip.sb"}
