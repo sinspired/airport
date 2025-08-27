@@ -1,9 +1,3 @@
 proxies:
-  - {"name":"defaultName_1","type":"http","server":"ukr.secureconnect.me","port":23,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
-  - {"name":"defaultName_2","type":"http","server":"ukr.secureconnect.me","port":489,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
-  - {"name":"defaultName_3","type":"http","server":"ukr.secureconnect.me","port":465,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
-  - {"name":"defaultName_4","type":"http","server":"ukr.secureconnect.me","port":993,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
-  - {"name":"defaultName_5","type":"http","server":"ukr.secureconnect.me","port":282,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
-  - {"name":"defaultName_6","type":"http","server":"ukr.secureconnect.me","port":778,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
-  - {"name":"defaultName_7","type":"http","server":"ukr.secureconnect.me","port":592,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
-  - {"name":"defaultName_8","type":"http","server":"ukr.secureconnect.me","port":7070,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
+  - {"name":"PO3-US-ISP-1","type":"vless","server":"38.34.18.101","port":37293,"udp":true,"uuid":"5f2bcad9-d098-4ba5-843c-39a0784713e8","tls":true,"flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"uQg8AOkLUzUsnUw3OyAQzF0-HmxvlNL09_Yi0slLeH8"},"client-fingerprint":"chrome","servername":"www.amazon.com"}
+  - {"name":"PO3-US-ISP-2","type":"vless","server":"38.34.18.101","port":37293,"udp":true,"uuid":"5f2bcad9-d098-4ba5-843c-39a0784713e8","tls":true,"flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"uQg8AOkLUzUsnUw3OyAQzF0-HmxvlNL09_Yi0slLeH8"},"client-fingerprint":"chrome","servername":"www.amazon.com"}
