@@ -226,5 +226,3 @@ proxies:
   - {"name":"🇬🇧_225","type":"socks5","server":"146.70.95.78","port":1080,"username":"hasanghaderi01@gmail.com","password":"786786HASAN"}
   - {"name":"🇬🇧_226","type":"socks5","server":"146.70.95.78","port":1085,"username":"hasanghaderi01@gmail.com","password":"786786HASAN"}
   - {"name":"🇬🇧_227","type":"socks5","server":"146.70.95.78","port":1090,"username":"hasanghaderi01@gmail.com","password":"786786HASAN"}
-  - {"name":"PO3-US-ISP-1","type":"vless","server":"38.34.18.101","port":37293,"udp":true,"uuid":"5f2bcad9-d098-4ba5-843c-39a0784713e8","tls":true,"flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"uQg8AOkLUzUsnUw3OyAQzF0-HmxvlNL09_Yi0slLeH8"},"client-fingerprint":"chrome","servername":"www.amazon.com"}
-  - {"name":"PO3-US-ISP-2","type":"vless","server":"38.34.18.101","port":37293,"udp":true,"uuid":"5f2bcad9-d098-4ba5-843c-39a0784713e8","tls":true,"flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"uQg8AOkLUzUsnUw3OyAQzF0-HmxvlNL09_Yi0slLeH8"},"client-fingerprint":"chrome","servername":"www.amazon.com"}
