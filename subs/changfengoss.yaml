@@ -5,5 +5,3 @@ proxies:
   - {"name":"defaultName_2-2","type":"http","server":"ukr.secureconnect.me","port":489,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
   - {"name":"defaultName_1-3","type":"http","server":"ukr.secureconnect.me","port":23,"username":"hasanghaderi01@gmail.com","password":"ha11013592","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
   - {"name":"defaultName_2-3","type":"http","server":"ukr.secureconnect.me","port":489,"username":"hasanghaderi01@gmail.com","password":"ha11013592","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
-  - {"name":"defaultName_1-4","type":"http","server":"ukr.secureconnect.me","port":23,"username":"hasanghaderi01@gmail.com","password":"ha11013592","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
-  - {"name":"defaultName_2-4","type":"http","server":"ukr.secureconnect.me","port":489,"username":"hasanghaderi01@gmail.com","password":"ha11013592","tls":true,"skip-cert-verify":true,"sni":"ukr.secureconnect.me"}
