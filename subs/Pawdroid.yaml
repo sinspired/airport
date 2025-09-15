@@ -1,5 +1,5 @@
 proxies:
-  - {"name":"澳大利亚 V2CROSS.COM","type":"vmess","server":"202.79.161.192","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/path/170733132233","headers":{}}}
-  - {"name":"日本 东京Sakura樱花云数据中心","type":"vmess","server":"www.tiktok.com.jp3.viefast.net","port":80,"cipher":"auto","uuid":"9e76767d-4bfa-4f04-a800-42e2f63afed2","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/viefast","headers":{"Host":"www.linemo.jp"}}}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"masjide.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"masjide.org"}},"servername":"masjide.org"}
-  - {"name":"江苏省 移动","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"法国 国际航空电讯集团公司(SITA)","type":"vmess","server":"jamekk.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"jamekk.org"}},"servername":"jamekk.org"}
+  - {"type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"xingxing.jiasu123.org","port":2966,"name":"日本+东京都Amazon数据中心:443","sni":"xingxing.jiasu123.org"}
+  - {"name":"江苏省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"skip-cert-verify":true,"sni":"www.baidu.com","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.150.215.200","port":391,"name":"江苏省+移动"}
