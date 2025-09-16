@@ -1,5 +1,7 @@
 proxies:
-  - {"type":"ss","server":"36.234.94.86","port":10078,"cipher":"chacha20-ietf-poly1305","password":"d51c1aa9-1c96-44a4-b54c-46d0dec0578f","name":"台湾省台中市+中华电信"}
-  - {"name":"江苏省 移动","type":"vmess","server":"v8.heduian.link","port":30808,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v8.heduian.link"}}}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"jamekk.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"jamekk.org"}},"servername":"jamekk.org"}
-  - {"name":"奥地利 V2CROSS.COM","type":"vmess","server":"46.29.34.205","port":59956,"cipher":"auto","uuid":"ca0c9937-58a6-44ea-9111-a6abac267d0f","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"23.45.86.28","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"xingxing.jiasu123.org","port":4317,"name":"日本+V2CROSS.COM"}
+  - {"name":"英国 社会保险安全部","type":"vmess","server":"51.222.158.243","port":8443,"cipher":"auto","uuid":"4b0df213-0e59-4c16-b391-e0d97686bfa9","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{}}}
+  - {"skip-cert-verify":true,"sni":"fe2.update.microsoft.com","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"203.218.158.70","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"skip-cert-verify":true,"sni":"23.45.86.28","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.150.215.200","port":1806,"name":"江苏省+移动-1"}
+  - {"skip-cert-verify":true,"sni":"23.45.86.28","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.150.215.200","port":13855,"name":"江苏省+移动-2"}
+  - {"type":"ss","server":"switcher-nick-croquet.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"9tqhMdIrTkgQ46PvhyAtMH","name":"乌克兰+V2CROSS.COM"}
