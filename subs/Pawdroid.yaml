@@ -1,6 +1,5 @@
 proxies:
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"codepen.io","port":443,"cipher":"auto","uuid":"de94cc0a-0592-4969-b1fc-97ea8f0ea0b3","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/us.kkp.me.eu.org/aa","headers":{"Host":"farid.1.berozha.ir"}},"servername":"codepen.io"}
-  - {"name":"法国 国际航空电讯集团公司(SITA)","type":"vmess","server":"jamekk.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"jamekk.org"}},"servername":"jamekk.org"}
+  - {"type":"ss","server":"36.234.94.86","port":10078,"cipher":"chacha20-ietf-poly1305","password":"d51c1aa9-1c96-44a4-b54c-46d0dec0578f","name":"台湾省台中市+中华电信"}
   - {"name":"江苏省 移动","type":"vmess","server":"v8.heduian.link","port":30808,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v8.heduian.link"}}}
-  - {"name":"丹麦 V2CROSS.COM","type":"vmess","server":"csgo.com","port":80,"cipher":"auto","uuid":"b53d38db-c8e7-4942-8a71-51b6430ab40e","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/profile/telegram@ssrsub","headers":{"Host":"cdn-node-oss-91.paofu.de"}}}
-  - {"sni":"rc8.freeguard.org","type":"trojan","password":"2ee85121-31de-4581-a492-eb00f606e392","server":"192.3.107.252","port":443,"name":"美国+V2CROSS.COM"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"jamekk.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"jamekk.org"}},"servername":"jamekk.org"}
+  - {"name":"奥地利 V2CROSS.COM","type":"vmess","server":"46.29.34.205","port":59956,"cipher":"auto","uuid":"ca0c9937-58a6-44ea-9111-a6abac267d0f","alterId":0,"tls":false}
