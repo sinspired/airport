@@ -1,7 +1,6 @@
 proxies:
-  - {"name":"澳大利亚 V2CROSS.COM","type":"vmess","server":"202.79.161.192","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/path/170733132233","headers":{}}}
-  - {"name":"广东省汕头市 移动-1","type":"vmess","server":"183.240.180.3","port":34141,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
-  - {"name":"广东省汕头市 移动-2","type":"vmess","server":"183.240.180.47","port":52512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
-  - {"name":"江苏省 移动","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"广东省 移动","type":"vmess","server":"183.240.245.251","port":39595,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"美国 惠普公司-1","type":"vmess","server":"jamekk.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"jamekk.org"}},"servername":"jamekk.org"}
+  - {"name":"广东省汕头市 移动","type":"vmess","server":"183.240.180.47","port":52512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"sni":"rc8.freeguard.org","type":"trojan","password":"2ee85121-31de-4581-a492-eb00f606e392","server":"192.3.107.252","port":443,"name":"美国+V2CROSS.COM"}
+  - {"name":"美国 惠普公司-2","type":"vmess","server":"kampong.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"kampong.org"}},"servername":"kampong.org"}
   - {"name":"英国 社会保险安全部","type":"vmess","server":"ov-canada3.09vpn.com","port":8443,"cipher":"auto","uuid":"1a06fe60-0933-4b66-b927-937a5e015c50","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"ov-canada3.09vpn.com"}},"servername":"ov-canada3.09vpn.com"}
