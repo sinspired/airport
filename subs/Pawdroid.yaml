@@ -1,11 +1,7 @@
 proxies:
-  - {"type":"ss","server":"45.144.235.103","port":1080,"cipher":"chacha20-ietf-poly1305","password":"aE5rFdxzG8GQf5TAQhZhRA","name":"美国+V2CROSS.COM-1"}
-  - {"name":"英国 社会保险安全部","type":"vmess","server":"51.222.158.243","port":8443,"cipher":"auto","uuid":"4b0df213-0e59-4c16-b391-e0d97686bfa9","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{}}}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"209.146.100.247","port":20521,"cipher":"auto","uuid":"9239aaf5-8516-4690-9621-ae4ceac87a99","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"name":"香港 阿里云-1","type":"vmess","server":"47.86.35.129","port":18912,"cipher":"auto","uuid":"6052a431-b718-4aad-9067-86ca6c788e6f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/arki","headers":{},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048}}
-  - {"name":"香港 阿里云-2","type":"vmess","server":"47.86.43.242","port":35987,"cipher":"auto","uuid":"cdb1236d-7bd5-4213-9371-6407c2ac85b0","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/arki","headers":{},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048}}
-  - {"name":"香港 阿里云-3","type":"vmess","server":"47.86.18.80","port":31523,"cipher":"auto","uuid":"015f1957-281d-4cda-ae41-f435cf9a349f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/arki","headers":{},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048}}
-  - {"type":"trojan","password":"1640ef52-2db0-44ab-b3f3-8690b762ebc9","server":"165.154.112.107","port":12000,"name":"香港+UCloud:443"}
-  - {"name":"香港 特别行政区","type":"vmess","server":"185.239.84.246","port":24213,"cipher":"auto","uuid":"679c8170-54a6-4d7d-c831-f052e16a93d4","alterId":0,"tls":false}
-  - {"sni":"rc8.freeguard.org","type":"trojan","password":"2ee85121-31de-4581-a492-eb00f606e392","server":"192.3.107.252","port":443,"name":"美国+V2CROSS.COM-2"}
-  - {"name":"香港 阿里云-4","type":"vmess","server":"47.86.39.105","port":3227,"cipher":"auto","uuid":"cc7556ed-1af2-4291-b4ed-f9dc4eb7a435","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/arki","headers":{},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048}}
+  - {"name":"澳大利亚 V2CROSS.COM","type":"vmess","server":"202.79.161.192","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/path/170733132233","headers":{}}}
+  - {"name":"广东省汕头市 移动-1","type":"vmess","server":"183.240.180.3","port":34141,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"广东省汕头市 移动-2","type":"vmess","server":"183.240.180.47","port":52512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"江苏省 移动","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"广东省 移动","type":"vmess","server":"183.240.245.251","port":39595,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"英国 社会保险安全部","type":"vmess","server":"ov-canada3.09vpn.com","port":8443,"cipher":"auto","uuid":"1a06fe60-0933-4b66-b927-937a5e015c50","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"ov-canada3.09vpn.com"}},"servername":"ov-canada3.09vpn.com"}
