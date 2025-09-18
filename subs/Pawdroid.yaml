@@ -1,5 +1,9 @@
 proxies:
-  - {"name":"法国 国际航空电讯集团公司(SITA)","type":"vmess","server":"kampong.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"kampong.org"}},"servername":"kampong.org"}
-  - {"name":"广东省汕头市 移动","type":"vmess","server":"183.240.180.3","port":34141,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
-  - {"type":"trojan","password":"9e76767d-4bfa-4f04-a800-42e2f63afed2","server":"www.tiktok.com.jp1.viefast.net","port":443,"name":"日本+东京SAKURA数据中心:443","sni":"www.tiktok.com.jp1.viefast.net"}
-  - {"name":"江苏省 移动","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"type":"vless","name":"法国+OVH","server":"51.38.168.151","port":8080,"uuid":"dde87267-da95-4a6b-9891-0c864a3e9be8","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"wWw.SpeEDTeSt.nEt"},"path":"/wslinka"},"servername":"wWw.SpeEDTeSt.nEt"}
+  - {"name":"澳大利亚 V2CROSS.COM","type":"vmess","server":"202.79.161.192","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/path/170733132233","headers":{}}}
+  - {"name":"广东省汕头市 移动","type":"vmess","server":"183.240.180.47","port":52512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"type":"ss","server":"hackney-latest-strike.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"XUMTygEM1jVYIvysXKqA5T","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司"}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"154.9.254.63","port":20521,"cipher":"auto","uuid":"d824764a-954e-4c75-9116-f6e5eba944a9","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"name":"奥地利 V2CROSS.COM","type":"vmess","server":"46.29.34.205","port":59956,"cipher":"auto","uuid":"ca0c9937-58a6-44ea-9111-a6abac267d0f","alterId":0,"tls":false}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"qqqqqqqqqqqqaaaa.www890604.dpdns.org","port":443,"cipher":"auto","uuid":"4174b95d-115e-4d39-add6-1f8db95bb860","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6We3U9Df1WGxgFnoFPw1","headers":{"Host":"qqqqqqqqqqqqaaaa.www890604.dpdns.org"}},"servername":"qqqqqqqqqqqqaaaa.www890604.dpdns.org"}
