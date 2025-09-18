@@ -876,282 +876,110 @@ proxies:
   - {"type":"trojan","name":"保加利亞_5","server":"185.238.228.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram🇨🇳","headers":{"Host":"ocost-dy.wmlefl.cc"}}}
   - {"type":"trojan","name":"英國_20","server":"212.183.88.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/Telegram","headers":{"Host":"ocost-dy.wmlefl.cc"}}}
   - {"type":"trojan","name":"美國_89","server":"209.94.90.195","port":2096,"password":"slch2024","udp":true,"skip-cert-verify":true,"sni":"ocost-dy.wmlefl.cc","network":"ws","ws-opts":{"path":"/由零开始🇨🇳","headers":{"Host":"ocost-dy.wmlefl.cc"}}}
-  - {"name":"GB英国(mibei77.com 米贝节点分享)-1","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 2-1","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享)-1","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 3-1","server":"188.244.122.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享)-1","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享)-1","server":"185.238.228.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 4-1","server":"188.244.122.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 2-1","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 2-1","server":"185.59.218.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 3-1","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 4-1","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享)-1","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享) 2-1","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 5-1","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-1","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 2-1","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 6-1","server":"209.46.30.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-1","server":"188.164.248.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 7-1","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"立陶宛(mibei77.com 米贝节点分享)-1","server":"188.42.89.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 8-1","server":"185.148.107.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 9-1","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-1","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 3-1","server":"195.13.44.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 2-1","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"DE德国(mibei77.com 米贝节点分享)-1","server":"185.16.110.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 10-1","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 11-1","server":"192.0.54.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 12-1","server":"199.68.156.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 13-1","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 14-1","server":"192.0.54.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"奥地利(mibei77.com 米贝节点分享)-1","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 15-1","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 16-1","server":"193.124.24.230","port":6504,"type":"vmess","uuid":"3c7c8995-1ab6-4997-9c01-0aaaab66f5d1","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 17-1","server":"193.124.24.230","port":6515,"type":"vmess","uuid":"a9a09619-ccc9-4092-e9c0-e4aa0ac5849b","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 5-1","server":"awes35lesl.blhao0o.dpdns.org","port":12011,"type":"ss","cipher":"aes-128-gcm","password":"01721e43-5389-4f97-b21c-900abb2bda9e","udp":true}
-  - {"name":"JP日本(mibei77.com 米贝节点分享)-1","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 6-1","server":"194.36.55.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"塞浦路斯(mibei77.com 米贝节点分享)-1","server":"185.18.184.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 18-1","server":"185.251.80.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 19-1","server":"185.251.82.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享)-1","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享) 3-1","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 20-1","server":"185.148.107.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 21-1","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 22-1","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 23-1","server":"185.148.107.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 3-1","server":"188.164.248.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 4-1","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"奥地利(mibei77.com 米贝节点分享) 2-1","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"CA加拿大(mibei77.com 米贝节点分享)-1","server":"205.233.181.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 24-1","server":"185.18.250.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 7-1","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享)-1","server":"188.42.89.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 3-1","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 8-1","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 4-1","server":"185.251.80.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 25-1","server":"199.68.156.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"奥地利(mibei77.com 米贝节点分享) 3-1","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 5-1","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 9-1","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 10-1","server":"195.26.229.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 11-1","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"DE德国(mibei77.com 米贝节点分享) 2-1","server":"185.16.110.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 4-1","server":"188.164.248.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 5-1","server":"188.164.248.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 5-1","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 26-1","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 2-1","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 12-1","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 3-1","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 6-1","server":"195.13.44.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 4-1","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 6","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 7-1","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 8-1","server":"185.59.218.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 13-1","server":"188.244.122.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 27-1","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 28-1","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-1","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 14-1","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"HK香港(mibei77.com 米贝节点分享)-1","server":"183.240.245.242","port":33331,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 29-1","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 6-1","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 9-1","server":"185.174.138.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 30-1","server":"199.181.197.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 10-1","server":"195.13.44.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 11-1","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 31-1","server":"209.46.30.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 32-1","server":"185.59.218.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-1","server":"185.18.184.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 5-1","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享) 2-1","server":"188.42.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 15-1","server":"194.36.55.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享)-2","server":"185.148.107.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-2","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享)-2","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享)-2","server":"194.36.55.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 2-2","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享)-2","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 2-2","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 3-2","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 4-2","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享)-2","server":"185.59.218.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"CA加拿大(mibei77.com 米贝节点分享)-2","server":"205.233.181.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 2-2","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 5-2","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 3-2","server":"185.221.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 3-2","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 2-2","server":"185.251.80.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"HK香港(mibei77.com 米贝节点分享)-2","server":"183.240.245.242","port":33331,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"JP日本(mibei77.com 米贝节点分享)-2","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 2-2","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 6-2","server":"194.36.55.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"奥地利(mibei77.com 米贝节点分享)-2","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-2","server":"195.13.44.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 4-2","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"奥地利(mibei77.com 米贝节点分享) 2-2","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"DE德国(mibei77.com 米贝节点分享)-2","server":"185.16.110.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享)-2","server":"188.42.89.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 3-2","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享) 2-2","server":"188.42.89.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 5-2","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 6-2","server":"199.68.156.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"奥地利(mibei77.com 米贝节点分享) 3-2","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 7-2","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 8-2","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 4-2","server":"185.251.80.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 7-2","server":"185.251.82.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 9-2","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 10-2","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享)-2","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 8-2","server":"195.26.229.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 4-2","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 11-2","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 9-2","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 10-2","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 3-2","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 5-2","server":"185.221.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 5-2","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 6-2","server":"185.238.228.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 11-2","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"塞浦路斯(mibei77.com 米贝节点分享)-2","server":"185.18.184.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 12-2","server":"185.59.218.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 7-1","server":"185.251.80.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享) 3-1","server":"188.42.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 8-1","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 6-2","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 9-1","server":"185.238.228.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 12-2","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 13-2","server":"185.148.107.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 3-2","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 4-2","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 14-2","server":"188.164.248.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 15-2","server":"209.46.30.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-2","server":"185.18.184.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享) 2-2","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 7-2","server":"195.13.44.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 10","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享) 4-1","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 8-2","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享) 5-1","server":"188.42.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 9-2","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-2","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 10-2","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 2-2","server":"188.164.248.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 16-2","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 17-2","server":"209.46.30.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 11","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 18-2","server":"199.181.197.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 12","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 4","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享)-3","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 2-3","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享)-3","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 3-3","server":"195.13.44.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享)-3","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 4-3","server":"198.62.62.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 2-3","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"JP日本(mibei77.com 米贝节点分享)-3","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 5-3","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 3-3","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享) 2-3","server":"188.42.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享)-3","server":"194.36.55.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 6-3","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 2-3","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享)-3","server":"188.164.248.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 7-3","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 8-3","server":"185.148.106.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 2-3","server":"188.164.248.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 9-3","server":"198.62.62.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 10-3","server":"199.181.197.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享) 3-2","server":"188.42.89.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 11-3","server":"198.62.62.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 4-3","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 12-3","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 13-3","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 14-3","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 15-3","server":"hackney-latest-strike.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"XUMTygEM1jVYIvysXKqA5T","udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 3-3","server":"195.26.229.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 16-3","server":"199.68.156.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 17-3","server":"209.94.90.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 18-3","server":"209.94.90.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 19-2","server":"192.200.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 20-2","server":"209.94.90.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 4-3","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 21-2","server":"199.68.156.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 22-2","server":"192.0.63.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"奥地利(mibei77.com 米贝节点分享)-3","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 23-2","server":"192.200.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 24-2","server":"209.94.90.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 25-2","server":"209.94.90.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 26-2","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"奥地利(mibei77.com 米贝节点分享) 2-3","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享) 4-2","server":"188.42.89.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享)-3","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 2-3","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"HK香港(mibei77.com 米贝节点分享)-3","server":"183.240.245.242","port":33331,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享)-3","server":"185.251.82.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 5-3","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 5-3","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 2-3","server":"185.251.80.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 6-3","server":"194.36.55.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"CA加拿大(mibei77.com 米贝节点分享)-3","server":"205.233.181.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 7-3","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 8-3","server":"195.26.229.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"DE德国(mibei77.com 米贝节点分享)-3","server":"185.16.110.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 9-3","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 27-2","server":"199.181.197.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 28-2","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 3-3","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 29-2","server":"192.200.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享)-3","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 30-2","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 31-2","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 10-3","server":"195.26.229.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 6-3","server":"194.76.18.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"US美国(mibei77.com 米贝节点分享) 32-2","server":"192.0.54.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享)","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 2","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享)","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 3","server":"195.13.44.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"卢森堡(mibei77.com 米贝节点分享)","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 4","server":"198.62.62.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 2","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"JP日本(mibei77.com 米贝节点分享)","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"Nk9asglDzHzjktVzTkvhaA","udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 5","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 3","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"卢森堡(mibei77.com 米贝节点分享) 2","server":"188.42.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享)","server":"194.36.55.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 6","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 2","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享)","server":"188.164.248.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 7","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 8","server":"185.148.106.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 2","server":"188.164.248.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 9","server":"198.62.62.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 10","server":"199.181.197.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"卢森堡(mibei77.com 米贝节点分享) 3","server":"188.42.89.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 11","server":"198.62.62.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 4","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 12","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 13","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 14","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 15","server":"hackney-latest-strike.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"XUMTygEM1jVYIvysXKqA5T","udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 3","server":"195.26.229.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 16","server":"199.68.156.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 17","server":"209.94.90.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 18","server":"209.94.90.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 19","server":"192.200.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 20","server":"209.94.90.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 4","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 21","server":"199.68.156.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 22","server":"192.0.63.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"奥地利(mibei77.com 米贝节点分享)","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 23","server":"192.200.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 24","server":"209.94.90.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 25","server":"209.94.90.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 26","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"奥地利(mibei77.com 米贝节点分享) 2","server":"212.183.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"卢森堡(mibei77.com 米贝节点分享) 4","server":"188.42.89.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享)","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享) 2","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"HK香港(mibei77.com 米贝节点分享)","server":"183.240.245.242","port":33331,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"西班牙(mibei77.com 米贝节点分享)","server":"185.251.82.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 5","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 5","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"西班牙(mibei77.com 米贝节点分享) 2","server":"185.251.80.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 6","server":"194.36.55.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"CA加拿大(mibei77.com 米贝节点分享)","server":"205.233.181.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 7","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 8","server":"195.26.229.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"DE德国(mibei77.com 米贝节点分享)","server":"185.16.110.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 9","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 27","server":"199.181.197.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 28","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享) 3","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 29","server":"192.200.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享)","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 30","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 31","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 10","server":"195.26.229.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 6","server":"194.76.18.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"US美国(mibei77.com 米贝节点分享) 32","server":"192.0.54.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 33","server":"192.200.160.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"卢森堡(mibei77.com 米贝节点分享) 5-2","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"卢森堡(mibei77.com 米贝节点分享) 5","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 34","server":"199.68.156.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 11-3","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 11","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 35","server":"192.0.63.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 36","server":"199.68.156.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 4-3","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 3-3","server":"185.251.80.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享) 4","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"西班牙(mibei77.com 米贝节点分享) 3","server":"185.251.80.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 37","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 7-3","server":"185.221.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 7","server":"185.221.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 38","server":"199.34.230.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 12-3","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 8-3","server":"194.76.18.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"FR法国(mibei77.com 米贝节点分享) 5-2","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享)-3","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 9-3","server":"195.13.44.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"DE德国(mibei77.com 米贝节点分享) 2-2","server":"185.16.110.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 12","server":"185.156.19.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 8","server":"194.76.18.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"FR法国(mibei77.com 米贝节点分享) 5","server":"185.7.240.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享)","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 9","server":"195.13.44.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"DE德国(mibei77.com 米贝节点分享) 2","server":"185.16.110.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 39","server":"185.59.218.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 40","server":"199.34.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 41","server":"199.68.156.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享) 2-3","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"立陶宛(mibei77.com 米贝节点分享)-2","server":"185.148.106.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享) 2","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"立陶宛(mibei77.com 米贝节点分享)","server":"185.148.106.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 42","server":"188.164.248.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 43","server":"199.68.156.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 44","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 45","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 4-3","server":"185.251.82.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"西班牙(mibei77.com 米贝节点分享) 4","server":"185.251.82.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"DE德国(mibei77.com 米贝节点分享) 3","server":"185.16.110.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"CA加拿大(mibei77.com 米贝节点分享) 2","server":"205.233.181.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享) 3-2","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 3-2","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 13-2","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 4-2","server":"188.164.248.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"AU澳大利亚(mibei77.com 米贝节点分享) 3","server":"192.65.217.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 3","server":"188.42.145.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 13","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 4","server":"188.164.248.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 46","server":"199.181.197.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 14-2","server":"185.251.82.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"GB英国(mibei77.com 米贝节点分享) 15-2","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 10-3","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 11-2","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 14","server":"185.251.82.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"GB英国(mibei77.com 米贝节点分享) 15","server":"195.26.229.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 10","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 11","server":"193.124.224.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 47","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 48","server":"185.148.107.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 49","server":"185.251.80.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
@@ -1159,24 +987,24 @@ proxies:
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 12","server":"193.9.49.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 51","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 52","server":"209.46.30.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 5-3","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"西班牙(mibei77.com 米贝节点分享) 5","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 13","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 6-3","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"西班牙(mibei77.com 米贝节点分享) 6","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 14","server":"195.13.44.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 53","server":"185.251.83.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 7-2","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"西班牙(mibei77.com 米贝节点分享) 7","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 15","server":"193.9.49.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"GB英国(mibei77.com 米贝节点分享) 16","server":"194.36.55.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 5-2","server":"188.164.248.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"SG新加坡(mibei77.com 米贝节点分享)-3","server":"185.18.184.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"塞浦路斯(mibei77.com 米贝节点分享)-3","server":"185.18.184.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"NL荷兰(mibei77.com 米贝节点分享) 5","server":"188.164.248.87","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"SG新加坡(mibei77.com 米贝节点分享)","server":"185.18.184.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"塞浦路斯(mibei77.com 米贝节点分享)","server":"185.18.184.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 54","server":"185.148.106.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 8-2","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"西班牙(mibei77.com 米贝节点分享) 8","server":"185.251.81.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 16","server":"185.221.160.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 55","server":"185.148.105.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"卢森堡(mibei77.com 米贝节点分享) 6","server":"188.42.88.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"西班牙(mibei77.com 米贝节点分享) 9-2","server":"185.238.228.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
-  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2-3","server":"195.13.44.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"西班牙(mibei77.com 米贝节点分享) 9","server":"185.238.228.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(mibei77.com 米贝节点分享) 2","server":"195.13.44.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"US美国(mibei77.com 米贝节点分享) 56","server":"209.46.30.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 17","server":"185.176.24.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
   - {"name":"RU俄罗斯(mibei77.com 米贝节点分享) 18","server":"195.13.45.195","port":2096,"type":"trojan","password":"slch2024","skip-cert-verify":true,"udp":true}
