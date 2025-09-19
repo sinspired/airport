@@ -1,7 +1,8 @@
 proxies:
-  - {"type":"trojan","password":"9e76767d-4bfa-4f04-a800-42e2f63afed2","server":"uk.viefast.net","port":443,"name":"英国+伦敦阿里云:443","sni":"uk.viefast.net"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
-  - {"name":"广东省东莞市 电信","type":"vmess","server":"aflzzul.meiquankongjian.com","port":51515,"cipher":"auto","uuid":"342bacfd-2b8f-3f49-a16e-439db5b0b9d5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}}}
-  - {"name":"江苏省 移动","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"45.144.174.60","port":23175,"cipher":"auto","uuid":"70e99ed9-a747-44e1-9eb4-868aaa2ea038","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"name":"广东省 移动","type":"vmess","server":"183.240.245.251","port":39595,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"江苏省 移动-1","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"广东省汕头市 移动-1","type":"vmess","server":"183.240.180.47","port":52512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"type":"trojan","password":"9e76767d-4bfa-4f04-a800-42e2f63afed2","server":"malaysia.viefast.net","port":443,"name":"新加坡+腾讯云:443","sni":"malaysia.viefast.net"}
+  - {"name":"江苏省 移动-2","type":"vmess","server":"v8.heduian.link","port":30808,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v8.heduian.link"}}}
+  - {"name":"广东省汕头市 移动-2","type":"vmess","server":"183.240.180.3","port":34141,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"丹麦 V2CROSS.COM","type":"vmess","server":"fastcup.net","port":80,"cipher":"auto","uuid":"1d9442f8-f4d6-46d0-8c81-69d4f404f8a5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/profile/telegram@ssrsub","headers":{"Host":"cdn-node-oss-91.paofu.de"}}}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
