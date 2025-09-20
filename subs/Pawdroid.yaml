@@ -1,8 +1,9 @@
 proxies:
-  - {"name":"美国 惠普公司","type":"vmess","server":"kampong.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"kampong.org"}},"servername":"kampong.org"}
-  - {"type":"ss","server":"151.242.251.144","port":8080,"cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa","name":"伊朗+V2CROSS.COM"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
-  - {"name":"江苏省 移动","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"美国 ","type":"vmess","server":"serkat.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"serkat.org"}},"servername":"serkat.org"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
+  - {"skip-cert-verify":true,"sni":"juzi8186-sr1.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"Host":"juzi8186-sr1.pages.dev"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"type":"trojan","password":"juzi","server":"154.29.155.249","port":443,"name":"美国+V2CROSS.COM"}
+  - {"name":"奥地利 V2CROSS.COM","type":"vmess","server":"46.29.34.205","port":59956,"cipher":"auto","uuid":"ca0c9937-58a6-44ea-9111-a6abac267d0f","alterId":0,"tls":false}
+  - {"name":"新加坡 腾讯云","type":"vmess","server":"43.156.224.60","port":50512,"cipher":"auto","uuid":"05c83256-cc7b-4356-a6de-a2e4d4e6c184","alterId":0,"tls":false}
   - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"153.121.73.102","port":3296,"name":"日本+东京SAKURA数据中心"}
-  - {"type":"ss","server":"159.65.155.229","port":80,"cipher":"chacha20-ietf-poly1305","password":"bvr9u3aeRQwAafhjmvHtwH","name":"印度+V2CROSS.COM"}
-  - {"skip-cert-verify":true,"sni":"aliyun.com","type":"trojan","password":"1640ef52-2db0-44ab-b3f3-8690b762ebc9","server":"165.154.112.107","port":12000,"name":"香港+UCloud"}
+  - {"name":"江苏省 移动","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"jamekk.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"jamekk.org"}},"servername":"jamekk.org"}
