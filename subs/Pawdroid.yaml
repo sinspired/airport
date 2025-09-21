@@ -1,10 +1,11 @@
 proxies:
-  - {"name":"澳大利亚 V2CROSS.COM","type":"vmess","server":"202.79.161.192","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/path/170733132233","headers":{}}}
-  - {"name":"新加坡 腾讯云","type":"vmess","server":"43.156.175.95","port":52377,"cipher":"auto","uuid":"0e5ffcbd-0607-4ce7-df0f-ea56660ab735","alterId":0,"tls":false}
-  - {"sni":"sj3.freeguard.org","type":"trojan","password":"2ee85121-31de-4581-a492-eb00f606e392","server":"198.46.152.83","port":443,"name":"美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公司"}
-  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
-  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"skip-cert-verify":true,"sni":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc","type":"trojan","password":"installshield","server":"38.180.249.177","port":8443,"name":"美国+华盛顿Cogent通信公司"}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"45.144.174.60","port":25160,"cipher":"auto","uuid":"07558080-2897-42a1-98f9-ac4503b36b02","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"name":"江苏省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"type":"ss","server":"71.19.148.74","port":443,"cipher":"chacha20-ietf-poly1305","password":"gqkUCvmeOTghYJXF1YIuk5","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司"}
+  - {"type":"ss","server":"us.fastsoonlink.com","port":40001,"cipher":"chacha20-ietf-poly1305","password":"9177de1a-aeff-43f1-93a6-7dd08a2fdc41","name":"福建省厦门市+电信-1"}
+  - {"name":"奥地利 V2CROSS.COM","type":"vmess","server":"46.29.34.205","port":59956,"cipher":"auto","uuid":"ca0c9937-58a6-44ea-9111-a6abac267d0f","alterId":0,"tls":false}
+  - {"type":"ss","server":"hk.fastsoonlink.com","port":40000,"cipher":"chacha20-ietf-poly1305","password":"9177de1a-aeff-43f1-93a6-7dd08a2fdc41","name":"福建省厦门市+电信-2"}
+  - {"sni":"sto.freeguard.org","type":"trojan","password":"2ee85121-31de-4581-a492-eb00f606e392","server":"45.91.171.116","port":443,"name":"欧盟+V2CROSS.COM"}
+  - {"name":"法国 国际航空电讯集团公司(SITA)","type":"vmess","server":"jamekk.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"jamekk.org"}},"servername":"jamekk.org"}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com"}}}
+  - {"name":"日本东京 Oracle云计算数据中心","type":"vmess","server":"158.101.146.3","port":54516,"cipher":"auto","uuid":"6d0b24b6-6622-44b2-8da0-ef1e67651325","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"Host":"serv00_vmess.sweetrx.eu.org"}},"servername":"serv00_vmess.sweetrx.eu.org"}
+  - {"sni":"blength.appagent.net","type":"trojan","password":"0C3YaEDx46ODTFTcaF8lXlZ3zeqSlF33wZagexzRjIyODa8RDwp8XSCO93ygCSYcSYABA","server":"blength.appagent.net","port":18332,"name":"美国+V2CROSS.COM-1"}
+  - {"skip-cert-verify":false,"sni":"hanger.appagent.net","type":"trojan","password":"Z3aK0aZqwyNcz7S3l3ncNCODYxNFnA8SCOOSOZ3y3AX8xA4a0RZ3gxn39aqYAaBOyzR43acKOCzSX3S","server":"hanger.appagent.net","port":28331,"name":"美国+V2CROSS.COM-2"}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
