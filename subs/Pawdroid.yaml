@@ -1,6 +1,10 @@
 proxies:
-  - {"name":"美国 阿里云","type":"vmess","server":"47.238.252.154","port":20521,"cipher":"auto","uuid":"87bb9d49-6345-42d4-9ee4-91dd8a6ca544","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"test2.flha.ru","port":80,"cipher":"auto","uuid":"15f62abf-8cc9-4598-8d57-e4df7b499a84","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/15f62abf-8cc9-4598-8d57-e4df7b499a84-vmess","headers":{"Host":"test2.flha.ru"}}}
-  - {"name":"新加坡 腾讯云","type":"vmess","server":"43.156.224.60","port":50512,"cipher":"auto","uuid":"05c83256-cc7b-4356-a6de-a2e4d4e6c184","alterId":0,"tls":false}
-  - {"name":"江苏省 移动","type":"vmess","server":"v24.heduian.link","port":30824,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v24.heduian.link"}}}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
+  - {"name":"澳大利亚 V2CROSS.COM","type":"vmess","server":"202.79.161.192","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/path/170733132233","headers":{}}}
+  - {"name":"新加坡 腾讯云","type":"vmess","server":"43.156.175.95","port":52377,"cipher":"auto","uuid":"0e5ffcbd-0607-4ce7-df0f-ea56660ab735","alterId":0,"tls":false}
+  - {"sni":"sj3.freeguard.org","type":"trojan","password":"2ee85121-31de-4581-a492-eb00f606e392","server":"198.46.152.83","port":443,"name":"美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公司"}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"skip-cert-verify":true,"sni":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc","type":"trojan","password":"installshield","server":"38.180.249.177","port":8443,"name":"美国+华盛顿Cogent通信公司"}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"45.144.174.60","port":25160,"cipher":"auto","uuid":"07558080-2897-42a1-98f9-ac4503b36b02","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"name":"江苏省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"type":"ss","server":"71.19.148.74","port":443,"cipher":"chacha20-ietf-poly1305","password":"gqkUCvmeOTghYJXF1YIuk5","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司"}
