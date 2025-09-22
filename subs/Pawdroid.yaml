@@ -1,11 +1,12 @@
 proxies:
-  - {"name":"江苏省 移动","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"type":"ss","server":"38.110.1.122","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","name":"美国+华盛顿Cogent通信公司"}
   - {"type":"ss","server":"uk.fastsoonlink.com","port":40008,"cipher":"chacha20-ietf-poly1305","password":"9177de1a-aeff-43f1-93a6-7dd08a2fdc41","name":"福建省厦门市+电信-1"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com"}}}
-  - {"skip-cert-verify":false,"sni":"pricey.appagent.net","type":"trojan","password":"F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0","server":"pricey.appagent.net","port":28334,"name":"美国+V2CROSS.COM"}
-  - {"sni":"sj3.freeguard.org","type":"trojan","password":"2ee85121-31de-4581-a492-eb00f606e392","server":"198.46.152.83","port":443,"name":"美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公司"}
-  - {"name":"新加坡 Amazon数据中心","type":"vmess","server":"cgroup.node3.v.nodelist-airport.com","port":24321,"cipher":"auto","uuid":"8f3a835c-8a45-480d-ae35-1deb2c52dcae","alterId":0,"tls":false}
-  - {"sni":"rs3.freeguard.org","type":"trojan","password":"2ee85121-31de-4581-a492-eb00f606e392","server":"15.204.248.103","port":443,"name":"美国+惠普HP"}
-  - {"type":"ss","server":"pr.fastsoonlink.com","port":40030,"cipher":"chacha20-ietf-poly1305","password":"9177de1a-aeff-43f1-93a6-7dd08a2fdc41","name":"福建省厦门市+电信-2"}
-  - {"type":"ss","server":"frk.fastsoonlink.com","port":40011,"cipher":"chacha20-ietf-poly1305","password":"9177de1a-aeff-43f1-93a6-7dd08a2fdc41","name":"福建省厦门市+电信-3"}
-  - {"name":"法国 国际航空电讯集团公司(SITA)","type":"vmess","server":"jamekk.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"jamekk.org"}},"servername":"jamekk.org"}
+  - {"type":"ss","server":"45.140.169.26","port":30102,"cipher":"aes-256-gcm","password":"7ae4e68cf77f6089","name":"俄罗斯+莫斯科JustHost"}
+  - {"type":"ss","server":"frk.fastsoonlink.com","port":40011,"cipher":"chacha20-ietf-poly1305","password":"9177de1a-aeff-43f1-93a6-7dd08a2fdc41","name":"福建省厦门市+电信-2"}
+  - {"type":"ss","server":"vn.fastsoonlink.com","port":40021,"cipher":"chacha20-ietf-poly1305","password":"9177de1a-aeff-43f1-93a6-7dd08a2fdc41","name":"福建省厦门市+电信-3"}
+  - {"type":"ss","server":"151.242.251.144","port":8080,"cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa","name":"伊朗+V2CROSS.COM"}
+  - {"type":"ss","server":"us.fastsoonlink.com","port":40001,"cipher":"chacha20-ietf-poly1305","password":"9177de1a-aeff-43f1-93a6-7dd08a2fdc41","name":"福建省厦门市+电信-4"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"江苏省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"type":"ss","server":"tur.fastsoonlink.com","port":40019,"cipher":"chacha20-ietf-poly1305","password":"9177de1a-aeff-43f1-93a6-7dd08a2fdc41","name":"福建省厦门市+电信-5"}
+  - {"type":"ss","server":"pr.fastsoonlink.com","port":40030,"cipher":"chacha20-ietf-poly1305","password":"9177de1a-aeff-43f1-93a6-7dd08a2fdc41","name":"福建省厦门市+电信-6"}
