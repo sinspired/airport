@@ -1,10 +1,6 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"202.181.103.246","port":443,"name":"日本+东京都樱花互联网数据中心"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"160.16.68.250","port":3160,"name":"日本+东京樱花网络数据中心-1"}
-  - {"name":"广东省 移动","type":"vmess","server":"xiaoniu.v.jsqcdn.bid","port":41311,"cipher":"auto","uuid":"bd64d2a3-76a1-407f-af7f-bdcdcb78d21e","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/obj","headers":{"Host":"img14.360buyimg.com"}}}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"45.144.174.60","port":22119,"cipher":"auto","uuid":"46d01022-da48-431b-986c-d2e0ff8ce7e9","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"160.16.117.182","port":3296,"name":"日本+东京樱花网络数据中心-2"}
-  - {"type":"vless","name":"美国+V2CROSS.COM","server":"166.1.201.179","port":443,"uuid":"01996549-6892-dbf0-0453-f700236936bd","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"kejiland.freewarp.eu.org"},"path":"/snippets/ip"},"servername":"kejiland.freewarp.eu.org"}
-  - {"sni":"data.52daishu.life","type":"trojan","password":"c443be95-725d-4da3-a60f-d35af5bfbff8","server":"de1.pptv-tv.store","port":17755,"name":"广东省广州市+移动-1"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
-  - {"sni":"data.52daishu.life","type":"trojan","password":"c443be95-725d-4da3-a60f-d35af5bfbff8","server":"es1.pptv-tv.store","port":17730,"name":"广东省广州市+移动-2"}
+  - {"name":"广东省 移动","type":"vmess","server":"xiaoniu.v.jsqcdn.bid","port":41315,"cipher":"auto","uuid":"bd64d2a3-76a1-407f-af7f-bdcdcb78d21e","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/obj","headers":{"Host":"img14.360buyimg.com"}}}
+  - {"type":"ss","server":"ss.022.node-for-bigairport.win","port":15099,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"波兰+V2CROSS.COM"}
+  - {"name":"江苏省 移动","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"dddvvbn.931.pp.ua","port":443,"cipher":"auto","uuid":"4174b95d-115e-4d39-add6-1f8db95bb860","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6We3U9Df1WGxgFnoFPw1","headers":{"Host":"dddvvbn.931.pp.ua"}},"servername":"dddvvbn.931.pp.ua"}
+  - {"type":"vless","name":"罗马尼亚+V2CROSS.COM","server":"89.22.230.152","port":2053,"uuid":"b65f4df7-f6af-42b2-877a-cef33f21675e","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"kejiland.freewarp.eu.org"},"path":"/snippets/ip"},"servername":"kejiland.freewarp.eu.org"}
