@@ -1,6 +1,6 @@
 proxies:
-  - {"name":"广东省 移动","type":"vmess","server":"xiaoniu.v.jsqcdn.bid","port":41315,"cipher":"auto","uuid":"bd64d2a3-76a1-407f-af7f-bdcdcb78d21e","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/obj","headers":{"Host":"img14.360buyimg.com"}}}
-  - {"type":"ss","server":"ss.022.node-for-bigairport.win","port":15099,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"波兰+V2CROSS.COM"}
-  - {"name":"江苏省 移动","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"dddvvbn.931.pp.ua","port":443,"cipher":"auto","uuid":"4174b95d-115e-4d39-add6-1f8db95bb860","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/6We3U9Df1WGxgFnoFPw1","headers":{"Host":"dddvvbn.931.pp.ua"}},"servername":"dddvvbn.931.pp.ua"}
+  - {"name":"美国 惠普HP","type":"vmess","server":"kampong.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{"Host":"kampong.org"}},"servername":"kampong.org"}
+  - {"skip-cert-verify":false,"sni":"uk-03.allhubb.info","type":"trojan","password":"1ce1df7962f71c6f","server":"uk-03.allhubb.info","port":8443,"name":"英国+社会保险安全部"}
+  - {"type":"trojan","password":"installshield","server":"23.162.152.30","port":8443,"name":"美国+V2CROSS.COM:443"}
   - {"type":"vless","name":"罗马尼亚+V2CROSS.COM","server":"89.22.230.152","port":2053,"uuid":"b65f4df7-f6af-42b2-877a-cef33f21675e","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"kejiland.freewarp.eu.org"},"path":"/snippets/ip"},"servername":"kejiland.freewarp.eu.org"}
+  - {"name":"日本东京 Oracle云计算数据中心","type":"vmess","server":"158.101.146.3","port":54516,"cipher":"auto","uuid":"6d0b24b6-6622-44b2-8da0-ef1e67651325","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"Host":"serv00_vmess.sweetrx.eu.org"}},"servername":"serv00_vmess.sweetrx.eu.org"}
