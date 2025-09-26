@@ -1,5 +1,5 @@
 proxies:
-  - {"name":"江苏省 移动-1","type":"vmess","server":"v39.heduian.link","port":30839,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"type":"ss","server":"185.138.88.36","port":443,"cipher":"chacha20-ietf-poly1305","password":"POaiVNMig8KH","name":"俄罗斯+V2CROSS.COM"}
   - {"type":"ss","server":"77.83.245.169","port":443,"cipher":"chacha20-ietf-poly1305","password":"X2ocJWZohXrE","name":"罗马尼亚+V2CROSS.COM"}
-  - {"name":"江苏省 移动-2","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"type":"ss","server":"185.138.88.36","port":443,"cipher":"chacha20-ietf-poly1305","password":"POaiVNMig8KH","name":"俄罗斯+V2CROSS.COM"}
+  - {"skip-cert-verify":true,"sni":"aliyun.com","type":"trojan","password":"2fd0d127-266d-4d0b-b453-f94659a132fc","server":"106.75.134.1","port":12000,"name":"广东省广州市+UCloud"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
