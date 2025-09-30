@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
-  - {"name":"美国加利福尼亚州硅谷 腾讯云","type":"vmess","server":"csdn.usdone.one","port":443,"cipher":"auto","uuid":"8c111c4f-af43-43fe-bbf8-d7e075479557","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/ddddddddd","headers":{"Host":"csdn.usdone.one"}},"servername":"csdn.usdone.one"}
-  - {"name":"美国加利福尼亚州洛杉矶 UCloud","type":"vmess","server":"107.150.102.49","port":14711,"cipher":"auto","uuid":"5338213d-e534-40d3-89dc-d67c18016d3c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/-e534-40d3-89dc-d67c18016d3c","headers":{}}}
-  - {"name":"江苏省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"type":"ss","server":"71.19.148.74","port":443,"cipher":"chacha20-ietf-poly1305","password":"gqkUCvmeOTghYJXF1YIuk5","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司-1"}
+  - {"name":"美国 科罗拉多州NTT(美国)通信公司","type":"vmess","server":"216.167.34.251","port":45979,"cipher":"auto","uuid":"23bdf6df-c482-46d0-c0f4-5a98d534ea11","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/test","headers":{}}}
+  - {"type":"ss","server":"hackney-latest-strike.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"XUMTygEM1jVYIvysXKqA5T","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司-2"}
