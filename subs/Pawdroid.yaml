@@ -1,4 +1,7 @@
 proxies:
-  - {"type":"ss","server":"71.19.148.74","port":443,"cipher":"chacha20-ietf-poly1305","password":"gqkUCvmeOTghYJXF1YIuk5","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司-1"}
-  - {"name":"美国 科罗拉多州NTT(美国)通信公司","type":"vmess","server":"216.167.34.251","port":45979,"cipher":"auto","uuid":"23bdf6df-c482-46d0-c0f4-5a98d534ea11","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/test","headers":{}}}
-  - {"type":"ss","server":"hackney-latest-strike.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"XUMTygEM1jVYIvysXKqA5T","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司-2"}
+  - {"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"160.16.236.32","port":443,"name":"日本+东京Sakura樱花云数据中心"}
+  - {"name":"香港 V2CROSS.COM","type":"vmess","server":"45.116.78.39","port":7343,"cipher":"auto","uuid":"9e8cf0f5-98fa-41af-8bd1-ea1676813910","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/arki","headers":{},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048}}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"221.128.195.217","port":446,"name":"中国+V2CROSS.COM"}
+  - {"type":"ss","server":"62.60.233.220","port":18685,"cipher":"chacha20-ietf-poly1305","password":"wh2K0qVVN6fTZAJFsbu6Dq","name":"香港+特别行政区"}
+  - {"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"126.116.225.149","port":443,"name":"日本+软银宽带"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
