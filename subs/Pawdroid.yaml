@@ -1,9 +1,7 @@
 proxies:
   - {"name":"江苏省 移动-1","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v29.heduian.link"}}}
-  - {"name":"法国 国际航空电讯集团公司(SITA)","type":"vmess","server":"57.128.189.240","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{}}}
-  - {"type":"ss","server":"hackney-latest-strike.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"XUMTygEM1jVYIvysXKqA5T","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司-1"}
+  - {"name":"江苏省 移动-2","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"216.227.168.157","port":45287,"cipher":"auto","uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"tls":false}
   - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"172.82.65.77","port":443,"cipher":"auto","uuid":"1ecc7e61-d639-4e18-8cae-2cff9e787261","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/ZVrc7MGZcKzYE40sF9Z5","headers":{"Host":"m16-9d86dc15-7d51-7138-bee5-645e0ef7936c.huangshang.pp.ua"}},"servername":"m16-9d86dc15-7d51-7138-bee5-645e0ef7936c.huangshang.pp.ua"}
-  - {"name":"江苏省 移动-2","type":"vmess","server":"v8.heduian.link","port":30808,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v8.heduian.link"}}}
-  - {"type":"ss","server":"71.19.148.74","port":443,"cipher":"chacha20-ietf-poly1305","password":"gqkUCvmeOTghYJXF1YIuk5","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司-2"}
-  - {"name":"江苏省 移动-3","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"江苏省 移动-3","type":"vmess","server":"v8.heduian.link","port":30808,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v8.heduian.link"}}}
+  - {"type":"ss","server":"78.40.117.109","port":37538,"cipher":"chacha20-ietf-poly1305","password":"RP767jpZVarzQ0iI0vbTuA","name":"英国+V2CROSS.COM"}
