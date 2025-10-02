@@ -1,4 +1,5 @@
 proxies:
-  - {"name":"江苏省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"type":"vless","name":"美国+Fastly全球Anycast节点","server":"mstr.fastly80.hosting-ip.com","port":80,"uuid":"d46fbe10-7982-4229-b461-4afef5c690fa","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"gm195.io"},"path":"/admin"},"servername":"gm195.io"}
-  - {"skip-cert-verify":true,"sni":"aliyun.com","type":"trojan","password":"2fd0d127-266d-4d0b-b453-f94659a132fc","server":"106.75.134.1","port":12000,"name":"广东省广州市+UCloud"}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com"}}}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
+  - {"name":"香港 电讯盈科有限公司-3","type":"vmess","server":"c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
+  - {"type":"ss","server":"ss.031.node-for-bigairport.win","port":36885,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"香港+Amazon数据中心"}
