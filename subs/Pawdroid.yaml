@@ -1,6 +1,5 @@
 proxies:
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"58.152.25.156","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com"}}}
-  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.88","port":1085,"name":"江苏省盐城市+移动"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"160.16.124.55","port":3160,"name":"日本+东京樱花网络数据中心-1"}
-  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"160.16.72.33","port":2173,"name":"日本+东京樱花网络数据中心-2"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"亚太地区 V2CROSS.COM-1","type":"vmess","server":"103.136.150.96","port":22122,"cipher":"auto","uuid":"f4656d19-b6a5-4d03-ad86-5ea667423379","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"skip-cert-verify":true,"sni":"aliyun.com","type":"trojan","password":"2fd0d127-266d-4d0b-b453-f94659a132fc","server":"106.75.134.1","port":12000,"name":"广东省广州市+UCloud"}
+  - {"name":"亚太地区 V2CROSS.COM-2","type":"vmess","server":"103.136.150.96","port":23183,"cipher":"auto","uuid":"f4656d19-b6a5-4d03-ad86-5ea667423379","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
