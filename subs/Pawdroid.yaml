@@ -1,5 +1,6 @@
 proxies:
-  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com"}}}
-  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
-  - {"name":"香港 电讯盈科有限公司-3","type":"vmess","server":"c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
-  - {"type":"ss","server":"ss.031.node-for-bigairport.win","port":36885,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"香港+Amazon数据中心"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"58.152.25.156","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com"}}}
+  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.88","port":1085,"name":"江苏省盐城市+移动"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"160.16.124.55","port":3160,"name":"日本+东京樱花网络数据中心-1"}
+  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"160.16.72.33","port":2173,"name":"日本+东京樱花网络数据中心-2"}
