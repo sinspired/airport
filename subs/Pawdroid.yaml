@@ -1,5 +1,4 @@
 proxies:
+  - {"name":"江苏省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
   - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"亚太地区 V2CROSS.COM-1","type":"vmess","server":"103.136.150.96","port":22122,"cipher":"auto","uuid":"f4656d19-b6a5-4d03-ad86-5ea667423379","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
   - {"skip-cert-verify":true,"sni":"aliyun.com","type":"trojan","password":"2fd0d127-266d-4d0b-b453-f94659a132fc","server":"106.75.134.1","port":12000,"name":"广东省广州市+UCloud"}
-  - {"name":"亚太地区 V2CROSS.COM-2","type":"vmess","server":"103.136.150.96","port":23183,"cipher":"auto","uuid":"f4656d19-b6a5-4d03-ad86-5ea667423379","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
