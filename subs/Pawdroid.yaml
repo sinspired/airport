@@ -1,5 +1,6 @@
 proxies:
-  - {"type":"trojan","password":"installshield","server":"23.162.152.30","port":8443,"name":"美国+V2CROSS.COM:443"}
-  - {"name":"俄罗斯 V2CROSS.COM-1","type":"vmess","server":"212.192.15.244","port":23183,"cipher":"auto","uuid":"f4656d19-b6a5-4d03-ad86-5ea667423379","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"type":"ss","server":"151.242.251.153","port":8080,"cipher":"chacha20-ietf-poly1305","password":"QCXDxuDlTTMD7jtgHUjIoj","name":"伊朗+V2CROSS.COM"}
-  - {"name":"俄罗斯 V2CROSS.COM-2","type":"vmess","server":"212.192.15.244","port":22122,"cipher":"auto","uuid":"f4656d19-b6a5-4d03-ad86-5ea667423379","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"58.152.25.156","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"160.16.124.55","port":3160,"name":"日本+东京樱花网络数据中心"}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com"}}}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"香港 电讯盈科有限公司-3","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
