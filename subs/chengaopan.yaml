@@ -14,4 +14,3 @@ proxies:
   - {"name":"12,13|美国2|@ripaojiedian","password":"253bc477d4e43c209f2d427272968280","port":472,"server":"36.156.102.88","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","client-fingerprint":"chrome"}
   - {"cipher":"aes-256-cfb","name":"12|🇻🇳 越南|@ripaojiedian","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.198","tfo":false,"type":"ss","client-fingerprint":"chrome"}
   - {"alterId":0,"cipher":"auto","name":"13|香港3|@ripaojiedian","network":"tcp","port":18366,"server":"43.247.134.213","tls":false,"type":"vmess","uuid":"ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c","client-fingerprint":"chrome","disable-sni":true,"skip-cert-verify":true,"servername":""}
-  - {"name":"14|CN_speednode_0006","password":"2fd0d127-266d-4d0b-b453-f94659a132fc","port":12000,"server":"106.75.134.1","skip-cert-verify":true,"sni":"aliyun.com","type":"trojan","udp":true,"client-fingerprint":"chrome"}
