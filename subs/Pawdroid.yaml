@@ -1,5 +1,9 @@
 proxies:
-  - {"sni":"38.180.249.177","type":"trojan","password":"installshield","server":"38.180.249.177","port":8443,"name":"美国+华盛顿Cogent通信公司"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"美国 华盛顿Cogent通信公司","type":"vmess","server":"38.12.83.217","port":30002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"s1.db-link03.top","port":8880,"cipher":"auto","uuid":"25fbcec6-e45a-3a86-977a-12c40bf649ba","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in?=4e43bd24150af811e255fc226bef0a46","headers":{"Host":"4e43bd24150af811e255fc226bef0a46.s1.db-link03.top"}}}
+  - {"type":"ss","server":"entrance03.qqa678.cc","port":47081,"cipher":"aes-256-gcm","password":"8e94ed0e-3717-4c46-aa13-6757a89b392e","name":"上海市+电信IDC机房-1"}
+  - {"name":"江苏省 移动-1","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"v019.emovpn.xyz","port":2087,"cipher":"auto","uuid":"a78fc14e-4e8b-4fc0-8cab-86fd81c583ca","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"v019.emovpn.xyz"}},"servername":"v019.emovpn.xyz"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"s1.db-link03.top","port":8880,"cipher":"auto","uuid":"25fbcec6-e45a-3a86-977a-12c40bf649ba","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in?=4e43bd24150af811e255fc226bef0a46","headers":{"Host":"4e43bd24150af811e255fc226bef0a46.s1.db-link03.top"}}}
+  - {"type":"ss","server":"entrance02.qqa678.cc","port":47081,"cipher":"aes-256-gcm","password":"8e94ed0e-3717-4c46-aa13-6757a89b392e","name":"上海市+电信IDC机房-2"}
+  - {"name":"江苏省 移动-2","type":"vmess","server":"v8.heduian.link","port":30808,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v8.heduian.link"}}}
+  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"212.192.15.244","port":23183,"cipher":"auto","uuid":"08487384-f8fc-4596-994f-74c497ec2d88","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.86","port":26295,"name":"江苏省盐城市+移动"}
