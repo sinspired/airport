@@ -37,8 +37,7 @@ proxies:
   - {"type":"hysteria2","name":"WI-FI--@IRAN_V2RAY1 #2","server":"51.159.111.32","port":5355,"password":"dongtaiwang.com","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"telegram-@ISVvpn #2","server":"us-nb-01.linlujs.pw","port":25684,"password":"f872db91-57c2-41c7-aad0-561b4cb674bf","sni":"us-nb-01.linlujs.pw","skip-cert-verify":false,"tfo":false}
   - {"type":"hysteria2","name":"@Daily_Configs #13","server":"103.249.133.79","port":443,"password":"joindailyconfigschanel","sni":"microsoft.com","obfs":"salamander","obfs-password":"LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🇺🇲@FreakConfig #1","server":"pouria.3dfigures.ir","port":28777,"password":"lHoYmNZmLe","sni":"pouria.3dfigures.ir","obfs":"salamander","obfs-password":"wcancmaocnewrivbkacmlmsvwuvdfsv","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🇺🇲@FreakConfig #2","server":"pouria.3dfigures.ir","port":53713,"password":"lHoYmNZmLe","sni":"pouria.3dfigures.ir","obfs":"salamander","obfs-password":"uvahwuicbhwabhvlhv","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"🇺🇲@FreakConfig #1","server":"pouria.3dfigures.ir","port":53713,"password":"lHoYmNZmLe","sni":"pouria.3dfigures.ir","obfs":"salamander","obfs-password":"uvahwuicbhwabhvlhv","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@Daily_Configs #14","server":"45.58.38.153","port":40112,"password":"miaoge110","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@Daily_Configs #15","server":"103.249.133.79","port":443,"password":"zanzendegiazadi","sni":"ubuntu.com","skip-cert-verify":true,"tfo":false}
   - {"type":"ss","server":"34.245.185.129","port":443,"cipher":"aes-256-cfb","password":"amazonskr05","name":"tg频道:@ripaojiedian"}
