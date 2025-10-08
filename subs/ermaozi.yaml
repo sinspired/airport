@@ -1,14 +1,14 @@
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"vmess","server":"v8.heduian.link","port":30808,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","cipher":"auto","network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v8.heduian.link"}},"alterId":2}
+  - {"name":"🇩🇪_DE_德国","type":"ss","server":"45.87.175.177","port":8080,"cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"vmess","server":"v24.heduian.link","port":30824,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","cipher":"auto","network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v24.heduian.link"}},"alterId":2}
   - {"name":"🇬🇧_GB_英国","type":"ssr","server":"62.100.205.48","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","obfs":"plain","protocol":"origin"}
-  - {"name":"未知","type":"ss","server":"103.186.154.166","port":38388,"cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}
-  - {"name":"未知_1","type":"ss","server":"103.186.154.150","port":38388,"cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}
-  - {"name":"🇺🇸_US_美国->🇮🇷_IR_伊朗","type":"trojan","server":"creativecommons.org","port":2053,"udp":true,"sni":"kotlet.arshiacomplus.dpdns.org","password":"YwuvGJk36B","network":"ws","ws-opts":{"path":"/yamtekodasayahhh"}}
-  - {"name":"🇮🇹_IT_意大利->🇺🇸_US_美国","type":"vmess","server":"31.14.142.189","port":28927,"uuid":"46b16e33-97eb-4334-f632-072cbd4e6d86","cipher":"auto","network":"tcp","fingerprint":"","alterId":0}
-  - {"name":"未知_2","type":"ss","server":"103.186.154.146","port":38388,"cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","type":"vmess","server":"v29.heduian.link","port":30829,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","cipher":"auto","network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}},"alterId":2}
-  - {"name":"🇮🇳_IN_印度","type":"ss","server":"134.209.147.198","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"未知_4","type":"ss","server":"103.186.154.162","port":38388,"cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}
+  - {"name":"🇩🇪_DE_德国_1","type":"ss","server":"45.87.175.193","port":8080,"cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","type":"vmess","server":"v8.heduian.link","port":30808,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","cipher":"auto","network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v8.heduian.link"}},"alterId":2}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_2","type":"vmess","server":"v5.heduian.link","port":30805,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","cipher":"auto","network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v5.heduian.link"}},"alterId":2}
+  - {"name":"🇺🇸_US_美国","type":"ss","server":"104.192.226.106","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"未知","type":"ss","server":"103.186.154.220","port":38388,"cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}
+  - {"name":"未知_1","type":"ss","server":"103.186.154.72","port":38388,"cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}
+  - {"name":"🇪🇸_ES_西班牙->🇺🇸_US_美国","type":"vmess","server":"212.192.15.244","port":23185,"uuid":"5115c9e9-a90c-4f9f-a38d-5985a5e52ebd","cipher":"auto","network":"ws","ws-opts":{"path":"/"},"alterId":0}
   - {"name":"🇨🇦_CA_加拿大","type":"vmess","server":"108.181.10.17","port":80,"cipher":"auto","uuid":"474e8680-701f-11ee-b436-205c6d5f5d78","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"teams.microsoft.com"}}}
   - {"name":"🇨🇭_CH_瑞士","type":"ss","server":"84.17.53.163","port":80,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰","type":"vmess","server":"45.199.138.191","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1696251522438","headers":{"Host":"www.42077230.xyz"}},"servername":"www.42077230.xyz"}
