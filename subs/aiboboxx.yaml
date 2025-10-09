@@ -1,5 +1,4 @@
 proxies:
-  - {"type":"hysteria2","name":"Channel id: @ShadowProxy66🇬🇧","server":"adas-polo-ba-mahi.kotlet.org","port":2083,"password":"siEk2SjZFG","sni":"ghasem.kotlet.org","obfs":"salamander","obfs-password":"ki(rtoko(s-maret-khamneii","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@sunflowerplato🌻","server":"de1.jueduibupao.top","port":43836,"password":"1a8588b6-9700-4ff6-80e6-64e18f2e5336","sni":"de1.jueduibupao.top","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@IRAN_V2RAY1","server":"40.233.82.111","port":30300,"password":"2429bee3-e0c1-47dd-b420-75e6512b184b","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@Daily_Configs","server":"5.231.70.79","port":443,"password":"2b67ONZROv+fRVMxB94BSw==","sni":"bing.com","skip-cert-verify":true,"tfo":false}
