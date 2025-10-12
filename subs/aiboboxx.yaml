@@ -57,6 +57,7 @@ proxies:
   - {"type":"hysteria2","name":"@Daily_Configs #17","server":"103.249.133.79","port":443,"password":"joindailyconfigschanel","sni":"microsoft.com","obfs":"salamander","obfs-password":"LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2","server":"91.107.150.208","port":443,"password":"jovOmJbL2w","sni":"hacks.mozilla.org","obfs":"salamander","obfs-password":"V2RayyNGvpnjdbdbMiracle","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@Daily_Configs #18","server":"45.58.38.153","port":40112,"password":"miaoge110","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #7","server":"138.124.60.198","port":8443,"password":"oiU5QZYfP2","sni":"cdnjs.cloudflare.com","obfs":"salamander","obfs-password":"MiraCLeOPV2RayyNGvpntheBestt","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@Daily_Configs #19","server":"103.249.133.79","port":443,"password":"zanzendegiazadi","sni":"ubuntu.com","skip-cert-verify":true,"tfo":false}
   - {"type":"ss","server":"34.245.185.129","port":443,"cipher":"aes-256-cfb","password":"amazonskr05","name":"tg频道:@ripaojiedian"}
   - {"name":"香港|@ripaojiedian","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}

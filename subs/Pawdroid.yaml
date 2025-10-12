@@ -1,6 +1,9 @@
 proxies:
-  - {"type":"trojan","password":"1640ef52-2db0-44ab-b3f3-8690b762ebc9","server":"165.154.112.107","port":12000,"name":"香港+UCloud:443"}
-  - {"type":"ss","server":"212.102.54.45","port":990,"cipher":"chacha20-ietf-poly1305","password":"ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=","name":"意大利+V2CROSS.COM"}
-  - {"name":"江苏省 移动-1","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.84","port":6752,"name":"江苏省盐城市+移动"}
-  - {"name":"江苏省 移动-2","type":"vmess","server":"v6.heduian.link","port":30806,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"09f05870-t35j40-tdnzz0-1qtp7.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"3653c708-df72-11ee-aec1-f23c9164ca5d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
+  - {"name":"江苏省 移动-1","type":"vmess","server":"v5.heduian.link","port":30805,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v5.heduian.link"}}}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"be4fe2f9-t3gn40-tdnzz0-1qtp7.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"3653c708-df72-11ee-aec1-f23c9164ca5d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
+  - {"type":"ss","server":"194.135.46.13","port":1419,"cipher":"chacha20-ietf-poly1305","password":"EacZIMFwmMCR6dWqN5Ah0c","name":"俄罗斯+V2CROSS.COM"}
+  - {"name":"香港 电讯盈科有限公司-3","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
+  - {"name":"日本 东京Amazon数据中心","type":"vmess","server":"tls.07.node-for-bigairport.win","port":22211,"cipher":"auto","uuid":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"tls.07.node-for-bigairport.win"}}}
+  - {"name":"江苏省 移动-2","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v29.heduian.link"}}}
+  - {"name":"江苏省 移动-3","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
