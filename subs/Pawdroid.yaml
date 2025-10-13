@@ -1,7 +1,6 @@
 proxies:
-  - {"type":"ss","server":"185.195.67.178","port":990,"cipher":"chacha20-ietf-poly1305","password":"ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=","name":"罗马尼亚+V2CROSS.COM"}
-  - {"type":"ss","server":"pupas-shirting-unsung.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"p78naCf2EfOlRSLTX0wFVx","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司"}
-  - {"name":"江苏省 移动-1","type":"vmess","server":"v5.heduian.link","port":30805,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v5.heduian.link"}}}
-  - {"name":"江苏省 移动-2","type":"vmess","server":"v6.heduian.link","port":30806,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
-  - {"name":"江苏省 移动-3","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"美国 华盛顿Cogent通信公司","type":"vmess","server":"38.12.83.217","port":30002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"江苏省 移动","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v29.heduian.link"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"s1.db-link03.top","port":2086,"cipher":"auto","uuid":"25fbcec6-e45a-3a86-977a-12c40bf649ba","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/dabai.in?=817f0470a8cfd0e4e20ec1030d996397","headers":{"Host":"817f0470a8cfd0e4e20ec1030d996397.s1.db-link03.top"}}}
+  - {"name":"伊朗 V2CROSS.COM","type":"vmess","server":"91.99.185.216","port":20086,"cipher":"auto","uuid":"7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"sni":"fe2.update.microsoft.com","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"58.152.53.162","port":443,"name":"香港+电讯盈科有限公司"}
