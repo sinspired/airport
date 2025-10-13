@@ -1,8 +1,7 @@
 proxies:
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top","port":443,"cipher":"auto","uuid":"5f726fe3-d82e-4da5-a711-8af0cbb2b682","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/azumase.ren","headers":{"Host":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"}},"servername":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"}
-  - {"skip-cert-verify":true,"sni":"fe2.update.microsoft.com","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"58.152.53.162","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"江苏省 移动","type":"vmess","server":"v8.heduian.link","port":30808,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v8.heduian.link"}}}
-  - {"skip-cert-verify":true,"sni":"fe2.update.microsoft.com","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.84","port":24673,"name":"江苏省盐城市+移动-1"}
-  - {"skip-cert-verify":false,"sni":"hsdgbuys.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"Host":"hsdgbuys.pages.dev"}},"type":"trojan","password":"wb6368","server":"92.243.75.49","port":2087,"name":"俄罗斯+V2CROSS.COM"}
-  - {"skip-cert-verify":true,"sni":"fe2.update.microsoft.com","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.84","port":2381,"name":"江苏省盐城市+移动-2"}
-  - {"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.84","port":1806,"name":"江苏省盐城市+移动-3"}
+  - {"type":"ss","server":"185.195.67.178","port":990,"cipher":"chacha20-ietf-poly1305","password":"ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=","name":"罗马尼亚+V2CROSS.COM"}
+  - {"type":"ss","server":"pupas-shirting-unsung.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"p78naCf2EfOlRSLTX0wFVx","name":"美国+加利福尼亚州圣何塞PRGMR云计算公司"}
+  - {"name":"江苏省 移动-1","type":"vmess","server":"v5.heduian.link","port":30805,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v5.heduian.link"}}}
+  - {"name":"江苏省 移动-2","type":"vmess","server":"v6.heduian.link","port":30806,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"name":"江苏省 移动-3","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"美国 华盛顿Cogent通信公司","type":"vmess","server":"38.12.83.217","port":30002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false}
