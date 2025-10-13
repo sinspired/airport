@@ -1,7 +1,8 @@
 proxies:
-  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com"}}}
-  - {"name":"江苏省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.84","port":2173,"name":"江苏省盐城市+移动-1"}
-  - {"skip-cert-verify":true,"sni":"fe2.update.microsoft.com","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.84","port":2381,"name":"江苏省盐城市+移动-2"}
-  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.84","port":6752,"name":"江苏省盐城市+移动-3"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.84","port":3160,"name":"江苏省盐城市+移动-1"}
+  - {"name":"江苏省 移动","type":"vmess","server":"v6.heduian.link","port":30806,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
   - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
+  - {"skip-cert-verify":true,"sni":"fe2.update.microsoft.com","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.84","port":24673,"name":"江苏省盐城市+移动-2"}
+  - {"skip-cert-verify":true,"sni":"fe2.update.microsoft.com","type":"trojan","password":"253bc477d4e43c209f2d427272968280","server":"36.156.102.84","port":2381,"name":"江苏省盐城市+移动-3"}
+  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"212.192.15.176","port":25168,"cipher":"auto","uuid":"0b4d2a2c-7ac1-4cf5-bac8-c6b8fa9afd77","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"212.192.15.176"}}}
