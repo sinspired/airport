@@ -1,5 +1,5 @@
 proxies:
-  - {"type":"trojan","password":"installshield","server":"176.97.68.153","port":8443,"name":"英国+V2CROSS.COM:443"}
-  - {"type":"ss","server":"204.136.10.115","port":1866,"cipher":"chacha20-ietf-poly1305","password":"oXGp1+ihlfKg826H","name":"美国+V2CROSS.COM"}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"v2.emoyes.top","port":2053,"cipher":"auto","uuid":"08b24d8d-10ab-4c5a-990e-4e0e194870af","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"v2.emoyes.top"}},"servername":"v2.emoyes.top"}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"172.67.160.44","port":443,"cipher":"auto","uuid":"086c655d-0c12-47dd-9d5a-2670089201ee","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/ri9mOOVJuAimB74kgXZ","headers":{"Host":"7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site"}},"servername":"7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site"}
+  - {"type":"vless","name":"韩国+V2CROSS.COM","server":"49.174.170.115","port":22577,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"gaosir.unfeeling.sbs"},"path":"/X@节点狂魔/?ed"},"servername":"gaosir.unfeeling.sbs"}
+  - {"name":"甘肃省兰州市 移动","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52512,"cipher":"auto","uuid":"342bacfd-2b8f-3f49-a16e-439db5b0b9d5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}}}
+  - {"type":"vless","name":"韩国+LG+DACOM","server":"106.245.216.35","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"gaosir.unfeeling.sbs"},"path":"/X@节点狂魔/?ed"},"servername":"gaosir.unfeeling.sbs"}
+  - {"type":"ss","server":"118.170.203.35","port":10017,"cipher":"chacha20-ietf-poly1305","password":"8d5c4680-9dd0-43d4-9ea1-2b0e3dbb4684","name":"台湾省+中华电信(HiNet)数据中心"}
