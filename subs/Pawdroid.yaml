@@ -1,5 +1,6 @@
 proxies:
-  - {"name":"江苏省 移动","type":"vmess","server":"v8.heduian.link","port":30808,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"v8.heduian.link"}}}
-  - {"type":"ss","server":"beesyar.org","port":8080,"cipher":"chacha20-ietf-poly1305","password":"1RWwXhwfAB5gAEozU4G2Pg","name":"欧盟+V2CROSS.COM"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"type":"vless","name":"沙特阿拉伯+V2CROSS.COM","server":"213.165.56.19","port":666,"uuid":"13e824c8-46a7-458a-b9d5-24ab4058acae","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"9def5c5d-t398g0-tdnzz0-1qtp7.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"3653c708-df72-11ee-aec1-f23c9164ca5d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"93fb69fc-77cf-11ee-85ee-f23c91369f2d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com"}}}
+  - {"type":"ss","server":"pl.vpnsparta.pro","port":57456,"cipher":"chacha20-ietf-poly1305","password":"360e21d21977dc11","name":"伊朗+V2CROSS.COM"}
+  - {"name":"香港 电讯盈科有限公司-3","type":"vmess","server":"54d2d7fc-t3kcg0-tdnzz0-1qtp7.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"3653c708-df72-11ee-aec1-f23c9164ca5d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
+  - {"name":"香港 电讯盈科有限公司-4","type":"vmess","server":"09f05870-t35j40-tdnzz0-1qtp7.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"3653c708-df72-11ee-aec1-f23c9164ca5d","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
