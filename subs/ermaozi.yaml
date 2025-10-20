@@ -1,4 +1,7 @@
 proxies:
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"vmess","server":"v29.heduian.link","port":30829,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","cipher":"auto","network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}},"alterId":2}
+  - {"name":"🇪🇸_ES_西班牙->🇺🇸_US_美国","type":"vmess","server":"212.192.15.176","port":25169,"uuid":"566bf452-a086-41f0-a474-d7ae067956ee","cipher":"auto","network":"ws","ws-opts":{"path":"/"},"alterId":0}
+  - {"name":"🇳🇱_NL_荷兰","type":"ss","server":"178.208.78.170","port":23822,"cipher":"chacha20-ietf-poly1305","password":"6hWNCD6EzQuP3V2aEFURwS"}
   - {"name":"🇨🇦_CA_加拿大","type":"vmess","server":"108.181.10.17","port":80,"cipher":"auto","uuid":"474e8680-701f-11ee-b436-205c6d5f5d78","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"teams.microsoft.com"}}}
   - {"name":"🇨🇭_CH_瑞士","type":"ss","server":"84.17.53.163","port":80,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰","type":"vmess","server":"45.199.138.191","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1696251522438","headers":{"Host":"www.42077230.xyz"}},"servername":"www.42077230.xyz"}
