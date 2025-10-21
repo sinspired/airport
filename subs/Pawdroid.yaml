@@ -1,6 +1,6 @@
 proxies:
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.156.102.115","port":26876,"name":"江苏省盐城市+移动-1"}
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.156.102.115","port":2088,"name":"江苏省盐城市+移动-2"}
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.151.251.18","port":811,"name":"江苏省+移动"}
-  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"384d1b42-655f-11ed-a8bf-f23c91cfbbc9","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
-  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.156.102.115","port":26876,"name":"江苏省盐城市+移动"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.151.251.18","port":2145,"name":"江苏省+移动"}
+  - {"sni":"data.52daishu.life","type":"trojan","password":"c443be95-725d-4da3-a60f-d35af5bfbff8","server":"sg3.pptv-tv.store","port":17713,"name":"广东省广州市+移动-1"}
+  - {"sni":"data.52daishu.life","type":"trojan","password":"c443be95-725d-4da3-a60f-d35af5bfbff8","server":"de1.pptv-tv.store","port":17755,"name":"广东省广州市+移动-2"}
+  - {"sni":"data.52daishu.life","type":"trojan","password":"c443be95-725d-4da3-a60f-d35af5bfbff8","server":"us2.pptv-tv.store","port":17742,"name":"广东省广州市+移动-3"}
