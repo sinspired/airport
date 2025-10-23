@@ -1,8 +1,8 @@
 proxies:
-  - {"type":"ss","server":"143.244.137.253","port":2494,"cipher":"chacha20-ietf-poly1305","password":"NZobzU7Wxu24kDcbOeHBEY","name":"美国+V2CROSS.COM"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"type":"ss","server":"188.214.157.30","port":990,"cipher":"chacha20-ietf-poly1305","password":"ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=","name":"罗马尼亚+V2CROSS.COM"}
-  - {"type":"ss","server":"62.133.63.222","port":48981,"cipher":"chacha20-ietf-poly1305","password":"CDAGEYAB1gvcIrFZYhUbEM","name":"俄罗斯+V2CROSS.COM"}
-  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"212.192.15.176","port":23185,"cipher":"auto","uuid":"136368f2-3643-4a59-a7e9-f64a7670e293","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"name":"俄罗斯 V2CROSS.COM-1","type":"vmess","server":"212.192.15.176","port":25169,"cipher":"auto","uuid":"2ecaf88b-6470-4b2f-81e8-b9aebd0cd35d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.151.251.18","port":2145,"name":"江苏省+移动-1"}
   - {"name":"江苏省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.150.215.138","port":4451,"name":"江苏省+移动"}
+  - {"name":"俄罗斯 V2CROSS.COM-2","type":"vmess","server":"212.192.15.176","port":22126,"cipher":"auto","uuid":"2ecaf88b-6470-4b2f-81e8-b9aebd0cd35d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.150.215.138","port":4451,"name":"江苏省+移动-2"}
