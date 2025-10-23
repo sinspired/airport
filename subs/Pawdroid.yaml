@@ -1,10 +1,10 @@
 proxies:
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.150.215.138","port":4451,"name":"江苏省+移动-1"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"sni":"www.nintendogames.net","type":"trojan","password":"ea39fa94f1ee00999337ea1fd3318e69","server":"203.198.122.55","port":443,"name":"香港+电讯盈科有限公司-1"}
-  - {"skip-cert-verify":true,"sni":"cloudflare.node-ssl.cdn-alibaba.com","type":"trojan","password":"3c77ad6b-9c9c-4aff-beff-0a16e2cdea15","server":"naiu-hk.05vr9nyqg5.download","port":13008,"name":"甘肃省兰州市+移动"}
-  - {"name":"江苏省 移动-1","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"ea39fa94f1ee00999337ea1fd3318e69","server":"203.198.122.144","port":443,"name":"香港+电讯盈科有限公司-2"}
-  - {"name":"江苏省 移动-2","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"type":"ss","server":"54.90.226.121","port":80,"cipher":"aes-256-gcm","password":"dada0801","name":"美国+弗吉尼亚州阿什本Amazon数据中心-1"}
+  - {"name":"广东省 移动-1","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
+  - {"name":"广东省 移动-2","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"ea39fa94f1ee00999337ea1fd3318e69","server":"203.198.122.144","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.156.102.82","port":401,"name":"江苏省盐城市+移动"}
   - {"name":"美国 CloudFlare节点","type":"vmess","server":"c7.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"c7.620720.xyz"}},"servername":"c7.620720.xyz"}
-  - {"type":"ss","server":"36.150.27.76","port":48301,"cipher":"aes-128-gcm","password":"12b5538b-8a06-46d5-a8f3-f8726b50ec2e","name":"江苏省+移动-2"}
+  - {"type":"ss","server":"34.235.122.208","port":80,"cipher":"aes-256-gcm","password":"dada0801","name":"美国+弗吉尼亚州阿什本Amazon数据中心-2"}
+  - {"type":"ss","server":"143.244.137.253","port":2494,"cipher":"chacha20-ietf-poly1305","password":"NZobzU7Wxu24kDcbOeHBEY","name":"美国+V2CROSS.COM"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
