@@ -1,7 +1,4 @@
 proxies:
-  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"212.192.15.176","port":22126,"cipher":"auto","uuid":"d84e954e-0e96-4cd9-8b23-5b74ddc1b758","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.156.102.82","port":401,"name":"江苏省盐城市+移动"}
-  - {"name":"山东省济南市 联通","type":"vmess","server":"v29.heduian.link","port":30829,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"212.192.15.176","port":25169,"cipher":"auto","uuid":"566bf452-a086-41f0-a474-d7ae067956ee","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
   - {"skip-cert-verify":false,"sni":"NOp-55q.pAgEs.dEv","network":"ws","ws-opts":{"path":"/trGPZDfetEwuO25SAs","headers":{"Host":"NOp-55q.pAgEs.dEv"}},"type":"trojan","password":"T@_WvT8Ho@LW%w_,","server":"nop-55q.pages.dev","port":2053,"name":"美国+CloudFlare节点"}
-  - {"name":"广东省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"172.67.200.13","port":443,"cipher":"auto","uuid":"5f726fe3-d82e-4da5-a711-8af0cbb2b682","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/azumase.ren","headers":{"Host":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"}},"servername":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"}
