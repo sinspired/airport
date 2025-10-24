@@ -1,4 +1,4 @@
 proxies:
-  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"212.192.15.176","port":25169,"cipher":"auto","uuid":"566bf452-a086-41f0-a474-d7ae067956ee","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"skip-cert-verify":false,"sni":"NOp-55q.pAgEs.dEv","network":"ws","ws-opts":{"path":"/trGPZDfetEwuO25SAs","headers":{"Host":"NOp-55q.pAgEs.dEv"}},"type":"trojan","password":"T@_WvT8Ho@LW%w_,","server":"nop-55q.pages.dev","port":2053,"name":"美国+CloudFlare节点"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"172.67.200.13","port":443,"cipher":"auto","uuid":"5f726fe3-d82e-4da5-a711-8af0cbb2b682","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/azumase.ren","headers":{"Host":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"}},"servername":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"}
+  - {"sni":"wjp04.weyaf9sdoh2h.space","type":"trojan","password":"898e1dca-14b2-4371-abc8-1b9f839bff6d","server":"37.202.200.11","port":12412,"name":"伊朗+V2CROSS.COM-1"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.156.102.69","port":194,"name":"江苏省盐城市+移动"}
+  - {"sni":"jp02.weyaf9sdoh2h.space","type":"trojan","password":"898e1dca-14b2-4371-abc8-1b9f839bff6d","server":"37.202.200.19","port":15013,"name":"伊朗+V2CROSS.COM-2"}
