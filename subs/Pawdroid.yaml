@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"江苏省 移动","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"type":"ss","server":"uk.vpnsparta.pro","port":57456,"cipher":"chacha20-ietf-poly1305","password":"c40641c1f89e7acb","name":"俄罗斯+V2CROSS.COM"}
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.151.251.35","port":24392,"name":"江苏省+移动"}
+  - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.150.215.241","port":27409,"name":"江苏省+移动"}
+  - {"skip-cert-verify":false,"sni":"dingding-doc.com","type":"trojan","password":"adbac894-90b9-4913-b77e-a715a8d4ebc8","server":"oss-cn-shanghai.letssepub.com","port":20021,"name":"广东省广州市+电信"}
