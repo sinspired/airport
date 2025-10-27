@@ -1,4 +1,5 @@
 proxies:
-  - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443"}
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.150.215.241","port":27409,"name":"江苏省+移动"}
-  - {"skip-cert-verify":false,"sni":"dingding-doc.com","type":"trojan","password":"adbac894-90b9-4913-b77e-a715a8d4ebc8","server":"oss-cn-shanghai.letssepub.com","port":20021,"name":"广东省广州市+电信"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.151.251.23","port":4451,"name":"江苏省+移动-1"}
+  - {"name":"日本 东京Amazon数据中心","type":"vmess","server":"cgroup.node1.v.nodelist-airport.com","port":53231,"cipher":"auto","uuid":"8f3a835c-8a45-480d-ae35-1deb2c52dcae","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.150.215.237","port":1821,"name":"江苏省+移动-2"}
+  - {"name":"德国下萨克森州萨尔茨吉特 德国电信","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52511,"cipher":"auto","uuid":"342bacfd-2b8f-3f49-a16e-439db5b0b9d5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}}}
