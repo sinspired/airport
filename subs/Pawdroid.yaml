@@ -1,4 +1,5 @@
 proxies:
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"c7.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"c7.620720.xyz"}},"servername":"c7.620720.xyz"}
+  - {"type":"trojan","password":"BxceQaOe","server":"58.152.53.3","port":443,"name":"香港+电讯盈科有限公司:443"}
+  - {"type":"ss","server":"113.99.143.139","port":26470,"cipher":"aes-128-gcm","password":"b637f2e47b7827b308ebf399008075d2","name":"广东省广州市+腾讯云"}
   - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.18.240.238","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
-  - {"name":"香港 Cloudie数据中心","type":"vmess","server":"103.243.26.209","port":8080,"cipher":"auto","uuid":"bc7e6840-ab83-4570-eaae-d9aff1e2da09","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}}}
