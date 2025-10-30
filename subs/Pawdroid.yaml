@@ -1,5 +1,10 @@
 proxies:
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"skip-cert-verify":false,"sni":"dingding-doc.com","type":"trojan","password":"adbac894-90b9-4913-b77e-a715a8d4ebc8","server":"oss-cn-shanghai.letssepub.com","port":20021,"name":"广东省+移动"}
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.156.102.72","port":194,"name":"江苏省盐城市+移动"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.18.240.238","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"type":"ss","server":"34.235.122.208","port":80,"cipher":"aes-256-gcm","password":"dada0801","name":"美国+弗吉尼亚州阿什本Amazon数据中心-1"}
+  - {"name":"美国科罗拉多州布隆菲尔德市 Level3","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52511,"cipher":"auto","uuid":"342bacfd-2b8f-3f49-a16e-439db5b0b9d5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}}}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"hkt.gotochinatown.net","port":80,"cipher":"auto","uuid":"40639730-e027-11ea-87ad-f23c913c8d2b","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hkt.gotochinatown.net"}}}
+  - {"type":"ss","server":"54.90.226.121","port":80,"cipher":"aes-256-gcm","password":"dada0801","name":"美国+弗吉尼亚州阿什本Amazon数据中心-2"}
+  - {"name":"日本 V2CROSS.COM","type":"vmess","server":"tls.15.node-for-bigairport.win","port":23211,"cipher":"auto","uuid":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"tls.15.node-for-bigairport.win"}}}
+  - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443-1"}
+  - {"type":"trojan","password":"BxceQaOe","server":"58.152.53.3","port":443,"name":"香港+电讯盈科有限公司:443-2"}
