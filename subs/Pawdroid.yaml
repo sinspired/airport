@@ -1,6 +1,5 @@
 proxies:
-  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"d5dc60aa-t0kxs0-t1nwsn-1la2q.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"431026c8-7397-11ed-a8bf-f23c91cfbbc9","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
-  - {"name":"美国 阿里云","type":"vmess","server":"47.245.106.193","port":22433,"cipher":"auto","uuid":"bfcb103f-2133-4965-8684-6b4c8ef7a774","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["47.245.106.193"]}}}
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"58.152.53.3","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"type":"ss","server":"113.99.143.139","port":26470,"cipher":"aes-128-gcm","password":"b637f2e47b7827b308ebf399008075d2","name":"广东省广州市+腾讯云"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"skip-cert-verify":false,"sni":"dingding-doc.com","type":"trojan","password":"adbac894-90b9-4913-b77e-a715a8d4ebc8","server":"oss-cn-shanghai.letssepub.com","port":20021,"name":"广东省+移动"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.156.102.72","port":194,"name":"江苏省盐城市+移动"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.18.240.238","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
