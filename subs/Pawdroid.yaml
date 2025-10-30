@@ -1,6 +1,6 @@
 proxies:
-  - {"type":"ss","server":"uk.vpnsparta.pro","port":57456,"cipher":"chacha20-ietf-poly1305","password":"c40641c1f89e7acb","name":"塞尔维亚+V2CROSS.COM"}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"cf.090227.xyz","port":443,"cipher":"auto","uuid":"290cc691-3ac6-4387-98a1-25c8eb8ca2ea","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sgal.dagrate.eu.org"}},"servername":"cf.090227.xyz"}
-  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"104.18.240.238","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.150.215.197","port":2088,"name":"江苏省+移动"}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"d5dc60aa-t0kxs0-t1nwsn-1la2q.hk3.p5pv.com","port":80,"cipher":"auto","uuid":"431026c8-7397-11ed-a8bf-f23c91cfbbc9","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"broadcastlv.chat.bilibili.com"}}}
+  - {"name":"美国 阿里云","type":"vmess","server":"47.245.106.193","port":22433,"cipher":"auto","uuid":"bfcb103f-2133-4965-8684-6b4c8ef7a774","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["47.245.106.193"]}}}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"58.152.53.3","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"type":"ss","server":"113.99.143.139","port":26470,"cipher":"aes-128-gcm","password":"b637f2e47b7827b308ebf399008075d2","name":"广东省广州市+腾讯云"}
