@@ -1,8 +1,7 @@
 proxies:
-  - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443-1"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
-  - {"name":"香港 Cloudie数据中心","type":"vmess","server":"103.243.26.209","port":8080,"cipher":"auto","uuid":"bc7e6840-ab83-4570-eaae-d9aff1e2da09","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}}}
-  - {"type":"trojan","password":"BxceQaOe","server":"58.152.53.3","port":443,"name":"香港+电讯盈科有限公司:443-2"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v10.heduian.link","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-  - {"name":"加拿大 V2CROSS.COM","type":"vmess","server":"165.154.197.225","port":35218,"cipher":"auto","uuid":"1a237dd2-851c-47e1-cf7e-e447a363830a","alterId":0,"tls":false}
-  - {"sni":"www.nintendogames.net","type":"trojan","password":"bca467b8c15211d189008a93c7519d3b","server":"58.152.53.42","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.150.215.197","port":51825,"name":"江苏省+移动-1"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.151.251.47","port":53743,"name":"江苏省+移动-2"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"36.150.215.236","port":4492,"name":"江苏省+移动-3"}
+  - {"name":"香港 Cloudie数据中心","type":"vmess","server":"103.243.26.209","port":10086,"cipher":"auto","uuid":"c5ec2e3f-c058-46a8-a148-1831824bb94b","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.18.240.238","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"bca467b8c15211d189008a93c7519d3b","server":"58.152.53.42","port":443,"name":"香港+电讯盈科有限公司"}
