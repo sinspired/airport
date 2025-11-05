@@ -1,8 +1,6 @@
 proxies:
-  - {"type":"ss","server":"ss.026.node-for-bigairport.win","port":15099,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"日本+东京Amazon数据中心"}
-  - {"name":"北京市 移动","type":"vmess","server":"36.133.73.36","port":11819,"cipher":"auto","uuid":"de32752c-0661-467e-82d3-35bc740a787f","alterId":0,"tls":false}
-  - {"name":"瑞典 V2CROSS.COM-1","type":"vmess","server":"185.146.173.16","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
-  - {"type":"ss","server":"ss.007.node-for-bigairport.win","port":36888,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"波兰+V2CROSS.COM"}
-  - {"name":"瑞典 V2CROSS.COM-2","type":"vmess","server":"185.146.173.117","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
   - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"36.150.215.231","port":1655,"name":"江苏省+移动"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"203.198.122.129","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"type":"trojan","password":"BxceQaOe","server":"203.198.122.129","port":443,"name":"香港+电讯盈科有限公司:443-1"}
+  - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443-2"}
+  - {"type":"vless","name":"美国+CloudFlare节点","server":"linux.do","port":2095,"uuid":"86c50e3a-5b87-49dd-bd20-03c7f2735e40","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"fangbinxingnmsl.pusytroller.cf"},"path":"/"},"servername":"fangbinxingnmsl.pusytroller.cf"}
+  - {"name":"瑞典 V2CROSS.COM","type":"vmess","server":"185.146.173.16","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
