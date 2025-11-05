@@ -23,9 +23,3 @@ proxies:
   - {"name":"defaultName_6-2","type":"http","server":"aus.secureconnect.me","port":778,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"aus.secureconnect.me"}
   - {"name":"defaultName_7-2","type":"http","server":"aus.secureconnect.me","port":592,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"aus.secureconnect.me"}
   - {"name":"defaultName_8-2","type":"http","server":"aus.secureconnect.me","port":7070,"username":"hasanghaderi01@gmail.com","password":"786786HASAN","tls":true,"skip-cert-verify":true,"sni":"aus.secureconnect.me"}
-  - {"name":"香港-主线路","type":"trojan","server":"hxfz940e90d9.nfwzdm.com","port":12221,"udp":true,"password":"f5566840-79ba-40eb-9727-714c2042ba77","sni":"v1-dy.ixigua.com","skip-cert-verify":true}
-  - {"name":"台灣-Disney+丨B站解锁","type":"trojan","server":"hxfz940e90d9.nfwzdm.com","port":42765,"udp":true,"password":"f5566840-79ba-40eb-9727-714c2042ba77","sni":"v1-dy.ixigua.com","skip-cert-verify":true}
-  - {"name":"新加坡-Netflix解锁","type":"trojan","server":"hxfz940e90d9.nfwzdm.com","port":48291,"udp":true,"password":"f5566840-79ba-40eb-9727-714c2042ba77","sni":"v1-dy.ixigua.com","skip-cert-verify":true}
-  - {"name":"新加坡-主线路02","type":"ss","server":"sl.fgmcx.top","port":41047,"password":"014e90df-a3ee-4654-a9f6-d118e02dd02a","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"東京-游戏解锁","type":"trojan","server":"hxfz940e90d9.nfwzdm.com","port":28713,"udp":true,"password":"f5566840-79ba-40eb-9727-714c2042ba77","sni":"v1-dy.ixigua.com","skip-cert-verify":true}
-  - {"name":"美國-主线路","type":"trojan","server":"hxfz940e90d9.nfwzdm.com","port":21489,"udp":true,"password":"f5566840-79ba-40eb-9727-714c2042ba77","sni":"v1-dy.ixigua.com","skip-cert-verify":true}
