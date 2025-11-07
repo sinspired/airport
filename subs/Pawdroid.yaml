@@ -1,7 +1,7 @@
 proxies:
-  - {"type":"ss","server":"liubu9.singdns.com","port":17459,"cipher":"aes-128-gcm","password":"57bc0c04-8184-48f5-906b-897d095ed445","name":"亚太地区+V2CROSS.COM"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"1b57001bd214304027025a740b6cf1ac","server":"203.198.122.194","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"江苏省 移动","type":"vmess","server":"36.150.27.76","port":49509,"cipher":"auto","uuid":"aed41f1e-75e7-41ce-a2d4-38f65a6bbc86","alterId":0,"tls":false}
-  - {"name":"瑞典 V2CROSS.COM","type":"vmess","server":"185.146.173.24","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
-  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
+  - {"type":"vless","name":"美国+V2CROSS.COM","server":"198.186.131.216","port":47387,"uuid":"cdc453bb-34c8-4405-a322-56f6878ccd40","skip-cert-verify":false,"network":"tcp"}
   - {"name":"香港 Cloudie数据中心","type":"vmess","server":"103.243.26.209","port":8080,"cipher":"auto","uuid":"bc7e6840-ab83-4570-eaae-d9aff1e2da09","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}}}
+  - {"name":"瑞典 V2CROSS.COM","type":"vmess","server":"185.146.173.117","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"name":"江苏省 移动","type":"vmess","server":"36.150.27.76","port":49509,"cipher":"auto","uuid":"aed41f1e-75e7-41ce-a2d4-38f65a6bbc86","alterId":0,"tls":false}
+  - {"name":"西班牙 V2CROSS.COM","type":"vmess","server":"164.138.202.55","port":50475,"cipher":"auto","uuid":"b3bfb11c-43ff-41f3-9ba7-18b615baa134","alterId":0,"tls":false}
+  - {"sni":"www.nintendogames.net","type":"trojan","password":"1b57001bd214304027025a740b6cf1ac","server":"203.198.122.194","port":443,"name":"香港+电讯盈科有限公司"}
