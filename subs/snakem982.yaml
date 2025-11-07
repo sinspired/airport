@@ -1,12 +1,12 @@
 proxies:
-  - {"name":"CN_75a08_0001","server":"hk4.web3sp.com","port":50049,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
-  - {"name":"CN_75a08_0002","server":"sg1.web3sp.com","port":50229,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
-  - {"name":"CN_75a08_0003","server":"nl1.web3sp.com","port":50829,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
-  - {"name":"CN_75a08_0004","server":"in2.web3sp.com","port":50619,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
-  - {"name":"CN_75a08_0005","server":"kr2.web3sp.com","port":50339,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
-  - {"name":"CN_75a08_0006","server":"fl01.lr9soflhleb.top","port":31013,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"dc9ea653-becc-44f1-95f9-16773a0519e9","udp":true}
-  - {"name":"TW_75a08_0008","server":"twmoon1-cdn-route.couldflare-cdn.com","port":1443,"type":"http","username":"mrwdfNTD8M79LCukCieldrqZWqs=","password":"exaxgqkKkd0TAMrCxeonWg==","tls":true,"udp":true,"sni":"twmoon1-cdn-route.couldflare-cdn.com"}
-  - {"name":"US_75a08_0009","server":"13.59.110.241","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","udp":true}
+  - {"name":"CN_f9f68_0001","server":"hk4.web3sp.com","port":50049,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
+  - {"name":"CN_f9f68_0002","server":"sg1.web3sp.com","port":50229,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
+  - {"name":"CN_f9f68_0003","server":"nl1.web3sp.com","port":50829,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
+  - {"name":"CN_f9f68_0004","server":"in2.web3sp.com","port":50619,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
+  - {"name":"CN_f9f68_0005","server":"kr2.web3sp.com","port":50339,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
+  - {"name":"CN_f9f68_0006","server":"fl01.lr9soflhleb.top","port":31013,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"dc9ea653-becc-44f1-95f9-16773a0519e9","udp":true}
+  - {"name":"TW_f9f68_0008","server":"twmoon1-cdn-route.couldflare-cdn.com","port":1443,"type":"http","username":"mrwdfNTD8M79LCukCieldrqZWqs=","password":"exaxgqkKkd0TAMrCxeonWg==","tls":true,"udp":true,"sni":"twmoon1-cdn-route.couldflare-cdn.com"}
+  - {"name":"US_f9f68_0009","server":"13.59.110.241","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","udp":true}
   - {"name":"🇦🇪 阿联酋 | ARE","server":"n002.xunxunmimisbs.sbs","port":28100,"type":"trojan","password":"5a27a43b-c50f-4374-85b0-300c4e0a77f2","sni":"db01.xxxxyyyysbs.sbs","udp":true}
   - {"name":"🇦🇪 阿联酋 | ARE 2","server":"n002.xunxunmimisbs.sbs","port":28100,"type":"trojan","password":"240b99cf-687c-4ddb-876f-7d026052a38d","sni":"db01.xxxxyyyysbs.sbs","skip-cert-verify":false,"udp":true}
   - {"name":"🇦🇺 澳大利亚 | AUS","server":"au2.web3sp.com","port":50719,"type":"ss","cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","udp":true}
