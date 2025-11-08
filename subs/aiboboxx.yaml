@@ -1,6 +1,5 @@
 proxies:
   - {"type":"hysteria2","name":"🇳🇱 - NL - @freeOnlineVPN #2","server":"206.71.158.37","port":35000,"password":"Yet-Another-Public-Config-1","sni":"YAPC-1.afshin.ir","obfs":"salamander","obfs-password":"Yet-Another-Public-Config-1","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"@NoForcedheaven","server":"46.62.152.236","port":443,"password":"a2678c97b8d79059","obfs":"salamander","obfs-password":"9242a8bf","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@Mr_Config_Group✌️","server":"chervhill.hajalii.com","port":29662,"password":"10822856-7452-43ec-b35b-6f24ea33530f","sni":"chervhill.hajalii.com","obfs":"salamander","obfs-password":"xFGh9dsyreJV9sMs1RUnFbwRdon","skip-cert-verify":false,"tfo":false}
   - {"type":"hysteria2","name":"@V2rayNG3","server":"192.3.85.237","port":443,"password":"123456","sni":"bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@V2rayNG3 #1","server":"gb.gomeow.online","port":20309,"password":"15cca331-9e92-449d-93b0-25f82203595f","sni":"gb.gomeow.online","skip-cert-verify":false,"tfo":false}
