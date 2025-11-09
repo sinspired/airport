@@ -1,12 +1,10 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"36.150.215.248","port":4492,"name":"江苏省+移动"}
-  - {"type":"vless","name":"美国+CloudFlare节点","server":"ef87bb2b.meti-e9q.pages.dev","port":443,"uuid":"923509aa-bfb0-4758-a5a1-a6c2d0468169","tls":true,"alpn":["http/1.1"],"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"ef87bb2b.meti-e9q.pages.dev"},"path":"/ck2vlelfdajoybac?ed"},"servername":"ef87bb2b.meti-e9q.pages.dev"}
-  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"e4e262d453466988575c397a30562337","server":"117.172.176.22","port":4173,"name":"四川省+移动数据上网公共出口"}
-  - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443"}
-  - {"skip-cert-verify":false,"sni":"dingding-doc.com","type":"trojan","password":"adbac894-90b9-4913-b77e-a715a8d4ebc8","server":"oss-cn-shanghai.letssepub.com","port":20021,"name":"广东省广州市+电信-1"}
-  - {"type":"ss","server":"tw3.web3sp.com","port":50449,"cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","name":"广东省广州市+电信-2"}
-  - {"name":"瑞典 V2CROSS.COM","type":"vmess","server":"185.146.173.126","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"1b57001bd214304027025a740b6cf1ac","server":"221.128.195.12","port":3841,"name":"中国+V2CROSS.COM"}
-  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.30.26","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"type":"ss","server":"au1.web3sp.com","port":50709,"cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","name":"广东省广州市+电信-3"}
-  - {"type":"ss","server":"nl1.web3sp.com","port":50829,"cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","name":"广东省广州市+电信-4"}
+  - {"type":"ss","server":"nl1.web3sp.com","port":50829,"cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","name":"广东省广州市+电信-1"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"1b57001bd214304027025a740b6cf1ac","server":"117.172.176.22","port":1334,"name":"四川省+移动数据上网公共出口"}
+  - {"type":"ss","server":"kr1.web3sp.com","port":50329,"cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","name":"广东省广州市+电信-2"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"36.150.215.247","port":1251,"name":"江苏省+移动"}
+  - {"name":"瑞典 V2CROSS.COM","type":"vmess","server":"185.146.173.117","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.18.240.238","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"1b57001bd214304027025a740b6cf1ac","server":"153.121.44.99","port":1328,"name":"日本+东京SAKURA数据中心"}
+  - {"type":"ss","server":"in2.web3sp.com","port":50619,"cipher":"aes-128-gcm","password":"I1qrYxOXxPYCOkhT","name":"广东省广州市+电信-3"}
+  - {"name":"香港 Cloudie数据中心","type":"vmess","server":"103.243.26.209","port":10086,"cipher":"auto","uuid":"c5ec2e3f-c058-46a8-a148-1831824bb94b","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["103.243.26.209"]}}}
