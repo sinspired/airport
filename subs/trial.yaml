@@ -1,14 +1,14 @@
 proxies:
-  - {"name":"节点加速器-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"6ff1bf29-113f-497f-b171-1cf907ff7807","udp":true}
-  - {"name":"提醒您-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"6ff1bf29-113f-497f-b171-1cf907ff7807","udp":true}
-  - {"name":"我们已升级-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"6ff1bf29-113f-497f-b171-1cf907ff7807","udp":true}
-  - {"name":"节点协议-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"6ff1bf29-113f-497f-b171-1cf907ff7807","udp":true}
-  - {"name":"您的Clash客户端-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"6ff1bf29-113f-497f-b171-1cf907ff7807","udp":true}
-  - {"name":"已停止维护-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"6ff1bf29-113f-497f-b171-1cf907ff7807","udp":true}
-  - {"name":"请访问我们的-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"6ff1bf29-113f-497f-b171-1cf907ff7807","udp":true}
-  - {"name":"官方网站-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"6ff1bf29-113f-497f-b171-1cf907ff7807","udp":true}
-  - {"name":"根据您的设备和系统-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"6ff1bf29-113f-497f-b171-1cf907ff7807","udp":true}
-  - {"name":"更换下载新的客户端-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"6ff1bf29-113f-497f-b171-1cf907ff7807","udp":true}
+  - {"name":"节点加速器-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f5b0b455-1e5d-46f6-8603-1466198764c4","udp":true}
+  - {"name":"提醒您-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f5b0b455-1e5d-46f6-8603-1466198764c4","udp":true}
+  - {"name":"我们已升级-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f5b0b455-1e5d-46f6-8603-1466198764c4","udp":true}
+  - {"name":"节点协议-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f5b0b455-1e5d-46f6-8603-1466198764c4","udp":true}
+  - {"name":"您的Clash客户端-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f5b0b455-1e5d-46f6-8603-1466198764c4","udp":true}
+  - {"name":"已停止维护-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f5b0b455-1e5d-46f6-8603-1466198764c4","udp":true}
+  - {"name":"请访问我们的-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f5b0b455-1e5d-46f6-8603-1466198764c4","udp":true}
+  - {"name":"官方网站-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f5b0b455-1e5d-46f6-8603-1466198764c4","udp":true}
+  - {"name":"根据您的设备和系统-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f5b0b455-1e5d-46f6-8603-1466198764c4","udp":true}
+  - {"name":"更换下载新的客户端-1","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f5b0b455-1e5d-46f6-8603-1466198764c4","udp":true}
   - {"name":"节点加速器-2","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"236df29a-0056-4f31-a3ae-084dadaf6e07","udp":true}
   - {"name":"提醒您-2","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"236df29a-0056-4f31-a3ae-084dadaf6e07","udp":true}
   - {"name":"我们已升级-2","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"236df29a-0056-4f31-a3ae-084dadaf6e07","udp":true}
@@ -29,33 +29,33 @@ proxies:
   - {"name":"官方网站-3","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"063ff5df-bef7-4d18-b1bc-7d36a0374766","udp":true}
   - {"name":"根据您的设备和系统-3","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"063ff5df-bef7-4d18-b1bc-7d36a0374766","udp":true}
   - {"name":"更换下载新的客户端-3","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"063ff5df-bef7-4d18-b1bc-7d36a0374766","udp":true}
-  - {"name":"节点加速器-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"50ffd20e-cc02-4745-804b-c26fdfe20e28","udp":true}
-  - {"name":"提醒您-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"50ffd20e-cc02-4745-804b-c26fdfe20e28","udp":true}
-  - {"name":"我们已升级-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"50ffd20e-cc02-4745-804b-c26fdfe20e28","udp":true}
-  - {"name":"节点协议-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"50ffd20e-cc02-4745-804b-c26fdfe20e28","udp":true}
-  - {"name":"您的Clash客户端-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"50ffd20e-cc02-4745-804b-c26fdfe20e28","udp":true}
-  - {"name":"已停止维护-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"50ffd20e-cc02-4745-804b-c26fdfe20e28","udp":true}
-  - {"name":"请访问我们的-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"50ffd20e-cc02-4745-804b-c26fdfe20e28","udp":true}
-  - {"name":"官方网站-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"50ffd20e-cc02-4745-804b-c26fdfe20e28","udp":true}
-  - {"name":"根据您的设备和系统-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"50ffd20e-cc02-4745-804b-c26fdfe20e28","udp":true}
-  - {"name":"更换下载新的客户端-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"50ffd20e-cc02-4745-804b-c26fdfe20e28","udp":true}
-  - {"name":"节点加速器-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"51e5d3b0-98a7-46ee-96be-b48723385134","udp":true}
-  - {"name":"提醒您-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"51e5d3b0-98a7-46ee-96be-b48723385134","udp":true}
-  - {"name":"我们已升级-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"51e5d3b0-98a7-46ee-96be-b48723385134","udp":true}
-  - {"name":"节点协议-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"51e5d3b0-98a7-46ee-96be-b48723385134","udp":true}
-  - {"name":"您的Clash客户端-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"51e5d3b0-98a7-46ee-96be-b48723385134","udp":true}
-  - {"name":"已停止维护-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"51e5d3b0-98a7-46ee-96be-b48723385134","udp":true}
-  - {"name":"请访问我们的-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"51e5d3b0-98a7-46ee-96be-b48723385134","udp":true}
-  - {"name":"官方网站-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"51e5d3b0-98a7-46ee-96be-b48723385134","udp":true}
-  - {"name":"根据您的设备和系统-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"51e5d3b0-98a7-46ee-96be-b48723385134","udp":true}
-  - {"name":"更换下载新的客户端-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"51e5d3b0-98a7-46ee-96be-b48723385134","udp":true}
-  - {"name":"节点加速器-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f9acb686-e801-4edd-973b-1ba40338d14a","udp":true}
-  - {"name":"提醒您-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f9acb686-e801-4edd-973b-1ba40338d14a","udp":true}
-  - {"name":"我们已升级-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f9acb686-e801-4edd-973b-1ba40338d14a","udp":true}
-  - {"name":"节点协议-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f9acb686-e801-4edd-973b-1ba40338d14a","udp":true}
-  - {"name":"您的Clash客户端-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f9acb686-e801-4edd-973b-1ba40338d14a","udp":true}
-  - {"name":"已停止维护-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f9acb686-e801-4edd-973b-1ba40338d14a","udp":true}
-  - {"name":"请访问我们的-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f9acb686-e801-4edd-973b-1ba40338d14a","udp":true}
-  - {"name":"官方网站-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f9acb686-e801-4edd-973b-1ba40338d14a","udp":true}
-  - {"name":"根据您的设备和系统-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f9acb686-e801-4edd-973b-1ba40338d14a","udp":true}
-  - {"name":"更换下载新的客户端-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f9acb686-e801-4edd-973b-1ba40338d14a","udp":true}
+  - {"name":"节点加速器-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1b54aac2-0ead-4236-966f-b05896c02aa8","udp":true}
+  - {"name":"提醒您-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1b54aac2-0ead-4236-966f-b05896c02aa8","udp":true}
+  - {"name":"我们已升级-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1b54aac2-0ead-4236-966f-b05896c02aa8","udp":true}
+  - {"name":"节点协议-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1b54aac2-0ead-4236-966f-b05896c02aa8","udp":true}
+  - {"name":"您的Clash客户端-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1b54aac2-0ead-4236-966f-b05896c02aa8","udp":true}
+  - {"name":"已停止维护-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1b54aac2-0ead-4236-966f-b05896c02aa8","udp":true}
+  - {"name":"请访问我们的-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1b54aac2-0ead-4236-966f-b05896c02aa8","udp":true}
+  - {"name":"官方网站-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1b54aac2-0ead-4236-966f-b05896c02aa8","udp":true}
+  - {"name":"根据您的设备和系统-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1b54aac2-0ead-4236-966f-b05896c02aa8","udp":true}
+  - {"name":"更换下载新的客户端-4","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1b54aac2-0ead-4236-966f-b05896c02aa8","udp":true}
+  - {"name":"节点加速器-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"cc5bcdd3-3603-463a-b442-8254fa4cdf71","udp":true}
+  - {"name":"提醒您-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"cc5bcdd3-3603-463a-b442-8254fa4cdf71","udp":true}
+  - {"name":"我们已升级-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"cc5bcdd3-3603-463a-b442-8254fa4cdf71","udp":true}
+  - {"name":"节点协议-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"cc5bcdd3-3603-463a-b442-8254fa4cdf71","udp":true}
+  - {"name":"您的Clash客户端-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"cc5bcdd3-3603-463a-b442-8254fa4cdf71","udp":true}
+  - {"name":"已停止维护-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"cc5bcdd3-3603-463a-b442-8254fa4cdf71","udp":true}
+  - {"name":"请访问我们的-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"cc5bcdd3-3603-463a-b442-8254fa4cdf71","udp":true}
+  - {"name":"官方网站-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"cc5bcdd3-3603-463a-b442-8254fa4cdf71","udp":true}
+  - {"name":"根据您的设备和系统-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"cc5bcdd3-3603-463a-b442-8254fa4cdf71","udp":true}
+  - {"name":"更换下载新的客户端-5","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"cc5bcdd3-3603-463a-b442-8254fa4cdf71","udp":true}
+  - {"name":"节点加速器-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"e905a80a-2664-44a1-bc3a-686faf14cd18","udp":true}
+  - {"name":"提醒您-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"e905a80a-2664-44a1-bc3a-686faf14cd18","udp":true}
+  - {"name":"我们已升级-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"e905a80a-2664-44a1-bc3a-686faf14cd18","udp":true}
+  - {"name":"节点协议-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"e905a80a-2664-44a1-bc3a-686faf14cd18","udp":true}
+  - {"name":"您的Clash客户端-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"e905a80a-2664-44a1-bc3a-686faf14cd18","udp":true}
+  - {"name":"已停止维护-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"e905a80a-2664-44a1-bc3a-686faf14cd18","udp":true}
+  - {"name":"请访问我们的-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"e905a80a-2664-44a1-bc3a-686faf14cd18","udp":true}
+  - {"name":"官方网站-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"e905a80a-2664-44a1-bc3a-686faf14cd18","udp":true}
+  - {"name":"根据您的设备和系统-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"e905a80a-2664-44a1-bc3a-686faf14cd18","udp":true}
+  - {"name":"更换下载新的客户端-6","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"e905a80a-2664-44a1-bc3a-686faf14cd18","udp":true}
