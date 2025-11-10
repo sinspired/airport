@@ -1,9 +1,8 @@
 proxies:
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.18.240.238","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
-  - {"name":"美国 阿里云","type":"vmess","server":"47.245.106.193","port":56536,"cipher":"auto","uuid":"42a7444d-39b0-4549-88d6-c4bbf290af18","alterId":0,"tls":false}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"36.150.215.248","port":8041,"name":"江苏省+移动-1"}
-  - {"skip-cert-verify":false,"sni":"dingding-doc.com","type":"trojan","password":"adbac894-90b9-4913-b77e-a715a8d4ebc8","server":"oss-cn-shanghai.letssepub.com","port":20021,"name":"广东省广州市+电信"}
-  - {"name":"香港 特别行政区-1","type":"vmess","server":"175.29.22.101","port":28034,"cipher":"auto","uuid":"d2540325-9ad6-33d7-be86-259b5bba4ef8","alterId":0,"tls":false}
+  - {"name":"香港 特别行政区-1","type":"vmess","server":"cdn3.ttcdn.top","port":13231,"cipher":"auto","uuid":"e14c2114-e492-4be9-b51e-3f2f0fd5c48d","alterId":0,"tls":false}
+  - {"name":"英国 V2CROSS.COM-1","type":"vmess","server":"t.cnmjcn.cyou","port":16622,"cipher":"auto","uuid":"180628eb-a18b-4096-9b81-268f32f6a020","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"481e9db24fc371b854d98245ce8ffb64.mobgslb.tbcache.com"}}}
+  - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.186","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"nl-v2ray.freevmess.com","port":2083,"cipher":"auto","uuid":"c3d066bc-4170-4006-a95c-0012367e8f13","alterId":0,"tls":true,"servername":"nl-v2ray.freevmess.com"}
+  - {"name":"英国 V2CROSS.COM-2","type":"vmess","server":"t.cnmjcn.cyou","port":16622,"cipher":"auto","uuid":"180628eb-a18b-4096-9b81-268f32f6a020","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"481e9db24fc371b854d98245ce8ffb64.mobgslb.tbcache.com"}}}
   - {"name":"香港 特别行政区-2","type":"vmess","server":"175.29.22.101","port":28034,"cipher":"auto","uuid":"d2540325-9ad6-33d7-be86-259b5bba4ef8","alterId":0,"tls":false}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"36.151.251.38","port":38799,"name":"江苏省+移动-2"}
-  - {"name":"瑞典 V2CROSS.COM","type":"vmess","server":"185.146.173.117","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
