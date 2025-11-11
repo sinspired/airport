@@ -1,11 +1,12 @@
 proxies:
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"141.101.121.3","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
-  - {"name":"德国 黑森州法兰克福23media数据中心-1","type":"vmess","server":"62.113.200.175","port":49430,"cipher":"auto","uuid":"6374e446-c20d-4d59-b4c4-af69fab386cf","alterId":0,"tls":false}
-  - {"name":"德国 黑森州法兰克福23media数据中心-2","type":"vmess","server":"62.113.200.175","port":443,"cipher":"auto","uuid":"07af0742-aeb4-4fb8-91d6-96f115e631bd","alterId":0,"tls":false}
+  - {"name":"德国 黑森州法兰克福23media数据中心-1","type":"vmess","server":"62.113.200.175","port":27576,"cipher":"auto","uuid":"09c3c665-981e-40b9-d6c7-96259f1175e8","alterId":0,"tls":false}
   - {"name":"美国 阿里云","type":"vmess","server":"47.245.106.193","port":56536,"cipher":"auto","uuid":"42a7444d-39b0-4549-88d6-c4bbf290af18","alterId":0,"tls":false}
-  - {"name":"德国 黑森州法兰克福23media数据中心-3","type":"vmess","server":"62.113.200.175","port":49430,"cipher":"auto","uuid":"6374e446-c20d-4d59-b4c4-af69fab386cf","alterId":0,"tls":false}
-  - {"name":"香港 阿里云","type":"vmess","server":"47.243.90.125","port":20292,"cipher":"auto","uuid":"57f5c2bd-bb79-4fd8-eea1-a84d1ddf3a21","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"name":"德国 黑森州法兰克福23media数据中心-4","type":"vmess","server":"62.113.200.175","port":27576,"cipher":"auto","uuid":"09c3c665-981e-40b9-d6c7-96259f1175e8","alterId":0,"tls":false}
-  - {"name":"瑞典 V2CROSS.COM","type":"vmess","server":"185.146.173.82","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
-  - {"type":"trojan","password":"BxceQaOe","server":"203.198.122.129","port":443,"name":"香港+电讯盈科有限公司:443"}
   - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.30.26","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"瑞典 V2CROSS.COM","type":"vmess","server":"185.146.173.24","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"name":"美国 V2CROSS.COM-1","type":"vmess","server":"208.76.223.218","port":27092,"cipher":"auto","uuid":"a0596ba6-72a3-4366-8992-77088da65bd8","alterId":0,"tls":false}
+  - {"name":"德国 黑森州法兰克福23media数据中心-2","type":"vmess","server":"62.113.200.175","port":46668,"cipher":"auto","uuid":"680f3f4d-a13a-4869-ada6-894683cf2ffe","alterId":0,"tls":false}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"test.yucdncdn.me","port":443,"cipher":"auto","uuid":"b837aca5-fc36-4180-80a8-18d405a53e5a","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"test.yucdncdn.me"}},"servername":"test.yucdncdn.me"}
+  - {"name":"德国 黑森州法兰克福23media数据中心-3","type":"vmess","server":"62.113.200.175","port":46668,"cipher":"auto","uuid":"680f3f4d-a13a-4869-ada6-894683cf2ffe","alterId":0,"tls":false}
+  - {"name":"美国 V2CROSS.COM-2","type":"vmess","server":"216.238.89.53","port":57836,"cipher":"auto","uuid":"25cd6447-846c-456d-9e84-49222353b9c5","alterId":0,"tls":false}
+  - {"type":"ss","server":"62.133.63.230","port":1580,"cipher":"chacha20-ietf-poly1305","password":"KgcKQpFCkXnOJXceV68o12","name":"俄罗斯+V2CROSS.COM"}
+  - {"name":"美国 V2CROSS.COM-3","type":"vmess","server":"208.76.223.218","port":27092,"cipher":"auto","uuid":"a0596ba6-72a3-4366-8992-77088da65bd8","alterId":0,"tls":false}
