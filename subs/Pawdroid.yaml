@@ -1,5 +1,9 @@
 proxies:
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"116.49.237.130","port":518,"name":"香港+电讯盈科有限公司-1"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"116.49.237.130","port":4569,"name":"香港+电讯盈科有限公司-2"}
   - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"36.150.215.246","port":4011,"name":"江苏省+移动"}
-  - {"name":"美国 加利福尼亚州洛杉矶Dedipath数据中心","type":"vmess","server":"45.89.107.51","port":20521,"cipher":"auto","uuid":"3dbaa5c3-f493-4ad1-9c5d-8525f4962a6c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
-  - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"116.49.237.130","port":518,"name":"香港+电讯盈科有限公司"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"141.101.121.250","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"203.198.122.97","port":443,"name":"香港+电讯盈科有限公司-3"}
+  - {"type":"trojan","password":"BxceQaOe","server":"203.198.122.129","port":443,"name":"香港+电讯盈科有限公司:443-1"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"116.49.237.130","port":2173,"name":"香港+电讯盈科有限公司-4"}
+  - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443-2"}
