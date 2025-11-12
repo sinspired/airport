@@ -1,6 +1,5 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.77.239.35","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"36.150.215.147","port":4666,"name":"江苏省+移动"}
-  - {"name":"瑞典 V2CROSS.COM-1","type":"vmess","server":"185.146.173.126","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
-  - {"name":"澳大利亚 新南威尔士州悉尼Amazon数据中心","type":"vmess","server":"54.206.192.9","port":16407,"cipher":"auto","uuid":"08f45028-1db6-4e93-bf51-d344b6c71e19","alterId":0,"tls":false}
-  - {"name":"瑞典 V2CROSS.COM-2","type":"vmess","server":"185.146.173.82","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"36.150.215.246","port":4011,"name":"江苏省+移动"}
+  - {"name":"美国 加利福尼亚州洛杉矶Dedipath数据中心","type":"vmess","server":"45.89.107.51","port":20521,"cipher":"auto","uuid":"3dbaa5c3-f493-4ad1-9c5d-8525f4962a6c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"116.49.237.130","port":518,"name":"香港+电讯盈科有限公司"}
