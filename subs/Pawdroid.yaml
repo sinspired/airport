@@ -1,4 +1,8 @@
 proxies:
-  - {"type":"trojan","password":"BxceQaOe","server":"203.198.122.129","port":443,"name":"香港+电讯盈科有限公司:443"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.77.239.35","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"skip-cert-verify":false,"type":"trojan","password":"BxceQaOe","server":"203.198.122.129","port":443,"name":"香港+电讯盈科有限公司-1"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top","port":443,"cipher":"auto","uuid":"5f726fe3-d82e-4da5-a711-8af0cbb2b682","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/azumase.ren","headers":{"Host":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"}},"servername":"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"}
+  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"116.49.237.130","port":4569,"name":"香港+电讯盈科有限公司-2"}
   - {"name":"瑞典 V2CROSS.COM","type":"vmess","server":"185.146.173.24","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"203.198.122.97","port":443,"name":"香港+电讯盈科有限公司-3"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"141.101.121.120","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"name":"美国 加利福尼亚州洛杉矶Dedipath数据中心","type":"vmess","server":"45.89.107.51","port":20521,"cipher":"auto","uuid":"3dbaa5c3-f493-4ad1-9c5d-8525f4962a6c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
