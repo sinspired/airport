@@ -1,7 +1,6 @@
 proxies:
+  - {"skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"116.49.237.130","port":518,"name":"香港+电讯盈科有限公司"}
   - {"type":"trojan","password":"BxceQaOe","server":"58.152.46.98","port":443,"name":"香港+电讯盈科有限公司:443"}
-  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"116.49.237.130","port":4569,"name":"香港+电讯盈科有限公司"}
-  - {"name":"广东省广州市 移动","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52512,"cipher":"auto","uuid":"342bacfd-2b8f-3f49-a16e-439db5b0b9d5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}}}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"45.136.12.37","port":38141,"cipher":"auto","uuid":"fd291be6-b48d-43a1-da38-66c7f80e2f80","alterId":0,"tls":false}
+  - {"name":"安徽省芜湖市 电信-1","type":"vmess","server":"114.98.183.61","port":47093,"cipher":"auto","uuid":"b3fa070f-5511-48be-934b-f632f6b8a7c7","alterId":0,"tls":false}
   - {"skip-cert-verify":false,"sni":"dingding-doc.com","type":"trojan","password":"adbac894-90b9-4913-b77e-a715a8d4ebc8","server":"oss-cn-shanghai.letssepub.com","port":20021,"name":"广东省广州市+移动"}
-  - {"name":"美国 加利福尼亚州洛杉矶Dedipath数据中心","type":"vmess","server":"45.89.107.51","port":20521,"cipher":"auto","uuid":"3dbaa5c3-f493-4ad1-9c5d-8525f4962a6c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"name":"安徽省芜湖市 电信-2","type":"vmess","server":"114.98.183.61","port":47093,"cipher":"auto","uuid":"b3fa070f-5511-48be-934b-f632f6b8a7c7","alterId":0,"tls":false}
