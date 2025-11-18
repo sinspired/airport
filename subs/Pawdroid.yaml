@@ -1,5 +1,4 @@
 proxies:
-  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.79.165.55","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"141.101.121.120","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
-  - {"name":"日本 V2CROSS.COM","type":"vmess","server":"43.164.131.70","port":24351,"cipher":"auto","uuid":"4db20d82-0a65-432b-c16b-d2aacfe88073","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"116.49.237.130","port":2673,"name":"香港+电讯盈科有限公司"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"141.101.121.120","port":80,"cipher":"auto","uuid":"d967ffca-de90-4daa-bd00-d527e5bae11f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)","headers":{"Host":"google.whatsapp.snapp.torob.basalam.leoshopping77.ir."}}}
+  - {"name":"西班牙 V2CROSS.COM","type":"vmess","server":"185.221.23.251","port":29431,"cipher":"auto","uuid":"8b78363e-3c3a-44ab-f0d8-f13d950c8572","alterId":0,"tls":false}
