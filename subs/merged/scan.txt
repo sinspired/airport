@@ -1,3 +1,11 @@
-https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/RAW.txt#sinspired/subs-check
-https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/old-data/RAW.txt#sinspired/subs-check
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.txt#sinspired/subs-check
+https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/RAW.txt#sinspired
+https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/old-data/RAW.txt#sinspired
+https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.txt#sinspired
+https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/mixed/Leon406/SubCrawler/sub/share/a11.yaml#sinspired
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt#sinspired
+https://amirrezafarnamtaheri.github.io/ConfigStream/output/chosen/base64.txt#sinspired
+https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/allive.txt#sinspired
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Cable.txt#sinspired
+https://raw.githubusercontent.com/LoneKingCode/free-proxy-db/main/proxies/all.txt#sinspired
+https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless#sinspired
+https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-14.txt#sinspired
