@@ -1,3 +1,7 @@
+https://raw.githubusercontent.com/yzcjd/jiedian/main/%40yzcjd
+https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/RAW.txt
+https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/old-data/RAW.txt
+https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.txt
 https://raw.githubusercontent.com/sinspired/airport/main/subs/_pool.yaml
 https://raw.githubusercontent.com/sinspired/airport/main/subs/_previous.yaml
 https://raw.githubusercontent.com/sinspired/airport/main/subs/Pawdroid.yaml
