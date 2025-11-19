@@ -1,15 +1,15 @@
 proxies:
-  - {"name":"CH_005ef_0001","server":"194.87.18.124","port":443,"type":"trojan","password":"019a8c1f-3d28-74e8-8a8e-40045d7ec77f","sni":"www.bilibili.com","skip-cert-verify":true,"udp":true}
-  - {"name":"GB_005ef_0005","server":"nl.nodes.rocketnetwork.ru","port":443,"type":"vless","uuid":"bccbecc9-c1d2-45d1-b3fa-771a19b9831c","flow":"xtls-rprx-vision","tls":true,"skip-cert-verify":false,"client-fingerprint":"chrome","reality-opts":{"public-key":"Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs","short-id":"428ef87fd47a3a32"},"udp":true,"network":"tcp","servername":"nl.nodes.rocketnetwork.ru"}
-  - {"name":"IL_005ef_0006","server":"45.144.172.243","port":443,"type":"trojan","password":"019a8c1f-3d28-74e8-8a8e-40045d7ec77f","sni":"www.bilibili.com","skip-cert-verify":true,"udp":true}
-  - {"name":"JP_005ef_0007","server":"43.206.240.31","port":80,"type":"ss","cipher":"aes-256-gcm","password":"dada0801","udp":true}
-  - {"name":"KR_005ef_0008","server":"43.201.70.24","port":80,"type":"ss","cipher":"aes-256-gcm","password":"dada0801","udp":true}
-  - {"name":"KR_005ef_0009","server":"54.180.202.139","port":80,"type":"ss","cipher":"aes-256-gcm","password":"dada0801","udp":true}
-  - {"name":"KR_005ef_0010","server":"43.203.199.246","port":80,"type":"ss","cipher":"aes-256-gcm","password":"dada0801","udp":true}
-  - {"name":"KR_005ef_0011","server":"13.209.14.105","port":80,"type":"ss","cipher":"aes-256-gcm","password":"dada0801","udp":true}
-  - {"name":"RU_005ef_0012","server":"81.161.98.228","port":1443,"type":"vless","uuid":"00f02ab2-6f2d-449f-a089-d182a2fac59a","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/websocketpl","headers":{"Host":"cdn.filterai.ru"}},"udp":true,"servername":"cdn.filterai.ru"}
-  - {"name":"US_005ef_0013","server":"108.165.255.5","port":443,"type":"trojan","password":"019a8c1f-3d28-74e8-8a8e-40045d7ec77f","sni":"www.bilibili.com","skip-cert-verify":true,"udp":true}
-  - {"name":"US_005ef_0014","server":"96.126.190.132","port":443,"type":"trojan","password":"019a8c1f-3d28-74e8-8a8e-40045d7ec77f","sni":"www.bilibili.com","skip-cert-verify":true,"udp":true}
+  - {"name":"CH_50284_0001","server":"194.87.18.124","port":443,"type":"trojan","password":"019a8c1f-3d28-74e8-8a8e-40045d7ec77f","sni":"www.bilibili.com","skip-cert-verify":true,"udp":true}
+  - {"name":"GB_50284_0005","server":"nl.nodes.rocketnetwork.ru","port":443,"type":"vless","uuid":"bccbecc9-c1d2-45d1-b3fa-771a19b9831c","flow":"xtls-rprx-vision","tls":true,"skip-cert-verify":false,"client-fingerprint":"chrome","reality-opts":{"public-key":"Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs","short-id":"428ef87fd47a3a32"},"udp":true,"network":"tcp","servername":"nl.nodes.rocketnetwork.ru"}
+  - {"name":"IL_50284_0006","server":"45.144.172.243","port":443,"type":"trojan","password":"019a8c1f-3d28-74e8-8a8e-40045d7ec77f","sni":"www.bilibili.com","skip-cert-verify":true,"udp":true}
+  - {"name":"JP_50284_0007","server":"43.206.240.31","port":80,"type":"ss","cipher":"aes-256-gcm","password":"dada0801","udp":true}
+  - {"name":"KR_50284_0008","server":"43.201.70.24","port":80,"type":"ss","cipher":"aes-256-gcm","password":"dada0801","udp":true}
+  - {"name":"KR_50284_0009","server":"54.180.202.139","port":80,"type":"ss","cipher":"aes-256-gcm","password":"dada0801","udp":true}
+  - {"name":"KR_50284_0010","server":"43.203.199.246","port":80,"type":"ss","cipher":"aes-256-gcm","password":"dada0801","udp":true}
+  - {"name":"KR_50284_0011","server":"13.209.14.105","port":80,"type":"ss","cipher":"aes-256-gcm","password":"dada0801","udp":true}
+  - {"name":"RU_50284_0012","server":"81.161.98.228","port":1443,"type":"vless","uuid":"00f02ab2-6f2d-449f-a089-d182a2fac59a","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/websocketpl","headers":{"Host":"cdn.filterai.ru"}},"udp":true,"servername":"cdn.filterai.ru"}
+  - {"name":"US_50284_0013","server":"108.165.255.5","port":443,"type":"trojan","password":"019a8c1f-3d28-74e8-8a8e-40045d7ec77f","sni":"www.bilibili.com","skip-cert-verify":true,"udp":true}
+  - {"name":"US_50284_0014","server":"96.126.190.132","port":443,"type":"trojan","password":"019a8c1f-3d28-74e8-8a8e-40045d7ec77f","sni":"www.bilibili.com","skip-cert-verify":true,"udp":true}
   - {"name":"🇦🇪 阿联酋 | ARE","server":"91.132.48.151","port":443,"type":"trojan","password":"019a8c1f-3d28-74e8-8a8e-40045d7ec77f","sni":"www.bilibili.com","skip-cert-verify":true,"udp":true}
   - {"name":"🇦🇺 澳大利亚 | AUS","server":"xdd.dashuai.cyou","port":45063,"type":"vmess","uuid":"bd0bcc1b-e155-4d89-86a6-09c5807803fa","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
   - {"name":"🇦🇺 澳大利亚 | AUS 2","server":"haa.dashuai.cyou","port":45062,"type":"vmess","uuid":"3a806081-4c16-4230-a5da-17b85357c92c","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
