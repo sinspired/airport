@@ -1,7 +1,8 @@
 proxies:
-  - {"type":"ss","server":"103.219.103.217","port":23344,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM-1"}
-  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.241","port":443,"name":"香港+电讯盈科有限公司-1"}
-  - {"type":"ss","server":"103.219.103.217","port":21712,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM-2"}
-  - {"name":"香港 阿里云-1","type":"vmess","server":"n1744453320.lie5d.cyou","port":443,"cipher":"auto","uuid":"8889a08a-09f8-4c97-bed2-df31b62fcf23","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{}},"servername":"n1744453320.lie5d.cyou"}
+  - {"name":"香港 阿里云-1","type":"vmess","server":"n1744453320.lie5d.cyou","port":443,"cipher":"auto","uuid":"8889a08a-09f8-4c97-bed2-df31b62fcf23","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"n1744453320.lie5d.cyou"}},"servername":"n1744453320.lie5d.cyou"}
   - {"name":"香港 阿里云-2","type":"vmess","server":"n1744453320.lie5d.cyou","port":443,"cipher":"auto","uuid":"8889a08a-09f8-4c97-bed2-df31b62fcf23","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{}},"servername":"n1744453320.lie5d.cyou"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.79.165.55","port":443,"name":"香港+电讯盈科有限公司-2"}
+  - {"type":"ss","server":"103.219.103.217","port":23344,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM"}
+  - {"name":"乌克兰 V2CROSS.COM-1","type":"vmess","server":"2.59.62.63","port":19365,"cipher":"auto","uuid":"9583a647-b0ba-47b0-d4b0-4e12a0201d67","alterId":0,"tls":false}
+  - {"name":"乌克兰 V2CROSS.COM-2","type":"vmess","server":"2.59.62.63","port":19365,"cipher":"auto","uuid":"9583a647-b0ba-47b0-d4b0-4e12a0201d67","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.241","port":443,"name":"香港+电讯盈科有限公司-1"}
+  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.79.165.55","port":443,"name":"香港+电讯盈科有限公司-2"}
