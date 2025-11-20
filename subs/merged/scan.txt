@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-14.txt
 https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-19.txt#sinspired/subs-check
 https://github.com/sakha1370/OpenRay/raw/main/output/converted/all_valid_proxies_clash_config.yaml#sinspired/subs-check
 https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/all_valid_proxies.txt#sinspired/subs-check
-https://raw.githubusercontent.com/shahidbhutta/Clash/main/Routert#sinspired/subs-check
+https://raw.githubusercontent.com/shahidbhutta/Clash/main/Router#sinspired/subs-check
 https://raw.githubusercontent.com/Arefgh72/v2ray-proxy-pars-tester/main/output/github_all.txt#sinspired/subs-check
 https://raw.githubusercontent.com/ovmvo/SubShare/main/sub/permanent/mihomo.yaml#sinspired/subs-check
 https://raw.githubusercontent.com/liMilCo/v2r/main/base64/2.txt#sinspired/subs-check
@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/liMilCo/v2r/main/configs.txt#sinspired/subs-ch
 https://raw.githubusercontent.com/Delta-Kronecker/Xray/main/data/working_url/working_all_urls.txt#sinspired/subs-check
 https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/sub2.txt#sinspired/subs-check
 https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt#sinspired/subs-check
-https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mixt#sinspired/subs-check
+https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix#sinspired/subs-check
 https://anaer.github.io/Sub/clash.yaml#sinspired/subs-check
 https://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt#sinspired/subs-check
 https://raw.githubusercontent.com/SamanGho/v2ray_collector/main/v2tel_links1.txt#sinspired/subs-check
