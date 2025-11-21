@@ -1,7 +1,6 @@
 proxies:
   - {"name":"BG_speednode_0001","server":"178.239.123.216","port":24443,"type":"vless","uuid":"aa7f42cc-616f-4550-9a87-4b85bb409121","tls":true,"skip-cert-verify":false,"client-fingerprint":"chrome","network":"ws","ws-opts":{"path":"/","headers":{"Host":"vless3.datatestvless.click"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"udp":true,"servername":"vless3.datatestvless.click"}
   - {"name":"CN_speednode_0002","server":"slur.izenny.com","port":55407,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"db8a0e6b-5fd7-435d-9558-5c86b0679c4d","udp":true}
-  - {"name":"CN_speednode_0003","server":"slur.izenny.com","port":55407,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d9b85218-da37-42a7-8906-67bab810252c","udp":true}
   - {"name":"CN_speednode_0004","server":"slur.izenny.com","port":40063,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"db8a0e6b-5fd7-435d-9558-5c86b0679c4d","udp":true}
   - {"name":"CN_speednode_0005","server":"slur.izenny.com","port":48907,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"db8a0e6b-5fd7-435d-9558-5c86b0679c4d","udp":true}
   - {"name":"CN_speednode_0006","server":"103.219.103.217","port":23344,"type":"ss","cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","udp":true}
