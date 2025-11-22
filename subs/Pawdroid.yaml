@@ -1,7 +1,4 @@
 proxies:
-  - {"name":"美国 Microsoft数据中心","type":"vmess","server":"west_a.gaogroup.bid","port":443,"cipher":"auto","uuid":"ef004cfa-b463-4473-97df-4f0da4473ae0","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/ctzxvws","headers":{}},"servername":"west_a.gaogroup.bid"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.22","port":443,"name":"香港+电讯盈科有限公司-1"}
-  - {"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk","type":"trojan","password":"telegram-id-privatevpns","server":"13.39.169.16","port":22222,"name":"美国+Amazon数据中心"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.18.95","port":443,"name":"香港+电讯盈科有限公司-2"}
-  - {"name":"德国 V2CROSS.COM","type":"vmess","server":"node4.rtxconfigz.com","port":443,"cipher":"auto","uuid":"44e57485-eccc-46ef-808f-cd17ac810018","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/@Malinda6104","headers":{"Host":"node4.rtxconfigz.com"}},"servername":"node4.rtxconfigz.com"}
+  - {"skip-cert-verify":false,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.241","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"dDdFfGTHYU.922922.SHOP","port":80,"cipher":"auto","uuid":"bce0c7cb-08d1-46a7-b77b-7bff8b46252f","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/RkUUbqhA9GJZBROjL3Q5vTymr","headers":{"Host":"dDdFfGTHYU.922922.SHOP"}}}
