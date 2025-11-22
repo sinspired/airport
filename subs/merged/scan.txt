@@ -8,8 +8,6 @@ https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_co
 https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Barabama_ndnode.yaml#sinspired/subs-check
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt#sinspired/subs-check
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Cable.txt#sinspired/subs-check
-https://amirrezafarnamtaheri.github.io/ConfigStream/output/chosen/base64.txt#sinspired/subs-check
-https://amirrezafarnamtaheri.github.io/ConfigStream/output/base64.txt#sinspired/subs-check
 https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/allive.txt#sinspired/subs-check
 https://raw.githubusercontent.com/LoneKingCode/free-proxy-db/main/proxies/all.txt#sinspired/subs-check
 https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless#sinspired/subs-check
