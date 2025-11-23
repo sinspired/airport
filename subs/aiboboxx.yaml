@@ -1,7 +1,6 @@
 proxies:
   - {"type":"hysteria2","name":"@NoForcedheaven","server":"46.62.152.236","port":443,"password":"a2678c97b8d79059","obfs":"salamander","obfs-password":"9242a8bf","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"MCI-IR--@V2rayAlpha-16","server":"lsyd1.lansecs.top","port":58338,"password":"05fd3f79-dca0-4358-a803-c8d4711c17a3","sni":"lsyd1.lansecs.top","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"کانال تلگرام MTMVPN@","server":"speedhk1.jiasujd.top","port":24955,"password":"09cc2935-0eb4-469a-9d67-2037c68440ca","sni":"speedhk1.jiasujd.top","obfs":"salamander","obfs-password":"Ey8WkRLz34SadllK","skip-cert-verify":false,"tfo":false}
   - {"type":"hysteria2","name":"@V2rayNG3","server":"192.3.85.237","port":443,"password":"123456","sni":"bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@V2rayNG3 #1","server":"gb.gomeow.online","port":20309,"password":"15cca331-9e92-449d-93b0-25f82203595f","sni":"gb.gomeow.online","skip-cert-verify":false,"tfo":false}
   - {"type":"hysteria2","name":"🏴‍☠️@FreakConfig","server":"107.167.18.123","port":1743,"password":"16955d72-1794-11f0-a035-f23c95b6f51d","sni":"fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk","skip-cert-verify":false,"tfo":false}
