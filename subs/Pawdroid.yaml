@@ -1,4 +1,4 @@
 proxies:
+  - {"name":"中国 阿里云","type":"vmess","server":"8.217.176.108","port":3721,"cipher":"auto","uuid":"7836c516-70be-4cde-a4bd-7e225989241a","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"name":"美国 弗吉尼亚州斯特灵阿里云","type":"vmess","server":"n1749032902.xlxzzx.com","port":443,"cipher":"auto","uuid":"6f932d64-1eb4-4160-bc8d-6085cfd4d37d","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"n1749032902.xlxzzx.com"}},"servername":"n1749032902.xlxzzx.com"}
-  - {"type":"ss","server":"103.219.103.217","port":23344,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM"}
+  - {"type":"ss","server":"103.219.103.217","port":21712,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM"}
