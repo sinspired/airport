@@ -3,7 +3,6 @@ proxies:
   - {"type":"hysteria2","name":"MCI-IR--@V2rayAlpha-16","server":"lsyd1.lansecs.top","port":58338,"password":"05fd3f79-dca0-4358-a803-c8d4711c17a3","sni":"lsyd1.lansecs.top","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@V2rayNG3","server":"192.3.85.237","port":443,"password":"123456","sni":"bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@V2rayNG3 #1","server":"gb.gomeow.online","port":20309,"password":"15cca331-9e92-449d-93b0-25f82203595f","sni":"gb.gomeow.online","skip-cert-verify":false,"tfo":false}
-  - {"type":"hysteria2","name":"🏴‍☠️@FreakConfig","server":"107.167.18.123","port":1743,"password":"16955d72-1794-11f0-a035-f23c95b6f51d","sni":"fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk","skip-cert-verify":false,"tfo":false}
   - {"type":"hysteria2","name":"@V2ray_confing33","server":"6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk","port":1743,"password":"17cdeb6c-f046-11ee-bdac-f23c93141fad","sni":"6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk","skip-cert-verify":false,"tfo":false}
   - {"type":"hysteria2","name":"All-@V2rayAlpha--5","server":"204.44.110.129","port":51541,"password":"20050105zhu","sni":"www.bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@V2rayNG3 #2","server":"109.120.135.123","port":12122,"password":"22f2c759db51b3d0","sni":"www.bing.com","obfs":"salamander","obfs-password":"de8287cd33b05fa3","skip-cert-verify":true,"tfo":false}
@@ -29,7 +28,7 @@ proxies:
   - {"type":"hysteria2","name":"All-@V2rayAlpha--43","server":"sanjose.nezhasu.com","port":443,"password":"2b195c17-5ff5-4b0d-a809-210b92212394","sni":"SanJose.nezhasu.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"MCI-IR--@V2rayAlpha-11","server":"yn2.nezhasu.com","port":443,"password":"2b195c17-5ff5-4b0d-a809-210b92212394","sni":"yn2.nezhasu.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"https://t.me/Selinc","server":"31.57.241.25","port":7009,"password":"30c075af-9555-4671-b70e-43e3cfb2e707","sni":"d.eans.top","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🏴‍☠️@FreakConfig #1","server":"140.245.68.133","port":30102,"password":"338ce171-d764-4610-8fd5-6688b0d321f0","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"🏴‍☠️@FreakConfig","server":"140.245.68.133","port":30102,"password":"338ce171-d764-4610-8fd5-6688b0d321f0","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"telegram » mainv𝟮ray¹","server":"144.24.101.176","port":30102,"password":"338ce171-d764-4610-8fd5-6688b0d321f0","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"All-@V2rayAlpha--42","server":"158.180.77.90","port":30102,"password":"338ce171-d764-4610-8fd5-6688b0d321f0","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"MCI-IR--@V2rayAlpha-8","server":"193.123.76.141","port":30102,"password":"338ce171-d764-4610-8fd5-6688b0d321f0","sni":"du.wish.ml","skip-cert-verify":true,"tfo":false}
@@ -81,7 +80,7 @@ proxies:
   - {"type":"hysteria2","name":"🇳🇱@FreakConfig","server":"206.71.158.23","port":45000,"password":"Telegram-->@Ln2Ray","sni":"gavazn.55994421.xyz","obfs":"salamander","obfs-password":"Telegram-->@Ln2Ray","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"🇳🇱@FreakConfig #1","server":"gavazn.lnmarketplace.net","port":45000,"password":"Telegram-->@Ln2Ray","sni":"gavazn.55994421.xyz","obfs":"salamander","obfs-password":"Telegram-->@Ln2Ray","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"🇳🇱@FreakConfig #2","server":"206.71.158.37","port":35000,"password":"Yet-Another-Public-Config-1","sni":"YAPC-1.afshin.ir","obfs":"salamander","obfs-password":"Yet-Another-Public-Config-1","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🇳🇱 - NL - @freeOnlineVPN #2","server":"206.71.158.37","port":35200,"password":"Yet-Another-Public-Config-1","sni":"YAPC-1.afshin.ir","obfs":"salamander","obfs-password":"Yet-Another-Public-Config-1","skip-cert-verify":true,"tfo":false}
+  - {"type":"hysteria2","name":"🇳🇱@FreakConfig #4","server":"206.71.158.37","port":35200,"password":"Yet-Another-Public-Config-1","sni":"YAPC-1.afshin.ir","obfs":"salamander","obfs-password":"Yet-Another-Public-Config-1","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"All--@IRAN_V2RAY1 #3","server":"206.71.158.37","port":36300,"password":"Yet-Another-Public-Config-1","sni":"YAPC-1.afshin.ir","obfs":"salamander","obfs-password":"Yet-Another-Public-Config-1","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"All--@IRAN_V2RAY1 #4","server":"206.71.158.37","port":36400,"password":"Yet-Another-Public-Config-1","sni":"YAPC-1.afshin.ir","obfs":"salamander","obfs-password":"Yet-Another-Public-Config-1","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@Hddify |~| چنل هدیفای","server":"206.71.158.37","port":36600,"password":"Yet-Another-Public-Config-1","sni":"YAPC-1.afshin.ir","obfs":"salamander","obfs-password":"Yet-Another-Public-Config-1","skip-cert-verify":true,"tfo":false}
@@ -91,7 +90,7 @@ proxies:
   - {"type":"hysteria2","name":"🇩🇪@FreakConfig","server":"de.eyucdn.xyz","port":2056,"password":"a084933d-0b41-4571-ae0c-7163b8c71ed1","sni":"de.eyucdn.xyz","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@Selinc #10","server":"nl2.oomz.ru","port":30000,"password":"ab858115-e0ab-4cb7-8e65-0804c35e52d5","sni":"bing.com","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"@Selinc #11","server":"us4.oomz.ru","port":30000,"password":"ab858115-e0ab-4cb7-8e65-0804c35e52d5","sni":"bing.com","skip-cert-verify":true,"tfo":false}
-  - {"type":"hysteria2","name":"🏴‍☠️@FreakConfig #2","server":"tr.xn--9kqx4sc0n.shop","port":21325,"password":"afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6","sni":"tr.xn--9kqx4sc0n.shop","skip-cert-verify":false,"tfo":false}
+  - {"type":"hysteria2","name":"🏴‍☠️@FreakConfig #1","server":"tr.xn--9kqx4sc0n.shop","port":21325,"password":"afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6","sni":"tr.xn--9kqx4sc0n.shop","skip-cert-verify":false,"tfo":false}
   - {"type":"hysteria2","name":"@sunflowerplato🌻 #2","server":"108.165.213.197","port":23891,"password":"c232f411-96b5-4b07-b2f7-66a434725ffb","sni":"fus01.mistea.top","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"✅سرورهایبیشتردرکانال:prrofile_...","server":"193.142.59.41","port":23899,"password":"c232f411-96b5-4b07-b2f7-66a434725ffb","sni":"hl01.mistea.top","skip-cert-verify":true,"tfo":false}
   - {"type":"hysteria2","name":"All-@V2rayAlpha--1","server":"38.45.89.97","port":23892,"password":"c232f411-96b5-4b07-b2f7-66a434725ffb","sni":"fus02.mistea.top","skip-cert-verify":true,"tfo":false}
@@ -108,20 +107,18 @@ proxies:
   - {"type":"ss","server":"3.9.17.198","port":443,"cipher":"aes-256-cfb","password":"amazonskr05","name":"tg频道:@ripaojiedian"}
   - {"name":"香港|@ripaojiedian","type":"vmess","server":"v9.heduian.link","port":30809,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"network":"ws","ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
   - {"type":"ss","server":"103.103.245.158","port":443,"cipher":"aes-256-gcm","password":"ccf426f1fe78","name":"🇭🇰 香港2|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"dd2f25b4c70689de8bc0f7fa9d6591cb","server":"58.152.110.92","port":443,"name":"HK_speednode_0019"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"2cf6d686799e6fa95316394064f26c0a","server":"58.152.110.92","port":443,"name":"香港3|@ripaojiedian"}
   - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.18.95","port":443,"name":"香港4|@ripaojiedian"}
   - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.22","port":443,"name":"香港5|@ripaojiedian"}
-  - {"type":"ss","server":"188.116.22.96","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","name":"🇭🇰 香港6|@ripaojiedian"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"153.121.51.147","port":5156,"name":"日本|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"dd2f25b4c70689de8bc0f7fa9d6591cb","server":"160.16.81.84","port":3169,"name":"日本2|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"dd2f25b4c70689de8bc0f7fa9d6591cb","server":"160.16.81.84","port":1331,"name":"日本3|@ripaojiedian"}
-  - {"type":"ss","server":"141.164.45.187","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","name":"🇰🇷 韩国|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"dd2f25b4c70689de8bc0f7fa9d6591cb","server":"153.121.51.29","port":2760,"name":"新加坡|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"dd2f25b4c70689de8bc0f7fa9d6591cb","server":"18.177.138.138","port":127,"name":"新加坡2|@ripaojiedian"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"153.121.67.215","port":2145,"name":"日本|@ripaojiedian"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"2cf6d686799e6fa95316394064f26c0a","server":"160.16.57.238","port":3169,"name":"日本2|@ripaojiedian"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"2cf6d686799e6fa95316394064f26c0a","server":"160.16.144.208","port":3093,"name":"日本3|@ripaojiedian"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"2cf6d686799e6fa95316394064f26c0a","server":"160.16.236.32","port":5553,"name":"新加坡|@ripaojiedian"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"2cf6d686799e6fa95316394064f26c0a","server":"160.16.236.32","port":2760,"name":"新加坡2|@ripaojiedian"}
   - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"116.49.237.130","port":1691,"name":"新加坡3|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"dd2f25b4c70689de8bc0f7fa9d6591cb","server":"160.16.81.84","port":2890,"name":"美国|@ripaojiedian"}
-  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"dd2f25b4c70689de8bc0f7fa9d6591cb","server":"160.16.81.84","port":702,"name":"美国2|@ripaojiedian"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"95.40.7.3","port":2773,"name":"美国3|@ripaojiedian"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"2cf6d686799e6fa95316394064f26c0a","server":"3.113.21.213","port":2890,"name":"美国|@ripaojiedian"}
+  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"2cf6d686799e6fa95316394064f26c0a","server":"160.16.63.16","port":4054,"name":"美国2|@ripaojiedian"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"18.162.97.46","port":2569,"name":"美国3|@ripaojiedian"}
   - {"name":"🇺🇸 美国4|@ripaojiedian","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
   - {"skip-cert-verify":false,"sni":"joss.gpj1.web.id","network":"ws","ws-opts":{"path":"/Free-VPN-CF-Geo-Project/69.28.82.253=443","headers":{"Host":"joss.gpj1.web.id"}},"type":"trojan","password":"8001fbf7-4b59-4415-a4bd-8bfded02c9c6","server":"69.28.82.253","port":443,"name":"CA_speednode_0001"}
   - {"type":"vless","name":"CZ_speednode_0004","server":"193.124.18.13","port":443,"uuid":"5aba5b77-48eb-4ae2-b60d-5bfee7ac169e","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"kuangbao.xiejiang.dpdns.org"},"path":"/?ed"},"servername":"kuangbao.xiejiang.dpdns.org"}
