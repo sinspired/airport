@@ -1,4 +1,7 @@
 proxies:
-  - {"name":"中国 阿里云","type":"vmess","server":"8.217.176.108","port":3721,"cipher":"auto","uuid":"7836c516-70be-4cde-a4bd-7e225989241a","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
+  - {"type":"ss","server":"wangcai.singdns.com","port":21712,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM-1"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"type":"ss","server":"103.219.103.217","port":21712,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM"}
+  - {"type":"ss","server":"wangcai.singdns.com","port":23344,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM-2"}
+  - {"type":"ss","server":"45.87.175.166","port":443,"cipher":"chacha20-ietf-poly1305","password":"1RWwXhwfAB5gAEozU4G2Pg","name":"欧盟+V2CROSS.COM"}
+  - {"name":"美国 阿里云","type":"vmess","server":"47.238.71.166","port":13502,"cipher":"auto","uuid":"7ecfb350-e87b-4c3b-b90a-de4884ad2838","alterId":0,"tls":false}
+  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.22","port":443,"name":"香港+电讯盈科有限公司"}
