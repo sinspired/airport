@@ -1,11 +1,9 @@
 proxies:
-  - {"name":"新加坡 V2CROSS.COM","type":"vmess","server":"68.183.178.131","port":58607,"cipher":"auto","uuid":"c11c32cb-27b3-4afa-c0f3-fb250aa4959e","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"www.12333.monster"}},"servername":"www.12333.monster"}
-  - {"name":"俄罗斯 V2CROSS.COM-1","type":"vmess","server":"62.192.173.86","port":28831,"cipher":"auto","uuid":"ee86541f-0fa5-4dc7-d573-671d80764cb3","alterId":0,"tls":false}
-  - {"name":"英国 V2CROSS.COM-1","type":"vmess","server":"91.228.186.242","port":15639,"cipher":"auto","uuid":"e7516690-ce2a-4647-9013-d47eec6e71eb","alterId":0,"tls":false}
-  - {"name":"美国 科罗拉多州NTT(美国)通信公司","type":"vmess","server":"216.167.107.61","port":44805,"cipher":"auto","uuid":"f7d62526-9e06-455e-82bd-241d368002e8","alterId":0,"tls":false}
+  - {"type":"ss","server":"wangcai.singdns.com","port":23344,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM"}
+  - {"name":"英国 V2CROSS.COM-1","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.22","port":443,"name":"香港+电讯盈科有限公司"}
   - {"name":"英国 V2CROSS.COM-2","type":"vmess","server":"91.228.186.242","port":53825,"cipher":"auto","uuid":"ee0093c0-39f5-4736-fa81-2f4f07a224b8","alterId":0,"tls":false}
-  - {"name":"荷兰 V2CROSS.COM","type":"vmess","server":"195.86.215.217","port":33562,"cipher":"auto","uuid":"89ebce60-e821-4c14-bff8-ba5f21963bcc","alterId":0,"tls":false}
-  - {"name":"英国 V2CROSS.COM-3","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"name":"英国 V2CROSS.COM-4","type":"vmess","server":"91.228.186.242","port":31167,"cipher":"auto","uuid":"74a3b3ea-b5f9-438f-d885-1a193d2ead4f","alterId":0,"tls":false}
-  - {"name":"俄罗斯 V2CROSS.COM-2","type":"vmess","server":"62.192.173.86","port":26995,"cipher":"auto","uuid":"7582b522-9028-4365-9ade-9798745a5d38","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/0fagapx","headers":{}}}
-  - {"name":"美国 华盛顿Cogent通信公司","type":"vmess","server":"38.84.201.21","port":53487,"cipher":"auto","uuid":"c3c1ec05-df2c-4975-9b42-e9b007564eb1","alterId":0,"tls":false}
+  - {"name":"英国 V2CROSS.COM-3","type":"vmess","server":"91.228.186.242","port":53858,"cipher":"auto","uuid":"17c6ee92-0c6d-43be-851b-ff5415a0b067","alterId":0,"tls":false}
+  - {"name":"英国 V2CROSS.COM-4","type":"vmess","server":"91.228.186.242","port":15639,"cipher":"auto","uuid":"e7516690-ce2a-4647-9013-d47eec6e71eb","alterId":0,"tls":false}
+  - {"name":"英国 V2CROSS.COM-5","type":"vmess","server":"91.228.186.242","port":31167,"cipher":"auto","uuid":"74a3b3ea-b5f9-438f-d885-1a193d2ead4f","alterId":0,"tls":false}
+  - {"type":"ss","server":"45.87.175.166","port":443,"cipher":"chacha20-ietf-poly1305","password":"1RWwXhwfAB5gAEozU4G2Pg","name":"欧盟+V2CROSS.COM"}
