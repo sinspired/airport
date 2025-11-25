@@ -1,9 +1,6 @@
 proxies:
+  - {"name":"英国 V2CROSS.COM-1","type":"vmess","server":"91.228.186.242","port":53858,"cipher":"auto","uuid":"17c6ee92-0c6d-43be-851b-ff5415a0b067","alterId":0,"tls":false}
+  - {"name":"英国 V2CROSS.COM-2","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"00yin6.keeoomboom.de","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"00yin6.keeoomboom.de"}},"servername":"00yin6.keeoomboom.de"}
   - {"type":"ss","server":"wangcai.singdns.com","port":23344,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM"}
-  - {"name":"英国 V2CROSS.COM-1","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.22","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"英国 V2CROSS.COM-2","type":"vmess","server":"91.228.186.242","port":53825,"cipher":"auto","uuid":"ee0093c0-39f5-4736-fa81-2f4f07a224b8","alterId":0,"tls":false}
-  - {"name":"英国 V2CROSS.COM-3","type":"vmess","server":"91.228.186.242","port":53858,"cipher":"auto","uuid":"17c6ee92-0c6d-43be-851b-ff5415a0b067","alterId":0,"tls":false}
-  - {"name":"英国 V2CROSS.COM-4","type":"vmess","server":"91.228.186.242","port":15639,"cipher":"auto","uuid":"e7516690-ce2a-4647-9013-d47eec6e71eb","alterId":0,"tls":false}
-  - {"name":"英国 V2CROSS.COM-5","type":"vmess","server":"91.228.186.242","port":31167,"cipher":"auto","uuid":"74a3b3ea-b5f9-438f-d885-1a193d2ead4f","alterId":0,"tls":false}
-  - {"type":"ss","server":"45.87.175.166","port":443,"cipher":"chacha20-ietf-poly1305","password":"1RWwXhwfAB5gAEozU4G2Pg","name":"欧盟+V2CROSS.COM"}
+  - {"skip-cert-verify":true,"sni":"m.vk.com","type":"trojan","password":"Qzy7tgpRhu","server":"37.18.14.33","port":443,"name":"俄罗斯+V2CROSS.COM"}
