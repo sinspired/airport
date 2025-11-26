@@ -1,5 +1,6 @@
 proxies:
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"type":"ss","server":"wangcai.singdns.com","port":21712,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM"}
+  - {"name":"日本 阿里云","type":"vmess","server":"n1744454498.lie5d.cyou","port":443,"cipher":"auto","uuid":"cd26abca-0d84-43d0-8f69-9c1143b569e9","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"n1744454498.lie5d.cyou"}},"servername":"n1744454498.lie5d.cyou"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.8","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
   - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxpol.fovi.tk"}},"servername":"cf.fovi.tk"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"112.120.31.179","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
