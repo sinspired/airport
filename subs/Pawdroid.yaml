@@ -1,6 +1,4 @@
 proxies:
-  - {"name":"英国 V2CROSS.COM-1","type":"vmess","server":"91.228.186.242","port":53858,"cipher":"auto","uuid":"17c6ee92-0c6d-43be-851b-ff5415a0b067","alterId":0,"tls":false}
-  - {"name":"英国 V2CROSS.COM-2","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"00yin6.keeoomboom.de","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"00yin6.keeoomboom.de"}},"servername":"00yin6.keeoomboom.de"}
-  - {"type":"ss","server":"wangcai.singdns.com","port":23344,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM"}
-  - {"skip-cert-verify":true,"sni":"m.vk.com","type":"trojan","password":"Qzy7tgpRhu","server":"37.18.14.33","port":443,"name":"俄罗斯+V2CROSS.COM"}
+  - {"name":"香港 阿里云","type":"vmess","server":"n1744453319.lie5d.cyou","port":443,"cipher":"auto","uuid":"6928af97-a23e-408c-956e-5cd2207f3557","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"n1744453319.lie5d.cyou"}},"servername":"n1744453319.lie5d.cyou"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"208.76.223.218","port":40433,"cipher":"auto","uuid":"d8fd8955-78db-49ba-d86f-3e4729f6ac4d","alterId":0,"tls":false}
