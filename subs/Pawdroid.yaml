@@ -1,5 +1,4 @@
 proxies:
-  - {"type":"ss","server":"wangcai.singdns.com","port":23344,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM"}
-  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"144.48.180.187","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.8","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"00yin6.keeoomboom.de","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"00yin6.keeoomboom.de"}},"servername":"00yin6.keeoomboom.de"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"112.120.31.179","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
+  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"160.16.82.24","port":2145,"name":"日本+东京樱花网络数据中心"}
