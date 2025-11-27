@@ -1,4 +1,7 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"112.120.31.179","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
-  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"160.16.82.24","port":2145,"name":"日本+东京樱花网络数据中心"}
+  - {"type":"ss","server":"wangcai.singdns.com","port":21712,"cipher":"aes-128-gcm","password":"79ad2852-eb76-4c3e-ba4d-3668ee5ece74","name":"亚太地区+V2CROSS.COM"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.8","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"日本 V2CROSS.COM","type":"vmess","server":"seoul02.zgjok.com","port":443,"cipher":"auto","uuid":"1a1e5196-eab4-4772-9012-65c27f19a524","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"seoul02.zgjok.com"}},"servername":"seoul02.zgjok.com"}
+  - {"name":"英国 V2CROSS.COM-1","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"name":"英国 V2CROSS.COM-2","type":"vmess","server":"singapore02.zgjok.com","port":443,"cipher":"auto","uuid":"780c7671-e8c8-45ab-922b-4fdfc4310aa0","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"singapore02.zgjok.com"}},"servername":"singapore02.zgjok.com"}
+  - {"type":"trojan","password":"BxceQaOe","server":"112.120.31.179","port":443,"name":"香港+电讯盈科有限公司:443"}
