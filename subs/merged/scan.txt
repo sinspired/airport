@@ -8,7 +8,6 @@ https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Real
 https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless#sinspired/subs-check
 https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-14.txt#sinspired/subs-check
 https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-19.txt#sinspired/subs-check
-https://github.com/sakha1370/OpenRay/raw/main/output/converted/all_valid_proxies_clash_config.yaml#sinspired/subs-check
 https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/all_valid_proxies.txt#sinspired/subs-check
 https://raw.githubusercontent.com/shahidbhutta/Clash/main/Router#sinspired/subs-check
 https://raw.githubusercontent.com/Arefgh72/v2ray-proxy-pars-tester/main/output/github_all.txt#sinspired/subs-check
