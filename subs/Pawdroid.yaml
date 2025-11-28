@@ -1,6 +1,5 @@
 proxies:
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"name":"澳大利亚 新南威尔士州悉尼Amazon数据中心","type":"vmess","server":"54.206.192.9","port":16407,"cipher":"auto","uuid":"08f45028-1db6-4e93-bf51-d344b6c71e19","alterId":0,"tls":false}
-  - {"sni":"diningtable.electricbanana.click","type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM"}
   - {"name":"中国 V2CROSS.COM","type":"vmess","server":"144.48.180.187","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxpol.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
+  - {"skip-cert-verify":true,"sni":"runningshoes.purpletornado.click","type":"trojan","password":".+QAJot50sDi6mvb","server":"5.188.108.13","port":11790,"name":"卢森堡+V2CROSS.COM"}
+  - {"skip-cert-verify":false,"type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM"}
+  - {"name":"俄罗斯 莫斯科JustHost","type":"vmess","server":"45.136.244.201","port":49934,"cipher":"auto","uuid":"90afa47d-341a-497d-ae25-1d81258804d5","alterId":0,"tls":false}
