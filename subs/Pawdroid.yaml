@@ -1,6 +1,4 @@
 proxies:
-  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"cpanel.navar1.ir","port":100,"cipher":"auto","uuid":"26402bc7-7895-4dd0-ae6e-151a00c71145","alterId":0,"tls":false}
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
-  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"43.199.161.175","port":1196,"name":"日本+V2CROSS.COM-1"}
-  - {"type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM:443"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"43.198.99.56","port":2173,"name":"日本+V2CROSS.COM-2"}
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"type":"ss","server":"82.38.31.179","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"英国+V2CROSS.COM"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
