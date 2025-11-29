@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f422ffef-de23-4885-beeb-fce6ac5832a3","udp":true}
   - {"type":"vless","name":"🇦🇺_AU_澳大利亚-01","server":"43.161.227.251","port":60006,"uuid":"69228a95-e9cb-b1ff-40d2-7315d9d4b9b7","tls":true,"client-fingerprint":"chrome","alpn":["h3"],"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"s3.sni565.netlib.re"},"path":"/proxyip"},"encryption":"none","servername":"s3.sni565.netlib.re"}
   - {"type":"vless","name":"🇨🇳_CN_中国-01","server":"8.218.189.27","port":443,"uuid":"69228a95-e9cb-b1ff-40d2-7315d9d4b9b7","tls":true,"client-fingerprint":"chrome","alpn":["h3"],"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"s3.sni565.netlib.re"},"path":"/proxyip=tw.sni2025.netlib.re"},"encryption":"none","servername":"s3.sni565.netlib.re"}
   - {"sni":"joss.gpj1.web.id","network":"ws","ws-opts":{"path":"/Free-VPN-CF-Geo-Project/HK?Telegram🇨🇳 @WangCai2","headers":{"Host":"joss.gpj1.web.id"}},"type":"trojan","password":"12345678-1234-1234-1234-123456789123","server":"wangcai.cf.877774.xyz","port":2096,"name":"🇺🇸_US_美国-01"}
