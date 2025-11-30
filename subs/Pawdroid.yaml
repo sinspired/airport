@@ -1,4 +1,5 @@
 proxies:
+  - {"type":"ss","server":"45.14.245.2","port":443,"cipher":"chacha20-ietf-poly1305","password":"17ZDORWIliQHuO6WRGHChXYMzdRtAYVP","name":"欧盟+V2CROSS.COM"}
+  - {"sni":"37.202.200.19","type":"trojan","password":"09e71e3b-1f9f-44ab-9a10-02e0e10e2f05","server":"37.202.200.19","port":25010,"name":"伊朗+V2CROSS.COM"}
   - {"skip-cert-verify":true,"sni":"m.vk.com","type":"trojan","password":"Qzy7tgpRhu","server":"37.18.14.33","port":443,"name":"俄罗斯+V2CROSS.COM"}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"74.117.196.232","port":37934,"cipher":"auto","uuid":"f1a513d2-c32a-49dc-8e64-d4f8a2f1e001","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{}}}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"name":"美国 Alabanza","type":"vmess","server":"free.best-antiaging-reviews.com","port":2053,"cipher":"auto","uuid":"095ee315-a14c-4bf7-8bcb-568392415e26","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"free.best-antiaging-reviews.com"}},"servername":"free.best-antiaging-reviews.com"}
