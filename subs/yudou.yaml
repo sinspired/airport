@@ -1,26 +1,22 @@
 proxies:
-  - {"name":"美国(yudou6677.top 玉豆免费节点)","server":"switcher-nick-croquet.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9tqhMdIrTkgQ46PvhyAtMH","udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 2","server":"v12.hdacd.com","port":30812,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 3","server":"hk3.t.sgateway.link","port":5223,"type":"trojan","password":"Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS","sni":"hk3.t.sgateway.link","skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 5","server":"103.106.3.82","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"4SaCIazlgumYkM8FkPzlmwjpyWBDZFBk","udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 6","server":"sw19.sesamebuta.top","port":443,"type":"vmess","uuid":"805ba514-bf2f-4d5d-df49-8417804e8de3","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/abcd","headers":{"Host":"sw19.sesamebuta.top"}},"servername":"sw19.sesamebuta.top"}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 7","server":"45.83.22.118","port":5223,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"NS8BriBL9gcPEHTXiN66aT","udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点)","server":"v12.hdacd.com","port":30812,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 3","server":"23.95.75.146","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"NDRySIABARbErNIVsCNVkyYAHiBzhveT","udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 4","server":"103.106.3.82","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"4SaCIazlgumYkM8FkPzlmwjpyWBDZFBk","udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 5","server":"www.zhoubowen.vip","port":443,"type":"vmess","uuid":"71b2655e-07d9-4dad-a770-a2b08275142b","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/biutefor.icu","headers":{"Host":"www.zhoubowen.vip"}},"servername":"www.zhoubowen.vip"}
+  - {"name":"香港(yudou6677.top 玉豆免费节点)","server":"58.152.18.192","port":443,"type":"trojan","password":"79314e99f0a473fe86efc7827942ad00","skip-cert-verify":true,"udp":true}
   - {"name":"法国(yudou6677.top 玉豆免费节点)","server":"2001:bc8:32d7:302::10","port":44579,"type":"vmess","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/","headers":{"Host":"2001:bc8:32d7:302::10"}}}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 12","server":"2001:bc8:32d7:13a::2","port":55009,"type":"vmess","uuid":"093e2946-aa16-492a-a139-4c6038ad3e1c","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/github.com/Alvin9999","headers":{"Host":"www.bing.com"}}}
-  - {"name":"香港(yudou6677.top 玉豆免费节点)","server":"47.243.69.126","port":31904,"type":"vmess","uuid":"22550b74-3ebf-49b5-ea36-3078b5d47ed9","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 16","server":"23.95.75.146","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"NDRySIABARbErNIVsCNVkyYAHiBzhveT","udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 7","server":"2001:bc8:32d7:13a::2","port":55009,"type":"vmess","uuid":"093e2946-aa16-492a-a139-4c6038ad3e1c","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/github.com/Alvin9999","headers":{"Host":"www.bing.com"}}}
   - {"name":"俄罗斯(yudou6677.top 玉豆免费节点)","server":"45.139.26.173","port":57456,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"d3837224ed465f00","udp":true}
-  - {"name":"香港(yudou6677.top 玉豆免费节点) 2","server":"188.116.22.96","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","udp":true}
-  - {"name":"荷兰(yudou6677.top 玉豆免费节点)","server":"146.19.49.251","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6","udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 17","server":"v33.hdacd.com","port":30833,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 18","server":"hgtrojan.zabc.net","port":2083,"type":"vmess","uuid":"e6395c20-4571-4b34-d6b1-55a5d36e49ea","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","udp":true,"ws-opts":{"path":"/e6395c20","headers":{"Host":"hgtrojan.zabc.net"}},"servername":"hgtrojan.zabc.net"}
-  - {"name":"澳洲(yudou6677.top 玉豆免费节点)","server":"95.111.222.113","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa","udp":true}
-  - {"name":"俄罗斯(yudou6677.top 玉豆免费节点) 2","server":"109.71.246.210","port":56689,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"YQCSKoCF3QazW8YlvDBWA4","udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 19","server":"psg2-ag.t.sgateway.link","port":5223,"type":"trojan","password":"Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS","sni":"psg2-ag.t.sgateway.link","skip-cert-verify":true,"udp":true}
-  - {"name":"英国(yudou6677.top 玉豆免费节点)","server":"82.198.246.97","port":180,"type":"vmess","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 20","server":"45.93.95.187","port":8618,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"4lUEC91c1d8oeClzDbYpXA","udp":true}
-  - {"name":"英国(yudou6677.top 玉豆免费节点) 3","server":"82.38.31.179","port":8080,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","udp":true}
-  - {"name":"俄罗斯(yudou6677.top 玉豆免费节点) 3","server":"213.159.67.124","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp","udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 26","server":"pupas-shirting-unsung.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"p78naCf2EfOlRSLTX0wFVx","udp":true}
-  - {"name":"美国(yudou6677.top 玉豆免费节点) 28","server":"89.46.233.148","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"XeGAcwaviWxXzg87AwvnE6gWbhHHGwwB","udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 11","server":"89.46.233.148","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"XeGAcwaviWxXzg87AwvnE6gWbhHHGwwB","udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 12","server":"switcher-nick-croquet.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"RFK38Cg7APneSB5cWDcpbm","udp":true}
+  - {"name":"香港(yudou6677.top 玉豆免费节点) 2","server":"47.243.69.126","port":31904,"type":"vmess","uuid":"22550b74-3ebf-49b5-ea36-3078b5d47ed9","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 14","server":"v33.hdacd.com","port":30833,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"法国(yudou6677.top 玉豆免费节点) 6","server":"95.111.222.113","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa","udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 16","server":"pupas-shirting-unsung.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"p78naCf2EfOlRSLTX0wFVx","udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 17","server":"82.198.246.97","port":180,"type":"vmess","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"udp":true}
+  - {"name":"俄罗斯(yudou6677.top 玉豆免费节点) 2","server":"213.159.67.124","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp","udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 23","server":"45.93.95.187","port":8618,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"4lUEC91c1d8oeClzDbYpXA","udp":true}
+  - {"name":"俄罗斯(yudou6677.top 玉豆免费节点) 3","server":"109.71.246.210","port":56689,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"YQCSKoCF3QazW8YlvDBWA4","udp":true}
   - {"name":"俄罗斯(yudou6677.top 玉豆免费节点) 4","server":"45.14.245.2","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"17ZDORWIliQHuO6WRGHChXYMzdRtAYVP","udp":true}
+  - {"name":"荷兰(yudou6677.top 玉豆免费节点)","server":"146.19.49.251","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6","udp":true}
+  - {"name":"美国(yudou6677.top 玉豆免费节点) 29","server":"45.83.22.118","port":5223,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"NS8BriBL9gcPEHTXiN66aT","udp":true}
