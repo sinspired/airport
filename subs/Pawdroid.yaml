@@ -1,7 +1,10 @@
 proxies:
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"type":"ss","server":"45.93.95.187","port":8618,"cipher":"chacha20-ietf-poly1305","password":"4lUEC91c1d8oeClzDbYpXA","name":"欧盟+V2CROSS.COM"}
-  - {"name":"福建省泉州市 电信","type":"vmess","server":"m.cnmjin.net","port":16632,"cipher":"auto","uuid":"77439561-dcef-4e45-803a-743cfa7d20c2","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com"}}}
-  - {"type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM:443"}
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
-  - {"type":"ss","server":"109.71.246.210","port":56689,"cipher":"chacha20-ietf-poly1305","password":"YQCSKoCF3QazW8YlvDBWA4","name":"俄罗斯+V2CROSS.COM"}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"74.117.196.232","port":37934,"cipher":"auto","uuid":"3b475934-cb2a-4d96-b260-5e50cca5d430","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{}}}
+  - {"name":"广东省深圳市 BGP数据中心","type":"vmess","server":"planb.mojcn.com","port":16616,"cipher":"auto","uuid":"77439561-dcef-4e45-803a-743cfa7d20c2","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.20","port":443,"name":"香港+电讯盈科有限公司-1"}
+  - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"m.cnmjin.net","port":16617,"cipher":"auto","uuid":"77439561-dcef-4e45-803a-743cfa7d20c2","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com"}}}
+  - {"name":"湖北省 移动(全省通用)","type":"vmess","server":"planb.mojcn.com","port":16641,"cipher":"auto","uuid":"77439561-dcef-4e45-803a-743cfa7d20c2","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com"}}}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.18.95","port":443,"name":"香港+电讯盈科有限公司-2"}
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"type":"trojan","password":"BxceQaOe","server":"58.152.53.8","port":443,"name":"香港+电讯盈科有限公司:443"}
