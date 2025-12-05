@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"23ca48f4-dad3-49dc-ab73-1728654bbf8a","udp":true}
   - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"79314e99f0a473fe86efc7827942ad00","server":"160.16.138.24","port":3169,"name":"🇯🇵_JP_日本-01"}
   - {"type":"vless","name":"🇺🇸_US_美国-01","server":"108.162.198.24","port":2096,"uuid":"5aba5b77-48eb-4ae2-b60d-5bfee7ac169e","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"kuangbao.xiejiang.dpdns.org"},"path":"/","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"servername":"kuangbao.xiejiang.dpdns.org"}
   - {"type":"hysteria2","name":"🇨🇳_CN_中国-01","server":"cb6ccdef-t53wg0-thiwul-1gcq2.hk1.hyhuawei.com","port":443,"ports":"30000-60000","password":"759bf004-6137-11ec-bd7c-f23c913c8d2b","sni":"cb6ccdef-t53wg0-thiwul-1gcq2.hk1.hyhuawei.com","skip-cert-verify":false,"tfo":false}
