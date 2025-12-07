@@ -1,7 +1,6 @@
 proxies:
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxpol.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
-  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
-  - {"name":"香港 Amazon数据中心","type":"vmess","server":"cgroup.node4.v.nodelist-airport.com","port":8312,"cipher":"auto","uuid":"8f3a835c-8a45-480d-ae35-1deb2c52dcae","alterId":0,"tls":false}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.30.120","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"type":"trojan","password":"BxceQaOe","server":"58.152.53.8","port":443,"name":"香港+电讯盈科有限公司:443"}
+  - {"type":"ss","server":"45.139.26.173","port":57456,"cipher":"chacha20-ietf-poly1305","password":"d3837224ed465f00","name":"美国+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
+  - {"type":"ss","server":"clr.ducks.tel","port":17844,"cipher":"chacha20-ietf-poly1305","password":"907560230","name":"法国+V2CROSS.COM"}
+  - {"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.8","port":443,"name":"香港+电讯盈科有限公司-1"}
+  - {"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.30.120","port":443,"name":"香港+电讯盈科有限公司-2"}
