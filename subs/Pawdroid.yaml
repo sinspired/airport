@@ -1,4 +1,5 @@
 proxies:
+  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.30.120","port":443,"name":"香港+电讯盈科有限公司-1"}
+  - {"name":"西班牙 V2CROSS.COM","type":"vmess","server":"185.221.23.251","port":29431,"cipher":"auto","uuid":"8b78363e-3c3a-44ab-f0d8-f13d950c8572","alterId":0,"tls":false}
   - {"sni":"runningshoes.purpletornado.click","type":"trojan","password":".+QAJot50sDi6mvb","server":"5.188.108.13","port":11790,"name":"卢森堡+V2CROSS.COM"}
-  - {"skip-cert-verify":false,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.18.95","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.242","port":443,"name":"香港+电讯盈科有限公司-2"}
