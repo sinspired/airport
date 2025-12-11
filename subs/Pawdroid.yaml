@@ -1,4 +1,6 @@
 proxies:
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"hgtrojan.zabc.net","port":2083,"cipher":"auto","uuid":"e6395c20-4571-4b34-d6b1-55a5d36e49ea","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/e6395c20","headers":{"Host":"hgtrojan.zabc.net"}},"servername":"hgtrojan.zabc.net"}
-  - {"type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM:443"}
+  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.20","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"208.76.223.218","port":27092,"cipher":"auto","uuid":"a0596ba6-72a3-4366-8992-77088da65bd8","alterId":0,"tls":false}
+  - {"skip-cert-verify":false,"type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM"}
