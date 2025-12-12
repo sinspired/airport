@@ -1,4 +1,5 @@
 proxies:
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"sni":"runningshoes.purpletornado.click","type":"trojan","password":".+QAJot50sDi6mvb","server":"5.188.108.13","port":11790,"name":"卢森堡+V2CROSS.COM"}
+  - {"skip-cert-verify":true,"sni":"openssl.nodesni.com","type":"trojan","password":"9e5d7ec6-d24d-41dc-848d-54a2e3429d2f","server":"feisha-other.kunlun06dns.com","port":15025,"name":"亚太地区+V2CROSS.COM"}
+  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.242","port":443,"name":"香港+电讯盈科有限公司-1"}
+  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.174","port":443,"name":"香港+电讯盈科有限公司-2"}
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
