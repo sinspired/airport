@@ -1,5 +1,5 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"478acbf9-5df2-4b5f-968b-8fbc3be0f06e","udp":true}
+  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"5783fa83-a7ab-4dad-bafe-b6a3c8a8f086","udp":true}
   - {"type":"hysteria","name":"🇫🇷_FR_法国-01","server":"195.154.200.40","port":15010,"alpn":["h3"],"auth-str":"dongtaiwang.com","down":"100","protocol":"udp","skip-cert-verify":true,"udp":"true","up":"100","sni":"apple.com"}
   - {"type":"hysteria","name":"🇺🇸_US_美国-01","server":"51.159.226.1","port":49003,"alpn":["h3"],"auth-str":"dongtaiwang.com","delay":"1547","down":"55","protocol":"udp","skip-cert-verify":true,"udp":"true","up":"11","sni":"apple.com"}
   - {"type":"hysteria2","name":"🇨🇳_CN_中国-01","server":"4cd36d8f-t6pb40-tonrqx-1khwf.hk2.hyhuawei.com","port":443,"ports":"30000-60000","password":"92bd8c68-6434-11ee-b644-f23c91cfbbc9","sni":"4cd36d8f-t6pb40-tonrqx-1khwf.hk2.hyhuawei.com","skip-cert-verify":false,"tfo":false}
