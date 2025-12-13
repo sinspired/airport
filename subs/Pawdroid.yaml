@@ -1,5 +1,5 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.242","port":443,"name":"香港+电讯盈科有限公司"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
   - {"name":"尼日利亚 V2CROSS.COM","type":"vmess","server":"160.119.196.92","port":36334,"cipher":"auto","uuid":"575ac7a3-0127-4420-a9ea-5ff3f6c02ac7","alterId":0,"tls":false}
-  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
