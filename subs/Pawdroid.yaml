@@ -1,4 +1,5 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.78.209.224","port":443,"name":"香港+电讯盈科有限公司-1"}
-  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.174","port":443,"name":"香港+电讯盈科有限公司-2"}
-  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.20","port":443,"name":"香港+电讯盈科有限公司-3"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.78.209.224","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"name":"尼日利亚 V2CROSS.COM","type":"vmess","server":"160.119.196.92","port":36334,"cipher":"auto","uuid":"575ac7a3-0127-4420-a9ea-5ff3f6c02ac7","alterId":0,"tls":false}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
