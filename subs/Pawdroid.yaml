@@ -1,4 +1,8 @@
 proxies:
-  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.20","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"美国 科罗拉多州NTT(美国)通信公司","type":"vmess","server":"216.167.49.157","port":36108,"cipher":"auto","uuid":"ac9340c1-61d7-47bd-c5a2-9b888857dec6","alterId":0,"tls":false}
-  - {"name":"香港 特别行政区","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.242","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"香港 特别行政区-1","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"skip-cert-verify":false,"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
+  - {"name":"广东省广州市 电信","type":"vmess","server":"xiaoniu.andcdn.bid","port":41315,"cipher":"auto","uuid":"82539eb7-18c8-48d0-bb9c-55d1b6e47f59","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/obj","headers":{"Host":"img14.360buyimg.com"}}}
+  - {"name":"香港 特别行政区-2","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"type":"ss","server":"ss.022.node-for-bigairport.win","port":15099,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"日本+东京都Amazon数据中心"}
