@@ -1,4 +1,6 @@
 proxies:
+  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.79.214.159","port":443,"name":"香港+电讯盈科有限公司-1"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
   - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
-  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.89","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"type":"ss","server":"liubu9.singdns.com","port":17459,"cipher":"aes-128-gcm","password":"57bc0c04-8184-48f5-906b-897d095ed445","name":"广东省东莞市+电信"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.89","port":443,"name":"香港+电讯盈科有限公司-2"}
