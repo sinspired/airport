@@ -1,7 +1,4 @@
 proxies:
-  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.30.31","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"type":"ss","server":"217.60.249.112","port":443,"cipher":"chacha20-ietf-poly1305","password":"0eC4ZBvStOgQEzTpCYjWN5","name":"伊朗+V2CROSS.COM"}
-  - {"type":"ss","server":"194.59.183.134","port":46114,"cipher":"chacha20-ietf-poly1305","password":"lejSRyqa033OEPmEQsvRsl","name":"德国+V2CROSS.COM"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.79.214.159","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxpol.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"type":"ss","server":"138.124.67.26","port":25572,"cipher":"chacha20-ietf-poly1305","password":"nqcIfYHlpMn3jzqkNDjKaG","name":"挪威+V2CROSS.COM"}
