@@ -1,7 +1,6 @@
 proxies:
-  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.26.107","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM:443"}
-  - {"name":"台湾省台北市 V2CROSS.COM-1","type":"vmess","server":"46.3.47.250","port":20002,"cipher":"auto","uuid":"e5ce425e-0b84-435c-aee5-9f9ecbe2cb16","alterId":0,"tls":false}
-  - {"name":"台湾省台北市 V2CROSS.COM-2","type":"vmess","server":"46.3.47.250","port":20004,"cipher":"auto","uuid":"e5ce425e-0b84-435c-aee5-9f9ecbe2cb16","alterId":0,"tls":false}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.18.14.55","port":2052,"cipher":"auto","uuid":"e6447786-8c85-443c-8017-7feaa673ff45","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"in4.123417.xyz"}}}
+  - {"name":"台湾省台北市 V2CROSS.COM","type":"vmess","server":"46.3.47.250","port":20002,"cipher":"auto","uuid":"e5ce425e-0b84-435c-aee5-9f9ecbe2cb16","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.26.107","port":443,"name":"香港+电讯盈科有限公司"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.18.14.55","port":2052,"cipher":"auto","uuid":"e6447786-8c85-443c-8017-7feaa673ff45","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"in4.123417.xyz"}}}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
