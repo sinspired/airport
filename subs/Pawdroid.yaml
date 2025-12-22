@@ -1,7 +1,9 @@
 proxies:
-  - {"skip-cert-verify":false,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.30.31","port":443,"name":"香港+电讯盈科有限公司-1"}
-  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"04a6a322-b08e-4635-99af-219c01ade7dd","server":"green2.cdntencentmusic.com","port":33301,"name":"台湾省台中市+中华电信"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"c80870af-749e-406c-bdbd-7aafa46de71d","server":"green2.cdntencentmusic.com","port":31103,"name":"台湾省台中市+中华电信"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxpol.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
   - {"name":"广东省东莞市 电信IDC机房","type":"vmess","server":"xiaoniu.andcdn.bid","port":41318,"cipher":"auto","uuid":"82539eb7-18c8-48d0-bb9c-55d1b6e47f59","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/obj","headers":{"Host":"img14.360buyimg.com"}}}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.26.107","port":443,"name":"香港+电讯盈科有限公司-2"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.71","port":443,"name":"香港+电讯盈科有限公司-1"}
+  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.30.31","port":443,"name":"香港+电讯盈科有限公司-2"}
