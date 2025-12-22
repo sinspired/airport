@@ -1,8 +1,10 @@
 proxies:
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxpol.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
+  - {"sni":"cdnfire.xiaomispeed.com","type":"trojan","password":"81fc5581-06e0-4d7e-9220-205af32a54d5","server":"cdnfire.xiaomispeed.com","port":23301,"name":"台湾省台中市+中华电信-1"}
   - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.71","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"美国 华盛顿Cogent通信公司","type":"vmess","server":"38.14.99.179","port":59807,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"154.29.157.189","port":38152,"cipher":"auto","uuid":"b8ce19b1-4b15-41f9-a206-11957cc902d4","alterId":0,"tls":false}
+  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"103.160.100.86","port":44222,"cipher":"auto","uuid":"f703b128-2d32-4cdb-9608-f33c2d58abcc","alterId":0,"tls":false}
+  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"a5049baa-eadf-4523-bcac-33139e4a99ea","server":"green2.cdntencentmusic.com","port":33301,"name":"台湾省台中市+中华电信-2"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"name":"美国 科罗拉多州NTT(美国)通信公司","type":"vmess","server":"216.167.107.61","port":44805,"cipher":"auto","uuid":"f7d62526-9e06-455e-82bd-241d368002e8","alterId":0,"tls":false}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"skip-cert-verify":false,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"a213e1a5-3c5a-40f2-b70e-98ffa63ffc8e","server":"green2.cdntencentmusic.com","port":31102,"name":"台湾省台中市+中华电信-1"}
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
-  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"04a6a322-b08e-4635-99af-219c01ade7dd","server":"green2.cdntencentmusic.com","port":34411,"name":"台湾省台中市+中华电信-2"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
