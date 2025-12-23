@@ -1,16 +1,7 @@
 proxies:
-  - {"name":"节点日期：12-21\r","type":"ss","server":"95.164.116.33","port":443,"password":"pQmnC03JObbPhdh5FBJHgD6jnTLchsRA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】18\r","type":"ss","server":"119.59.98.58","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】21","type":"vmess","server":"46.3.47.250","port":20002,"cipher":"auto","uuid":"e5ce425e-0b84-435c-aee5-9f9ecbe2cb16","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp","disable-sni":true,"servername":""}
-  - {"name":"【机场推荐：https://a0a.xyz/】23","type":"vmess","server":"46.3.47.250","port":20004,"cipher":"auto","uuid":"e5ce425e-0b84-435c-aee5-9f9ecbe2cb16","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp","disable-sni":true,"servername":""}
-  - {"name":"【机场推荐：https://a0a.xyz/】29","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp","disable-sni":true,"servername":""}
-  - {"name":"【机场推荐：https://a0a.xyz/】26\r","type":"ss","server":"89.221.225.15","port":443,"password":"yCbQ4bry4otfifK7oel71NaXpPL9pYJb","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】48","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp","disable-sni":true,"servername":""}
-  - {"name":"【机场推荐：https://a0a.xyz/】27\r","type":"vless","server":"89.23.103.60","port":5443,"uuid":"8f631f3f-5854-4d77-961a-ad33e10e29bb","tls":false,"network":"ws","ws-opts":{"path":"/vless"},"servername":"noda3.mcqueenconnection.ru"}
-  - {"name":"【机场推荐：https://a0a.xyz/】45\r","type":"vless","server":"46.224.152.184","port":55484,"uuid":"1d03fcc7-8af7-4277-9a6d-bf8f1f0eb6e4","tls":false,"network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】41\r","type":"vless","server":"78.47.66.175","port":17080,"uuid":"3c53a875-557f-4ece-a0b1-8c3c8dfc0458","tls":false,"network":"tcp"}
-  - {"name":"【机场推荐：https://a0a.xyz/】34\r","type":"ss","server":"185.47.255.22","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】43\r","type":"ss","server":"46.224.157.198","port":1080,"password":"VQhct3pJXkASHgKQcQcliw","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】51\r","type":"ss","server":"178.23.190.238","port":443,"password":"uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】53\r","type":"ss","server":"193.203.203.66","port":443,"password":"S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"【机场推荐：https://a0a.xyz/】6\r","type":"ss","server":"194.246.114.101","port":443,"password":"HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"节点日期：12-23","server":"95.164.116.33","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"pQmnC03JObbPhdh5FBJHgD6jnTLchsRA"}
+  - {"name":"【机场推荐：https://a0a.xyz/】26","server":"89.221.225.15","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"yCbQ4bry4otfifK7oel71NaXpPL9pYJb"}
+  - {"name":"【机场推荐：https://a0a.xyz/】6","server":"194.246.114.101","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk"}
+  - {"name":"【机场推荐：https://a0a.xyz/】48","server":"82.198.246.97","port":180,"type":"vmess","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","tls":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】18","server":"119.59.98.58","port":990,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3"}
+  - {"name":"【机场推荐：https://a0a.xyz/】53","server":"193.203.203.66","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm"}

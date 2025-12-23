@@ -1,10 +1,8 @@
 proxies:
-  - {"sni":"cdnfire.xiaomispeed.com","type":"trojan","password":"81fc5581-06e0-4d7e-9220-205af32a54d5","server":"cdnfire.xiaomispeed.com","port":23301,"name":"台湾省台中市+中华电信-1"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.71","port":443,"name":"香港+电讯盈科有限公司"}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"154.29.157.189","port":38152,"cipher":"auto","uuid":"b8ce19b1-4b15-41f9-a206-11957cc902d4","alterId":0,"tls":false}
-  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"103.160.100.86","port":44222,"cipher":"auto","uuid":"f703b128-2d32-4cdb-9608-f33c2d58abcc","alterId":0,"tls":false}
-  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"a5049baa-eadf-4523-bcac-33139e4a99ea","server":"green2.cdntencentmusic.com","port":33301,"name":"台湾省台中市+中华电信-2"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
-  - {"name":"美国 科罗拉多州NTT(美国)通信公司","type":"vmess","server":"216.167.107.61","port":44805,"cipher":"auto","uuid":"f7d62526-9e06-455e-82bd-241d368002e8","alterId":0,"tls":false}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"c7.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"c7.620720.xyz"}},"servername":"c7.620720.xyz"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"servername":"t1.620720.xyz"}
+  - {"skip-cert-verify":false,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"17d3bf89-d2f0-4827-bcd0-c199fe54cd2a","server":"green2.cdntencentmusic.com","port":33301,"name":"台湾省台中市+中华电信-1"}
+  - {"name":"美国 CloudFlare节点-3","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
+  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"c80870af-749e-406c-bdbd-7aafa46de71d","server":"green2.cdntencentmusic.com","port":35502,"name":"台湾省台中市+中华电信-2"}
+  - {"type":"ss","server":"119.59.98.58","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3","name":"泰国+V2CROSS.COM"}
