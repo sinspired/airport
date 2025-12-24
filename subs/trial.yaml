@@ -1152,4 +1152,3 @@ proxies:
   - {"name":"🇩🇪 DE TROJAN-36 | free-nodes","server":"63.181.140.175","port":22222,"type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪 DE TROJAN-37 | free-nodes","server":"3.66.69.180","port":22222,"type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
   - {"name":"未知 SS-40 | free-nodes","server":"se1.opensocks.site","port":8388,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ODIzO"}
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"24d17ae5-da0f-452b-847b-f68aac571a3e","udp":true}
