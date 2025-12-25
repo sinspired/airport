@@ -1,6 +1,5 @@
 proxies:
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
-  - {"skip-cert-verify":false,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"cfdf8794-5365-41ac-9e59-573aab964b3e","server":"green2.cdntencentmusic.com","port":31103,"name":"台湾省台中市+中华电信-1"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"9f6256ae-52e7-4954-9a17-445b106bdca7","server":"green2.cdntencentmusic.com","port":31102,"name":"台湾省台中市+中华电信-2"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
+  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"adb3985f-f23b-42f9-9332-cac7604021fd","server":"green2.cdntencentmusic.com","port":35501,"name":"台湾省台中市+中华电信"}
+  - {"name":"中国 阿里云","type":"vmess","server":"8.217.90.175","port":51000,"cipher":"auto","uuid":"6c82a994-b6ba-48ca-f2ed-11288fe4913b","alterId":0,"tls":false}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxlux.fovi.tk"}},"client-fingerprint":"","servername":"cf.fovi.tk"}
+  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
