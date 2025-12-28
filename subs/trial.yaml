@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"95bf1c3a-0b4c-4551-bcbd-672100663f01","udp":true}
   - {"type":"hysteria","name":"🇫🇷_FR_法国-001","server":"62.210.196.68","port":26691,"alpn":["h3"],"auth-str":"dongtaiwang.com","down":"55 Mbps","protocol":"udp","skip-cert-verify":true,"up":"11 Mbps","sni":"apple.com"}
   - {"type":"hysteria","name":"🇫🇷_FR_法国-002","server":"62.210.10.186","port":35511,"alpn":["h3"],"auth-str":"dongtaiwang.com","down":"55","protocol":"udp","skip-cert-verify":true,"udp":"true","up":"11","sni":"apple.com"}
   - {"type":"hysteria","name":"🇫🇷_FR_法国-003","server":"62.210.10.186","port":50011,"alpn":["h3"],"auth-str":"dongtaiwang.com","down":"55 Mbps","protocol":"udp","skip-cert-verify":true,"up":"11 Mbps","sni":"apple.com"}
@@ -727,3 +726,4 @@ proxies:
   - {"type":"vless","name":"未知 VLESS-54 | free-nodes","server":"108.162.193.217","port":443,"uuid":"ee122f13-9b54-49b6-abc5-aa47b464fdb3","tls":true,"client-fingerprint":"chrome","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yhowcws"},"encryption":"none","servername":"azizoarjmand.info"}
   - {"type":"vless","name":"未知 VLESS-64 | free-nodes","server":"130.193.35.232","port":443,"uuid":"97dd83ab-b3b7-43e4-9002-c6bdcae0729d","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM","short-id":"6419bed7fd0a2cff"},"network":"tcp","encryption":"none","servername":"tradingview.com"}
   - {"type":"vless","name":"未知 VLESS-70 | free-nodes","server":"89.23.103.60","port":5443,"uuid":"8f631f3f-5854-4d77-961a-ad33e10e29bb","tls":false,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"noda3.mcqueenconnection.ru"},"path":"/vless"},"encryption":"none"}
+  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"ec6b703c-cde7-4881-8079-603e25e3b86a","udp":true}
