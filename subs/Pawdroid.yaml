@@ -1,5 +1,5 @@
 proxies:
-  - {"skip-cert-verify":false,"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
   - {"name":"南非 V2CROSS.COM","type":"vmess","server":"45.207.157.29","port":13852,"cipher":"auto","uuid":"845764df-ecb3-4b13-bed2-bf1551b68e9a","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司"}
   - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"203.198.84.221","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
