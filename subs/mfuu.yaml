@@ -39,13 +39,11 @@ proxies:
   - {"name":"🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443","type":"vmess","server":"cg1c01.waimaojd.com","port":443,"cipher":"auto","uuid":"be8e3136-b874-4085-bd23-ec3699300490","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/api/v1/graphql","headers":{"Host":"cg1c01.waimaojd.com"}},"servername":"cg1c01.waimaojd.com"}
   - {"name":"🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443","type":"vmess","server":"cg1c04.waimaojd.com","port":443,"cipher":"auto","uuid":"be8e3136-b874-4085-bd23-ec3699300490","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/api/v1/graphql","headers":{"Host":"cg1c04.waimaojd.com"}},"servername":"cg1c04.waimaojd.com"}
   - {"name":"🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443","type":"vmess","server":"cg1c14.waimaojd.com","port":443,"cipher":"auto","uuid":"be8e3136-b874-4085-bd23-ec3699300490","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/api/v1/graphql","headers":{"Host":"cg1c14.waimaojd.com"}},"servername":"cg1c14.waimaojd.com"}
-  - {"name":"🇫🇷 法国 OVH SAS","type":"vmess","server":"91.134.8.101","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/linkvws","headers":{}}}
-  - {"name":"🇬🇧 英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"skip-cert-verify":false,"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"🇺🇸 美国 华盛顿Cogent通信公司"}
+  - {"name":"🇸🇬 俄罗斯 新西伯利亚justhost","type":"vmess","server":"2.56.242.210","port":34895,"cipher":"auto","uuid":"6fe6b62a-dfbe-4753-d795-e02f2561edea","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"🇭🇰 香港 电讯盈科有限公司"}
   - {"name":"🇭🇰 香港|@ripaojiedian","type":"vmess","server":"v10.hdacd.com","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false}
   - {"type":"ss","server":"103.149.182.86","port":8388,"cipher":"chacha20-ietf","password":"asd123456","name":"🇭🇰 香港2|@ripaojiedian"}
   - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"58.152.18.226","port":443,"name":"🇭🇰 香港3|@ripaojiedian"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"🇭🇰 香港4|@ripaojiedian"}
   - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"203.198.84.221","port":443,"name":"🇭🇰 香港5|@ripaojiedian"}
   - {"skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"18.182.16.254","port":2762,"name":"🇯🇵 日本|@ripaojiedian"}
   - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"13.231.208.147","port":3093,"name":"🇯🇵 日本2|@ripaojiedian"}
@@ -57,13 +55,13 @@ proxies:
   - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"160.16.150.76","port":1281,"name":"🇺🇸 美国|@ripaojiedian"}
   - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"160.16.68.250","port":1281,"name":"🇺🇸 美国2|@ripaojiedian"}
   - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"18.183.82.133","port":4569,"name":"🇺🇸 美国3|@ripaojiedian"}
+  - {"name":"🇺🇸 美国4|@ripaojiedian","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
   - {"type":"ss","server":"103.186.155.232","port":38388,"cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","name":"🇻🇳 越南|@ripaojiedian"}
   - {"name":"🇨🇦 _CA_加拿大","type":"vmess","server":"108.181.10.17","port":80,"cipher":"auto","uuid":"474e8680-701f-11ee-b436-205c6d5f5d78","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
   - {"name":"🇨🇳 _TW_台湾->🇺🇸_US_美国","type":"vmess","server":"107.167.182.230","port":80,"cipher":"auto","uuid":"efcb7d7c-c582-46f5-eeff-0e553342528d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/tg@hkaa0","headers":{}}}
   - {"name":"🇺🇸 _US_美国->🇩🇪_DE_德国","type":"vmess","server":"flkf2.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"flkf2.shabijichang.com"}}}
   - {"name":"🇺🇸 _US_美国->🇬🇧_GB_英国_1","type":"vmess","server":"mrb2.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"mrb2.shabijichang.com"}}}
   - {"name":"🇺🇸 _US_美国->🇬🇧_GB_英国_2","type":"vmess","server":"ld2.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"ld2.shabijichang.com"}}}
-  - {"name":"🇭🇰 香港 电讯盈科有限公司","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
   - {"name":"🇺🇸 _US_美国->🇮🇳_IN_印度_1","type":"vmess","server":"104.17.18.26","port":80,"cipher":"auto","uuid":"5180444a-4756-43b4-960b-49eb9052e4e8","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
   - {"name":"🇺🇸 _US_美国->🇮🇳_IN_印度_2","type":"vmess","server":"104.26.8.44","port":80,"cipher":"auto","uuid":"5180444a-4756-43b4-960b-49eb9052e4e8","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{}}}
   - {"name":"🇺🇸 _US_美国->🇮🇳_IN_印度_3","type":"vmess","server":"mm2.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"mm2.shabijichang.com"}}}
