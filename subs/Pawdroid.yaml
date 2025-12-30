@@ -1,8 +1,7 @@
 proxies:
-  - {"name":"日本 V2CROSS.COM","type":"vmess","server":"43.100.97.40","port":35714,"cipher":"auto","uuid":"0d518906-fe60-4309-a84e-fe861cb0627d","alterId":0,"tls":false}
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"206.119.191.9","port":7100,"cipher":"auto","uuid":"10853485-26e1-477b-d257-58a3f4873db3","alterId":0,"tls":false}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
+  - {"name":"香港 阿里云","type":"vmess","server":"8.210.248.133","port":43425,"cipher":"auto","uuid":"aa10afb0-f913-4343-9c69-bc797fcba2db","alterId":0,"tls":false}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"name":"美国加利福尼亚州洛杉矶 FREEBEST数据中心","type":"vmess","server":"156.233.232.192","port":44329,"cipher":"auto","uuid":"1ba1fb56-e235-419e-c193-1c291adad4a7","alterId":0,"tls":false}
-  - {"name":"俄罗斯 新西伯利亚justhost","type":"vmess","server":"2.56.242.210","port":34895,"cipher":"auto","uuid":"6fe6b62a-dfbe-4753-d795-e02f2561edea","alterId":0,"tls":false}
+  - {"name":"日本 V2CROSS.COM","type":"vmess","server":"43.100.97.40","port":35714,"cipher":"auto","uuid":"0d518906-fe60-4309-a84e-fe861cb0627d","alterId":0,"tls":false}
+  - {"name":"美国 科罗拉多州NTT(美国)通信公司","type":"vmess","server":"216.167.26.220","port":34128,"cipher":"auto","uuid":"4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28","alterId":0,"tls":false}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"name":"美国加利福尼亚州洛杉矶 FREEBEST数据中心","type":"vmess","server":"156.233.232.177","port":24004,"cipher":"auto","uuid":"582fcb35-20a0-452c-e179-4c759c62c494","alterId":0,"tls":false}
