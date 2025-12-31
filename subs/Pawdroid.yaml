@@ -1,7 +1,8 @@
 proxies:
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"name":"俄罗斯 新西伯利亚justhost","type":"vmess","server":"2.56.242.210","port":34895,"cipher":"auto","uuid":"6fe6b62a-dfbe-4753-d795-e02f2561edea","alterId":0,"tls":false}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"type":"ss","server":"119.147.193.224","port":33110,"cipher":"aes-128-gcm","password":"e819cea2-614c-48ff-81e6-6f44779c4d20","name":"广东省广州市+电信-1"}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"216.227.168.157","port":45273,"cipher":"auto","uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"tls":false}
   - {"sni":"37.202.200.19","type":"trojan","password":"09e71e3b-1f9f-44ab-9a10-02e0e10e2f05","server":"37.202.200.19","port":25010,"name":"伊朗+V2CROSS.COM"}
-  - {"type":"ss","server":"14.17.71.67","port":10006,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"广东省东莞市+电信IDC机房"}
+  - {"type":"ss","server":"119.147.193.224","port":33111,"cipher":"aes-128-gcm","password":"e819cea2-614c-48ff-81e6-6f44779c4d20","name":"广东省广州市+电信-2"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"54.238.137.20","port":3127,"name":"日本+东京Amazon数据中心"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"c7.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"c7.620720.xyz"}},"servername":"c7.620720.xyz"}

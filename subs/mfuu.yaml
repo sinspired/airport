@@ -2,15 +2,15 @@ proxies:
   - {"type":"ss","server":"45.87.175.174","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"🇩🇪 _DE_德国"}
   - {"name":"🇫🇷 法国 09","type":"vmess","server":"v35.hdacd.com","port":30835,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false}
   - {"type":"ss","server":"178.23.190.238","port":443,"cipher":"chacha20-ietf-poly1305","password":"uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh","name":"🇳🇱 _NL_荷兰"}
-  - {"type":"ss","server":"173.244.56.6","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇺🇸 _US_美国-1"}
-  - {"skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.79.214.159","port":443,"name":"_CN_中国-1"}
+  - {"type":"ss","server":"173.244.56.6","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇺🇸 _US_美国-01"}
+  - {"skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.79.214.159","port":443,"name":"_CN_中国-01"}
   - {"type":"ss","server":"194.246.114.101","port":443,"cipher":"chacha20-ietf-poly1305","password":"HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk","name":"🇷🇺 _RU_俄罗斯"}
   - {"name":"🇬🇧 英国 - Slough - DigitalOcean, LLC - 1","type":"vmess","server":"v36.hdacd.com","port":30836,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false}
   - {"type":"ss","server":"217.60.249.112","port":443,"cipher":"chacha20-ietf-poly1305","password":"0eC4ZBvStOgQEzTpCYjWN5","name":"🇮🇷 _IR_伊朗"}
   - {"type":"ss","server":"185.153.197.5","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","name":"🇲🇩 _MD_摩尔多瓦"}
-  - {"type":"ss","server":"185.47.255.22","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3","name":"🇺🇸 _US_美国-2"}
+  - {"type":"ss","server":"185.47.255.22","port":990,"cipher":"chacha20-ietf-poly1305","password":"f8f7aCzcPKbsF8p3","name":"🇺🇸 _US_美国-02"}
   - {"name":"US_188","type":"vmess","server":"216.238.87.47","port":27502,"cipher":"auto","uuid":"b8155ce4-7e08-4c40-800f-8671312b7124","alterId":0,"tls":false}
-  - {"type":"ss","server":"103.149.183.80","port":8388,"cipher":"chacha20-ietf","password":"asd123456","name":"_CN_中国-2"}
+  - {"type":"ss","server":"103.149.183.80","port":8388,"cipher":"chacha20-ietf","password":"asd123456","name":"_CN_中国-02"}
   - {"type":"ss","server":"144.217.164.29","port":12000,"cipher":"aes-256-gcm","password":"8JCsPssfgS8tiRwiMlhARg==","name":"🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000"}
   - {"name":"🇩🇪 VMESS-未知>德国-NF解锁印度地区非自制剧-ChatGPT-TikTok-YouTube-547.rtxconfigz.shop:8080","type":"vmess","server":"547.rtxconfigz.shop","port":8080,"cipher":"auto","uuid":"44e57485-eccc-46ef-808f-cd17ac810018","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/@Malinda6104","headers":{"Host":"547.rtxconfigz.shop"}}}
   - {"name":"🇯🇵 VMESS-美国>日本-NF解锁日本地区非自制剧-ChatGPT-YouTube-t1.620720.xyz:8443","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"servername":"t1.620720.xyz"}
@@ -39,24 +39,75 @@ proxies:
   - {"name":"🇺🇸 VMESS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-cg1c01.waimaojd.com:443","type":"vmess","server":"cg1c01.waimaojd.com","port":443,"cipher":"auto","uuid":"be8e3136-b874-4085-bd23-ec3699300490","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/api/v1/graphql","headers":{"Host":"cg1c01.waimaojd.com"}},"servername":"cg1c01.waimaojd.com"}
   - {"name":"🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c04.waimaojd.com:443","type":"vmess","server":"cg1c04.waimaojd.com","port":443,"cipher":"auto","uuid":"be8e3136-b874-4085-bd23-ec3699300490","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/api/v1/graphql","headers":{"Host":"cg1c04.waimaojd.com"}},"servername":"cg1c04.waimaojd.com"}
   - {"name":"🇺🇸 VMESS-美国-ChatGPT-TikTok-YouTube-cg1c14.waimaojd.com:443","type":"vmess","server":"cg1c14.waimaojd.com","port":443,"cipher":"auto","uuid":"be8e3136-b874-4085-bd23-ec3699300490","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/api/v1/graphql","headers":{"Host":"cg1c14.waimaojd.com"}},"servername":"cg1c14.waimaojd.com"}
-  - {"name":"🇸🇬 俄罗斯 新西伯利亚justhost","type":"vmess","server":"2.56.242.210","port":34895,"cipher":"auto","uuid":"6fe6b62a-dfbe-4753-d795-e02f2561edea","alterId":0,"tls":false}
+  - {"type":"ss","server":"119.147.193.224","port":33111,"cipher":"aes-128-gcm","password":"e819cea2-614c-48ff-81e6-6f44779c4d20","name":"🇨🇳 广东省广州市 电信"}
   - {"name":"🇬🇧 英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
-  - {"type":"ss","server":"14.17.71.67","port":10006,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇨🇳 广东省东莞市 电信IDC机房"}
-  - {"name":"🇭🇰 香港 电讯盈科有限公司","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
   - {"type":"ss","server":"liubu9.singdns.com","port":17459,"cipher":"aes-128-gcm","password":"57bc0c04-8184-48f5-906b-897d095ed445","name":"亚太地区 V2CROSS.COM"}
+  - {"name":"🇭🇰 香港 电讯盈科有限公司-01","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"skip-cert-verify":false,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.236","port":443,"name":"🇭🇰 香港 电讯盈科有限公司-02"}
   - {"name":"🇭🇰 香港|@ripaojiedian","type":"vmess","server":"v10.hdacd.com","port":30807,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false}
-  - {"name":"🇭🇰 香港2|@ripaojiedian","type":"vmess","server":"8.210.248.133","port":43307,"cipher":"auto","uuid":"f6a1f4ad-9d26-43c7-bce3-025df8dac591","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{}}}
+  - {"type":"ss","server":"119.147.193.224","port":33110,"cipher":"aes-128-gcm","password":"e819cea2-614c-48ff-81e6-6f44779c4d20","name":"🇭🇰 香港2|@ripaojiedian"}
   - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"58.152.18.48","port":443,"name":"🇭🇰 香港3|@ripaojiedian"}
   - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"🇭🇰 香港4|@ripaojiedian"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"203.198.84.221","port":443,"name":"🇭🇰 香港5|@ripaojiedian"}
-  - {"skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"54.248.22.131","port":4012,"name":"🇯🇵 日本|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"18.177.146.37","port":3093,"name":"🇯🇵 日本2|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"153.121.67.215","port":3093,"name":"🇯🇵 日本3|@ripaojiedian"}
-  - {"type":"ss","server":"14.17.71.67","port":10007,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇯🇵 日本4|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"160.16.233.76","port":3901,"name":"🇸🇬 新加坡|@ripaojiedian"}
-  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"160.16.144.208","port":3901,"name":"🇸🇬 新加坡2|@ripaojiedian"}
-  - {"skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"13.231.60.99","port":804,"name":"🇸🇬 新加坡3|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"160.16.233.76","port":1281,"name":"🇺🇸 美国|@ripaojiedian"}
-  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"160.16.212.152","port":1281,"name":"🇺🇸 美国2|@ripaojiedian"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"54.46.50.55","port":2173,"name":"🇺🇸 美国3|@ripaojiedian"}
-  - {"type":"ss","server":"103.186.154.182","port":38388,"cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","name":"🇻🇳 越南|@ripaojiedian"}
+  - {"type":"ss","server":"119.147.193.224","port":33112,"cipher":"aes-128-gcm","password":"e819cea2-614c-48ff-81e6-6f44779c4d20","name":"🇭🇰 香港7|@ripaojiedian"}
+  - {"skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"52.194.193.12","port":2762,"name":"🇯🇵 日本|@ripaojiedian"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"160.16.68.250","port":4006,"name":"🇯🇵 日本2|@ripaojiedian"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"160.16.150.76","port":1933,"name":"🇯🇵 日本3|@ripaojiedian"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"160.16.107.37","port":3901,"name":"🇸🇬 新加坡|@ripaojiedian"}
+  - {"skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"153.121.44.99","port":3901,"name":"🇸🇬 新加坡2|@ripaojiedian"}
+  - {"skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"54.238.137.20","port":3127,"name":"🇸🇬 新加坡3|@ripaojiedian"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"160.16.107.37","port":1281,"name":"🇺🇸 美国|@ripaojiedian"}
+  - {"skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","password":"f36f4495b4b26cc2fe346cfa23e05b1b","server":"153.121.44.99","port":1281,"name":"🇺🇸 美国2|@ripaojiedian"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"18.167.99.12","port":1112,"name":"🇺🇸 美国3|@ripaojiedian"}
+  - {"name":"🇫🇷 FR法国(mibei77.com 米贝节点分享)","type":"vmess","server":"2001:bc8:32d7:302::10","port":44579,"cipher":"auto","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"2001:bc8:32d7:302::10"}}}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"5.144.182.188","port":443,"name":"🇬🇧 GB英国(mibei77.com 米贝节点分享)"}
+  - {"name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-01","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"type":"ss","server":"hd.yuyan.vin","port":10024,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-02"}
+  - {"type":"ss","server":"hz.yuyan.vin","port":10023,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-03"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"162.159.128.253","port":443,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-01"}
+  - {"type":"ss","server":"switcher-nick-croquet.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"RFK38Cg7APneSB5cWDcpbm","name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-02"}
+  - {"skip-cert-verify":false,"sni":"epge.muarua.filegear-sg.me","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"Aimer","server":"167.68.4.199","port":2053,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-03"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10002,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-04"}
+  - {"name":"🇷🇺 RU俄罗斯(mibei77.com 米贝节点分享)","type":"vmess","server":"2.56.242.210","port":34895,"cipher":"auto","uuid":"6fe6b62a-dfbe-4753-d795-e02f2561edea","alterId":0,"tls":false}
+  - {"type":"ss","server":"hd.yuyan.vin","port":10021,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-05"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":11003,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-06"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":11001,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-07"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"one.cf.cdn.hyli.xyz","port":443,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-04"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10012,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-08"}
+  - {"type":"ss","server":"hz.yuyan.vin","port":10053,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-09"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"172.64.229.65","port":443,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-05"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"//"},"type":"trojan","password":"5a2c16f9","server":"777.ai7777777.xyz","port":443,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-06"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"//"},"type":"trojan","password":"5a2c16f9","server":"104.17.167.134","port":443,"name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-10"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10005,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-11"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"freeyx.cloudflare88.eu.org","port":443,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-07"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"172.64.229.64","port":443,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-08"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10047,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-12"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"104.19.55.205","port":443,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-09"}
+  - {"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-10","type":"vmess","server":"vc.fly.dev","port":443,"cipher":"auto","uuid":"35379219-6535-4f2e-a4fe-3e44f61e0eee","alterId":32,"tls":true,"network":"ws","ws-opts":{"path":"/vc","headers":{"Host":"vc.fly.dev"}},"servername":"vc.fly.dev"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"172.64.229.86","port":443,"name":"🇯🇵 JP日本(mibei77.com 米贝节点分享)-01"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"172.64.229.11","port":443,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-11"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"172.64.229.6","port":443,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-12"}
+  - {"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-13","type":"vmess","server":"2001:bc8:32d7:2013::8","port":62211,"cipher":"auto","uuid":"e1786d49-ccba-466b-a0dd-e1ab59bd83bb","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"Host":"www.bing.com"}}}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10048,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-13"}
+  - {"type":"ss","server":"hd.yuyan.vin","port":10007,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-14"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10011,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-15"}
+  - {"type":"ss","server":"hd.yuyan.vin","port":10008,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-16"}
+  - {"type":"ss","server":"hd.yuyan.vin","port":10017,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-17"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10040,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-18"}
+  - {"type":"ss","server":"hd.yuyan.vin","port":10009,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-19"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10050,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-20"}
+  - {"type":"ss","server":"hd.yuyan.vin","port":10039,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-21"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"cf.130519.xyz","port":443,"name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-14"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10022,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-22"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":11004,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-23"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10033,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-24"}
+  - {"type":"ss","server":"hd.yuyan.vin","port":10019,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-25"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10010,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-26"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10030,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-27"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":11002,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-28"}
+  - {"type":"ss","server":"hd.yuyan.vin","port":10044,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-29"}
+  - {"type":"ss","server":"hd.yuyan.vin","port":10045,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇯🇵 JP日本(mibei77.com 米贝节点分享)-02"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10038,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-30"}
+  - {"type":"ss","server":"hn.yuyan.vin","port":10013,"cipher":"chacha20-ietf-poly1305","password":"53db9c44-94a1-4976-8682-5d1c3642058d","name":"🇭🇰 HK香港(mibei77.com 米贝节点分享)-31"}
+  - {"type":"ss","server":"144.31.84.76","port":2050,"cipher":"chacha20-ietf-poly1305","password":"7saUuuV-YDq8BTKgWUQFARU5BuPeXEfZ","name":"🇺🇸 US美国(mibei77.com 米贝节点分享)-15"}
+  - {"skip-cert-verify":false,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"},"type":"trojan","password":"5a2c16f9","server":"57.129.137.55","port":443,"name":"🇧🇪 比利时(mibei77.com 米贝节点分享)"}
+  - {"type":"ss","server":"63.180.254.10","port":443,"cipher":"aes-256-cfb","password":"amazonskr05","name":"8元老牌专线机场：cczzuu.top"}
