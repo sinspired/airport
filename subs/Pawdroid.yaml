@@ -1,7 +1,6 @@
 proxies:
-  - {"name":"日本 V2CROSS.COM","type":"vmess","server":"n1747624267.4u9ma.icu","port":443,"cipher":"auto","uuid":"8c5d150c-b046-4440-8230-e84506a065a3","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"n1747624267.4u9ma.icu"}},"servername":"n1747624267.4u9ma.icu"}
-  - {"skip-cert-verify":true,"sni":"37.202.200.19","type":"trojan","password":"09e71e3b-1f9f-44ab-9a10-02e0e10e2f05","server":"37.202.200.19","port":25010,"name":"伊朗+V2CROSS.COM"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司-1"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
-  - {"skip-cert-verify":false,"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.236","port":443,"name":"香港+电讯盈科有限公司-2"}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"202.85.53.179","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.236","port":443,"name":"香港+电讯盈科有限公司"}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
