@@ -91,8 +91,8 @@ proxies:
   - {"type":"vless","name":"荷蘭_7","server":"193.142.59.231","port":8443,"uuid":"faa693f6-41eb-4c90-842c-876c989adc9c","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","tls":false,"udp":true,"servername":"ign.com"}
   - {"type":"vless","name":"荷蘭_8","server":"193.142.59.229","port":8443,"uuid":"9c6e7030-fa74-47bd-989b-a01cb4b03d1c","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","tls":false,"udp":true,"servername":"ign.com"}
   - {"type":"vless","name":"韓國_3","server":"138.2.116.23","port":25001,"uuid":"302b7370-f6c0-408a-a59c-b56f6cb4a5a0","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","tls":false,"udp":true,"servername":"www.mcdaniel.edu"}
-  - {"type":"trojan","name":"香港_2","server":"203.198.84.221","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"������ [By EbraSha] b2n.ir/v2ray-configs | 835 "}
-  - {"type":"trojan","name":"香港_3","server":"58.152.46.60","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"       [By DukeMehdi] trojan-HK "}
+  - {"type":"trojan","name":"香港_2","server":"203.198.84.221","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"������ [By EbraSha] b2n.ir/v2ray-configs | 835 ","network":"tcp"}
+  - {"type":"trojan","name":"香港_3","server":"58.152.46.60","port":443,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"       [By DukeMehdi] trojan-HK ","network":"tcp"}
   - {"type":"trojan","name":"美國_21","server":"104.21.94.161","port":443,"password":"5a2c16f9","udp":true,"skip-cert-verify":true,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"}}
   - {"type":"trojan","name":"美國_22","server":"172.64.229.127","port":443,"password":"5a2c16f9","udp":true,"skip-cert-verify":true,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"}}
   - {"type":"trojan","name":"美國_24","server":"104.18.42.163","port":2096,"password":"f52d0a04-94ad-4f9e-9945-4c3d43374e36","udp":true,"skip-cert-verify":true,"sni":"ts888.yumige.dpdns.org","network":"ws","ws-opts":{"path":"/http://45.32.19.198:30005/"}}
@@ -107,7 +107,7 @@ proxies:
   - {"type":"trojan","name":"西班牙_1","server":"109.234.211.66","port":2087,"password":"trojan","udp":true,"skip-cert-verify":true,"sni":"store.timimi.dpdns.org","network":"ws","ws-opts":{"path":"/"}}
   - {"type":"trojan","name":"英國_4","server":"57.129.137.55","port":443,"password":"5a2c16f9","udp":true,"skip-cert-verify":true,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"Host":"snippets.kkii.eu.org"}}}
   - {"type":"trojan","name":"美國_37","server":"172.64.229.150","port":443,"password":"5a2c16f9","udp":true,"skip-cert-verify":true,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"trojan","name":"俄羅斯_21","server":"37.202.200.19","port":25010,"password":"09e71e3b-1f9f-44ab-9a10-02e0e10e2f05","udp":true,"skip-cert-verify":true,"sni":"37.202.200.19"}
+  - {"type":"trojan","name":"俄羅斯_21","server":"37.202.200.19","port":25010,"password":"09e71e3b-1f9f-44ab-9a10-02e0e10e2f05","udp":true,"skip-cert-verify":true,"sni":"37.202.200.19","network":"tcp"}
   - {"type":"trojan","name":"美國_38","server":"172.64.229.64","port":443,"password":"5a2c16f9","udp":true,"skip-cert-verify":true,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"}}
   - {"type":"trojan","name":"美國_40","server":"172.64.229.137","port":443,"password":"5a2c16f9","udp":true,"skip-cert-verify":true,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/"}}
   - {"type":"trojan","name":"美國_43","server":"205.185.115.223","port":19258,"password":"iWnFtzMiac","udp":true,"skip-cert-verify":true,"sni":"cloudflare.com","network":"grpc"}
@@ -155,4 +155,4 @@ proxies:
   - {"type":"trojan","name":"美國_98","server":"104.17.167.134","port":443,"password":"5a2c16f9","udp":true,"skip-cert-verify":true,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"//","headers":{"Host":"snippets.kkii.eu.org"}}}
   - {"type":"trojan","name":"美国_2","server":"104.19.220.22","port":443,"password":"5a2c16f9","udp":true,"skip-cert-verify":true,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"//","headers":{"Host":"snippets.kkii.eu.org"}}}
   - {"type":"trojan","name":"美國_99","server":"104.16.246.188","port":443,"password":"5a2c16f9","udp":true,"skip-cert-verify":true,"sni":"snippets.kkii.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"Host":"snippets.kkii.eu.org"}}}
-  - {"type":"trojan","name":"香港_38","server":"58.152.18.48","port":443,"password":"f36f4495b4b26cc2fe346cfa23e05b1b","udp":true,"skip-cert-verify":true,"sni":"www.nintendogames.net"}
+  - {"type":"trojan","name":"香港_38","server":"58.152.18.48","port":443,"password":"f36f4495b4b26cc2fe346cfa23e05b1b","udp":true,"skip-cert-verify":true,"sni":"www.nintendogames.net","network":"tcp"}
