@@ -1,5 +1,5 @@
 proxies:
+  - {"skip-cert-verify":true,"sni":"t.me%25252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司","network":"tcp"}
   - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"216.238.87.47","port":27502,"cipher":"auto","uuid":"b8155ce4-7e08-4c40-800f-8671312b7124","alterId":0,"tls":false,"network":"tcp"}
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司","network":"tcp"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
+  - {"type":"ss","server":"173.244.56.6","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"美国+V2CROSS.COM"}
+  - {"type":"trojan","password":"kkzh2prsyr2ik47as615","server":"64.94.95.118","port":57142,"name":"美国+加州:443","network":"tcp"}
