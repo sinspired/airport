@@ -1,8 +1,6 @@
 proxies:
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"c7.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"c7.620720.xyz"}},"servername":"c7.620720.xyz"}
   - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.86","port":443,"name":"香港+电讯盈科有限公司-1","network":"tcp"}
-  - {"skip-cert-verify":true,"sni":"t.me%25252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司-2","network":"tcp"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.236","port":443,"name":"香港+电讯盈科有限公司-3","network":"tcp"}
-  - {"name":"中国 阿里云","type":"vmess","server":"8.217.90.175","port":51000,"cipher":"auto","uuid":"6c82a994-b6ba-48ca-f2ed-11288fe4913b","alterId":0,"tls":false,"network":"tcp"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.236","port":443,"name":"香港+电讯盈科有限公司-2","network":"tcp"}
+  - {"skip-cert-verify":true,"sni":"������","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司-3","network":"tcp"}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"202.85.53.179","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
