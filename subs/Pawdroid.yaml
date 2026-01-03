@@ -1,6 +1,5 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.86","port":443,"name":"香港+电讯盈科有限公司-1","network":"tcp"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.236","port":443,"name":"香港+电讯盈科有限公司-2","network":"tcp"}
-  - {"skip-cert-verify":true,"sni":"������","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司-3","network":"tcp"}
-  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"202.85.53.179","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
+  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"18.181.195.198","port":1112,"name":"日本+东京都Amazon数据中心","network":"tcp"}
+  - {"name":"尼日利亚 V2CROSS.COM","type":"vmess","server":"160.119.196.92","port":36334,"cipher":"auto","uuid":"575ac7a3-0127-4420-a9ea-5ff3f6c02ac7","alterId":0,"tls":false,"network":"tcp"}
