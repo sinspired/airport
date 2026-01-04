@@ -1,5 +1,5 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"t.me%25252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司","network":"tcp"}
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
-  - {"type":"ss","server":"173.244.56.6","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"美国+V2CROSS.COM"}
-  - {"type":"trojan","password":"kkzh2prsyr2ik47as615","server":"64.94.95.118","port":57142,"name":"美国+加州:443","network":"tcp"}
+  - {"skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"f9f59b4f-67b5-4ffa-a832-c9e38da35ac4","server":"green2.cdntencentmusic.com","port":31101,"name":"台湾省台中市+中华电信","network":"tcp"}
+  - {"name":"香港 电讯盈科有限公司-1","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"香港 电讯盈科有限公司-2","type":"vmess","server":"202.85.53.179","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"尼日利亚 V2CROSS.COM","type":"vmess","server":"160.119.196.92","port":36334,"cipher":"auto","uuid":"575ac7a3-0127-4420-a9ea-5ff3f6c02ac7","alterId":0,"tls":false,"network":"tcp"}
