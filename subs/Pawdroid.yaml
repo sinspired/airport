@@ -1,13 +1,10 @@
 proxies:
+  - {"name":"美国 华盛顿Cogent通信公司","type":"vmess","server":"38.76.144.22","port":443,"cipher":"auto","uuid":"c63aa0a7-589b-4bc7-c10f-72cfda242fff","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"北美地区 V2CROSS.COM","type":"vmess","server":"23.138.148.47","port":42507,"cipher":"auto","uuid":"4db07b13-6524-49d2-b432-1f312c0e9c7c","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.236","port":443,"name":"香港+电讯盈科有限公司","network":"tcp"}
   - {"name":"立陶宛 V2CROSS.COM-1","type":"vmess","server":"185.81.166.99","port":44480,"cipher":"auto","uuid":"38efd521-5755-4acf-eb1a-00ff70829ae5","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"103.160.100.86","port":44222,"cipher":"auto","uuid":"f703b128-2d32-4cdb-9608-f33c2d58abcc","alterId":0,"tls":false,"network":"tcp"}
-  - {"skip-cert-verify":false,"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司-1","network":"tcp"}
-  - {"name":"立陶宛 V2CROSS.COM-2","type":"vmess","server":"185.81.166.99","port":20458,"cipher":"auto","uuid":"48ee05e1-f7a3-4463-f86d-6829f4e76c5f","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"立陶宛 V2CROSS.COM-3","type":"vmess","server":"185.81.166.99","port":14784,"cipher":"auto","uuid":"24a6fa47-7240-435c-9752-e2c968830a0e","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"立陶宛 V2CROSS.COM-2","type":"vmess","server":"185.81.166.99","port":53693,"cipher":"auto","uuid":"2e453903-1df6-4540-ff07-09c7565fa14e","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"立陶宛 V2CROSS.COM-3","type":"vmess","server":"185.81.166.99","port":54740,"cipher":"auto","uuid":"cf760744-420b-4935-f19f-25620678290d","alterId":0,"tls":false,"network":"tcp"}
   - {"name":"立陶宛 V2CROSS.COM-4","type":"vmess","server":"185.81.166.99","port":18871,"cipher":"auto","uuid":"74ce3176-ab0f-4354-a2c9-7f927b9c1c84","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"立陶宛 V2CROSS.COM-5","type":"vmess","server":"185.81.166.99","port":38095,"cipher":"auto","uuid":"98172427-54d4-47be-be97-f6fbd937594d","alterId":0,"tls":false,"network":"tcp"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.236","port":443,"name":"香港+电讯盈科有限公司-2","network":"tcp"}
-  - {"name":"立陶宛 V2CROSS.COM-6","type":"vmess","server":"185.81.166.99","port":49714,"cipher":"auto","uuid":"369acdba-7cab-42d6-e8b2-ef5735858e86","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"cf.fovi.tk","port":443,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"Host":"foxpol.fovi.tk"}},"servername":"cf.fovi.tk"}
-  - {"name":"立陶宛 V2CROSS.COM-7","type":"vmess","server":"185.81.166.99","port":53693,"cipher":"auto","uuid":"2e453903-1df6-4540-ff07-09c7565fa14e","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"立陶宛 V2CROSS.COM-8","type":"vmess","server":"185.81.166.99","port":36423,"cipher":"auto","uuid":"10bdd3fc-e92f-4766-9164-e77a575d7029","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"立陶宛 V2CROSS.COM-5","type":"vmess","server":"185.81.166.99","port":17955,"cipher":"auto","uuid":"ed88c8be-1408-4c3c-a87e-8b4843f42482","alterId":0,"tls":false,"network":"tcp"}
