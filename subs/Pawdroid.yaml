@@ -1,4 +1,5 @@
 proxies:
-  - {"name":"美国 科罗拉多州NTT(美国)通信公司","type":"vmess","server":"216.167.26.220","port":34128,"cipher":"auto","uuid":"4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"client-fingerprint":"chrome","servername":"sy4.620720.xyz"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.30.149","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"日本东京都东京 oracle.com","type":"vmess","server":"tokyo01.zgjok.com","port":443,"cipher":"auto","uuid":"e6d5d668-2091-41d9-9bff-df0a1c5107ec","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"tokyo01.zgjok.com"}},"client-fingerprint":"chrome","servername":"tokyo01.zgjok.com"}
+  - {"skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"843bcd0b-f2ab-482f-8262-6d09cf97f4b8","server":"green2.cdntencentmusic.com","port":31102,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
