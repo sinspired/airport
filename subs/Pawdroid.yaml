@@ -1,6 +1,5 @@
 proxies:
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"fl3.cowjuice.me","port":9443,"cipher":"chacha20-ietf-poly1305","password":"X36TIi4C3NH6Oln3TdGyjg","name":"美国+V2CROSS.COM"}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"45.136.12.37","port":38141,"cipher":"auto","uuid":"fd291be6-b48d-43a1-da38-66c7f80e2f80","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"client-fingerprint":"chrome","servername":"sy4.620720.xyz"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl","port":18005,"cipher":"chacha20-ietf-poly1305","password":"e611027a-7b55-4f64-b8df-258f2d7ef95c","name":"福建省泉州市+电信"}
+  - {"name":"美国 华盛顿Cogent通信公司","type":"vmess","server":"38.54.98.110","port":2052,"cipher":"auto","uuid":"665d9b8f-153d-4907-adac-de12afd9c851","alterId":0,"tls":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司","network":"tcp","client-fingerprint":"chrome"}
