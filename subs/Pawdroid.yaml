@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"client-fingerprint":"chrome","servername":"sy4.620720.xyz"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl","port":18005,"cipher":"chacha20-ietf-poly1305","password":"e611027a-7b55-4f64-b8df-258f2d7ef95c","name":"福建省泉州市+电信"}
-  - {"name":"美国 华盛顿Cogent通信公司","type":"vmess","server":"38.54.98.110","port":2052,"cipher":"auto","uuid":"665d9b8f-153d-4907-adac-de12afd9c851","alterId":0,"tls":true,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 科罗拉多州NTT(美国)通信公司","type":"vmess","server":"216.167.26.220","port":34128,"cipher":"auto","uuid":"4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司","network":"tcp","client-fingerprint":"chrome"}
