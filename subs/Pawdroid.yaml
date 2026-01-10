@@ -1,7 +1,5 @@
 proxies:
-  - {"skip-cert-verify":false,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"db86510f-8f0e-4e0e-9534-746dd8e4d07e","server":"green2.cdntencentmusic.com","port":31101,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"156.244.20.53","port":11201,"cipher":"chacha20-ietf-poly1305","password":"c8f11e2ba63181ea","name":"南非豪登省约翰内斯堡+Cloudinnovation数据中心"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"85.90.207.104","port":18791,"cipher":"chacha20-ietf-poly1305","password":"e716d7bbae4bdd14","name":"乌克兰+V2CROSS.COM"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"91.106.109.73","port":11201,"cipher":"chacha20-ietf-poly1305","password":"be5ee3c62f0aae96","name":"约旦+V2CROSS.COM"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"zula.ir","port":8080,"cipher":"auto","uuid":"nasnet","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"nasnet-511952424.mcitel.co"},"early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"85.90.207.104","port":18791,"cipher":"chacha20-ietf-poly1305","password":"e716d7bbae4bdd14","name":"乌克兰+V2CROSS.COM-1"}
+  - {"skip-cert-verify":false,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"40991964-b3be-4458-8bc7-5b1774552acf","server":"green2.cdntencentmusic.com","port":35502,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"85.90.207.104","port":18792,"cipher":"chacha20-ietf-poly1305","password":"e716d7bbae4bdd14","name":"乌克兰+V2CROSS.COM-2"}
