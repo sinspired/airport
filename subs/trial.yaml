@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"67772812-9f0f-4f72-a3b9-38240085696c","udp":true}
   - {"type":"hysteria","name":"🇫🇷_FR_法国-01","server":"62.210.196.68","port":26691,"alpn":["h3"],"auth-str":"dongtaiwang.com","down":"55 Mbps","protocol":"udp","skip-cert-verify":true,"up":"11 Mbps","sni":"apple.com"}
   - {"type":"hysteria","name":"🇫🇷_FR_法国-02","server":"62.210.10.186","port":35511,"alpn":["h3"],"auth-str":"dongtaiwang.com","down":"55","protocol":"udp","skip-cert-verify":true,"udp":"true","up":"11","sni":"apple.com"}
   - {"type":"hysteria","name":"🇫🇷_FR_法国-03","server":"62.210.10.186","port":50011,"alpn":["h3"],"auth-str":"dongtaiwang.com","down":"55 Mbps","protocol":"udp","skip-cert-verify":true,"up":"11 Mbps","sni":"apple.com"}
