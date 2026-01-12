@@ -1,4 +1,7 @@
 proxies:
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.220","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"+++++++[By+EbraSha]+b2n.io/v2ray-configs+","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"香港 阿里云","type":"vmess","server":"47.242.192.233","port":52190,"cipher":"auto","uuid":"98689724-deb2-4a3d-b83b-602221995baf","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"中国 阿里云","type":"vmess","server":"8.218.208.153","port":55976,"cipher":"auto","uuid":"c6d17e35-b57c-42b1-e8a4-5d05effc0d23","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"德国 V2CROSS.COM","type":"vmess","server":"85.195.101.122","port":40878,"cipher":"auto","uuid":"f3d4167e-b15e-4e46-82e9-9286ef93fda7","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"149.104.68.133","port":43924,"cipher":"auto","uuid":"d1ad19f6-83f1-4497-8b76-a3b6a8469b58","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
