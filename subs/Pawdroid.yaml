@@ -1,7 +1,5 @@
 proxies:
-  - {"name":"香港 电讯盈科有限公司","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"skip-cert-verify":true,"sni":"+++++++[By+EbraSha]+b2n.io/v2ray-configs+","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"香港 阿里云","type":"vmess","server":"47.242.192.233","port":52190,"cipher":"auto","uuid":"98689724-deb2-4a3d-b83b-602221995baf","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"中国 阿里云","type":"vmess","server":"8.218.208.153","port":55976,"cipher":"auto","uuid":"c6d17e35-b57c-42b1-e8a4-5d05effc0d23","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"德国 V2CROSS.COM","type":"vmess","server":"85.195.101.122","port":40878,"cipher":"auto","uuid":"f3d4167e-b15e-4e46-82e9-9286ef93fda7","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"149.104.68.133","port":43924,"cipher":"auto","uuid":"d1ad19f6-83f1-4497-8b76-a3b6a8469b58","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM:443","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"北美地区 V2CROSS.COM","type":"vmess","server":"23.138.148.47","port":42507,"cipher":"auto","uuid":"4db07b13-6524-49d2-b432-1f312c0e9c7c","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"220.130.58.136","type":"trojan","password":"d30c2d87-9541-4681-a912-e51e190bad2a","server":"220.130.58.136","port":31101,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
