@@ -1,6 +1,4 @@
 proxies:
-  - {"name":"广东省广州市 电信","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52512,"cipher":"auto","uuid":"342bacfd-2b8f-3f49-a16e-439db5b0b9d5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}},"client-fingerprint":"chrome"}
-  - {"type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM:443","network":"tcp","client-fingerprint":"chrome"}
-  - {"skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"b7aa4e87-d990-4f2d-8880-73b206953efc","server":"220.130.58.136","port":31102,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司","network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"vless","name":"意大利+V2CROSS.COM","server":"92.60.70.36","port":2053,"uuid":"08c7f096-d057-4d53-82fd-c739d372887b","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"香港 CDN520加速节点(BGP)数据中心","type":"vmess","server":"sv2.wy888.us","port":443,"cipher":"auto","uuid":"cda69512-ad1b-4f85-b547-b1d545e7cc90","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"Host":"sv2.wy888.us"}},"client-fingerprint":"chrome","servername":"sv2.wy888.us"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"223.95.183.132","port":25819,"cipher":"aes-128-gcm","password":"b637f2e47b7827b308ebf399008075d2","name":"浙江省嘉兴市+移动"}
+  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"103.160.100.140","port":53046,"cipher":"auto","uuid":"d0bfd418-0575-49a8-de55-38dd7fa72b6f","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
