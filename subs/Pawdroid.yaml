@@ -1,7 +1,9 @@
 proxies:
-  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM:443","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"广东省湛江市 移动-1","type":"vmess","server":"120.198.71.187","port":47084,"cipher":"auto","uuid":"bde21c3b-7580-4286-a79c-5dc54cf297e0","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"92.246.87.170","port":18355,"cipher":"auto","uuid":"caf921c7-ac63-40bc-faa1-cda097fd7e42","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司-1","network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"      +[By+DukeMehdi]+b2n.io/v2ray-configs+|+54+","type":"trojan","password":"BxceQaOe","server":"58.152.46.60","port":443,"name":"香港+电讯盈科有限公司-2","network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"9f879bc7-3ac6-4ddd-8f7d-18d9f431f6a3","server":"green2.cdntencentmusic.com","port":31103,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"206.119.191.9","port":7100,"cipher":"auto","uuid":"10853485-26e1-477b-d257-58a3f4873db3","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"广东省湛江市 移动-2","type":"vmess","server":"tunnel1.qqa678.com","port":47084,"cipher":"auto","uuid":"3fc3310d-fd84-4933-b370-8cb2d565fab9","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"广东省湛江市 移动-3","type":"vmess","server":"tunnel2.qqa678.com","port":47084,"cipher":"auto","uuid":"bde21c3b-7580-4286-a79c-5dc54cf297e0","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"日本 东京Amazon数据中心","type":"vmess","server":"cgroup.node1.v.nodelist-airport.com","port":53231,"cipher":"auto","uuid":"8f3a835c-8a45-480d-ae35-1deb2c52dcae","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"北美地区 V2CROSS.COM","type":"vmess","server":"23.138.148.47","port":42507,"cipher":"auto","uuid":"4db07b13-6524-49d2-b432-1f312c0e9c7c","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
