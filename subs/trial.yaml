@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"1e306567-d829-49bf-a1a1-6204296e208d","udp":true}
   - {"type":"hysteria","name":"🇫🇷_FR_法国-01","server":"62.210.196.68","port":26691,"alpn":["h3"],"auth-str":"dongtaiwang.com","down":"55 Mbps","protocol":"udp","skip-cert-verify":true,"up":"11 Mbps","sni":"apple.com"}
   - {"type":"hysteria","name":"🇫🇷_FR_法国-02","server":"62.210.10.186","port":35511,"alpn":["h3"],"auth-str":"dongtaiwang.com","down":"55","protocol":"udp","skip-cert-verify":true,"udp":"true","up":"11","sni":"apple.com"}
   - {"type":"hysteria","name":"🇫🇷_FR_法国-03","server":"62.210.10.186","port":50011,"alpn":["h3"],"auth-str":"dongtaiwang.com","down":"55 Mbps","protocol":"udp","skip-cert-verify":true,"up":"11 Mbps","sni":"apple.com"}
@@ -1085,3 +1084,4 @@ proxies:
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"57.128.110.71","port":45924,"cipher":"chacha20-ietf-poly1305","password":"76de82292c035b46","name":"FR SS-91 | free-nodes-02"}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"178.130.46.148","port":47345,"cipher":"chacha20-ietf-poly1305","password":"nGSRvZ5IsYcRNDpDtNVrkV","name":"未知 SS-100 | free-nodes"}
   - {"type":"vless","name":"RU VLESS-139 | free-nodes","server":"176.108.242.76","port":443,"uuid":"4371ad14-b981-4699-bedf-83fb79bde3e6","tls":true,"flow":"xtls-rprx-vision","client-fingerprint":"chrome","skip-cert-verify":false,"reality-opts":{"public-key":"FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg","short-id":"6354585c37827955"},"network":"tcp","encryption":"none","servername":"www.vkvideo.ru"}
+  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"8f933bdc-fa59-4f17-890e-33787a261d84","udp":true}
