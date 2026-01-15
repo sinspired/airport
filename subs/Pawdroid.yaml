@@ -1,4 +1,8 @@
 proxies:
-  - {"name":"澳大利亚 V2CROSS.COM","type":"vmess","server":"dv4.789900.xyz","port":2096,"cipher":"auto","uuid":"0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm","headers":{"Host":"dv4.789900.xyz"}},"client-fingerprint":"chrome","servername":"dv4.789900.xyz"}
-  - {"name":"香港 CDN520加速节点(BGP)数据中心","type":"vmess","server":"sv2.wy888.us","port":443,"cipher":"auto","uuid":"cda69512-ad1b-4f85-b547-b1d545e7cc90","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"Host":"sv2.wy888.us"}},"client-fingerprint":"chrome","servername":"sv2.wy888.us"}
-  - {"name":"韩国 首尔Oracle云计算数据中心","type":"vmess","server":"lv4.789900.xyz","port":2087,"cipher":"auto","uuid":"7dd16ab1-2a36-4b32-86fd-eb49fb039752","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm","headers":{"Host":"lv4.789900.xyz"}},"client-fingerprint":"chrome","servername":"lv4.789900.xyz"}
+  - {"name":"广东省湛江市 移动","type":"vmess","server":"tunnel1.qqa678.com","port":47084,"cipher":"auto","uuid":"3fc3310d-fd84-4933-b370-8cb2d565fab9","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"liubu9.singdns.com","port":17459,"cipher":"aes-128-gcm","password":"57bc0c04-8184-48f5-906b-897d095ed445","name":"中国+V2CROSS.COM"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"223.95.183.132","port":25819,"cipher":"aes-128-gcm","password":"b637f2e47b7827b308ebf399008075d2","name":"浙江省嘉兴市+移动-1"}
+  - {"type":"vless","name":"意大利+V2CROSS.COM","server":"92.60.70.36","port":2053,"uuid":"08c7f096-d057-4d53-82fd-c739d372887b","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"223.95.183.132","port":26334,"cipher":"aes-128-gcm","password":"b637f2e47b7827b308ebf399008075d2","name":"浙江省嘉兴市+移动-2"}
