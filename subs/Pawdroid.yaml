@@ -1,4 +1,6 @@
 proxies:
-  - {"name":"香港 CDN520加速节点(BGP)数据中心","type":"vmess","server":"sv2.wy888.us","port":443,"cipher":"auto","uuid":"cda69512-ad1b-4f85-b547-b1d545e7cc90","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"Host":"sv2.wy888.us"}},"client-fingerprint":"chrome","servername":"sv2.wy888.us"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"223.95.183.132","port":25819,"cipher":"aes-128-gcm","password":"b637f2e47b7827b308ebf399008075d2","name":"浙江省嘉兴市+移动"}
-  - {"name":"印度 V2CROSS.COM","type":"vmess","server":"103.160.100.140","port":53046,"cipher":"auto","uuid":"d0bfd418-0575-49a8-de55-38dd7fa72b6f","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"香港 CDN520加速节点(BGP)数据中心","type":"vmess","server":"sv2.wy888.us","port":443,"cipher":"auto","uuid":"cda69512-ad1b-4f85-b547-b1d545e7cc90","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"Host":"sv2.wy888.us"}},"client-fingerprint":"chrome","servername":"sv2.wy888.us"}
+  - {"type":"trojan","password":"6pRjKQJ0CWyFtG.9","server":"198.57.27.27","port":12990,"name":"加拿大多伦多+V2CROSS.COM:443","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司","network":"tcp","client-fingerprint":"chrome"}
