@@ -1,8 +1,5 @@
 proxies:
-  - {"name":"广东省湛江市 移动","type":"vmess","server":"tunnel1.qqa678.com","port":47084,"cipher":"auto","uuid":"3fc3310d-fd84-4933-b370-8cb2d565fab9","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"liubu9.singdns.com","port":17459,"cipher":"aes-128-gcm","password":"57bc0c04-8184-48f5-906b-897d095ed445","name":"中国+V2CROSS.COM"}
+  - {"name":"韩国 首尔Amazon数据中心","type":"vmess","server":"cgroup.node2.v.nodelist-airport.com","port":53113,"cipher":"auto","uuid":"8f3a835c-8a45-480d-ae35-1deb2c52dcae","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"223.95.183.132","port":25819,"cipher":"aes-128-gcm","password":"b637f2e47b7827b308ebf399008075d2","name":"浙江省嘉兴市+移动-1"}
-  - {"type":"vless","name":"意大利+V2CROSS.COM","server":"92.60.70.36","port":2053,"uuid":"08c7f096-d057-4d53-82fd-c739d372887b","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"223.95.183.132","port":26334,"cipher":"aes-128-gcm","password":"b637f2e47b7827b308ebf399008075d2","name":"浙江省嘉兴市+移动-2"}
+  - {"name":"德国 法兰克福Oracle云计算数据中心","type":"vmess","server":"frankfurt01.zgjok.com","port":443,"cipher":"auto","uuid":"b71579b1-6593-426d-90ac-f002fa96ade1","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{}},"client-fingerprint":"chrome","servername":"frankfurt01.zgjok.com"}
+  - {"name":"广东省广州市 电信","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52512,"cipher":"auto","uuid":"342bacfd-2b8f-3f49-a16e-439db5b0b9d5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}},"client-fingerprint":"chrome"}
