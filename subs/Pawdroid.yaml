@@ -1,4 +1,5 @@
 proxies:
-  - {"name":"广东省湛江市 移动","type":"vmess","server":"tunnel1.qqa678.com","port":47084,"cipher":"auto","uuid":"3fc3310d-fd84-4933-b370-8cb2d565fab9","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"广东省湛江市 移动","type":"vmess","server":"120.198.71.161","port":47084,"cipher":"auto","uuid":"3fc3310d-fd84-4933-b370-8cb2d565fab9","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"ru2.nnvpn.io","alpn":["h2","http/1.1"],"type":"trojan","password":"yUHNMwWvenoHBaN5CtqKPwt1CTzXgW","server":"ru2.nnvpn.io","port":443,"name":"香港+特别行政区","network":"tcp","client-fingerprint":"chrome"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"58.152.53.219","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
