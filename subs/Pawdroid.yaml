@@ -1,5 +1,5 @@
 proxies:
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"client-fingerprint":"chrome","servername":"t1.620720.xyz"}
-  - {"skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"47f867f8-45bb-43be-aa13-b99ed8f55c7d","server":"green2.cdntencentmusic.com","port":35501,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"中国 阿里云","type":"vmess","server":"8.217.90.175","port":51000,"cipher":"auto","uuid":"6c82a994-b6ba-48ca-f2ed-11288fe4913b","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"194.87.10.161","port":8388,"cipher":"aes-256-gcm","password":"d2umVadPT1m/FwIn","name":"俄罗斯+V2CROSS.COM"}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"216.238.86.158","port":34460,"cipher":"auto","uuid":"90be214d-048c-4ea2-a602-b8e4d4e51e36","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"t.me%25252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"04709581-0161-4d78-b03c-0f74a6513f2a","server":"green2.cdntencentmusic.com","port":35501,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
