@@ -1,5 +1,7 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"58.152.53.219","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司-1","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"以色列 V2CROSS.COM","type":"vmess","server":"149.88.95.217","port":35760,"cipher":"auto","uuid":"17e96792-d8c3-4741-9c34-e5d1c11d754f","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"af9b7bde-5b98-4bae-b35d-81637d99848f","server":"green2.cdntencentmusic.com","port":35501,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.110.50","port":443,"name":"香港+电讯盈科有限公司-2","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"13.114.104.131","port":4569,"name":"日本+东京Amazon数据中心","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"以色列 V2CROSS.COM-1","type":"vmess","server":"149.88.95.94","port":35760,"cipher":"auto","uuid":"17e96792-d8c3-4741-9c34-e5d1c11d754f","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"以色列 V2CROSS.COM-2","type":"vmess","server":"149.88.95.217","port":40741,"cipher":"auto","uuid":"1b8a751b-4909-4fec-f019-907d92e6c47f","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"以色列 V2CROSS.COM-3","type":"vmess","server":"149.88.95.94","port":18937,"cipher":"auto","uuid":"ebaa1ae1-fa4d-40d8-958f-d4524d551218","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"3b6608c7-2217-4643-a387-f0937a9972ed","server":"green2.cdntencentmusic.com","port":35501,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
