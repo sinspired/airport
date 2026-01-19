@@ -1,5 +1,7 @@
 proxies:
-  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"vless","name":"俄罗斯+V2CROSS.COM","server":"212.113.109.101","port":2584,"uuid":"038a50c3-229c-41ef-a7ef-7abb504e4f33","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"北美地区 V2CROSS.COM","type":"vmess","server":"23.138.148.47","port":42507,"cipher":"auto","uuid":"4db07b13-6524-49d2-b432-1f312c0e9c7c","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.246","port":443,"name":"香港+电讯盈科有限公司-1","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"www.nintendogames.net","type":"trojan","password":"4843e94d205f3893f588255a591abe94","server":"58.152.18.124","port":443,"name":"香港+电讯盈科有限公司-2","network":"tcp","client-fingerprint":"chrome"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"以色列 V2CROSS.COM","type":"vmess","server":"149.88.95.217","port":18937,"cipher":"auto","uuid":"ebaa1ae1-fa4d-40d8-958f-d4524d551218","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"1d2d37ba-7625-4fdd-ad58-515783b2c48a","server":"green2.cdntencentmusic.com","port":31103,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司-3","network":"tcp","client-fingerprint":"chrome"}
