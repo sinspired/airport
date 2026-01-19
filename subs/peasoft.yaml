@@ -26,7 +26,7 @@ proxies:
   - {"alterId":0,"cipher":"auto","name":"HK48｜机房｜低风险","network":"tcp","port":47081,"server":"tunnel1.qqa678.com","tls":false,"type":"vmess","uuid":"ef5a32e2-ec6f-4d8b-b084-9736f912432c","client-fingerprint":"chrome"}
   - {"alterId":0,"cipher":"auto","name":"HK49｜机房｜低风险","network":"tcp","port":47081,"server":"oss-4.qqa678.com","tls":false,"type":"vmess","uuid":"ef5a32e2-ec6f-4d8b-b084-9736f912432c","client-fingerprint":"chrome"}
   - {"alterId":2,"cipher":"auto","name":"HK79｜机房｜低风险","network":"tcp","port":30809,"server":"v9.hdacd.com","tls":false,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","client-fingerprint":"chrome"}
-  - {"name":"HK54｜家宽｜非常安全","password":"4843e94d205f3893f588255a591abe94","port":443,"server":"58.152.18.124","skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","client-fingerprint":"chrome","network":"tcp"}
+  - {"name":"HK_speednode_0013","password":"4843e94d205f3893f588255a591abe94","port":443,"server":"58.152.18.124","skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","udp":true,"client-fingerprint":"chrome","network":"tcp"}
   - {"name":"JP5｜机房｜低风险","password":"4843e94d205f3893f588255a591abe94","port":3423,"server":"160.16.70.180","skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","client-fingerprint":"chrome","network":"tcp"}
   - {"name":"HK57｜原生/疑似家宽｜非常安全","password":"9d23ec89-a50a-4634-b09e-37330ce09b37","port":31101,"server":"green2.cdntencentmusic.com","skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","client-fingerprint":"chrome","network":"tcp"}
   - {"alterId":2,"cipher":"auto","name":"US108｜机房｜低风险","network":"tcp","port":30824,"server":"v24.hdacd.com","tls":false,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","client-fingerprint":"chrome"}
@@ -54,4 +54,4 @@ proxies:
   - {"name":"美国2|@ripaojiedian","network":"tcp","password":"4843e94d205f3893f588255a591abe94","port":5076,"server":"23.170.49.110","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","client-fingerprint":"chrome"}
   - {"name":"美国3|@ripaojiedian","network":"tcp","password":"BxceQaOe","port":2773,"server":"13.114.104.131","skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","client-fingerprint":"chrome"}
   - {"cipher":"aes-256-cfb","name":"越南|@ripaojiedian","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.76","type":"ss"}
-  - {"name":"CA_speednode_0001","password":"30077070-596e-48ea-9400-14c8ed07bd97","port":443,"server":"tuntro006.instconn.com","skip-cert-verify":true,"sni":"torontorm1.686911.xyz","type":"trojan","udp":true,"client-fingerprint":"chrome","network":"tcp"}
+  - {"name":"IN_speednode_0016","password":"M7v%w11Se*","port":443,"server":"hyfuuf6.wsone.icu","skip-cert-verify":true,"sni":"hyfuuf6.wsone.icu","type":"trojan","udp":true,"client-fingerprint":"chrome","network":"tcp"}
