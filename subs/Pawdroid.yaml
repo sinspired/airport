@@ -1,13 +1,10 @@
 proxies:
-  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"30b2eb56-ce6c-4936-8704-304d5fb19c86","server":"green2.cdntencentmusic.com","port":35501,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"德国 V2CROSS.COM","type":"vmess","server":"5.83.150.108","port":39316,"cipher":"auto","uuid":"35f332d0-0b05-4cc6-91cb-ec0d4465055f","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"Host":"imafake.locker"}},"client-fingerprint":"chrome","servername":"imafake.locker"}
+  - {"sni":"t.me%2Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.46.246","port":443,"name":"香港+电讯盈科有限公司-1","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"vless","name":"意大利+V2CROSS.COM","server":"92.60.70.36","port":2053,"uuid":"08c7f096-d057-4d53-82fd-c739d372887b","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"skip-cert-verify":true,"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"30b2eb56-ce6c-4936-8704-304d5fb19c86","server":"green2.cdntencentmusic.com","port":35501,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"vless","name":"伊朗+V2CROSS.COM","server":"85.133.204.131","port":2024,"uuid":"efdd92c0-c32d-4039-a564-374abaa5d8ce","tls":false,"skip-cert-verify":false,"network":"tcp","encryption":"none","client-fingerprint":"chrome"}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"ss.037.node-for-bigairport.win","port":11688,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"新加坡+Amazon数据中心"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"57.129.69.122","port":27130,"cipher":"chacha20-ietf-poly1305","password":"a3027c931ae07bce","name":"法国+国际航空电讯集团公司(SITA)"}
-  - {"skip-cert-verify":true,"sni":"web.max.ru","client-fingerprint":"chrome","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.172","port":10889,"name":"加拿大+V2CROSS.COM-1","network":"tcp"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"sni":"ads.x5.ru","network":"tcp","type":"trojan","password":"x.8ur1QiCyzlRHXeaB5UwoDfgZ04s","server":"45.32.158.138","port":20994,"name":"德国+黑森州法兰克福Choopa数据中心","client-fingerprint":"chrome"}
-  - {"name":"哈萨克斯坦 V2CROSS.COM","type":"vmess","server":"94.232.247.165","port":45653,"cipher":"auto","uuid":"9e91d19a-c73f-4276-adbc-b337c374259c","alterId":0,"tls":false,"client-fingerprint":"chrome","network":"tcp"}
-  - {"sni":"www.semanticstaplegun.click","network":"tcp","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM-1","client-fingerprint":"chrome"}
-  - {"network":"tcp","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM-2","client-fingerprint":"chrome"}
-  - {"skip-cert-verify":true,"sni":"web.max","network":"tcp","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.228","port":10889,"name":"加拿大+V2CROSS.COM-2","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"4843e94d205f3893f588255a591abe94","server":"58.152.18.124","port":443,"name":"香港+电讯盈科有限公司-2","network":"tcp","client-fingerprint":"chrome"}
