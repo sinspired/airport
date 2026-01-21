@@ -1,10 +1,12 @@
 proxies:
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"client-fingerprint":"chrome","servername":"t1.620720.xyz"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"skip-cert-verify":true,"sni":"www.semanticstaplegun.click","network":"tcp","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"158.220.80.123","port":48436,"cipher":"chacha20-ietf-poly1305","password":"a42c27bea19fc4db","name":"瑞士+V2CROSS.COM"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"ss.031.node-for-bigairport.win","port":36885,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"日本+东京Amazon数据中心"}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"45.12.136.170","port":443,"cipher":"chacha20-ietf-poly1305","password":"l668XHPejoSNNuD66BYzyehaCpZexiF7","name":"欧盟+V2CROSS.COM"}
-  - {"skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"1f86e372-1ee6-47eb-8c33-72bfc310dee6","server":"green2.cdntencentmusic.com","port":31103,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"38.54.59.16","port":11201,"cipher":"chacha20-ietf-poly1305","password":"6ff1423f61ffe673","name":"美国+华盛顿Cogent通信公司"}
+  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"92.246.87.170","port":18355,"cipher":"auto","uuid":"caf921c7-ac63-40bc-faa1-cda097fd7e42","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"广东省湛江市 移动","type":"vmess","server":"tunnel1.qqa678.com","port":47081,"cipher":"auto","uuid":"940962e9-85c7-43fa-a9ca-d523b15a32a5","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"vless","name":"罗马尼亚+V2CROSS.COM-1","server":"185.221.222.202","port":31779,"uuid":"052df1a5-f53f-46dc-8aeb-7ed893310551","tls":false,"skip-cert-verify":false,"network":"tcp","encryption":"none","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"154.26.156.99","port":47386,"cipher":"chacha20-ietf-poly1305","password":"78322e4b934870b6","name":"美国+V2CROSS.COM"}
+  - {"type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM-1","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"158.220.80.123","port":48436,"cipher":"chacha20-ietf-poly1305","password":"a42c27bea19fc4db","name":"瑞士+V2CROSS.COM"}
   - {"name":"香港 阿里云","type":"vmess","server":"47.242.192.233","port":52190,"cipher":"auto","uuid":"98689724-deb2-4a3d-b83b-602221995baf","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"206.119.191.9","port":7100,"cipher":"auto","uuid":"10853485-26e1-477b-d257-58a3f4873db3","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"93.114.98.102","port":11201,"cipher":"chacha20-ietf-poly1305","password":"bed61f51dfec961a","name":"罗马尼亚+V2CROSS.COM-2"}
+  - {"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM-2","network":"tcp","client-fingerprint":"chrome"}
