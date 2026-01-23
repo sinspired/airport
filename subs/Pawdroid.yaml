@@ -1,7 +1,9 @@
 proxies:
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"skip-cert-verify":true,"sni":"www.semanticstaplegun.click","network":"tcp","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.102.144.110","port":26138,"cipher":"chacha20-ietf-poly1305","password":"2602101eff2c9250","name":"美国+V2CROSS.COM"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"95.111.222.113","port":443,"cipher":"chacha20-ietf-poly1305","password":"SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa","name":"乌克兰+V2CROSS.COM"}
+  - {"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.177","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"荷兰+V2CROSS.COM"}
   - {"name":"美国 得克萨斯州达拉斯Cloudflare Warp节点","type":"vmess","server":"8.6.112.0","port":2053,"cipher":"auto","uuid":"8b23a6c9-0ca6-4134-83f2-39d42da0d648","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{}},"client-fingerprint":"chrome","alpn":["h2","http/1.1"],"servername":"aliyedast.gwkaqq.lol"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"client-fingerprint":"chrome","servername":"sy4.620720.xyz"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"lv.vpnsparta.pro","port":57456,"cipher":"chacha20-ietf-poly1305","password":"8afc633eb63227e9","name":"拉脱维亚+V2CROSS.COM"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.102.144.110","port":26138,"cipher":"chacha20-ietf-poly1305","password":"2602101eff2c9250","name":"美国+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"172.67.204.84","port":8080,"cipher":"auto","uuid":"nasnet","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"nasnet-511952424.mcitel.co"}},"client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"RPyW62_b9aH.ztJKeArou","server":"83.143.87.9","port":18581,"name":"挪威+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
