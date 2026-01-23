@@ -1,8 +1,8 @@
 proxies:
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"95.111.222.113","port":443,"cipher":"chacha20-ietf-poly1305","password":"SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa","name":"乌克兰+V2CROSS.COM"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{}},"client-fingerprint":"chrome","servername":"t1.620720.xyz"}
-  - {"type":"vless","name":"香港+特别行政区","server":"203.189.233.201","port":1140,"uuid":"08c7f096-d057-4d53-82fd-c739d372887b","skip-cert-verify":false,"network":"tcp","encryption":"none","client-fingerprint":"chrome"}
+  - {"name":"日本 东京阿里云","type":"vmess","server":"n1753598452.wpg27.xyz","port":443,"cipher":"auto","uuid":"4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"n1753598452.wpg27.xyz"}},"client-fingerprint":"chrome","servername":"n1753598452.wpg27.xyz"}
+  - {"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM-1","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.194","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"英国+V2CROSS.COM"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"ads.x5.ru","type":"trojan","password":"x.8ur1QiCyzlRHXeaB5UwoDfgZ04s","server":"45.32.158.138","port":20994,"name":"德国+黑森州法兰克福Choopa数据中心","network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.102.144.110","port":26138,"cipher":"chacha20-ietf-poly1305","password":"2602101eff2c9250","name":"美国+V2CROSS.COM"}
+  - {"name":"美国 华盛顿Cogent通信公司","type":"vmess","server":"38.54.98.110","port":2052,"cipher":"auto","uuid":"665d9b8f-153d-4907-adac-de12afd9c851","alterId":0,"tls":true,"network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"web.max.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.172","port":10889,"name":"加拿大+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"network":"tcp","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM-2","client-fingerprint":"chrome"}
