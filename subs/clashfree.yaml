@@ -350,18 +350,6 @@ proxies:
   - {"name":"🇺🇸 美国2|@stairnode-5","server":"160.16.57.238","port":5076,"type":"trojan","password":"4843e94d205f3893f588255a591abe94","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸 美国3|@stairnode-6","server":"18.163.116.85","port":1112,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇻🇳 越南|@stairnode-2","server":"103.186.154.12","port":38388,"type":"ss","cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}
-  - {"name":"🇭🇰 香港2|@stairnode-3","server":"61.15.60.153","port":52080,"type":"vmess","uuid":"bfb47846-aedb-4ea3-a81f-27895a4ec1bb","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇭🇰 香港4|@stairnode-6","server":"13.114.140.34","port":3292,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇭🇰 香港5|@stairnode-4","server":"16.162.252.215","port":3042,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇯🇵 日本|@stairnode-7","server":"18.181.201.166","port":2053,"type":"trojan","password":"BxceQaOe","sni":"t.me%252Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇯🇵 日本2|@stairnode-7","server":"160.16.57.238","port":1933,"type":"trojan","password":"4843e94d205f3893f588255a591abe94","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇯🇵 日本3|@stairnode-7","server":"160.16.117.182","port":4006,"type":"trojan","password":"4843e94d205f3893f588255a591abe94","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇸🇬 新加坡|@stairnode-7","server":"153.121.65.107","port":544,"type":"trojan","password":"4843e94d205f3893f588255a591abe94","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇸🇬 新加坡2|@stairnode-7","server":"160.16.124.55","port":3901,"type":"trojan","password":"4843e94d205f3893f588255a591abe94","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇸🇬 新加坡3|@stairnode-7","server":"13.114.140.34","port":1196,"type":"trojan","password":"BxceQaOe","sni":"t.me%252Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸 美国2|@stairnode-6","server":"160.16.117.182","port":5076,"type":"trojan","password":"4843e94d205f3893f588255a591abe94","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸 美国3|@stairnode-7","server":"16.162.22.195","port":4569,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇻🇳 越南|@stairnode-3","server":"103.186.155.125","port":38388,"type":"ss","cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}
   - {"name":"🇰🇷_KR_韩国","type":"ss","server":"221.150.109.89","port":43231,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
   - {"name":"🇰🇷_KR_韩国_1","type":"ss","server":"168.126.234.233","port":28860,"cipher":"aes-256-cfb","password":"qwerREWQ@@"}
   - {"name":"🇺🇸_US_美国_2","type":"trojan","server":"kfjdi.pages.dev","port":443,"password":"er668","skip-cert-verify":false,"ws-opts":{"path":"🔒"},"network":"tcp","sni":"kfjdi.pages.dev","client-fingerprint":"chrome"}
@@ -489,6 +477,7 @@ proxies:
   - {"name":"🇷🇺 RU SS-04 | free-nodes","server":"46.17.43.151","port":10081,"type":"ss","cipher":"aes-256-gcm","password":"d989ff3d46a63f63"}
   - {"name":"🇯🇵 JP SS-70 | free-nodes","server":"154.205.139.9","port":11202,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"303ac65e30f28b0b"}
   - {"name":"未知 SS-74 | free-nodes","server":"5.188.227.18","port":11201,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"317f13c5c2ebdea3"}
+  - {"name":"🇨🇦 CA SS-136 | free-nodes","server":"51.161.80.138","port":12743,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ae1f6fea74b7391a"}
   - {"name":"TR TROJAN-02 | free-nodes","server":"80.173.231.254","port":12420,"type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","sni":"www.semanticstaplegun.click","network":"tcp","client-fingerprint":"chrome"}
   - {"name":"未知 SS-128 | free-nodes","server":"38.54.59.38","port":11201,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"0cdde695873565ee"}
   - {"name":"未知 SS-12 | free-nodes","server":"38.54.29.18","port":11201,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"932a519c8147a998"}
