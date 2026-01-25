@@ -1,8 +1,7 @@
 proxies:
-  - {"type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM-1","network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.130","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
-  - {"skip-cert-verify":true,"sni":"green2.cdntencentmusic.com","type":"trojan","password":"655a3e72-788e-41c1-8c23-6032490c64a0","server":"green2.cdntencentmusic.com","port":31101,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"172.67.204.84","port":8080,"cipher":"auto","uuid":"nasnet","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"nasnet-511952424.mcitel.co"}},"client-fingerprint":"chrome"}
-  - {"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM-2","network":"tcp","client-fingerprint":"chrome"}
-  - {"skip-cert-verify":false,"sni":"ads.x5.ru","type":"trojan","password":"x.8ur1QiCyzlRHXeaB5UwoDfgZ04s","server":"45.32.158.138","port":20994,"name":"德国+黑森州法兰克福Choopa数据中心","network":"tcp","client-fingerprint":"chrome"}
-  - {"skip-cert-verify":true,"type":"trojan","password":"RPyW62_b9aH.ztJKeArou","server":"83.143.87.9","port":18581,"name":"挪威+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"5c762006-ed60-4b35-b8fe-4520adeac906","server":"green2.cdntencentmusic.com","port":31102,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"network":"tcp","type":"trojan","password":"RPyW62_b9aH.ztJKeArou","server":"83.143.87.9","port":18581,"name":"挪威+V2CROSS.COM","client-fingerprint":"chrome"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"172.67.204.84","port":8080,"cipher":"auto","uuid":"nasnet","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"nasnet-511952424.mcitel.co"}},"client-fingerprint":"chrome"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 得克萨斯州达拉斯Cloudflare Warp节点","type":"vmess","server":"8.6.112.0","port":2053,"cipher":"auto","uuid":"8b23a6c9-0ca6-4134-83f2-39d42da0d648","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{}},"client-fingerprint":"chrome","alpn":["h2","http/1.1"],"servername":"aliyedast.gwkaqq.lol"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"104.21.69.44","port":8080,"cipher":"auto","uuid":"nasnet","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"nasnet-511952424.mcitel.co"}},"client-fingerprint":"chrome"}
