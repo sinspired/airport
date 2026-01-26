@@ -1,8 +1,8 @@
 proxies:
-  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.45","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"广东省湛江市 移动-1","type":"vmess","server":"tunnel2.qqa678.com","port":47083,"cipher":"auto","uuid":"0e497122-8ee0-44fe-b7be-6c5de6cf938b","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"广东省湛江市 移动-1","type":"vmess","server":"tunnel1.qqa678.com","port":47083,"cipher":"auto","uuid":"0e497122-8ee0-44fe-b7be-6c5de6cf938b","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"client-fingerprint":"chrome","servername":"t1.620720.xyz"}
+  - {"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"广东省湛江市 移动-2","type":"vmess","server":"tunnel2.qqa678.com","port":47083,"cipher":"auto","uuid":"0e497122-8ee0-44fe-b7be-6c5de6cf938b","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"172.67.204.84","port":8080,"cipher":"auto","uuid":"nasnet","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"nasnet-511952424.mcitel.co"}},"client-fingerprint":"chrome"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"www.semanticstaplegun.click","network":"tcp","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","client-fingerprint":"chrome"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.21.69.44","port":8080,"cipher":"auto","uuid":"nasnet","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"nasnet-511952424.mcitel.co"}},"client-fingerprint":"chrome"}
-  - {"name":"广东省湛江市 移动-2","type":"vmess","server":"tunnel1.qqa678.com","port":47083,"cipher":"auto","uuid":"0e497122-8ee0-44fe-b7be-6c5de6cf938b","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"ads.x5.ru","type":"trojan","password":"x.8ur1QiCyzlRHXeaB5UwoDfgZ04s","server":"140.82.35.244","port":20994,"name":"美国+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"103.181.165.237","port":31332,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
