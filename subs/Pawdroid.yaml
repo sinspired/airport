@@ -1,9 +1,9 @@
 proxies:
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"78.129.140.11","port":443,"cipher":"chacha20-ietf-poly1305","password":"y3SowqUkrt1cbm487g74Ac","name":"英国+V2CROSS.COM-1"}
-  - {"sni":"ads.x5.ru","type":"trojan","password":"x.8ur1QiCyzlRHXeaB5UwoDfgZ04s","server":"140.82.35.244","port":20994,"name":"美国+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"172.67.204.84","port":8080,"cipher":"auto","uuid":"nasnet","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"nasnet-511952424.mcitel.co"}},"client-fingerprint":"chrome"}
   - {"sni":"www.semanticstaplegun.click","client-fingerprint":"chrome","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp"}
-  - {"sni":"ads.x5.ru","type":"trojan","password":"x.8ur1QiCyzlRHXeaB5UwoDfgZ04s","server":"45.32.158.138","port":20994,"name":"德国+黑森州法兰克福Choopa数据中心","network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.82","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"英国+V2CROSS.COM-2"}
+  - {"sni":"ads.x5.ru","type":"trojan","password":"x.8ur1QiCyzlRHXeaB5UwoDfgZ04s","server":"140.82.35.244","port":20994,"name":"美国+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"5.181.21.246","port":443,"cipher":"chacha20-ietf-poly1305","password":"gKYygTcRYhc3skc2x6tZ073lYz0DnieX","name":"荷兰阿姆斯特丹+xTom/AS3214"}
+  - {"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"203.198.122.187","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"type":"trojan","password":"RPyW62_b9aH.ztJKeArou","server":"83.143.87.9","port":18581,"name":"挪威+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"78.129.140.11","port":443,"cipher":"chacha20-ietf-poly1305","password":"y3SowqUkrt1cbm487g74Ac","name":"英国+V2CROSS.COM"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"client-fingerprint":"chrome","network":"tcp"}
-  - {"type":"vless","name":"香港+腾讯云","server":"43.161.253.78","port":9527,"uuid":"d4a23188-85b0-4b46-b84b-f1d36d66c03e","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
