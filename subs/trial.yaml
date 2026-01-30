@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"ec7f70f1-91d8-411d-8455-8cac0497f82b","udp":true}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"mofacpdd.til69.com","port":26921,"cipher":"chacha20-ietf-poly1305","password":"5d68d91f-ccc5-4c00-b1f6-0d764937f4f6","name":"🇨🇳_CN_中国-01"}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"mbqg940.26i6c42.rkzn8ni.vm331.cn","port":10237,"cipher":"chacha20-ietf-poly1305","password":"f1e442f1-8abb-4df6-9c6e-ddd114224b3a","name":"🇨🇳_CN_中国-02"}
   - {"type":"vless","name":"🇺🇸_US_美国-01","server":"172.64.52.218","port":443,"uuid":"15235ce9-4cd2-4483-b6b6-7fc4a3f44735","tls":true,"client-fingerprint":"random","skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"snip.ere.de5.net"},"path":"/","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2560},"servername":"snip.ere.de5.net"}
