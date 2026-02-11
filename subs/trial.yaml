@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"bf83eabe-d836-469c-a043-f8a2db1cc3ea","udp":true}
   - {"type":"vless","name":"🇭🇰HK-001","server":"8.212.27.131","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"sni.jpmj.dev"},"path":"/?ed=2560&Telegram🇨🇳 @WangCai2"},"encryption":"none","client-fingerprint":"chrome","servername":"sni.jpmj.dev"}
   - {"type":"vless","name":"🇯🇵JP-001","server":"47.74.8.30","port":2443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"sni.jpmj.dev"},"path":"/?ed=2560&Telegram🇨🇳 @WangCai2"},"encryption":"none","client-fingerprint":"chrome","servername":"sni.jpmj.dev"}
   - {"type":"vless","name":"🇭🇰HK-002","server":"8.210.29.68","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"sni.jpmj.dev"},"path":"/?ed=2560&Telegram🇨🇳 @WangCai2"},"encryption":"none","client-fingerprint":"chrome","servername":"sni.jpmj.dev"}
