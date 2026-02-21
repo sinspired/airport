@@ -1,5 +1,4 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"77ac4650-892c-44aa-94c7-fd7bc7103a10","udp":true}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"ldu.izenny.com","port":18140,"cipher":"chacha20-ietf-poly1305","password":"c6d61cd1-d3dc-405e-afb2-d67815f4e4da","name":"US美国-001"}
   - {"name":"法国节点","type":"vmess","server":"2001:bc8:32d7:302::10","port":44579,"cipher":"auto","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"2001:bc8:32d7:302::10"}},"client-fingerprint":"chrome"}
   - {"type":"vless","name":"🇫🇮FI-001","server":"5.144.181.240","port":443,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"sni.111000.indevs.in"},"path":"/?ed=2560&Telegram🇨🇳+@WangCai2"},"encryption":"none","client-fingerprint":"chrome","servername":"sni.111000.indevs.in"}
