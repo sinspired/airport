@@ -1,15 +1,16 @@
 proxies:
   - {"name":"tg频道:@freenodedaily","server":"63.180.254.10","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"name":"🇭🇰 香港","server":"v10.hdacd.com","port":30807,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","tls":false,"skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇭🇰 香港3","server":"3.113.29.187","port":2255,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇭🇰 香港4","server":"43.207.103.90","port":388,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇭🇰 香港5","server":"43.207.103.90","port":2399,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇯🇵 日本","server":"52.199.90.129","port":2595,"type":"trojan","password":"BxceQaOe","sni":"t.me%252Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇯🇵 日本2","server":"3.112.20.105","port":400,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇯🇵 日本3","server":"3.112.20.105","port":3423,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇸🇬 新加坡","server":"202.181.103.246","port":3419,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇸🇬 新加坡2","server":"3.112.20.105","port":3419,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇸🇬 新加坡3","server":"18.166.236.73","port":15363,"type":"trojan","password":"BxceQaOe","sni":"t.me%252Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸 美国","server":"52.195.185.238","port":1281,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸 美国2","server":"160.16.72.33","port":4920,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸 美国3","server":"18.162.51.53","port":45285,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇭🇰 香港3","server":"13.231.56.214","port":331,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇭🇰 香港4","server":"52.199.90.129","port":1359,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇭🇰 香港5","server":"18.162.142.234","port":504,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇯🇵 日本","server":"52.199.90.129","port":32536,"type":"trojan","password":"BxceQaOe","sni":"t.me%252Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇯🇵 日本2","server":"57.180.8.230","port":34818,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇯🇵 日本3","server":"160.16.70.180","port":2001,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇸🇬 新加坡","server":"52.199.130.72","port":3419,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇸🇬 新加坡2","server":"52.69.221.238","port":3901,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇸🇬 新加坡3","server":"16.162.105.4","port":41973,"type":"trojan","password":"BxceQaOe","sni":"t.me%252Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸 美国","server":"175.41.195.26","port":4920,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸 美国2","server":"52.195.233.42","port":1281,"type":"trojan","password":"262f1d150049457ac1d6e66b020fa980","sni":"www.nintendogames.net","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸 美国3","server":"18.162.142.234","port":45947,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇨🇦 加拿大","server":"board-02.ddnskunlun.com","port":11985,"type":"vmess","uuid":"a8bcce43-abda-315b-8e81-e3e65bcb3d07","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
