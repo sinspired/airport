@@ -1,9 +1,5 @@
 proxies:
-  - {"name":"英国 V2CROSS.COM-1","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"中国 V2CROSS.COM-1","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"英国 V2CROSS.COM-2","type":"vmess","server":"85.211.242.85","port":12889,"cipher":"auto","uuid":"37c67a5e-2b2a-49b2-a197-889e80b28bee","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"baidu.com"}},"client-fingerprint":"chrome"}
-  - {"name":"中国 V2CROSS.COM-2","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"web.max","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.228","port":10889,"name":"加拿大+V2CROSS.COM-1","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"web.max.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.172","port":10889,"name":"加拿大+V2CROSS.COM-1","network":"tcp","client-fingerprint":"chrome"}
   - {"sni":"ya.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.169","port":10889,"name":"加拿大+V2CROSS.COM-2","network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"iepl.huli168.com","port":19822,"cipher":"aes-256-gcm","password":"g4JtpkuxkwRH4jhj","name":"广东省广州市+电信IDC机房"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
