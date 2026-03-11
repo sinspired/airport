@@ -1,7 +1,8 @@
 proxies:
-  - {"sni":"ozon.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.152","port":10889,"name":"加拿大+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology-1"}
-  - {"sni":"io.ozone.ru","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"admin.c1.havij.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"1kVr0KATIJI7mwOF","name":"美国+DXC+Technology-2"}
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"ozon.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.152","port":10889,"name":"加拿大+V2CROSS.COM-1","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"admin.c1.havij.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"1kVr0KATIJI7mwOF","name":"美国+DXC+Technology-1"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"kwtgm.cmvvb.online","port":8443,"cipher":"auto","uuid":"16604b48-7497-428c-a6d4-b017b3a30ce4","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"kwtgm.cmvvb.online"}},"client-fingerprint":"chrome","servername":"kwtgm.cmvvb.online"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.253","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology-2"}
+  - {"sni":"ya.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.169","port":10889,"name":"加拿大+V2CROSS.COM-2","network":"tcp","client-fingerprint":"chrome"}
