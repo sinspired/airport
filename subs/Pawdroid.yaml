@@ -1,7 +1,7 @@
 proxies:
-  - {"name":"北美地区 V2CROSS.COM","type":"vmess","server":"198.62.62.199","port":443,"cipher":"auto","uuid":"f08369d1-5ee7-4b16-d786-30bce12fc33c","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/f08369d1-5ee7-4b16-d786-30bce12fc33c","headers":{"Host":"ous3.dean52.top"}},"client-fingerprint":"chrome","servername":"ous3.dean52.top"}
-  - {"sni":"web.max.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.172","port":10889,"name":"加拿大+V2CROSS.COM-1","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"103.181.164.237","port":34114,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"iepl.huli168.com","port":19822,"cipher":"aes-256-gcm","password":"g4JtpkuxkwRH4jhj","name":"广东省广州市+电信IDC机房"}
+  - {"sni":"ozon.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.152","port":10889,"name":"加拿大+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"ozon.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.152","port":10889,"name":"加拿大+V2CROSS.COM-2","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology-1"}
+  - {"sni":"io.ozone.ru","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"admin.c1.havij.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"1kVr0KATIJI7mwOF","name":"美国+DXC+Technology-2"}
