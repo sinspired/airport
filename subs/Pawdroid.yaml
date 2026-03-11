@@ -1,7 +1,7 @@
 proxies:
-  - {"sni":"ozon.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.152","port":10889,"name":"加拿大+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"chengbai02.ascwt179.com","port":13223,"cipher":"aes-128-gcm","password":"JVrsLLN1tkN8oXZO","name":"广东省+电信"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"iepl.huli168.com","port":19822,"cipher":"aes-256-gcm","password":"g4JtpkuxkwRH4jhj","name":"广东省广州市+电信IDC机房"}
-  - {"name":"法国 V2CROSS.COM","type":"vmess","server":"141.11.21.219","port":50521,"cipher":"auto","uuid":"7b4c6795-3be5-4a4e-b234-07a46f580c45","alterId":0,"tls":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"a.cdn-bilibili.cn","port":5409,"cipher":"auto","uuid":"69de9a52-36b0-4265-a3cf-d06bcefe713d","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"北美地区 V2CROSS.COM","type":"vmess","server":"198.62.62.199","port":443,"cipher":"auto","uuid":"f08369d1-5ee7-4b16-d786-30bce12fc33c","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/f08369d1-5ee7-4b16-d786-30bce12fc33c","headers":{"Host":"ous3.dean52.top"}},"client-fingerprint":"chrome","servername":"ous3.dean52.top"}
+  - {"sni":"web.max.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.172","port":10889,"name":"加拿大+V2CROSS.COM-1","network":"tcp","client-fingerprint":"chrome"}
   - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"103.181.164.237","port":34114,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"iepl.huli168.com","port":19822,"cipher":"aes-256-gcm","password":"g4JtpkuxkwRH4jhj","name":"广东省广州市+电信IDC机房"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"ozon.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.152","port":10889,"name":"加拿大+V2CROSS.COM-2","network":"tcp","client-fingerprint":"chrome"}
