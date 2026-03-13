@@ -1,9 +1,7 @@
 proxies:
-  - {"sni":"ya.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.169","port":10889,"name":"加拿大+V2CROSS.COM-1","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"英国 V2CROSS.COM-1","type":"vmess","server":"gtm1.ktmwan.net","port":12901,"cipher":"auto","uuid":"bbd785de-9793-4453-be40-6a3fdc418203","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"baidu.com"}},"client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+伦敦Microsoft公司"}
-  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"英国 V2CROSS.COM-2","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"iepl.huli168.com","port":19822,"cipher":"aes-256-gcm","password":"g4JtpkuxkwRH4jhj","name":"广东省广州市+电信IDC机房"}
-  - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"103.181.164.237","port":52283,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"sni":"ozon.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.152","port":10889,"name":"加拿大+V2CROSS.COM-2","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"web.max.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.172","port":10889,"name":"加拿大+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"38.180.161.123","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","name":"美国+华盛顿Cogent通信公司"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.189","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"英国+V2CROSS.COM"}
+  - {"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":true,"sni":"ads.x5.ru","type":"trojan","password":"MeaDiUmPlkWbZJ2BON8tz","server":"78.159.131.12","port":28259,"name":"保加利亚+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
