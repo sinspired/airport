@@ -1,5 +1,5 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"69117d2b-042a-4dc0-b307-3a07efe0c635","udp":true}
+  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"5f35c18a-d0c0-4d6f-80a0-151127f11007","udp":true}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"47.242.145.136","port":8001,"cipher":"none","password":"14b02e2a-8930-4afb-8412-ea4a4954ca5b","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"ylnhh.us.ci","path":"/14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\","tls":true,"skip-cert-verify":false},"name":"🇭🇰HK香港-001"}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"8.216.121.234","port":51922,"cipher":"none","password":"14b02e2a-8930-4afb-8412-ea4a4954ca5b","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"ylnhh.us.ci","path":"/14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\","tls":true,"skip-cert-verify":false},"name":"🇯🇵JP-001"}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"114.33.57.170","port":443,"cipher":"none","password":"3e96ef7d-8637-42c2-ac73-75182196e755","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"mfvpn.fuchen.indevs.in","path":"3e96ef7d-8637-42c2-ac73-75182196e755/?ed\\","tls":true,"skip-cert-verify":false},"name":"🇨🇳TW-001"}
