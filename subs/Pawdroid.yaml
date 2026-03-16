@@ -1,17 +1,15 @@
 proxies:
-  - {"name":"广东省东莞市 电信IDC机房-01","type":"vmess","server":"cn02.365cloud5878.com","port":6047,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-02","type":"vmess","server":"cn02.365cloud5878.com","port":6035,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-03","type":"vmess","server":"cn02.365cloud5878.com","port":6010,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"120.233.125.33","port":30036,"cipher":"aes-256-gcm","password":"PiLr13pE","name":"广东省+移动"}
+  - {"name":"广东省佛山市 联通-1","type":"vmess","server":"cn02.365cloud5878.com","port":6047,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省佛山市 联通-2","type":"vmess","server":"cn02.365cloud5878.com","port":6012,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"ss.036.node-for-bigairport.win","port":16688,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"新加坡+Amazon数据中心"}
-  - {"name":"广东省东莞市 电信IDC机房-04","type":"vmess","server":"cn02.365cloud5878.com","port":6027,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+华盛顿州昆西Microsoft公司"}
-  - {"name":"广东省东莞市 电信IDC机房-05","type":"vmess","server":"cn02.365cloud5878.com","port":6001,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-06","type":"vmess","server":"cn02.365cloud5878.com","port":6009,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-07","type":"vmess","server":"cn02.365cloud5878.com","port":6052,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-08","type":"vmess","server":"cn02.365cloud5878.com","port":6004,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-09","type":"vmess","server":"cn02.365cloud5878.com","port":6030,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-10","type":"vmess","server":"cn02.365cloud5878.com","port":6022,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-11","type":"vmess","server":"cn02.365cloud5878.com","port":6026,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"103.181.164.145","port":54022,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"network":"tcp"}
+  - {"name":"广东省佛山市 联通-3","type":"vmess","server":"cn02.365cloud5878.com","port":6022,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"英国 伦敦Virgin Media","type":"vmess","server":"82.21.80.224","port":17310,"cipher":"auto","uuid":"656920dc-ed05-4f41-8c49-bdff41e383a9","alterId":0,"tls":true,"network":"tcp"}
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"skip-cert-verify":false,"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp"}
+  - {"name":"广东省佛山市 联通-4","type":"vmess","server":"cn02.365cloud5878.com","port":6046,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省佛山市 联通-5","type":"vmess","server":"cn02.365cloud5878.com","port":6040,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省佛山市 联通-6","type":"vmess","server":"cn02.365cloud5878.com","port":6007,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省佛山市 联通-7","type":"vmess","server":"cn02.365cloud5878.com","port":6018,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省佛山市 联通-8","type":"vmess","server":"cn02.365cloud5878.com","port":6049,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"sni":"io.ozone.ru","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM","network":"tcp"}
+  - {"name":"广东省佛山市 联通-9","type":"vmess","server":"cn02.365cloud5878.com","port":6039,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
