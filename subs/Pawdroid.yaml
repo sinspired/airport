@@ -1,17 +1,16 @@
 proxies:
-  - {"name":"广东省东莞市 电信IDC机房-01","type":"vmess","server":"cn02.365cloud5878.com","port":6033,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-02","type":"vmess","server":"cn02.365cloud5878.com","port":6049,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-03","type":"vmess","server":"cn02.365cloud5878.com","port":6040,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"admin.c1.webramz.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+华盛顿州昆西Microsoft公司"}
-  - {"name":"广东省东莞市 电信IDC机房-04","type":"vmess","server":"cn02.365cloud5878.com","port":6005,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp"}
-  - {"sni":"ads.x5.ru","type":"trojan","password":"MeaDiUmPlkWbZJ2BON8tz","server":"78.159.131.12","port":28259,"name":"保加利亚+V2CROSS.COM","network":"tcp"}
-  - {"skip-cert-verify":true,"sni":"celestialcorset.crystalhamster.click","network":"tcp","type":"trojan","password":"qmBSKnAl6LYi9=z23Rs.Z","server":"37.235.49.209","port":28099,"name":"冰岛+V2CROSS.COM"}
-  - {"name":"英国 伦敦Virgin Media","type":"vmess","server":"82.21.80.224","port":17310,"cipher":"auto","uuid":"656920dc-ed05-4f41-8c49-bdff41e383a9","alterId":0,"tls":true,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-05","type":"vmess","server":"cn02.365cloud5878.com","port":6019,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"client-fingerprint":"","network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-06","type":"vmess","server":"cn02.365cloud5878.com","port":6009,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-07","type":"vmess","server":"cn02.365cloud5878.com","port":6021,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-08","type":"vmess","server":"cn02.365cloud5878.com","port":6031,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-09","type":"vmess","server":"cn02.365cloud5878.com","port":6046,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 电信IDC机房-10","type":"vmess","server":"cn02.365cloud5878.com","port":6003,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省深圳市 移动-01","type":"vmess","server":"cn02.365cloud5878.com","port":6040,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"tg.apocalypse.cc.cd","port":80,"cipher":"auto","uuid":"13ad36e6-c091-43f2-8505-47d868dd544c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/YsmRouA9ZbxgW4","headers":{"Host":"tg.apocalypse.cc.cd"}},"client-fingerprint":""}
+  - {"name":"广东省深圳市 移动-02","type":"vmess","server":"cn02.365cloud5878.com","port":6026,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省深圳市 移动-03","type":"vmess","server":"cn02.365cloud5878.com","port":6017,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省深圳市 移动-04","type":"vmess","server":"cn02.365cloud5878.com","port":6042,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省深圳市 移动-05","type":"vmess","server":"cn02.365cloud5878.com","port":6004,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省深圳市 移动-06","type":"vmess","server":"cn02.365cloud5878.com","port":6016,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"client-fingerprint":"","network":"tcp"}
+  - {"name":"广东省深圳市 移动-07","type":"vmess","server":"cn02.365cloud5878.com","port":6001,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省深圳市 移动-08","type":"vmess","server":"cn02.365cloud5878.com","port":6007,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"sni":"io.ozone.ru","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM","network":"tcp"}
+  - {"name":"广东省深圳市 移动-09","type":"vmess","server":"cn02.365cloud5878.com","port":6041,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省深圳市 移动-10","type":"vmess","server":"cn02.365cloud5878.com","port":6019,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"client-fingerprint":"","network":"tcp"}
+  - {"name":"广东省深圳市 移动-11","type":"vmess","server":"cn02.365cloud5878.com","port":6032,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省深圳市 移动-12","type":"vmess","server":"cn02.365cloud5878.com","port":6022,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology"}
