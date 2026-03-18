@@ -1,8 +1,6 @@
 proxies:
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology-1"}
-  - {"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology-2"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"nmju.1jj.ccwu.cc","port":80,"cipher":"auto","uuid":"4e45c1b4-9107-45dd-9995-cdf7cbb44d9d","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/iSRWSKUJKNuXvVzsYHmsMrnO","headers":{"Host":"nmju.1jj.ccwu.cc"}}}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"103.181.164.145","port":54022,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"network":"tcp"}
-  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"skip-cert-verify":true,"sni":"celestialcorset.crystalhamster.click","network":"tcp","type":"trojan","password":"qmBSKnAl6LYi9=z23Rs.Z","server":"37.235.49.209","port":28099,"name":"冰岛+V2CROSS.COM"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+Microsoft数据中心"}
+  - {"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"zzrt.uhomdex.shop","port":8443,"cipher":"auto","uuid":"0b4c4ed4-deed-4bda-ae3d-6c8ccd1d1199","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"zzrt.uhomdex.shop"}},"servername":"zzrt.uhomdex.shop"}
