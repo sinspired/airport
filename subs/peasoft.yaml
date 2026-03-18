@@ -24,5 +24,5 @@ proxies:
   - {"name":"美国|@ripaojiedian","network":"tcp","password":"86e150eb21c6faee48e81d496d7f61c2","port":3057,"server":"160.16.106.99","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan"}
   - {"name":"美国2|@ripaojiedian","network":"tcp","password":"86e150eb21c6faee48e81d496d7f61c2","port":4920,"server":"13.231.19.155","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan"}
   - {"name":"美国3|@ripaojiedian","network":"tcp","password":"BxceQaOe","port":37223,"server":"43.207.164.92","skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan"}
-  - {"name":"KR_speednode_0011","network":"ws","password":"trojan","port":11434,"server":"114.207.99.233","skip-cert-verify":true,"sni":"jflsjlaf.pages.dev","type":"trojan","udp":true,"ws-opts":{"headers":{"Host":"jflsjlaf.pages.dev"},"path":"/"}}
-  - {"name":"US_speednode_0021","network":"ws","password":"trojan","port":7071,"server":"154.17.234.78","skip-cert-verify":true,"sni":"jflsjlaf.pages.dev","type":"trojan","udp":true,"ws-opts":{"headers":{"Host":"jflsjlaf.pages.dev"},"path":"/"}}
+  - {"name":"GB_speednode_0004","password":"IL37892054","port":443,"server":"upright-rhino.rooster465.autos","skip-cert-verify":false,"sni":"upright-rhino.rooster465.autos","type":"trojan","udp":true,"network":"tcp"}
+  - {"name":"LU_speednode_0006","password":"IL37892054","port":443,"server":"apt-magpie.rooster465.autos","skip-cert-verify":false,"sni":"apt-magpie.rooster465.autos","type":"trojan","udp":true,"network":"tcp"}
