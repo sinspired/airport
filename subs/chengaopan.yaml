@@ -15,5 +15,6 @@ proxies:
   - {"name":"11,12|美国2|@ripaojiedian","network":"tcp","password":"86e150eb21c6faee48e81d496d7f61c2","port":4019,"server":"160.16.214.104","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan"}
   - {"name":"11,12|美国3|@ripaojiedian","network":"tcp","password":"BxceQaOe","port":8401,"server":"95.40.3.110","skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan"}
   - {"cipher":"chacha20-ietf-poly1305","name":"11|🇹🇼 台湾|@ripaojiedian","password":"dd9e4541-9be2-4c3f-9c49-7dde77c3480b","port":38239,"server":"stream-cdn-asia-06.silver-line.digital","type":"ss"}
-  - {"name":"13|GB_speednode_0004","password":"IL37892054","port":443,"server":"upright-rhino.rooster465.autos","skip-cert-verify":false,"sni":"upright-rhino.rooster465.autos","type":"trojan","udp":true,"network":"tcp"}
-  - {"name":"13|LU_speednode_0006","password":"IL37892054","port":443,"server":"apt-magpie.rooster465.autos","skip-cert-verify":false,"sni":"apt-magpie.rooster465.autos","type":"trojan","udp":true,"network":"tcp"}
+  - {"name":"13|AU_speednode_0002","password":"IL37892054","port":443,"server":"engaged-ram.rooster465.autos","skip-cert-verify":false,"type":"trojan","udp":true,"network":"tcp","sni":"engaged-ram.rooster465.autos"}
+  - {"name":"13|KR_speednode_0024","network":"ws","password":"trojan","port":11000,"server":"220.92.22.170","skip-cert-verify":true,"sni":"jflsjlaf.pages.dev","type":"trojan","udp":true,"ws-opts":{"headers":{"Host":"jflsjlaf.pages.dev"},"path":"/"}}
+  - {"name":"13|PL_speednode_0026","password":"IL37892054","port":443,"server":"outgoing-ladybird.rooster465.autos","skip-cert-verify":false,"sni":"outgoing-ladybird.rooster465.autos","type":"trojan","udp":true,"network":"tcp"}
