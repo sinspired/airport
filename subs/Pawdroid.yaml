@@ -1,11 +1,9 @@
 proxies:
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"stream-cdn-asia-06.silver-line.digital","port":38239,"cipher":"chacha20-ietf-poly1305","password":"dd9e4541-9be2-4c3f-9c49-7dde77c3480b","name":"广东省广州市+移动"}
-  - {"skip-cert-verify":false,"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+社会保险安全部-1"}
-  - {"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.253","port":443,"name":"香港+电讯盈科有限公司","network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"chengbai02.ascwt179.com","port":13223,"cipher":"aes-128-gcm","password":"JVrsLLN1tkN8oXZO","name":"广东省+电信"}
-  - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"103.181.164.145","port":51556,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"广东省东莞市 联通","type":"vmess","server":"cn01.365cloud8754.com","port":6001,"cipher":"auto","uuid":"db75bc92-4e32-48dd-b792-d7a8b707626c","alterId":0,"tls":false,"network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+社会保险安全部-2"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省广州市 电信","type":"vmess","server":"cn01.365cloud8754.com","port":6001,"cipher":"auto","uuid":"db75bc92-4e32-48dd-b792-d7a8b707626c","alterId":0,"tls":false,"network":"tcp"}
+  - {"sni":"ads.x5.ru","type":"trojan","password":"MeaDiUmPlkWbZJ2BON8tz","server":"78.159.131.12","port":28259,"name":"保加利亚+V2CROSS.COM","network":"tcp"}
+  - {"skip-cert-verify":false,"sni":"io.ozone.ru","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM-1","network":"tcp"}
+  - {"name":"日本 东京阿里云","type":"vmess","server":"n1753598451.74qxv.top","port":443,"cipher":"auto","uuid":"9798678f-5b8c-4ff1-bbdd-b9b5c1539de0","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"n1753598451.74qxv.top"}},"client-fingerprint":"","servername":"n1753598451.74qxv.top"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology"}
   - {"skip-cert-verify":false,"sni":"outgoing-ladybird.rooster465.autos","type":"trojan","password":"IL37892054","server":"outgoing-ladybird.rooster465.autos","port":443,"name":"匈牙利+V2CROSS.COM","network":"tcp"}
-  - {"name":"美国 亚特兰大","type":"vmess","server":"t.cnmjcn.cyou","port":16632,"cipher":"auto","uuid":"dbe3102c-5e26-4b5f-82eb-493ae07e758c","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com"}},"client-fingerprint":"chrome"}
+  - {"sni":"www.semanticstaplegun.click","client-fingerprint":"chrome","network":"tcp","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM-2"}
