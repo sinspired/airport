@@ -1,7 +1,7 @@
 proxies:
-  - {"sni":"www.semanticstaplegun.click","network":"tcp","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM-1"}
-  - {"sni":"ads.x5.ru","type":"trojan","password":"MeaDiUmPlkWbZJ2BON8tz","server":"78.159.131.12","port":28259,"name":"保加利亚+V2CROSS.COM","network":"tcp"}
-  - {"sni":"io.ozone.ru","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM-2","network":"tcp"}
-  - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"103.181.164.237","port":34114,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"network":"tcp"}
-  - {"name":"伊朗 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"servername":"t1.620720.xyz"}
+  - {"skip-cert-verify":false,"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"servername":"t1.620720.xyz"}
+  - {"sni":"celestialcorset.crystalhamster.click","type":"trojan","password":"qmBSKnAl6LYi9=z23Rs.Z","server":"37.235.49.209","port":28099,"name":"冰岛+V2CROSS.COM","network":"tcp"}
+  - {"name":"中国 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"sni":"outgoing-ladybird.rooster465.autos","network":"tcp","type":"trojan","password":"IL37892054","server":"outgoing-ladybird.rooster465.autos","port":443,"name":"匈牙利+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"zzrt.uhomdex.shop","port":8443,"cipher":"auto","uuid":"edb3e961-0b28-4e52-8446-399f3ef03c08","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"zzrt.uhomdex.shop"}},"servername":"zzrt.uhomdex.shop"}
