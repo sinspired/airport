@@ -3,8 +3,15 @@ https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_co
 https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/Ruk1ng001.yaml#sinspired/subs-check
 https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Ruk1ng001.yaml#sinspired/subs-check
 https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Barabama_ndnode.yaml#sinspired/subs-check
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt#sinspired/subs-check
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Cable.txt#sinspired/subs-check
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/Base64/BLACK_SS+All_RUS_base64.txt#sinspired/subs-check
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/Base64/Base64/BLACK_VLESS_RUS_base64.txt#sinspired/subs-check
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/Base64/Base64/BLACK_VLESS_RUS_mobile_base64.txt#sinspired/subs-check
+
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt#sinspired/subs-check
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt#sinspired/subs-check
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt#sinspired/subs-check
+
+
 https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless#sinspired/subs-check
 https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-14.txt#sinspired/subs-check
 https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/mini/m1n1-5ub-19.txt#sinspired/subs-check
@@ -18,11 +25,10 @@ https://raw.githubusercontent.com/Delta-Kronecker/Xray/main/data/working_url/wor
 https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/sub2.txt#sinspired/subs-check
 https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt#sinspired/subs-check
 https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix#sinspired/subs-check
-https://raw.githubusercontent.com/SamanGho/v2ray_collector/main/v2tel_links1.txt#sinspired/subs-check
 https://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt#sinspired/subs-check
 
-https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/RAW.txt#sinspired/subs-check
-https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/old-data/RAW.txt#sinspired/subs-check
-https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/xResults/Proxies.txt#sinspired/subs-check
+https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/RAW.txt
+https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/old-data/RAW.txt
+
 https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/allive.txt#sinspired/subs-check
 https://raw.githubusercontent.com/LoneKingCode/free-proxy-db/main/proxies/all.txt#sinspired/subs-check

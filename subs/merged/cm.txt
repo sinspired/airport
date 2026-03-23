@@ -14,8 +14,6 @@ https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/co
 https://raw.githubusercontent.com/ts-sf/fly/main/clash
 https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt
 https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt
-https://raw.githubusercontent.com/SamanGho/v2ray_collector/main/v2tel_links1.txt
-https://raw.githubusercontent.com/SamanGho/v2ray_collector/main/v2tel_links2.txt
 https://raw.githubusercontent.com/peacefish/nodefree/main/sub/proxy_cf.yaml
 https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/utils/pool/output.yaml
 https://raw.githubusercontent.com/yorkLiu/FreeV2RayNode/main/v2ray.txt
