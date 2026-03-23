@@ -2,7 +2,6 @@ https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.y
 https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc1.yaml
 https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc2.yaml
 https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc3.yaml
-https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc4.yaml
 https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
 https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml
 https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
