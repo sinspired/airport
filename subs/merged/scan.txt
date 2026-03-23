@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/Arefgh72/v2ray-proxy-pars-tester/main/output/g
 https://raw.githubusercontent.com/ovmvo/SubShare/main/sub/permanent/mihomo.yaml
 https://raw.githubusercontent.com/liMilCo/v2r/main/base64/2.txt
 https://raw.githubusercontent.com/liMilCo/v2r/main/configs.txt
-https://raw.githubusercontent.com/Delta-Kronecker/Xray/main/data/working_url/working_all_urls.txt
+https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/clash.yaml
 https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/subs/sub2.txt
 https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt
 https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix
@@ -30,5 +30,5 @@ https://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt
 https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/RAW.txt
 https://raw.githubusercontent.com/officialputuid/ProxyForEveryone/main/xResults/old-data/RAW.txt
 
-https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/allive.txt
+https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/All_proxies.txt
 https://raw.githubusercontent.com/LoneKingCode/free-proxy-db/main/proxies/all.txt
