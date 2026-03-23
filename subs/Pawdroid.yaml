@@ -1,8 +1,9 @@
 proxies:
   - {"network":"tcp","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM"}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+Microsoft公司-1"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"nqzkb.cmvvb.online","port":443,"cipher":"auto","uuid":"16604b48-7497-428c-a6d4-b017b3a30ce4","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"nqzkb.cmvvb.online"}},"servername":"nqzkb.cmvvb.online"}
-  - {"name":"巴西圣保罗 CloudFlare节点","type":"vmess","server":"188.114.96.3","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
-  - {"sni":"ads.x5.ru","type":"trojan","password":"MeaDiUmPlkWbZJ2BON8tz","server":"78.159.131.12","port":28259,"name":"保加利亚+V2CROSS.COM","network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+Microsoft公司"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"194.68.225.52","port":65232,"cipher":"chacha20-ietf-poly1305","password":"6J754ee6ITjyfDysi78uqJ","name":"保加利亚+V2CROSS.COM"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.253","port":443,"name":"香港+电讯盈科有限公司","network":"tcp"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
+  - {"skip-cert-verify":true,"sni":"nl-4.tr202512.com","type":"trojan","password":"M08tvzYWtUEJNtbpHp","server":"nl-4.tr202512.com","port":443,"name":"荷兰阿姆斯特丹+xTom/AS3214","network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"admin.c1.webramz.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+Microsoft公司-2"}
