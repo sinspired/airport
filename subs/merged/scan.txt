@@ -3,9 +3,9 @@ https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_co
 https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/Ruk1ng001.yaml#sinspired/subs-check
 https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Ruk1ng001.yaml#sinspired/subs-check
 https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/surfboard/Barabama_ndnode.yaml#sinspired/subs-check
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/Base64/BLACK_SS+All_RUS_base64.txt#sinspired/subs-check
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/Base64/Base64/BLACK_VLESS_RUS_base64.txt#sinspired/subs-check
-https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/Base64/Base64/BLACK_VLESS_RUS_mobile_base64.txt#sinspired/subs-check
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_SS+All_RUS_base64.txt#sinspired/subs-check
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_VLESS_RUS_base64.txt#sinspired/subs-check
+https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Base64/BLACK_VLESS_RUS_mobile_base64.txt#sinspired/subs-check
 
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS+All_RUS.txt#sinspired/subs-check
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt#sinspired/subs-check
