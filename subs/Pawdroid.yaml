@@ -1,7 +1,8 @@
 proxies:
-  - {"sni":"io.ozone.ru","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM","network":"tcp"}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"c7.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"c7.620720.xyz"}},"servername":"c7.620720.xyz"}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"servername":"t1.620720.xyz"}
-  - {"name":"美国 CloudFlare节点-3","type":"vmess","server":"cg1d05.waimaojd.com","port":443,"cipher":"auto","uuid":"6abe3ac8-e1f8-4b24-bb67-191bc23b5fab","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/api/v1/graphql","headers":{"Host":"cg1d05.waimaojd.com"}},"servername":"cg1d05.waimaojd.com"}
-  - {"name":"美国 CloudFlare节点-4","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{}},"servername":"sy4.620720.xyz"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"admin.c1.havij.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"1kVr0KATIJI7mwOF","name":"英国+Microsoft公司"}
+  - {"network":"tcp","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"nqzkb.cmvvb.online","port":443,"cipher":"auto","uuid":"16604b48-7497-428c-a6d4-b017b3a30ce4","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"nqzkb.cmvvb.online"}},"servername":"nqzkb.cmvvb.online"}
+  - {"name":"巴西圣保罗 CloudFlare节点","type":"vmess","server":"188.114.96.3","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
+  - {"sni":"ads.x5.ru","type":"trojan","password":"MeaDiUmPlkWbZJ2BON8tz","server":"78.159.131.12","port":28259,"name":"保加利亚+V2CROSS.COM","network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+Microsoft公司"}
