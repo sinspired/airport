@@ -1,9 +1,6 @@
 proxies:
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+Microsoft数据中心"}
-  - {"sni":"ads.x5.ru","type":"trojan","password":"MeaDiUmPlkWbZJ2BON8tz","server":"78.159.131.12","port":28259,"name":"保加利亚+V2CROSS.COM","network":"tcp"}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"servername":"sy4.620720.xyz"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"102.37.156.224","port":443,"cipher":"chacha20-ietf-poly1305","password":"aduB9HGxQHjA2SBMRjkHX6","name":"非洲地区+V2CROSS.COM"}
-  - {"name":"伊朗 V2CROSS.COM","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"c7.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"c7.620720.xyz"}},"servername":"c7.620720.xyz"}
-  - {"sni":"top-goshawk.rooster465.autos","type":"trojan","password":"WF42809561","server":"top-goshawk.rooster465.autos","port":443,"name":"匈牙利+V2CROSS.COM","network":"tcp"}
-  - {"name":"四川省达州市 移动","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"servername":"t1.620720.xyz"}
+  - {"sni":"funky-platypus.rooster465.autos","type":"trojan","password":"WF42809561","server":"funky-platypus.rooster465.autos","port":443,"name":"匈牙利+V2CROSS.COM","network":"tcp"}
+  - {"type":"trojan","password":"BxceQaOe","server":"58.152.25.253","port":443,"name":"香港+电讯盈科有限公司","network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"20.117.159.69","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"cxsfvn.uhomdex.shop","port":443,"cipher":"auto","uuid":"bb6e260e-b80d-4365-b252-9fbe466f1f34","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"cxsfvn.uhomdex.shop"}},"servername":"cxsfvn.uhomdex.shop"}
