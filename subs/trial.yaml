@@ -1,5 +1,5 @@
 proxies:
-  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"f73a7a06-edea-4693-96b1-ea8eeaab0726","udp":true}
+  - {"name":"节点加速器","type":"ss","server":"127.0.0.1","port":1080,"cipher":"aes-128-gcm","password":"4429f73d-04f8-4ef7-86cd-c352b5726869","udp":true}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"8.223.63.150","port":443,"cipher":"none","password":"3e96ef7d-8637-42c2-ac73-75182196e755","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"mfvpn.fuchen.indevs.in","path":"3e96ef7d-8637-42c2-ac73-75182196e755/?ed\\","tls":true,"skip-cert-verify":false},"name":"香港節點"}
   - {"type":"vless","name":"美國-001","server":"68.64.179.243","port":443,"uuid":"14b02e2a-8930-4afb-8412-ea4a4954ca5b","tls":true,"skip-cert-verify":false,"network":"ws","ws-opts":{"headers":{"Host":"ylnhh.cc.cd"},"path":"/Telegram🇨🇳@WangCai2"},"encryption":"none","servername":"ylnhh.cc.cd"}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"47.242.145.136","port":8001,"cipher":"none","password":"14b02e2a-8930-4afb-8412-ea4a4954ca5b","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"ylnhh.us.ci","path":"/14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\","tls":true,"skip-cert-verify":false},"name":"🇭🇰HK香港-001"}
