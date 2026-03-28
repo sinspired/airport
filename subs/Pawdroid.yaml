@@ -1,7 +1,7 @@
 proxies:
-  - {"skip-cert-verify":true,"type":"trojan","password":"BxceQaOe","server":"58.152.25.253","port":443,"name":"香港+电讯盈科有限公司","network":"tcp"}
-  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"servername":"t1.620720.xyz"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"c7.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{}},"servername":"c7.620720.xyz"}
-  - {"sni":"ads.x5.ru","type":"trojan","password":"MeaDiUmPlkWbZJ2BON8tz","server":"78.159.131.12","port":28259,"name":"保加利亚+V2CROSS.COM","network":"tcp"}
-  - {"skip-cert-verify":true,"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp"}
+  - {"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp"}
+  - {"name":"伊朗 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"t1.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t1.620720.xyz"}},"servername":"t1.620720.xyz"}
+  - {"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.253","port":443,"name":"香港+电讯盈科有限公司","network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+Microsoft公司-1"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+Microsoft公司-2"}
