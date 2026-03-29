@@ -1,9 +1,6 @@
 proxies:
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"admin.c1.webramz.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+社会保险安全部"}
-  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
   - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"namrcg002771r35.cybervena.com","port":50099,"cipher":"chacha20-ietf-poly1305","password":"7e731ec3-f8e1-43f6-92cf-3978d14705c4","name":"台湾省新北市+中华电信"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.101","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"英国+V2CROSS.COM"}
   - {"skip-cert-verify":false,"sni":"ads.x5.ru","type":"trojan","password":"MeaDiUmPlkWbZJ2BON8tz","server":"78.159.131.12","port":28259,"name":"保加利亚+V2CROSS.COM","network":"tcp"}
-  - {"skip-cert-verify":true,"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp"}
-  - {"name":"伊朗 V2CROSS.COM","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
-  - {"skip-cert-verify":true,"type":"trojan","password":"strong-secret-pass-777","server":"94.131.105.125","port":4443,"name":"乌克兰+V2CROSS.COM","network":"tcp"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+社会保险安全部"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.101","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"英国+V2CROSS.COM"}
