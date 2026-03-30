@@ -1,8 +1,10 @@
 proxies:
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"r3mrcg007168e8p.cybervena.com","port":50099,"cipher":"chacha20-ietf-poly1305","password":"7e731ec3-f8e1-43f6-92cf-3978d14705c4","name":"台湾省新竹市+中华电信"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"namrcg002771r35.cybervena.com","port":50099,"cipher":"chacha20-ietf-poly1305","password":"7e731ec3-f8e1-43f6-92cf-3978d14705c4","name":"台湾省新北市+中华电信"}
-  - {"type":"trojan","password":"strong-secret-pass-777","server":"94.131.105.125","port":4443,"name":"乌克兰+V2CROSS.COM","network":"tcp"}
-  - {"name":"广东省东莞市 联通","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52513,"cipher":"auto","uuid":"342bacfd-2b8f-3f49-a16e-439db5b0b9d5","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{"Host":"aflzzul.meiquankongjian.com"}}}
-  - {"name":"伊朗 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"sni":"www.semanticstaplegun.click","network":"tcp","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"chengbai02.ascwt179.com","port":13223,"cipher":"aes-128-gcm","password":"JVrsLLN1tkN8oXZO","name":"广东省+移动"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.208","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"英国+V2CROSS.COM"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology-1"}
+  - {"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"admin.c1.havij.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"1kVr0KATIJI7mwOF","name":"美国+DXC+Technology-2"}
+  - {"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.25.253","port":443,"name":"香港+电讯盈科有限公司","network":"tcp"}
   - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"103.181.164.145","port":54022,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"network":"tcp"}
