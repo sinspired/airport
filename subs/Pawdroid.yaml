@@ -1,9 +1,6 @@
 proxies:
-  - {"skip-cert-verify":false,"type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM","network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"102.133.165.160","port":16233,"cipher":"chacha20-ietf-poly1305","password":"Xsy8Ox4yOV3xLlpxtjzs3X","name":"南非+V2CROSS.COM"}
-  - {"name":"亚太地区 V2CROSS.COM-1","type":"vmess","server":"103.181.164.145","port":51556,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.17.77.77","port":8443,"cipher":"auto","uuid":"60441548-b68e-43b2-8191-e3b884be4b3c","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/lMnsZUN4/","headers":{}},"client-fingerprint":"","servername":"v2ray1.dozapp.xyz"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"namrcg002771r35.cybervena.com","port":50099,"cipher":"chacha20-ietf-poly1305","password":"7e731ec3-f8e1-43f6-92cf-3978d14705c4","name":"台湾省新北市+中华电信"}
-  - {"name":"亚太地区 V2CROSS.COM-2","type":"vmess","server":"103.181.164.145","port":54022,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"network":"tcp"}
-  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology"}
   - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"伊朗 V2CROSS.COM","type":"vmess","server":"v12.hdacd.com","port":30812,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp"}
+  - {"skip-cert-verify":false,"type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM","network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"美国+DXC+Technology"}
+  - {"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp"}
